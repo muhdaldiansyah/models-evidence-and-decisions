@@ -2,7 +2,7 @@
 chapter: 1
 part: 1
 title: "Decisions, Questions, and a First Complete Pass"
-status: planned
+status: specified
 pages_target: 24
 hours_target: 4
 ---
@@ -51,7 +51,7 @@ Chapter 1 introduces questions and distinctions at intuitive depth that later ch
 
 | Spiral element | Treatment in Chapter 1 | Later development |
 |---|---|---|
-| Intended use and purpose-relative adequacy | State who will use an answer, for what judgment or action, and what would count as good enough | Chapters 2–5, 10–12, 16–17 |
+| Intended use and adequacy for use | State who will use an answer, for what judgment or action, and what would count as good enough | Chapters 2–5, 10–12, 16–17 |
 | Target and context | Name the target informally and qualify its population, system, location, horizon, and resolution | Chapters 3, 7, 9–11 |
 | Representation | Ask what must be represented and whether another representation would answer a different question | Chapters 2 and 5 |
 | Measurement and observation | Distinguish the target from recorded traces and ask how the records arose | Chapters 3, 4, and 8 |
@@ -74,7 +74,7 @@ Those returns provide evidence of learning and expose whether later technical kn
 - Decision situation or decision context: who faces what judgment or action, under what conditions.
 - Intended use or context of use for a model, analysis, estimate, forecast, or recommendation.
 - Decision-maker, affected stakeholders, candidate actions or alternatives, consequences, constraints, time horizon, and consequences of error.
-- Purpose-relative adequacy: whether an answer or model is adequate for a specified use, not whether it reproduces every feature of reality.
+- Assessment of model adequacy in relation to an intended use or context of use; the exact reader-facing wording remains provisional pending source verification.
 - Distinction among a broad topic, a practical concern, a research or analytical question, a claim, and a decision.
 - Preliminary targets, including target quantity, outcome, population, system, context, or claim, without introducing the formal statistical notion of an estimand.
 
@@ -118,7 +118,7 @@ A single decision problem may contain a predictive subproblem, an interventional
 
 The terminology burden must remain low.
 Terms listed as previews may be used in ordinary language but must not receive their formal treatment here.
-Any term requiring book-wide control must be added to `../../canon/terminology.md` and verified before manuscript drafting.
+Any term requiring book-wide control must be flagged for canon review before drafting and added and verified before the chapter is declared stable or frozen.
 
 | Term | Treatment in Chapter 1 | Distinction or caution |
 |---|---|---|
@@ -126,7 +126,7 @@ Any term requiring book-wide control must be added to `../../canon/terminology.m
 | decision situation / decision context | Introduce at practical depth | Includes decision-maker, stakeholders, alternatives, consequences, constraints, information, and horizon; not every analytical question immediately implies a decision |
 | target | Introduce informally and always qualify when possible | Distinct from estimand, proxy, objective, metric, estimator, and estimate |
 | target system and context | Introduce at orientation depth | The target system is not its model; detailed boundary work belongs to Chapter 2 |
-| adequacy | Introduce as purpose-relative sufficiency | Distinct from literal truth, empirical fit alone, verification, validation, and formal model checking |
+| adequacy | Introduce as sufficiency for a stated intended use, with the exact wording pending source verification | Distinct from literal truth, empirical fit alone, verification, validation, and formal model checking |
 | positive / normative | Introduce and stabilize | These identify different components of reasoning, not mutually exclusive types of entire problems |
 | association / associational claim | Introduce at intuitive depth | Association does not by itself establish the consequence of intervention |
 | prediction | Preview only | Formal probabilistic prediction and calibration begin in Chapter 6; prediction is not synonymous with explanation or intervention |
@@ -177,7 +177,7 @@ The chapter must teach the reader to do the following at an introductory but pro
 - Distinguish the target system, model, measured or recorded data, evidence claim, value judgment, and action at a first-pass level.
 - Generate at least two plausible formulations or interpretations when the prompt is materially ambiguous.
 - Perform one informal pass through all five parts of the book using a single consequential case.
-- Move backward in that pass at least twice when a later discovery invalidates an earlier assumption or framing choice.
+- Revise an earlier target, representation, assumption, evidence claim, value judgment, or action when later information warrants revision.
 - Identify what is currently unknown, what evidence would be decision-relevant, what could make the analysis inadequate, and which later chapter or specialist method is needed next.
 - Produce a concise first-pass analysis on an unfamiliar case without mechanically forcing every stage onto it.
 
@@ -220,7 +220,7 @@ The expanded Reasoning Loop may appear as a reference figure, but the worked nar
 | 2 | Intended Use and the Decision Situation | 4 | 0.50 | A precise intended-use statement for the anchor case |
 | 3 | What Kind of Question Is This? | 4 | 0.55 | A layered classification of the problem's positive/normative, claim, time, and agent properties |
 | 4 | A First Complete Pass: Preventing a Hospital Stockout | 8 | 1.00 | A worked pass through formulation, evidence, choice, responsive action, monitoring, and revision |
-| 5 | When the First Formulation Fails | 3 | 0.30 | Rival formulations, two backward revisions, and a justified handoff to later machinery |
+| 5 | When the First Formulation Fails | 3 | 0.30 | Rival formulations, contrasting backward revisions, and a justified handoff to later machinery |
 | 6 | Cold-Start Practice and Retrieval | 3 | 1.40 | An independently produced first-pass analysis and self-diagnosis |
 | **Total** |  | **24** | **4.00** |  |
 
@@ -237,7 +237,7 @@ The expanded Reasoning Loop may appear as a reference figure, but the worked nar
 - Develop the anchor case from topic to practical concern, analytical question, claim, and decision.
 - Specify decision-maker, affected stakeholders, possible actions, target, context, horizon, information available at decision time, consequences of false reassurance and false alarm, and provisional adequacy criteria.
 - Contrast two intended uses that force different representations and evidence requirements.
-- Introduce purpose-relative adequacy without implying that intended use can excuse incoherence, bias, or avoidable harm.
+- Introduce assessment of adequacy for an intended use, with the exact phrase treated as provisional pending source verification, without implying that intended use can excuse incoherence, bias, or avoidable harm.
 - End with a reusable short prompt, not a named proprietary framework or acronym.
 
 ### Section 3: What Kind of Question Is This?
@@ -260,7 +260,8 @@ The pass should be informal, concrete, and organized under the five book parts.
 4. **Act in Responsive Systems:** order pipeline, time delay, repeated decisions, feedback, supplier and staff response, and the possibility that a metric or alert changes recording or ordering behavior.
 5. **Integrate and Revise:** deployment, monitoring, discrepancy detection, diagnosis by stage, and deliberate return to an earlier formulation choice.
 
-The case must visibly loop backward at least twice.
+The worked case must visibly loop backward at least twice so that readers encounter two materially different forms of revision.
+The number is a worked-example design requirement, not a general rule for competent reasoning; outside the example, revision occurs whenever later information warrants it.
 One backward move should be triggered by discovering that recorded stock and physical stock diverge because of unit conversion or delayed posting.
 Another should be triggered by deployment changing staff, supplier, or ordering behavior.
 
@@ -333,12 +334,15 @@ One should involve a mainly physical or engineering system and one an institutio
 The reader should complete the form from the domain in which they have less prior familiarity.
 Each prompt must supply enough domain facts that performance reflects reasoning rather than hidden specialist knowledge.
 
-### Recurrence plan
+### Proposed recurrence opportunities
 
-- Hospital inventory should recur in Chapters 2, 4, 6, 11–14, and 17 with progressively deeper machinery.
-- Student assessment should recur in Chapters 3, 7, 9, 10, and 15.
-- The pendulum or another physical system should recur in Chapters 2, 5, 6, and 14.
-- Later appearances must add a genuinely new operation; they should not merely repeat the Chapter 1 narrative with more terminology.
+These are candidate later homes, not obligations imposed by the Chapter 1 specification.
+
+- Candidate later homes for hospital inventory include Chapters 2, 4, 6, 11–14, and 17.
+- Candidate later homes for student assessment include Chapters 3, 7, 9, 10, and 15.
+- Candidate later homes for the pendulum or another physical system include Chapters 2, 5, 6, and 14.
+- Recurring-case architecture must be adjudicated book-wide and later recorded in its canonical home under `cases/`.
+- Any later appearance should add a genuinely new operation rather than repeat the Chapter 1 narrative with more terminology.
 
 ## Exercise architecture
 
@@ -422,11 +426,12 @@ Score each dimension from 0 to 2.
 | Dynamics and response | Assumes a passive one-shot world | Time or response noted | Feedback, repeated choice, or adaptation is screened appropriately |
 | Revision and routing | No failure condition or next step | Generic caveat | Rival formulation, diagnostic trigger, and justified later machinery are named |
 
-The Chapter 1 exit task is diagnostic rather than a major book transfer gate.
-A strong initial performance is at least 12 of 16 with no unresolved major category error.
-Regardless of score, the artifact is retained and repeated after Chapter 5 and in Chapter 16 to measure improvement in cold-start reasoning.
+The Chapter 1 exit task and its rubric are diagnostic rather than a major book transfer gate.
+No validated numerical cut score is assumed at this stage.
+Pilot responses will determine whether aggregate scores are interpretable and whether a numerical threshold adds value beyond dimension-level feedback.
+The artifact is retained and repeated after Chapter 5 and in Chapter 16 to measure improvement in cold-start reasoning.
 
-Major category errors override the numerical score:
+Regardless of any future numerical scoring convention, the following constitute major category errors:
 
 - answering a different decision than the one stated;
 - treating a metric or record as identical to the target without justification;
@@ -458,17 +463,17 @@ The standard is an explicit, coherent, purpose-governed, revisable formulation w
 
 ### Source discipline
 
-The previous `KAC-Module-1-Model-Formulation-Learning-Guide-v1.0` is a design input and source-discovery aid, not a citable authority.
-Its terminology, examples, and source map must be checked against the original literature before reuse.
+Draft material and secondary source maps may be used as design and source-discovery aids, but they are not citable authorities.
+Any terminology, example, or source lead drawn from them must be checked against the original literature before reuse.
 
 No citation key should be created from memory.
-Before manuscript drafting, every load-bearing source must be verified, added to `../../references.bib`, and accompanied by a source note under the future `../../sources/` directory in accordance with `../../decisions/0003-citation-and-source-note-system.md`.
+Every load-bearing source must be verified, added to `../../references.bib`, and accompanied by a source note under the future `../../sources/` directory before the corresponding prose is treated as supported, in accordance with `../../decisions/0003-citation-and-source-note-system.md`.
 
 ### Conceptual source clusters to verify
 
 | Topic or claim family | Candidate primary or canonical sources to inspect | Intended use in Chapter 1 |
 |---|---|---|
-| Purpose-relative mathematical and scientific modeling | Epstein, “Why Model?”; Giordano, Fox, and Horton, *A First Course in Mathematical Modeling*; Box, “Science and Statistics” | Support formulation before technique, selective representation, purpose, criticism, and revision |
+| Purpose and intended use in mathematical and scientific modeling | Epstein, “Why Model?”; Giordano, Fox, and Horton, *A First Course in Mathematical Modeling*; Box, “Science and Statistics” | Support formulation before technique, selective representation, purpose, criticism, and revision |
 | Intended use, conceptual modeling, and adequacy for use | Robinson's work on conceptual modelling for simulation; Sargent on verification and validation of simulation models; Oberkampf and Roy on verification and validation in scientific computing | Stabilize intended use, conceptual model, adequacy, verification/validation boundaries, and the claim that fit alone is insufficient |
 | Decision framing and decision analysis | Howard, “Decision Analysis: Practice and Promise”; Keeney, *Value-Focused Thinking*; an appropriate canonical decision-analysis text selected after review | Support decision context, consequences, alternatives, objectives, and separation of evidence from choice while deferring formal decision theory |
 | Prediction, explanation, and causal questions | Shmueli, “To Explain or to Predict?”; Hernán and Robins, *Causal Inference: What If*; Pearl, *Causality* or a primary exposition of the association/intervention/counterfactual distinction | Ground the claim distinctions while preventing Chapter 1 from teaching formal causal machinery |
@@ -511,7 +516,7 @@ Before manuscript drafting, every load-bearing source must be verified, added to
 | Treating uncertainty as one undifferentiated lack of confidence | Ask where uncertainty enters and what conclusion it affects | Chapters 5, 6, 8, and 12 |
 | Ignoring time, accumulation, delay, and repeated decisions | Environment screening and dynamic anchor case | Chapters 13 and 14 |
 | Ignoring adaptation, incentives, and metric response | Adaptive-agent screen and deployment-induced revision | Chapter 15 |
-| Treating the teaching order as a real-world waterfall | Two mandatory backward loops in the worked case | Chapters 16 and 17 |
+| Treating the teaching order as a real-world waterfall | Worked demonstration of two distinct backward revisions, while reader revision remains evidence-triggered | Chapters 16 and 17 |
 | Mechanically applying every stage to every problem | Require relevance justification and allow explicit “not material here” findings | Chapter 16 |
 | Becoming overconfident from possession of terminology | Preview without formal mastery, specialist-handoff prompts, and preserved baseline errors | Throughout the book |
 
@@ -538,19 +543,27 @@ The following questions must be resolved during chapter design or pilot testing,
    Default: name stakeholders, consequences, and at least one missing alternative, but do not introduce utility, objective functions, or formal trade-off methods.
 8. **Cold-transfer form:** Which two unfamiliar cases minimize domain-knowledge confounding while remaining consequential?
    Default: pilot one physical or engineering case and one institutional or policy case, then retain parallel forms with comparable scoring difficulty.
-9. **Diagnostic threshold:** Does the proposed 12-of-16 threshold plus major-error override predict later formulation competence?
-   Default: treat the score as provisional and revise it using pilot responses rather than presenting it as validated measurement.
+9. **Diagnostic interpretation:** Do the rubric dimensions support reliable feedback, and would any aggregate threshold add value?
+   Default: use dimension-level feedback and substantive major errors without a cut score until pilot evidence justifies another interpretation.
 10. **Time feasibility:** Can a serious self-study reader complete the chapter, embedded predictions, and exit production task within four hours?
     Default: pilot the complete chapter with timed readers; remove exposition before weakening the production task.
-11. **Status transition:** What repository status should follow human approval of a completed specification?
-    Default: retain `status: planned` until a repository-wide status vocabulary is adopted rather than inventing a Chapter 1-only label.
 
-### Pre-drafting acceptance conditions
+### Before drafting
 
 - No unresolved conflict with `README.md`, the decision records, or `canon/`.
-- Terminology requiring canon control has been added and source-verified.
+- Terminology requiring canon control or source verification has been identified and assigned a clear research action.
 - The section, page, and hour budgets still total 24 pages and 4 hours.
-- The hospital case has passed domain and privacy review.
+- The anchor case, contrasts, scope boundaries, and required backward-revision demonstrations are specified clearly enough to draft.
+- The source plan identifies the literature and domain evidence needed for every load-bearing section.
+- The exercise progression, transfer task, rubric dimensions, and major category errors are specified without claiming validated measurement.
+
+### Before declaring Chapter 1 verified or frozen
+
+- Load-bearing terminology and sources have been verified and recorded through the repository's bibliography and source-note process.
+- The hospital case has passed domain, realism, and privacy review.
 - The layered question exercise has an adjudicated answer key allowing justified overlap.
-- Two parallel cold-transfer prompts and the self-scoring rubric have been piloted.
-- At least one pilot reader completes the full chapter within the time budget without treating the Reasoning Loop as a waterfall or reporting false mastery of later machinery.
+- Two parallel cold-transfer prompts and the self-scoring rubric have been tested with representative readers.
+- Timed pilots show whether the full chapter can be completed within four serious learning hours.
+- Pilot observation has tested whether the five-part map reduces cognitive load and whether readers avoid treating the Reasoning Loop as a waterfall.
+- Evidence has determined whether any aggregate rubric score or cut score is useful; no threshold is required if dimension-level diagnosis is superior.
+- Material pilot failures have been corrected before freeze, while ordinary prose improvements remain chapter-level revisions rather than reasons to reopen the book architecture.
