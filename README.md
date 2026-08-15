@@ -220,7 +220,9 @@ Concept-level monitoring machinery may include common-cause versus special-cause
 The book should repeatedly reinforce the following general pattern:
 
 ```text
-Purpose
+Purpose / Decision
+  ↓
+Target and Context
   ↓
 Representation
   ↓
@@ -230,7 +232,7 @@ Observation Process
   ↓
 Assumptions and Adequacy
   ↓
-Target
+Probability
   ↓
 Identification
   ↓
@@ -258,7 +260,7 @@ Revision
   ↺
 ```
 
-This is a pedagogical navigation structure, not a new formal theory. Real problem solving is iterative: a result discovered late in the process may invalidate an earlier representation, measurement, assumption, objective, or evidence claim.
+This is a pedagogical navigation structure, not a new formal theory, and not a strict one-directional dependency graph. Real reasoning is iterative: a result discovered late in the process may invalidate an earlier representation, measurement, assumption, objective, or evidence claim, and later findings may send the reasoner back to any earlier stage. Targets themselves may be revised after representation, measurement, evidence, or deployment.
 
 ## Scope Boundary
 
