@@ -87,7 +87,10 @@ Those returns provide evidence of learning and expose whether later technical kn
 
 ### Layered question and environment triage
 
-- Positive questions and normative questions, with explicit recognition that a consequential problem commonly contains both.
+- Begin with the ordinary-language contrast between what is, was, or would happen and what should count as better, acceptable, important, or preferable, or what should be done.
+- Introduce `positive` and `normative` only after that contrast; apply the labels to components or subquestions rather than forcing an entire problem into one mutually exclusive category.
+- A positive component concerns what is, was, or would happen under specified conditions. Positive is broader than descriptive: predictive, interventional, and counterfactual questions can also be positive when they ask what would happen.
+- A normative component concerns what should matter, what should count as better or acceptable, or what should be done; do not reduce normative reasoning to mere opinion.
 - Descriptive and associational questions.
 - Predictive questions about unknown or future outcomes.
 - Interventional questions about what would happen under an action.
@@ -97,6 +100,7 @@ Those returns provide evidence of learning and expose whether later technical kn
 - Static or one-shot settings versus problems involving time, accumulation, feedback, repeated choice, or learning.
 
 These distinctions form layered prompts, not one exhaustive and mutually exclusive taxonomy.
+The positive/normative layer is orthogonal to the claim-type layer: description, association, prediction, intervention effects, and counterfactual comparisons may all be positive when they ask what is or would happen.
 A single decision problem may contain a predictive subproblem, an interventional claim, normative trade-offs, dynamic feedback, and strategic response simultaneously.
 
 ### First-pass relationships among models, evidence, and decisions
@@ -106,7 +110,8 @@ A single decision problem may contain a predictive subproblem, an interventional
 - Process being modeled versus process producing the observed records.
 - Model implication versus observation.
 - Ideal evidence question versus finite-evidence question, introduced without the formal terminology of identification and estimation.
-- Evidence about consequences versus value judgments needed to choose among consequences.
+- Evidence or model claims about consequences versus the evaluative premises used to judge those consequences.
+- Recommendation as a decision conclusion that may depend on both consequence claims and evaluative or decision premises; do not present a recommendation as if it followed from evidence alone.
 - Supplied alternatives versus the need to search for or construct alternatives.
 - One-shot action versus policy or contingent action through time.
 - Prediction before deployment versus behavior after deployment changes incentives or information.
@@ -142,7 +147,8 @@ Any term requiring book-wide control must be flagged for canon review before dra
 | question of interest / quantity of interest | Optional field-specific examples only | Use only when accurately reporting a framework that uses them; do not make either the Chapter 1 umbrella |
 | relevant application context | Use in ordinary language | Settled in Research 01; do not replace it with a new formal `target context` term |
 | adequacy | Use reader-facing wording such as `adequate for the stated intended use` | Disciplined Chapter 1 language, not one universal standardized adequacy framework; distinct from literal truth, empirical fit alone, accuracy, verification, validation, applicability, credibility, and formal model checking |
-| positive / normative | Introduce and stabilize | These identify different components of reasoning, not mutually exclusive types of entire problems |
+| positive | Required vocabulary after an ordinary-language contrast | Established paired terminology in economics; use mainly for components or subquestions; not synonymous with descriptive, factual, objective, certain, favorable, or universally value-free |
+| normative | Required vocabulary after an ordinary-language contrast | Established paired terminology in economics with broader discipline-specific uses; concerns what should matter or be done; not synonymous with mere opinion and not a universal synonym for `prescriptive` |
 | association / associational claim | Introduce at intuitive depth | Association does not by itself establish the consequence of intervention |
 | prediction | Preview only | Formal probabilistic prediction and calibration begin in Chapter 6; prediction is not synonymous with explanation or intervention |
 | intervention | Preview only | Formal causal treatment begins in Chapter 7 |
@@ -153,6 +159,7 @@ Any term requiring book-wide control must be flagged for canon review before dra
 | Reasoning Loop | Introduce explicitly as pedagogical synthesis | It is a revisable navigation structure, not an established formal theory or mandatory waterfall |
 
 Do not require `estimand` or formally introduce `estimator`, `utility`, `objective function`, `identification`, `structural identifiability`, `observability`, `equilibrium`, or `robust optimization` in this chapter.
+Do not introduce `prescriptive` as a synonym for `normative`; later decision theory may use it in a more specialized sense.
 Where the first complete pass needs their underlying questions, use ordinary language and point to the later chapter that owns the formal term.
 
 ## Interfaces with other chapters
@@ -189,7 +196,9 @@ The chapter must teach the reader to do the following at an introductory but pro
 - Screen the claim type only far enough to determine whether the target requires description, prediction, comparison under intervention, counterfactual comparison, or decision support; formal treatment remains later.
 - Identify the person or institution using the answer, the judgment or action at stake, affected stakeholders, and consequences of major errors.
 - State provisional adequacy criteria for the stated intended use without pretending they are already measured or optimized.
-- Distinguish positive and normative components of a problem.
+- Distinguish positive and normative components of a problem using ordinary language first, then stabilize the formal labels.
+- Treat positive inquiry as broader than description and keep the positive/normative layer separate from the later claim-type layer.
+- When a recommendation is made, identify the material evaluative or decision premise needed to move from consequence claims to action.
 - Distinguish descriptive or associational, predictive, interventional, and counterfactual claims at intuitive depth.
 - Recognize that explanatory aims and mechanism claims can accompany several claim types.
 - Screen for dynamics, repeated decisions, feedback, adaptive behavior, strategic response, and the possibility that model deployment changes the target process.
@@ -268,11 +277,14 @@ The expanded Reasoning Loop may appear as a reference figure, but the worked nar
 ### Section 3: What Kind of Question Is This?
 
 - Present question classification as layered inquiry rather than a flat menu of mutually exclusive types.
-- First ask whether a component is positive, normative, or a combination requiring both evidence and value judgment.
+- Begin with ordinary language: ask whether the component concerns what is or would happen, what should matter or be done, or both.
+- Then introduce `positive` and `normative`, applying them to components or subquestions rather than entire problems.
+- Make clear that positive is broader than descriptive and that normative is not a synonym for unsupported opinion.
 - Then distinguish description or association, prediction, intervention, and counterfactual comparison.
 - Then screen for time, feedback, repeated action, and adaptive or strategic response.
 - Use minimally different questions about the same case to show why the required evidence and machinery change.
 - Use claim-type screening only to expose target differences: a predicted outcome, an intervention comparison, and a counterfactual comparison may mention the same outcome variable while asking for different objects.
+- Keep the layers orthogonal: a prediction, intervention-effect question, or counterfactual comparison may still be positive because it asks what would happen.
 - Do not introduce formal estimand or identification terminology here.
 - Include one example in which an accurate prediction does not establish the effect of acting on the predicted factor.
 - Include one example in which evidence supports a consequence estimate but cannot by itself determine what should be valued.
@@ -283,7 +295,7 @@ The pass should be informal, concrete, and organized under the five book parts.
 
 1. **Frame and Formulate:** intended use; a target event, quantity, or other sought object distinguished from recorded inventory; the relevant item, location or system, horizon, and material conditions; provisional boundary; important assumptions; and a rival formulation. If the task is a replenishment decision, state that decision separately from the prediction or consequence targets that inform it.
 2. **Learn from Evidence:** uncertainty, how records came to exist, what historical patterns can predict, what they cannot establish about an intervention, finite-evidence limits, and whether evidence applies to the relevant item and hospital context.
-3. **Choose:** affected stakeholders, consequences, alternatives beyond “order or do nothing,” constraints, and whether additional information such as a physical count could change the decision.
+3. **Choose:** distinguish positive claims about consequences from the normative evaluation of those consequences; identify affected stakeholders, alternatives beyond “order or do nothing,” constraints, and whether additional information such as a physical count could change the decision.
 4. **Act in Responsive Systems:** order pipeline, time delay, repeated decisions, feedback, supplier and staff response, and the possibility that a metric or alert changes recording or ordering behavior.
 5. **Integrate and Revise:** deployment, monitoring, discrepancy detection, diagnosis by stage, and deliberate return to an earlier formulation choice.
 
@@ -399,6 +411,7 @@ Classify six short questions by:
 
 Some questions must legitimately receive multiple labels.
 The scoring key must reward justified overlap and penalize forced exclusivity.
+It must also allow descriptive, predictive, interventional, or counterfactual items to be classified as positive when they ask what is or would happen rather than what should be valued or done.
 
 ### 4. Worked-case self-explanation
 
@@ -449,7 +462,7 @@ Score each dimension from 0 to 2.
 |---|---|---|---|
 | Intended use and decision | Missing or merely names a topic | Partly specified | User, action or judgment, and use are explicit |
 | Target and context | Missing, unqualified, or conflated with a record or metric | Focal object and sought object are only partly specified | Who or what and what about it are explicit; material qualifiers are present without checklist padding |
-| Question and claim type | Major conflation | Labels present but weakly justified | Layered classification is correct and allows overlap |
+| Question and claim type | Major conflation | Labels present but weakly justified | Positive/normative and claim-type layers are separated correctly, and justified overlap is allowed |
 | Model, measurement, and records | Treated as identical | One distinction recognized | Target, representation, and recorded traces are separated |
 | Evidence limits | Unsupported certainty | Generic uncertainty statement | Specific limit and its consequence for the claim are stated |
 | Values and alternatives | Recommendation presented as factual necessity | Some consequences or options identified | Stakeholders, consequences, and a nontrivial option set are visible |
@@ -537,7 +550,7 @@ Every load-bearing source must be verified, added to `../../references.bib`, and
 | Treating the model as the target system | Pendulum and inventory contrasts | Chapters 2 and 5 |
 | Treating observed records as neutral facts | Physical versus recorded inventory | Chapters 3 and 4 |
 | Confusing target, proxy, metric, objective, and estimand | Qualified informal use of target plus explicit deferral | Chapters 3, 7, and 10 |
-| Treating positive evidence as sufficient for a normative recommendation | Separate evidence, consequences, stakeholders, values, and action | Chapters 10 and 11 |
+| Treating positive evidence as sufficient for a normative recommendation | Require an explicit bridge from consequence claims to material evaluative premises, stakeholders, values, and action | Chapters 10 and 11 |
 | Confusing association or prediction with intervention | Layered question exercise and planted failure | Chapters 6 and 7 |
 | Assuming an effect or pattern automatically applies in the relevant application context | Require the qualifiers that materially affect application, such as population, system, context, or horizon | Chapter 9 |
 | Accepting the supplied option set | Require at least one additional plausible alternative | Chapter 10 |
@@ -563,8 +576,8 @@ The following questions must be resolved during chapter design or pilot testing,
    Default: teach the five book parts first, show the expanded loop as a reference, and assess reconstruction of relationships rather than memorization of labels.
 3. **Target-specification burden:** Do readers learn to add only qualifiers that materially change the question, rather than turning target specification into a fixed checklist?
    Default: teach the two-part minimum plus a same-question test, then pilot whether learners omit material qualifiers or add irrelevant ones.
-4. **Positive/normative accessibility:** Should the formal labels appear immediately or follow an ordinary-language contrast between “what is or would happen” and “what should be done”?
-   Default: begin with ordinary language, then introduce the established terms.
+4. **Positive/normative transfer:** Can readers keep positive inquiry broader than description and avoid collapsing the distinction into fact/opinion or objective/subjective shortcuts?
+   Default: begin with ordinary language, then introduce the established terms and test the distinction with prediction, intervention-effect, and recommendation contrasts.
 5. **Question-triage load:** Are four claim distinctions too many before probability and causal inference?
    Default: use minimally different concrete questions, require only intuitive discrimination, and defer formal criteria.
 6. **Chapter 1 versus Chapter 2 boundary:** How much representation detail is necessary for a meaningful complete pass?

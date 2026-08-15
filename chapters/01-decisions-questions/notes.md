@@ -322,3 +322,112 @@ A decision or recommendation must remain distinct from the informational targets
 This implementation changes target-related terminology control, source provenance, and narrowly scoped Chapter 1 specification wording only.
 It does not change the chapter title, central question, six-section architecture, 24-page / 4-hour budget, hospital anchor, pendulum or student-assessment contrasts, exercise progression, transfer intent, or the book architecture.
 It does not perform the later claim-type, measurement, estimand, identification, transportability, value, or decision-theory research tasks.
+
+## Bounded task: positive and normative questions
+
+Status: author approved for implementation on 2026-08-15.
+
+This note records the adjudicated result of the third bounded Chapter 1 terminology-research task.
+It does not reopen Research 01 (`intended use`, `context of use`, `adequacy`) or Research 02 (`target` and answer specification), and it does not perform the later full association/prediction/intervention/counterfactual adjudication or formal Chapter 10–11 value and decision-theory work.
+
+## Adjudicated positive/normative principle
+
+Chapter 1 should begin in ordinary language with the distinction between:
+
+- what is, was, or would happen; and
+- what should count as better, acceptable, important, or preferable, or what should be done.
+
+It should then introduce `positive` and `normative` as established but discipline-sensitive labels.
+The labels apply to components or subquestions, not to mutually exclusive classes of entire problems.
+
+A positive component asks what is, was, or would happen under specified conditions.
+Positive inquiry is broader than description: predictive, interventional, and counterfactual questions can also be positive when they ask what would happen.
+
+A normative component asks what should matter, what should count as better or acceptable, or what should be done.
+Normative reasoning is not synonymous with unsupported opinion.
+
+A recommendation may depend on evidence or models about consequences plus evaluative or decision premises about how those consequences should be judged.
+Chapter 1 should make that bridge explicit rather than presenting a recommendation as if it followed from evidence alone.
+
+## Terminology decisions
+
+- `positive` and `normative` are required Chapter 1 vocabulary after an ordinary-language contrast.
+- Use them primarily for components or subquestions rather than for exclusive whole-problem classification.
+- Do not teach `positive = descriptive`; positive questions may also be predictive, interventional, or counterfactual.
+- Do not teach `positive = fact`, `positive = objective`, or `positive = value-free`.
+- Do not teach `normative = subjective opinion`.
+- Do not require `prescriptive` in Chapter 1 and do not use it as a synonym for `normative`; decision theory may use the term more specifically later.
+- Keep predicted consequences distinct from their evaluation.
+- When a recommendation is made, expose the material evaluative premise, objective, obligation, constraint, or commitment required to move from consequence claims to action.
+- Formal ethics, value structuring, objectives, preference representation, utility, trade-off elicitation, and decision rules remain later material.
+
+## Verified sources promoted for Research 03
+
+### `keynes1891scope`
+
+John Neville Keynes. 1891. *The Scope and Method of Political Economy*. London: Macmillan and Co.
+
+Role in Chapter 1:
+- establishes paired `positive` and `normative` terminology in the economics tradition;
+- supports the introductory distinction between what is and criteria concerning what ought to be.
+
+Verified locator:
+- printed p. 34.
+
+Caution: the book's cross-disciplinary Chapter 1 transfer is a cautious pedagogical extension, not a claim that Keynes supplies a universal modern taxonomy.
+
+### `bradley2016structured`
+
+Patricia Bradley et al. 2016. *Application of a Structured Decision Process for Informing Watershed Management Options in Guánica Bay, Puerto Rico*. U.S. Environmental Protection Agency. EPA/600/R-15/248.
+
+Role in Chapter 1:
+- supports separating facts/evidence, values/objectives, alternatives, consequences, trade-offs, and decision;
+- supports the warning that evidence about consequences does not by itself state how those consequences should be valued.
+
+Verified locators:
+- Executive Summary, printed p. xiii;
+- Chapter 2 formal decision-process discussion beginning printed p. 5;
+- EPA Science Inventory publication record for report metadata and 2016 publication year.
+
+Caution: the EPA structured-decision process is not adopted as the book's universal decision framework.
+
+## Verified direct/contextual sources not promoted
+
+The following sources remain in the Research 03 dossier but are not required for the Chapter 1 claims implemented now, so Decision 0003 does not justify adding them to the canonical bibliography in this bounded change:
+
+- David Hume, *A Treatise of Human Nature*, Book III, Part I, Section I — verified direct support for the warning against silently moving from `is` to `ought`; Chapter 1 does not need to teach or name an `is–ought gap`.
+- National Academies of Sciences, Engineering, and Medicine, 2026, *Advancing the Art and Science of Decision-Making: A Guide* — verified direct support for a facts/values/evidence/consequences/decision sequence; redundant for the implemented claims once the EPA source is promoted.
+- Milton Friedman, 1953, “The Methodology of Positive Economics” — verified contextual support that positive economics includes prediction of consequences; not needed because Chapter 1 can state the broader-than-descriptive point as part of the adjudicated introductory synthesis while Research 04 later formalizes claim types.
+- Bell, Raiffa, and Tversky, 1988 — verified from official metadata and substantive chapter summary for the field-specific descriptive/normative/prescriptive distinction; full chapter not inspected, and Chapter 1 only needs the caution not to adopt `prescriptive`.
+- Heather Douglas, 2000, “Inductive Risk and Values in Science” — verified contextual caution against equating positive analysis with universally value-free scientific practice; Chapter 1 does not need a philosophy-of-science detour.
+
+## Chapter boundaries and later handoffs
+
+### Research 04 / Chapters 6–7
+
+The later association/prediction/intervention/counterfactual research must preserve the orthogonality established here.
+Description, association, prediction, intervention effects, and counterfactual comparisons can all be positive when they ask what is or would happen.
+Research 03 does not adjudicate their formal definitions.
+
+### Chapter 10
+
+Own formal value structuring, objectives, stakeholders, alternatives, measurable attributes or metrics, and trade-off structure.
+Chapter 1 only exposes material evaluative premises and affected stakeholders at practical depth.
+
+### Chapter 11
+
+Own formal choice under uncertainty, expected utility, risk attitudes, sensitivity analysis, value of information, and decision quality.
+Chapter 1 does not calculate a decision rule.
+
+## Open questions retained for pilot or later research
+
+- Does ordinary-language-first instruction prevent readers from misreading `positive` as favorable or `normative` as normal?
+- Can readers keep positive inquiry broader than description once prediction/intervention/counterfactual vocabulary is introduced?
+- Do learners expose material evaluative premises behind recommendations without turning the task into a values checklist?
+- If later decision theory uses `descriptive`, `normative`, and `prescriptive` in a specialized sense, how should that specialization be signposted without destabilizing Chapter 1 usage?
+
+## Research 03 implementation boundary
+
+This implementation changes positive/normative terminology control, source provenance, and narrowly scoped Chapter 1 specification wording only.
+It does not change the chapter title, central question, core competence, six-section architecture, 24-page / 4-hour budget, anchor cases, exercise progression, transfer intent, or the book architecture.
+It does not perform Research 04 or formal Chapter 10–11 value and decision-theory research.
