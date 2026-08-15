@@ -247,16 +247,16 @@ The expanded Reasoning Loop may appear as a reference figure, but the worked nar
 | 1 | A Good Answer to the Wrong Question | 2 | 0.25 | An initial prediction that exposes the reader's default framing |
 | 2 | Intended Use and the Decision Situation | 4 | 0.50 | A precise intended-use statement for the anchor case |
 | 3 | What Kind of Question Is This? | 4 | 0.55 | A layered classification of the problem's positive/normative, claim, time, and agent properties |
-| 4 | A First Complete Pass: Preventing a Hospital Stockout | 8 | 1.00 | A worked pass through formulation, evidence, choice, responsive action, monitoring, and revision |
+| 4 | A First Complete Pass: Preventing a Town Water Shortage | 8 | 1.00 | A worked pass through formulation, evidence, choice, responsive action, monitoring, and revision |
 | 5 | When the First Formulation Fails | 3 | 0.30 | Rival formulations, contrasting backward revisions, and a justified handoff to later machinery |
 | 6 | Cold-Start Practice and Retrieval | 3 | 1.40 | An independently produced first-pass analysis and self-diagnosis |
 | **Total** |  | **24** | **4.00** |  |
 
 ### Section 1: A Good Answer to the Wrong Question
 
-- Open with an underspecified but consequential prompt such as “reduce hospital stockouts.”
+- Open with an underspecified but consequential prompt such as “keep the town from running short of water during a heatwave.”
 - Require the reader to predict what should be modeled, what data should be collected, and what action should be taken before receiving further guidance.
-- Show that several technically competent analyses could answer different questions: predicting stockout, reconciling inventory, evaluating a replenishment policy, or deciding which items deserve intervention.
+- Show that several technically competent analyses could answer different questions: forecasting demand, verifying the current storage level, evaluating a conservation request, estimating the effect of changing pumping, or deciding which combination of actions to take.
 - Establish the chapter's governing failure: technically solving a question that was never the relevant question.
 - Do not begin with a glossary or the full Reasoning Loop diagram.
 
@@ -289,20 +289,20 @@ The expanded Reasoning Loop may appear as a reference figure, but the worked nar
 - Include one example in which an accurate prediction does not establish the effect of acting on the predicted factor.
 - Include one example in which evidence supports a consequence estimate but cannot by itself determine what should be valued.
 
-### Section 4: A First Complete Pass: Preventing a Hospital Stockout
+### Section 4: A First Complete Pass: Preventing a Town Water Shortage
 
 The pass should be informal, concrete, and organized under the five book parts.
 
-1. **Frame and Formulate:** intended use; a target event, quantity, or other sought object distinguished from recorded inventory; the relevant item, location or system, horizon, and material conditions; provisional boundary; important assumptions; and a rival formulation. If the task is a replenishment decision, state that decision separately from the prediction or consequence targets that inform it.
-2. **Learn from Evidence:** uncertainty, how records came to exist, what historical patterns can predict, what they cannot establish about an intervention, finite-evidence limits, and whether evidence applies to the relevant item and hospital context.
-3. **Choose:** distinguish positive claims about consequences from the normative evaluation of those consequences; identify affected stakeholders, alternatives beyond “order or do nothing,” constraints, and whether additional information such as a physical count could change the decision.
-4. **Act in Responsive Systems:** order pipeline, time delay, repeated decisions, feedback, supplier and staff response, and the possibility that a metric or alert changes recording or ordering behavior.
+1. **Frame and Formulate:** intended use; a target event, quantity, or other sought object distinguished from a dashboard or sensor reading; the relevant service area, storage system, horizon, heat and rainfall conditions supplied by the case, provisional boundary, important assumptions, and a rival formulation. If the task is whether to change pumping, issue a conservation request, or combine actions, state that decision separately from the prediction or consequence targets that inform it.
+2. **Learn from Evidence:** uncertainty, how level sensors, telemetry, and demand records came to exist, what historical weather-demand patterns can predict, what they cannot establish about the effect of a conservation request or pumping change, finite-evidence limits, and whether the evidence applies to the current heatwave and service area.
+3. **Choose:** distinguish positive claims about consequences from the normative evaluation of those consequences; identify affected stakeholders, alternatives beyond “pump more or do nothing,” constraints, and whether additional information such as a manual level verification, a leak check, or updated demand information could change the decision.
+4. **Act in Responsive Systems:** storage, inflow, demand, pumping limits, time delay, repeated decisions, feedback, and the possibility that residents, businesses, or utility operators change behavior after a conservation notice, restriction, or alert.
 5. **Integrate and Revise:** deployment, monitoring, discrepancy detection, diagnosis by stage, and deliberate return to an earlier formulation choice.
 
 The worked case must visibly loop backward at least twice so that readers encounter two materially different forms of revision.
 The number is a worked-example design requirement, not a general rule for competent reasoning; outside the example, revision occurs whenever later information warrants it.
-One backward move should be triggered by discovering that recorded stock and physical stock diverge because of unit conversion or delayed posting.
-Another should be triggered by deployment changing staff, supplier, or ordering behavior.
+One backward move should be triggered by discovering that the dashboard storage level and a verified physical level diverge because telemetry is delayed or a level sensor is miscalibrated.
+Another should be triggered by the conservation action itself changing water-use behavior enough that a forecast assuming unchanged demand is no longer adequate.
 
 Each stage should end with a forward pointer explaining which later chapter supplies the missing machinery.
 The narrative must also show that some stages can be screened out as immaterial in simpler problems.
@@ -321,17 +321,17 @@ The narrative must also show that some stages can be screened out as immaterial 
 - Diagnose a planted formulation that begins with a technique, treats a recorded variable or available label as the target, conflates prediction with intervention, and recommends an action without stating values or alternatives.
 - Require the learner to repair an underspecified target by adding only the qualifiers that materially change the question rather than completing a fixed checklist.
 - Give a faded case with prompts reduced relative to the worked example.
-- Require an unfamiliar-domain first-pass analysis completed before consulting the rubric.
+- Require an unfamiliar-domain first-pass analysis using one of the two parallel forms in `transfer.md`, completed before consulting the rubric.
 - Require a short self-explanation of the most consequential revision made after checking the answer.
 - End with retrieval from memory: the reader reconstructs the five-part navigation map and its backward links without copying the diagram.
-- Schedule a 7–14 day retest on a different domain; the retest result becomes baseline evidence for the Part I transfer gate.
+- Schedule a 7–14 day retest using the other parallel form; counterbalance form order during pilots so that practice effects are not confused with domain difficulty. The retest result becomes baseline evidence for the Part I transfer gate.
 
 ### Drafting constraints
 
 - Use the five-part map before exposing the expanded chapter-by-chapter loop.
 - Do not present the layered triage as a named new framework, hierarchy, or acronym.
 - Treat the same-question test for material target qualifiers as book-specific pedagogical synthesis, not as an established disciplinary rule.
-- Keep formal notation minimal; a simple inventory balance may be used only when it clarifies the distinction between physical and recorded quantities.
+- Keep formal notation minimal; a simple storage balance may be used only when it clarifies the distinction among physical storage, measured level, inflow, and demand.
 - Do not define later specialist terms merely to mention them.
 - Every preview must either support the anchor decision or be removed.
 - At least half of the chapter's active-learning time must require prediction, production, self-explanation, error diagnosis, or retrieval rather than rereading.
@@ -339,23 +339,23 @@ The narrative must also show that some stages can be screened out as immaterial 
 
 ## Examples / recurring cases
 
-### Primary anchor: hospital pharmacy stockout decision
+### Primary anchor: municipal water-supply shortage during a heatwave
 
-The central worked case is a synthetic but operationally realistic decision about whether and how to intervene when a pharmacy item may become physically unavailable within seven days.
+The central worked case is a synthetic but operationally realistic decision for a small municipal water utility facing a hot, dry week in which usable stored water may fall below a minimum operating reserve specified in the case within seven days.
 
 The case is selected because it supports every book part without requiring advanced formalism.
 
-- Purpose: prediction, replenishment decision, reconciliation, and policy evaluation can be contrasted.
-- Representation: on-hand stock alone may omit the order pipeline, substitution, ward stock, or supplier behavior.
-- Measurement and observation: physical stock differs from recorded stock; transactions, timestamps, counts, and product-specific units can distort the record.
-- Evidence: historical data can support prediction while remaining insufficient for a causal claim about a new ordering policy.
-- Value and choice: stockout harm, waste, cash, urgency, substitution, and staff burden create competing consequences and alternatives.
-- Dynamics: demand, receipts, lead times, outstanding orders, and repeated reviews evolve through time.
-- Strategic or adaptive response: staff and suppliers may change behavior after alerts, targets, or policies are deployed.
-- Monitoring and revision: physical counts, discrepancy patterns, and decision outcomes can send the analysis back to measurement, representation, evidence, or objectives.
+- Purpose: demand forecasting, storage verification, operational decision support, and evaluation of a conservation action can be contrasted.
+- Representation: stored water alone may omit source inflow, pumping or treatment limits, leakage, distribution demand, and the timing of replenishment.
+- Measurement and observation: physical storage differs from dashboard readings; sensor calibration, telemetry delay, meter aggregation, and missing readings can distort the record.
+- Evidence: historical weather and demand data can support prediction while remaining insufficient by themselves for a causal claim about a new conservation notice, restriction, or pumping policy.
+- Value and choice: continuity of water service, operating and energy cost, burden on households and businesses, equity, reserve margin, and restrictions on nonessential use create competing consequences and alternatives.
+- Dynamics: storage, inflow, demand, pumping, leakage, and repeated operating decisions evolve through time.
+- Strategic or adaptive response: residents, businesses, and utility operators may change behavior after alerts, conservation requests, restrictions, or operating targets are deployed.
+- Monitoring and revision: verified level checks, telemetry discrepancies, pressure or demand patterns, and decision outcomes can send the analysis back to measurement, representation, evidence, or objectives.
 
-The case must use invented or appropriately anonymized data.
-Any claims about clinical workflow, inventory practice, or product conversion require authoritative sourcing and domain review.
+The case must use synthetic data and must supply every utility-specific fact needed by the reader.
+Any claims about water-utility operations, storage or pumping constraints, demand response, or operating-reserve practice require authoritative sourcing or domain review; the chapter must not assume specialized water-engineering knowledge.
 
 ### Short contrast: simple pendulum
 
@@ -371,16 +371,21 @@ Formal measurement, psychometrics, causal claims, and metric gaming remain in la
 
 ### Unfamiliar transfer cases
 
-Prepare at least two parallel cold-transfer forms from domains not used in the worked exposition.
-One should involve a mainly physical or engineering system and one an institutional or policy system.
-The reader should complete the form from the domain in which they have less prior familiarity.
+Use two parallel cold-transfer forms specified in `transfer.md`, neither of which appears in the worked exposition.
+
+- **Form A — refrigerated warehouse cooling risk:** a mainly physical/engineering case about whether and how to respond when a food-distribution cold room may leave its specified safe operating band during extreme outdoor heat. The prompt supplies all needed facts about the cooling equipment, sensor readings, operating limits, available actions, and consequences.
+- **Form B — emergency temporary-housing allocation after a flood:** an institutional/policy case about how a local agency should allocate a limited number of temporary-housing vouchers while records are incomplete and affected households and housing providers may respond to the allocation rule. The prompt supplies all eligibility, operational, and consequence facts needed for reasoning and assumes no external legal knowledge.
+
+Both forms must require the same first-pass outputs and use the same scoring dimensions. They should differ in mechanism rather than merely surface domain: Form A emphasizes physical state, measurement, dynamics, and intervention under a mostly non-strategic environment; Form B emphasizes target population, observation/selection, values, alternatives, and adaptive response.
+
+For self-study, the reader completes first the form from the domain in which they have less prior familiarity and uses the other form for the 7–14 day retest. During pilot testing, form order should be counterbalanced so that difficulty and practice effects can be separated.
 Each prompt must supply enough domain facts that performance reflects reasoning rather than hidden specialist knowledge.
 
 ### Proposed recurrence opportunities
 
 These are candidate later homes, not obligations imposed by the Chapter 1 specification.
 
-- Candidate later homes for hospital inventory include Chapters 2, 4, 6, 11–14, and 17.
+- Candidate later homes for the municipal water-supply case include Chapters 2, 4, 6–7, 11–15, and 17.
 - Candidate later homes for student assessment include Chapters 3, 7, 9, 10, and 15.
 - Candidate later homes for the pendulum or another physical system include Chapters 2, 5, 6, and 14.
 - Recurring-case architecture must be adjudicated book-wide and later recorded in its canonical home under `cases/`.
@@ -415,7 +420,7 @@ It must also allow descriptive, predictive, interventional, or counterfactual it
 
 ### 4. Worked-case self-explanation
 
-At three pauses in the hospital case, require the reader to predict:
+At three pauses in the municipal water-supply case, require the reader to predict:
 
 - which later question will force a boundary or target revision;
 - whether the next evidence bears on prediction, intervention, or both;
@@ -526,8 +531,8 @@ Every load-bearing source must be verified, added to `../../references.bib`, and
 
 ### Case-source requirements
 
-- Hospital inventory claims must be checked against authoritative hospital-pharmacy, inventory-control, accounting, and unit-of-measure sources, supplemented by domain-expert review.
-- Any statement about medication handling, clinical criticality, or patient consequences requires appropriate clinical or regulatory review.
+- Municipal water-supply claims must be checked against authoritative water-utility, water-resources, metering, and infrastructure sources, supplemented by domain review where operational practice matters.
+- Any statement about treatment capacity, pumping constraints, service reliability, reserve practice, or demand response must be supplied in the case or supported by an authoritative source rather than assumed from reader knowledge.
 - Pendulum equations and approximations should be checked against a standard mechanics source, even when treated as elementary.
 - Student-assessment examples must be checked against measurement and psychometric sources and must not imply that statistical fit establishes construct validity.
 - All numerical case data should be synthetic unless permission, provenance, and privacy conditions are explicit.
@@ -536,7 +541,7 @@ Every load-bearing source must be verified, added to `../../references.bib`, and
 
 - Verified definitions or usage notes for `intended use`, `target`, `adequacy`, `positive`, `normative`, `association`, `prediction`, `intervention`, and `counterfactual`.
 - At least one primary or canonical source supporting each load-bearing distinction.
-- A domain review of the hospital case for realism and hidden assumptions.
+- A domain review of the municipal water-supply case for realism and hidden assumptions.
 - A terminology review ensuring Chapter 1 does not preempt the formal meanings assigned in Chapters 6, 7, 10, 11, 14, and 15.
 - A learner pilot testing whether the five-part map reduces rather than increases initial cognitive load.
 
@@ -547,8 +552,8 @@ Every load-bearing source must be verified, added to `../../references.bib`, and
 | Treating a topic as a well-formed problem | Topic-to-decision contrast and intended-use production | Chapters 2 and 10 |
 | Solving the wrong problem competently | Opening prediction, rival uses, and explicit decision context | Chapters 5 and 16 |
 | Choosing a method before defining the target and use | Technique-free first pass and routing requirement | All later chapters |
-| Treating the model as the target system | Pendulum and inventory contrasts | Chapters 2 and 5 |
-| Treating observed records as neutral facts | Physical versus recorded inventory | Chapters 3 and 4 |
+| Treating the model as the target system | Water-system and pendulum contrasts | Chapters 2 and 5 |
+| Treating observed records as neutral facts | Physical storage versus sensor and telemetry records | Chapters 3 and 4 |
 | Confusing target, proxy, metric, objective, and estimand | Qualified informal use of target plus explicit deferral | Chapters 3, 7, and 10 |
 | Treating positive evidence as sufficient for a normative recommendation | Require an explicit bridge from consequence claims to material evaluative premises, stakeholders, values, and action | Chapters 10 and 11 |
 | Confusing association or prediction with intervention | Layered question exercise and planted failure | Chapters 6 and 7 |
@@ -570,8 +575,8 @@ Later chapters must revisit them with stronger concepts, formal tools, and unfam
 
 The following questions must be resolved during chapter design or pilot testing, but none currently requires changing the chapter title, order, page budget, or core competence.
 
-1. **Anchor-case accessibility:** Is the hospital stockout case understandable without domain knowledge while remaining realistic enough to carry the full loop?
-   Default: retain it, supply all necessary facts, use synthetic data, and obtain domain review.
+1. **Anchor-case accessibility:** Is the municipal water-supply shortage case understandable without domain knowledge while remaining realistic enough to carry the full loop?
+   Default: retain it only if pilot readers can reason from the supplied storage, inflow, demand, sensor, and action facts without hidden water-engineering knowledge; use synthetic data and obtain domain review.
 2. **Loop presentation:** Can readers retain the whole-loop idea without being overwhelmed by the expanded sequence?
    Default: teach the five book parts first, show the expanded loop as a reference, and assess reconstruction of relationships rather than memorization of labels.
 3. **Target-specification burden:** Do readers learn to add only qualifiers that materially change the question, rather than turning target specification into a fixed checklist?
@@ -584,8 +589,8 @@ The following questions must be resolved during chapter design or pilot testing,
    Default: include one provisional boundary and one target/model/data distinction, but no quantity-role or relation taxonomy.
 7. **Chapter 1 versus Chapter 10 boundary:** How much value and alternative work is necessary before formal value structuring?
    Default: name stakeholders, consequences, and at least one missing alternative, but do not introduce utility, objective functions, or formal trade-off methods.
-8. **Cold-transfer form:** Which two unfamiliar cases minimize domain-knowledge confounding while remaining consequential?
-   Default: pilot one physical or engineering case and one institutional or policy case, then retain parallel forms with comparable scoring difficulty.
+8. **Cold-transfer comparability:** Do the selected refrigerated-warehouse and emergency-housing forms produce comparable reasoning difficulty without hidden domain-knowledge confounding?
+   Default: retain both as pilot forms, counterbalance order, inspect dimension-level score patterns and completion time, and revise or replace a form if domain knowledge or surface complexity dominates performance.
 9. **Diagnostic interpretation:** Do the rubric dimensions support reliable feedback, and would any aggregate threshold add value?
    Default: use dimension-level feedback and substantive major errors without a cut score until pilot evidence justifies another interpretation.
 10. **Time feasibility:** Can a serious self-study reader complete the chapter, embedded predictions, and exit production task within four hours?
@@ -603,7 +608,7 @@ The following questions must be resolved during chapter design or pilot testing,
 ### Before declaring Chapter 1 verified or frozen
 
 - Load-bearing terminology and sources have been verified and recorded through the repository's bibliography and source-note process.
-- The hospital case has passed domain, realism, and privacy review.
+- The municipal water-supply case has passed domain and realism review, and all case data are confirmed synthetic.
 - The layered question exercise has an adjudicated answer key allowing justified overlap.
 - Two parallel cold-transfer prompts and the self-scoring rubric have been tested with representative readers.
 - Timed pilots show whether the full chapter can be completed within four serious learning hours.
