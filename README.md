@@ -105,25 +105,25 @@ The sequence is a teaching order, not a claim that real reasoning is a one-direc
 
 ### Chapter 2: Representation, Mechanisms, and Scale
 
-**Central question.** What belongs in the model, at what level of abstraction, and how do the parts produce relevant behavior?
+**Central question.** What is inside the model, at what grain, and how do parts produce behavior?
 
 **Core competence.** Construct purpose-relative representations using boundaries, entities, variables, states, mechanisms, abstraction, aggregation, scale, and alternative representations.
 
 ### Chapter 3: Measurement and Operationalization
 
-**Central question.** What do the quantities and observations actually represent?
+**Central question.** What do the numbers stand for, and how well?
 
 **Core competence.** Connect constructs to observables through operationalization, units, proxies, validity, reliability distinctions, and measurement error.
 
 ### Chapter 4: Observation Processes and Data Provenance
 
-**Central question.** Why did these records, rather than others, come to exist in this form?
+**Central question.** Why did these records, and not others, come to exist in this form?
 
 **Core competence.** Describe the observation process separately from the process being modeled, including sampling, selection, missingness, censoring, aggregation, reporting, institutional incentives, and possible manipulation.
 
 ### Chapter 5: Assumptions, Adequacy, and Rival Models
 
-**Central question.** How could this formulation fail its intended purpose, even before formal inference begins?
+**Central question.** How could this formulation fail its purpose, and what would show it?
 
 **Core competence.** Criticize models using assumption records, dimensional reasoning, limiting and extreme-condition checks, Fermi estimation and bounding, rival models, structural uncertainty, and predicted failure modes.
 
@@ -131,13 +131,13 @@ The sequence is a teaching order, not a claim that real reasoning is a one-direc
 
 ### Chapter 6: Probability, Prediction, and Simulation
 
-**Central question.** How should uncertainty be represented, updated, predicted, and evaluated?
+**Central question.** How is uncertainty represented, updated, and scored?
 
 **Core competence.** Use conditioning, Bayes, expectation, base rates, simulation, probabilistic prediction, and calibration to reason coherently under uncertainty.
 
 ### Chapter 7: Targets, Identification, and Causal Claims
 
-**Central question.** Could ideal evidence establish the target quantity, and under what assumptions?
+**Central question.** Could ideal evidence establish the target, and under what assumptions?
 
 **Core competence.** Define targets and estimands, distinguish statistical identifiability from causal identification, distinguish prediction from intervention and counterfactual claims, and understand experiments and observational designs as strategies for identification.
 
@@ -145,13 +145,13 @@ Structural identifiability is deferred to the dynamic-systems part of the book.
 
 ### Chapter 8: Estimation, Uncertainty, and Model Checking
 
-**Central question.** Given finite evidence, what can we conclude and with what uncertainty?
+**Central question.** What does finite evidence say, with what reliability?
 
 **Core competence.** Use likelihood, estimation, regression, uncertainty quantification, predictive evaluation, measurement-error reasoning, analytic-flexibility awareness, and model checking without reducing evidence to threshold rituals.
 
 ### Chapter 9: Combining and Transporting Evidence
 
-**Central question.** What do multiple imperfect sources jointly support, and does that evidence apply here?
+**Central question.** What do many imperfect sources jointly support — here?
 
 **Core competence.** Reason about heterogeneous and dependent evidence, replication, evidence synthesis, expert judgment, external validity, generalizability, target populations, and transportability at an appropriate conceptual level.
 
@@ -159,19 +159,19 @@ Structural identifiability is deferred to the dynamic-systems part of the book.
 
 ### Chapter 10: Values, Objectives, and Alternatives
 
-**Central question.** What matters, to whom, and what alternatives should actually be considered?
+**Central question.** What matters, to whom, and what options exist beyond those offered?
 
 **Core competence.** Structure values and consequences, distinguish values from measurable objectives and metrics, identify stakeholders and constraints, and generate alternatives instead of accepting a fixed option set.
 
 ### Chapter 11: Decisions Under Uncertainty and Value of Information
 
-**Central question.** Which action is defensible given uncertainty, and would additional information change the decision?
+**Central question.** Which act is defensible, and would more evidence change it?
 
 **Core competence.** Use decision trees, expected utility, risk attitudes, sensitivity analysis, value of information, decision-quality reasoning, ambiguity awareness, and recognition of when further analysis itself is not worthwhile.
 
 ### Chapter 12: Optimization, Robustness, and Adaptive Plans
 
-**Central question.** How should choice scale when actions are constrained and the model itself may be uncertain?
+**Central question.** How do we choose well at scale when the model itself is uncertain?
 
 **Core competence.** Formulate objectives and constraints, reason marginally, understand shadow-price and convexity intuition, and use scenarios, robustness, regret, adaptive plans, and computational solver handoff appropriately.
 
@@ -179,13 +179,13 @@ Structural identifiability is deferred to the dynamic-systems part of the book.
 
 ### Chapter 13: Dynamics, Feedback, and Stability
 
-**Central question.** How does the system evolve after actions are taken?
+**Central question.** How does the system evolve once acted upon?
 
 **Core competence.** Reason about state, accumulation, stocks and flows, delay, feedback, equilibrium versus stability, oscillation, overshoot, and policy resistance.
 
 ### Chapter 14: Sequential Decisions, Information, and Control
 
-**Central question.** How should decisions be made through time as the system evolves and new information arrives?
+**Central question.** How should choices be made through time as information arrives?
 
 **Core competence.** Reason with policies rather than one-shot actions, feedback decisions, observability, structural identifiability, information acquisition, exploration versus exploitation, and control at a foundational conceptual level.
 
@@ -193,7 +193,7 @@ Formal dynamic programming, filtering, LQR, MPC, POMDP, and reinforcement-learni
 
 ### Chapter 15: Strategic Interaction, Incentives, and Endogenous Response
 
-**Central question.** What changes when the system contains other agents who anticipate, respond to, manipulate, or learn from our actions?
+**Central question.** What changes when the system contains other modelers?
 
 **Core competence.** Reason about strategic dependence, incentives, equilibrium as consistency, commitment, information asymmetry, principal-agent relationships, delegation, endogenous response, metric gaming, Goodhart-type failures, Campbell's law, Lucas critique, and manipulation of evidence.
 
@@ -201,7 +201,7 @@ Formal dynamic programming, filtering, LQR, MPC, POMDP, and reinforcement-learni
 
 ### Chapter 16: Integration: The Full Loop on Unfamiliar Problems
 
-**Central question.** Which machinery does this unfamiliar problem actually require, and how should the pieces be connected?
+**Central question.** Which machinery does this problem need, and how do the pieces connect?
 
 **Core competence.** Triage unfamiliar problems and execute the relevant reasoning process across formulation, evidence, decision, dynamics, and strategy without mechanically forcing every problem through every chapter.
 
@@ -209,7 +209,7 @@ This chapter should eventually contain full-loop cases, including at least one s
 
 ### Chapter 17: Deployment, Monitoring, and Revision
 
-**Central question.** Is the deployed reasoning still working, and if not, which part of the reasoning process failed?
+**Central question.** Is the deployed reasoning still working — and if not, which stage failed?
 
 **Core competence.** Design monitoring, distinguish signal from ordinary variation, recognize drift and tampering, diagnose failure by stage, define revision triggers, and return deliberately to earlier parts of the reasoning process.
 

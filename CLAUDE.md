@@ -22,6 +22,7 @@ working files and manuscript
 - `canon/` controls terminology and the labeling of pedagogical syntheses.
 - Each chapter's `spec.md` controls that chapter's scope.
 - Lower-level files may not silently contradict higher-level authority. Conflicts are surfaced, not silently resolved.
+- Chapter title, central question, and core competence must remain synchronized between `README.md` and the corresponding `spec.md`; README remains authoritative for the book-level architecture.
 
 ## Intellectual rules
 
