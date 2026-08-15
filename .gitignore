@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+
+# Build output
+build/
+_output/
+
+# Locally downloaded raw data (fetched by script, never committed)
+computation/data/raw/
+
+# Generated book binaries (attach to releases, never commit)
+/*.pdf
+/*.epub
