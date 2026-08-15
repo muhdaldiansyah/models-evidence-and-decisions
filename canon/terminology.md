@@ -45,6 +45,24 @@ Entry format:
 - Aliases/cautions: Chapter 1 should normally say `adequate for the stated use` or `adequate for the stated intended use`; the book does not claim that this phrase denotes one universal standardized adequacy framework; individual traditions operationalize adequacy differently
 - Definition status: verified for the Chapter 1 use-dependent principle; framework-specific formalization deferred to Chapter 5
 
+## positive
+
+- Preferred term: positive
+- Field/origin: economics for the paired positive/normative distinction; Chapter 1 applies it cautiously across analytical domains
+- Introduced in: Chapter 1
+- Distinct from: descriptive; empirical; objective; certain; normative
+- Aliases/cautions: normally use `positive question` or `positive component`; at Chapter 1 depth it concerns what is, was, or would happen under specified conditions; a positive question may be descriptive, predictive, interventional, or counterfactual; `positive` does not mean favorable or beneficial and should not be presented as synonymous with objective, certain, or universally value-free
+- Definition status: established economics usage verified; broader Chapter 1 transfer author-approved as a cautious pedagogical extension
+
+## normative
+
+- Preferred term: normative
+- Field/origin: economics for the paired positive/normative distinction; broader disciplinary senses vary
+- Introduced in: Chapter 1
+- Distinct from: positive; descriptive; prescriptive; objective; utility; preference
+- Aliases/cautions: at Chapter 1 depth concerns what should count as better, acceptable, important, or preferable, or what should be done; do not reduce normative reasoning to mere opinion; do not use `prescriptive` as a universal synonym because later decision-theory usage may distinguish it
+- Definition status: paired economics usage verified; Chapter 1 introductory use author-approved; later decision-theory specialization remains deferred
+
 ## statistical identifiability
 
 - Preferred term: statistical identifiability
