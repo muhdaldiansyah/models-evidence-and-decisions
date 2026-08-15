@@ -15,7 +15,7 @@ What is being asked, for what use, and what would count as an adequate answer?
 
 ## Core competence
 
-Frame the decision situation, identify intended use and target, distinguish relevant claim types and environment properties, and perform one informal pass through the complete reasoning process.
+Frame the decision situation, state the intended use, specify the target of the inquiry in qualified terms, distinguish relevant claim types and environment properties at intuitive depth, and perform one informal pass through the complete reasoning process.
 
 ## Role in the book
 
@@ -52,12 +52,12 @@ Chapter 1 introduces questions and distinctions at intuitive depth that later ch
 | Spiral element | Treatment in Chapter 1 | Later development |
 |---|---|---|
 | Intended use and adequacy for the stated use | State who will use an answer, for what judgment or action, and what would count as good enough | Chapters 2–5, 10–12, 16–17 |
-| Target and context | Name the target informally and qualify its population, system, location, horizon, and resolution | Chapters 3, 7, 9–11 |
+| Target and context | State who or what the answer concerns and what about it is being sought; add population, application context, horizon, comparison, or resolution when material | Chapters 3, 7, 9–11 |
 | Representation | Ask what must be represented and whether another representation would answer a different question | Chapters 2 and 5 |
 | Measurement and observation | Distinguish the target from recorded traces and ask how the records arose | Chapters 3, 4, and 8 |
 | Uncertainty | Locate major unknowns qualitatively and ask which ones could change the conclusion | Chapters 6, 8, 11–14 |
 | Claim type and identification | Distinguish what is being described, predicted, changed, or compared counterfactually; ask whether the available evidence could answer it | Chapters 6 and 7 |
-| Evidence strength and transfer | Ask what finite evidence supports and whether it applies in the target context | Chapters 8 and 9 |
+| Evidence strength and transfer | Ask what finite evidence supports and whether it applies in the relevant application context | Chapters 8 and 9 |
 | Values, alternatives, and decision relevance | Separate what evidence says from what should be done; identify who bears consequences and whether the option set is adequate | Chapters 10 and 11 |
 | Constraints, robustness, and tractability | Ask whether a proposed action is feasible and whether its conclusion survives plausible changes | Chapter 12 |
 | State, time, and feedback | Screen for accumulation, delay, feedback, and repeated decisions | Chapters 2, 13, and 14 |
@@ -78,7 +78,12 @@ Those returns provide evidence of learning and expose whether later technical kn
 - Assessment of whether a model or analysis is adequate for the stated intended use and relevant application context; Chapter 1 uses this as disciplined reader-facing language rather than a universal standardized adequacy framework.
 - Overall adequacy cannot be judged without a stated use. Some properties, such as internal consistency, dimensional correctness, or numerical correctness, may be assessed independently, but whether a model or analysis is adequate depends on what it will be used for.
 - Distinction among a broad topic, a practical concern, a research or analytical question, a claim, and a decision.
-- Preliminary targets, including target quantity, outcome, population, system, context, or claim, without introducing the formal statistical notion of an estimand.
+- `Target` is Chapter 1's informal organizing word for what an inquiry is trying to determine about a focal entity, unit, population, or system; the book-wide use is a pedagogical synthesis, not one universal disciplinary technical definition.
+- Qualify the target whenever possible using the substantive object actually sought, such as a quantity, event, state, outcome, relationship, comparison, population, or system.
+- A minimally usable target specification states who or what the answer concerns and what about it is being sought, then adds context, horizon, resolution or aggregation, comparator, population, required answer form, or threshold only when changing that qualifier would materially change the question.
+- Keep intended use, target, relevant application context, and adequacy for the stated intended use distinct.
+- Distinguish the sought target from what is measured or recorded; formal construct, measure, operationalization, proxy, validity, and reliability treatment belongs to Chapter 3.
+- Preview that later statistical and causal work may require a precisely defined target of estimation. Do not require the term `estimand` in Chapter 1; formal treatment belongs to Chapter 7.
 
 ### Layered question and environment triage
 
@@ -127,8 +132,15 @@ Any term requiring book-wide control must be flagged for canon review before dra
 | intended use | Required vocabulary; introduce and use throughout | Established in modeling and simulation; this book's extension to analyses, estimates, forecasts, and recommendations is explicitly a pedagogical synthesis; must name the use of the answer, not merely the topic being studied |
 | context of use (COU) | Optional field-specific preview only | Established in computational M&S VVUQ / model credibility; readers need not memorize it; formal treatment belongs to Chapter 5; do not treat it as a universal synonym for intended use |
 | decision situation / decision context | Introduce at practical depth | Includes decision-maker, stakeholders, alternatives, consequences, constraints, information, and horizon; not every analytical question immediately implies a decision |
-| target | Introduce informally and always qualify when possible | Distinct from estimand, proxy, objective, metric, estimator, and estimate |
-| target system and context | Introduce at orientation depth | The target system is not its model; detailed boundary work belongs to Chapter 2 |
+| target | Required informal organizing vocabulary; qualify whenever possible | Book-wide sense is pedagogical synthesis, not one universal technical definition; distinguish from construct, measure, proxy, estimand, estimator, estimate, response variable, decision, objective, and metric |
+| target quantity | Use when the sought object is literally a quantity | Ordinary qualifying phrase; not a synonym for estimand and not suitable for every inquiry |
+| target population | Introduce intuitively when inference or generalization concerns a population | Established qualified term; distinct from observed sample and data-collection setting; formal development later |
+| target system | Introduce at orientation depth when the inquiry concerns a system | The target system is not its model; detailed boundary work belongs to Chapter 2 |
+| estimand | Concept preview only; term not required | A later formal target of estimation; exact disciplinary definitions vary; formal home Chapter 7 |
+| estimator | Do not formally introduce | Method or rule for estimation; Chapter 8 |
+| estimate | Ordinary language only if unavoidable; formal stabilization later | Numerical result, distinct from estimand and estimator; Chapter 8 |
+| question of interest / quantity of interest | Optional field-specific examples only | Use only when accurately reporting a framework that uses them; do not make either the Chapter 1 umbrella |
+| relevant application context | Use in ordinary language | Settled in Research 01; do not replace it with a new formal `target context` term |
 | adequacy | Use reader-facing wording such as `adequate for the stated intended use` | Disciplined Chapter 1 language, not one universal standardized adequacy framework; distinct from literal truth, empirical fit alone, accuracy, verification, validation, applicability, credibility, and formal model checking |
 | positive / normative | Introduce and stabilize | These identify different components of reasoning, not mutually exclusive types of entire problems |
 | association / associational claim | Introduce at intuitive depth | Association does not by itself establish the consequence of intervention |
@@ -140,7 +152,7 @@ Any term requiring book-wide control must be flagged for canon review before dra
 | adaptive agent / strategic agent | Preview as an environment property | Formal strategic interaction, equilibrium, and incentives belong to Chapter 15 |
 | Reasoning Loop | Introduce explicitly as pedagogical synthesis | It is a revisable navigation structure, not an established formal theory or mandatory waterfall |
 
-Do not formally introduce `estimand`, `estimator`, `utility`, `objective function`, `identification`, `structural identifiability`, `observability`, `equilibrium`, or `robust optimization` in this chapter.
+Do not require `estimand` or formally introduce `estimator`, `utility`, `objective function`, `identification`, `structural identifiability`, `observability`, `equilibrium`, or `robust optimization` in this chapter.
 Where the first complete pass needs their underlying questions, use ordinary language and point to the later chapter that owns the formal term.
 
 ## Interfaces with other chapters
@@ -152,9 +164,9 @@ Where the first complete pass needs their underlying questions, use ordinary lan
 | Ch. 4: Observation Processes and Data Provenance | Ask why these records, rather than others, came to exist in this form | Do not inventory sampling, selection, missingness, censoring, aggregation, and reporting mechanisms in depth here |
 | Ch. 5: Assumptions, Adequacy, and Rival Models | State assumptions, anticipate failure, and acknowledge alternative formulations | Do not teach the full assumption record, dimensional and limiting checks, Fermi bounds, verification/validation, formal context of use, applicability, credibility, or rival-model criticism here |
 | Ch. 6: Probability, Prediction, and Simulation | Recognize uncertainty and predictive questions | Do not introduce probability rules, Bayes, expectation, simulation methods, scoring, or calibration here |
-| Ch. 7: Targets, Identification, and Causal Claims | Separate association, prediction, intervention, and counterfactual questions; ask what ideal evidence could establish | Do not define estimands, statistical identifiability, causal identification, causal graphs, or identification strategies here |
-| Ch. 8: Estimation, Uncertainty, and Model Checking | Ask what finite evidence says and how uncertain the answer remains | Do not teach likelihood, estimators, intervals, regression, or formal model checking here |
-| Ch. 9: Combining and Transporting Evidence | Qualify the target context and ask whether evidence travels | Do not teach synthesis methods, dependence among sources, external-validity analysis, or transportability formalism here |
+| Ch. 7: Targets, Identification, and Causal Claims | Preview that some inquiries require a more precisely defined target of estimation; separate association, prediction, intervention, and counterfactual questions at intuitive depth | Do not formally define estimands, statistical identifiability, causal identification, causal graphs, or identification strategies here |
+| Ch. 8: Estimation, Uncertainty, and Model Checking | Ask what finite evidence says and how uncertain the answer remains | Do not teach estimators, estimates, likelihood, intervals, regression, or formal model checking here |
+| Ch. 9: Combining and Transporting Evidence | Qualify the relevant population and application context and ask whether evidence travels | Do not teach synthesis methods, dependence among sources, external-validity analysis, generalizability, or transportability formalism here |
 | Ch. 10: Values, Objectives, and Alternatives | Identify stakeholders, consequences, and whether the available option set is artificially narrow | Do not formalize utility, objectives, trade-offs, metrics, or alternative-generation methods here |
 | Ch. 11: Decisions Under Uncertainty and Value of Information | Separate beliefs about consequences from choice and ask whether more information could change the decision | Do not calculate expected utility or value of information here |
 | Ch. 12: Optimization, Robustness, and Adaptive Plans | Recognize constraints, feasibility, model uncertainty, and brittleness | Do not formulate or solve optimization models here |
@@ -170,8 +182,12 @@ Where the first complete pass needs their underlying questions, use ordinary lan
 
 The chapter must teach the reader to do the following at an introductory but productive level.
 
-- Convert a broad concern or topic into an explicit intended-use statement.
-- Identify the person or institution using the answer, the judgment or action at stake, affected stakeholders, the target, context, population or system, time horizon, and consequences of major errors.
+- Convert a broad concern or topic into an explicit intended-use statement and a qualified target.
+- Specify the target well enough that another competent analyst can tell what answer is sought: normally who or what the answer concerns and what quantity, event, state, outcome, relationship, comparison, or consequence is at issue.
+- Add conditions, horizon, resolution or aggregation, comparison or reference condition, target population, required answer form, or threshold only when omission could materially change the meaning of the question.
+- Keep the target distinct from the observed or recorded variable, proxy, decision, objective, and adequacy criterion.
+- Screen the claim type only far enough to determine whether the target requires description, prediction, comparison under intervention, counterfactual comparison, or decision support; formal treatment remains later.
+- Identify the person or institution using the answer, the judgment or action at stake, affected stakeholders, and consequences of major errors.
 - State provisional adequacy criteria for the stated intended use without pretending they are already measured or optimized.
 - Distinguish positive and normative components of a problem.
 - Distinguish descriptive or associational, predictive, interventional, and counterfactual claims at intuitive depth.
@@ -191,11 +207,11 @@ The chapter must teach the reader to do the following at an introductory but pro
 - Sampling, selection, missingness, censoring, aggregation, reporting, institutional production of records, and adversarial corruption: Chapter 4.
 - Assumption records, dimensional and extreme-condition checks, Fermi estimation and bounding, verification, validation, structural uncertainty, rival models, and model criticism: Chapter 5.
 - Probability, conditioning, Bayes, expectation, simulation, probabilistic prediction, and calibration: Chapter 6.
-- Formal targets and estimands, statistical identifiability, causal identification, causal graphs, experiments, observational designs, intervention, and counterfactual reasoning: Chapter 7.
-- Likelihood, estimation, regression, uncertainty quantification, predictive evaluation, and statistical model checking: Chapter 8.
-- Evidence synthesis, expert judgment, dependence, replication, external validity, generalizability, and transportability: Chapter 9.
-- Value structuring, objectives, measurable proxies, trade-offs, utility, constraints, and systematic alternative generation: Chapter 10.
-- Expected utility, decision trees, sensitivity analysis, ambiguity, and value of information: Chapter 11.
+- Formal targets and estimands, statistical identifiability, causal identification, causal graphs, identification strategies, experiments, observational designs, intervention, and counterfactual formalism: Chapter 7.
+- Estimators, estimates, likelihood, regression, uncertainty quantification, predictive evaluation, and statistical model checking: Chapter 8.
+- Evidence synthesis, expert judgment, dependence, replication, target-population refinement, external validity, generalizability, and transportability: Chapter 9.
+- Value structuring, objectives, measurable proxies, metrics, trade-offs, utility, constraints, and systematic alternative generation: Chapter 10.
+- Formal decisions under uncertainty, expected utility, decision trees, sensitivity analysis, ambiguity, and value of information: Chapter 11.
 - Optimization, computational tractability, robustness, regret, scenarios, and adaptive plans: Chapter 12.
 - Stocks and flows, delay, feedback, equilibrium, stability, oscillation, and policy resistance: Chapter 13.
 - Policies, sequential information, control, observability, structural identifiability, and exploration versus exploitation: Chapter 14.
@@ -238,8 +254,11 @@ The expanded Reasoning Loop may appear as a reference figure, but the worked nar
 ### Section 2: Intended Use and the Decision Situation
 
 - Develop the anchor case from topic to practical concern, analytical question, claim, and decision.
-- Specify decision-maker, affected stakeholders, possible actions, target, context, horizon, information available at decision time, consequences of false reassurance and false alarm, and provisional adequacy criteria.
-- Contrast two intended uses that force different representations and evidence requirements.
+- Separate intended use (`what will the answer be used for?`) from target (`what exactly is the inquiry trying to determine, and about whom or what?`).
+- Require a minimally qualified target, then add context, horizon, aggregation, comparator, or answer form only when those details change the substantive question.
+- Specify decision-maker, affected stakeholders, possible actions, information available at decision time, consequences of false reassurance and false alarm, and provisional adequacy criteria.
+- Use the same target under two different intended uses and two different targets under one intended use to demonstrate that intended use and target are related but not identical.
+- Preserve `adequate for the stated intended use` as a separate judgment rather than treating it as part of target specification.
 - Introduce `adequate for the stated intended use` as disciplined reader-facing language, not as a universal standardized adequacy framework.
 - Make clear that overall adequacy depends on use even though some properties, including aspects of numerical verification, may be assessed independently.
 - If `context of use (COU)` is mentioned, label it as field-specific, do not require memorization, and route formal treatment to Chapter 5.
@@ -253,6 +272,8 @@ The expanded Reasoning Loop may appear as a reference figure, but the worked nar
 - Then distinguish description or association, prediction, intervention, and counterfactual comparison.
 - Then screen for time, feedback, repeated action, and adaptive or strategic response.
 - Use minimally different questions about the same case to show why the required evidence and machinery change.
+- Use claim-type screening only to expose target differences: a predicted outcome, an intervention comparison, and a counterfactual comparison may mention the same outcome variable while asking for different objects.
+- Do not introduce formal estimand or identification terminology here.
 - Include one example in which an accurate prediction does not establish the effect of acting on the predicted factor.
 - Include one example in which evidence supports a consequence estimate but cannot by itself determine what should be valued.
 
@@ -260,7 +281,7 @@ The expanded Reasoning Loop may appear as a reference figure, but the worked nar
 
 The pass should be informal, concrete, and organized under the five book parts.
 
-1. **Frame and Formulate:** intended use, target and context, provisional boundary, physical versus recorded inventory, important assumptions, and a rival formulation.
+1. **Frame and Formulate:** intended use; a target event, quantity, or other sought object distinguished from recorded inventory; the relevant item, location or system, horizon, and material conditions; provisional boundary; important assumptions; and a rival formulation. If the task is a replenishment decision, state that decision separately from the prediction or consequence targets that inform it.
 2. **Learn from Evidence:** uncertainty, how records came to exist, what historical patterns can predict, what they cannot establish about an intervention, finite-evidence limits, and whether evidence applies to the relevant item and hospital context.
 3. **Choose:** affected stakeholders, consequences, alternatives beyond “order or do nothing,” constraints, and whether additional information such as a physical count could change the decision.
 4. **Act in Responsive Systems:** order pipeline, time delay, repeated decisions, feedback, supplier and staff response, and the possibility that a metric or alert changes recording or ordering behavior.
@@ -277,14 +298,16 @@ The narrative must also show that some stages can be screened out as immaterial 
 ### Section 5: When the First Formulation Fails
 
 - Contrast adjustment within an accepted formulation with revision of the question, target, representation, observation process, structural assumption, value model, or action.
+- Treat a change in target quantity, event, population, comparison, horizon, or aggregation as a formulation revision rather than a parameter adjustment.
 - Show at least two rival initial formulations of the anchor problem and what evidence or decision requirement would favor each.
-- Use the pendulum as a short contrasting case: estimating gravitational acceleration, predicting position, and designing a clock require different models of the same physical system.
+- Use the pendulum as a short contrasting case: estimating gravitational acceleration, predicting angular position, and designing a clock do not merely require different methods; they seek different targets or decisions in the same physical system.
 - Identify warning signs requiring a specialist rather than improvised use of advanced terminology.
 - Make clear that `adequate for the stated intended use` is provisional and must be monitored after action.
 
 ### Section 6: Cold-Start Practice and Retrieval
 
-- Diagnose a planted formulation that begins with a technique, treats recorded data as the target, conflates prediction with intervention, and recommends an action without stating values or alternatives.
+- Diagnose a planted formulation that begins with a technique, treats a recorded variable or available label as the target, conflates prediction with intervention, and recommends an action without stating values or alternatives.
+- Require the learner to repair an underspecified target by adding only the qualifiers that materially change the question rather than completing a fixed checklist.
 - Give a faded case with prompts reduced relative to the worked example.
 - Require an unfamiliar-domain first-pass analysis completed before consulting the rubric.
 - Require a short self-explanation of the most consequential revision made after checking the answer.
@@ -295,6 +318,7 @@ The narrative must also show that some stages can be screened out as immaterial 
 
 - Use the five-part map before exposing the expanded chapter-by-chapter loop.
 - Do not present the layered triage as a named new framework, hierarchy, or acronym.
+- Treat the same-question test for material target qualifiers as book-specific pedagogical synthesis, not as an established disciplinary rule.
 - Keep formal notation minimal; a simple inventory balance may be used only when it clarifies the distinction between physical and recorded quantities.
 - Do not define later specialist terms merely to mention them.
 - Every preview must either support the anchor decision or be removed.
@@ -391,8 +415,8 @@ The explanation follows only after the reader commits.
 Present a concise analysis containing at least six faults:
 
 - topic substituted for intended use;
-- recorded metric treated as the target;
-- target population or horizon omitted;
+- recorded variable, metric, or available label treated as the target;
+- a target qualifier omitted even though its omission materially changes the question;
 - association treated as evidence of intervention effect;
 - recommendation made without consequences, values, or alternatives;
 - deployment assumed not to affect behavior;
@@ -424,7 +448,7 @@ Score each dimension from 0 to 2.
 | Dimension | 0 | 1 | 2 |
 |---|---|---|---|
 | Intended use and decision | Missing or merely names a topic | Partly specified | User, action or judgment, and use are explicit |
-| Target and context | Unqualified or conflated with a metric | Partly qualified | Target, system or population, horizon, and context are coherent |
+| Target and context | Missing, unqualified, or conflated with a record or metric | Focal object and sought object are only partly specified | Who or what and what about it are explicit; material qualifiers are present without checklist padding |
 | Question and claim type | Major conflation | Labels present but weakly justified | Layered classification is correct and allows overlap |
 | Model, measurement, and records | Treated as identical | One distinction recognized | Target, representation, and recorded traces are separated |
 | Evidence limits | Unsupported certainty | Generic uncertainty statement | Specific limit and its consequence for the claim are stated |
@@ -451,7 +475,7 @@ Regardless of any future numerical scoring convention, the following constitute 
 Given a previously unseen consequential problem and no named method, the reader should be able to produce within 30–40 minutes a defensible first-pass analysis that:
 
 1. identifies who needs what answer and why;
-2. states the relevant decision or judgment, target, context, and horizon;
+2. states the relevant decision or judgment and a qualified target, adding context or horizon when material;
 3. separates positive and normative components;
 4. distinguishes the relevant associational, predictive, interventional, or counterfactual claims without forcing exclusivity;
 5. asks how target events become observations and what the evidence could fail to establish;
@@ -515,7 +539,7 @@ Every load-bearing source must be verified, added to `../../references.bib`, and
 | Confusing target, proxy, metric, objective, and estimand | Qualified informal use of target plus explicit deferral | Chapters 3, 7, and 10 |
 | Treating positive evidence as sufficient for a normative recommendation | Separate evidence, consequences, stakeholders, values, and action | Chapters 10 and 11 |
 | Confusing association or prediction with intervention | Layered question exercise and planted failure | Chapters 6 and 7 |
-| Assuming an effect or pattern automatically applies in the target context | Require population, system, context, and horizon | Chapter 9 |
+| Assuming an effect or pattern automatically applies in the relevant application context | Require the qualifiers that materially affect application, such as population, system, context, or horizon | Chapter 9 |
 | Accepting the supplied option set | Require at least one additional plausible alternative | Chapter 10 |
 | Collecting information without asking whether it could change action | Qualitative decision-relevance-of-information prompt | Chapter 11 |
 | Treating feasibility or optimization as objective formation | Values and alternatives appear before any optimization preview | Chapters 10–12 |
@@ -537,8 +561,8 @@ The following questions must be resolved during chapter design or pilot testing,
    Default: retain it, supply all necessary facts, use synthetic data, and obtain domain review.
 2. **Loop presentation:** Can readers retain the whole-loop idea without being overwhelmed by the expanded sequence?
    Default: teach the five book parts first, show the expanded loop as a reference, and assess reconstruction of relationships rather than memorization of labels.
-3. **Meaning of `target`:** How should the book distinguish an informal target of inquiry from target quantity, target population, estimand, outcome, objective, and metric?
-   Default: qualify the noun in Chapter 1 and resolve the book-wide terminology in `../../canon/terminology.md` before manuscript drafting.
+3. **Target-specification burden:** Do readers learn to add only qualifiers that materially change the question, rather than turning target specification into a fixed checklist?
+   Default: teach the two-part minimum plus a same-question test, then pilot whether learners omit material qualifiers or add irrelevant ones.
 4. **Positive/normative accessibility:** Should the formal labels appear immediately or follow an ordinary-language contrast between “what is or would happen” and “what should be done”?
    Default: begin with ordinary language, then introduce the established terms.
 5. **Question-triage load:** Are four claim distinctions too many before probability and causal inference?
