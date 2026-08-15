@@ -51,7 +51,7 @@ Chapter 1 introduces questions and distinctions at intuitive depth that later ch
 
 | Spiral element | Treatment in Chapter 1 | Later development |
 |---|---|---|
-| Intended use and adequacy for use | State who will use an answer, for what judgment or action, and what would count as good enough | Chapters 2–5, 10–12, 16–17 |
+| Intended use and adequacy for the stated use | State who will use an answer, for what judgment or action, and what would count as good enough | Chapters 2–5, 10–12, 16–17 |
 | Target and context | Name the target informally and qualify its population, system, location, horizon, and resolution | Chapters 3, 7, 9–11 |
 | Representation | Ask what must be represented and whether another representation would answer a different question | Chapters 2 and 5 |
 | Measurement and observation | Distinguish the target from recorded traces and ask how the records arose | Chapters 3, 4, and 8 |
@@ -72,9 +72,11 @@ Those returns provide evidence of learning and expose whether later technical kn
 ### Problem and decision framing
 
 - Decision situation or decision context: who faces what judgment or action, under what conditions.
-- Intended use or context of use for a model, analysis, estimate, forecast, or recommendation.
+- Intended use for a model or simulation, extended by this book as a pedagogical synthesis to an analysis, estimate, forecast, or recommendation.
+- Relevant application context in ordinary language; formal `context of use (COU)` is an optional field-specific preview whose formal treatment belongs to Chapter 5.
 - Decision-maker, affected stakeholders, candidate actions or alternatives, consequences, constraints, time horizon, and consequences of error.
-- Assessment of model adequacy in relation to an intended use or context of use; the exact reader-facing wording remains provisional pending source verification.
+- Assessment of whether a model or analysis is adequate for the stated intended use and relevant application context; Chapter 1 uses this as disciplined reader-facing language rather than a universal standardized adequacy framework.
+- Overall adequacy cannot be judged without a stated use. Some properties, such as internal consistency, dimensional correctness, or numerical correctness, may be assessed independently, but whether a model or analysis is adequate depends on what it will be used for.
 - Distinction among a broad topic, a practical concern, a research or analytical question, a claim, and a decision.
 - Preliminary targets, including target quantity, outcome, population, system, context, or claim, without introducing the formal statistical notion of an estimand.
 
@@ -122,11 +124,12 @@ Any term requiring book-wide control must be flagged for canon review before dra
 
 | Term | Treatment in Chapter 1 | Distinction or caution |
 |---|---|---|
-| intended use | Introduce and use throughout | Must name the use of the answer, not merely the topic being studied |
+| intended use | Required vocabulary; introduce and use throughout | Established in modeling and simulation; this book's extension to analyses, estimates, forecasts, and recommendations is explicitly a pedagogical synthesis; must name the use of the answer, not merely the topic being studied |
+| context of use (COU) | Optional field-specific preview only | Established in computational M&S VVUQ / model credibility; readers need not memorize it; formal treatment belongs to Chapter 5; do not treat it as a universal synonym for intended use |
 | decision situation / decision context | Introduce at practical depth | Includes decision-maker, stakeholders, alternatives, consequences, constraints, information, and horizon; not every analytical question immediately implies a decision |
 | target | Introduce informally and always qualify when possible | Distinct from estimand, proxy, objective, metric, estimator, and estimate |
 | target system and context | Introduce at orientation depth | The target system is not its model; detailed boundary work belongs to Chapter 2 |
-| adequacy | Introduce as sufficiency for a stated intended use, with the exact wording pending source verification | Distinct from literal truth, empirical fit alone, verification, validation, and formal model checking |
+| adequacy | Use reader-facing wording such as `adequate for the stated intended use` | Disciplined Chapter 1 language, not one universal standardized adequacy framework; distinct from literal truth, empirical fit alone, accuracy, verification, validation, applicability, credibility, and formal model checking |
 | positive / normative | Introduce and stabilize | These identify different components of reasoning, not mutually exclusive types of entire problems |
 | association / associational claim | Introduce at intuitive depth | Association does not by itself establish the consequence of intervention |
 | prediction | Preview only | Formal probabilistic prediction and calibration begin in Chapter 6; prediction is not synonymous with explanation or intervention |
@@ -147,7 +150,7 @@ Where the first complete pass needs their underlying questions, use ordinary lan
 | Ch. 2: Representation, Mechanisms, and Scale | Purpose constrains boundaries, abstraction, variables, mechanisms, state, and scale | Do not teach the detailed representation taxonomy or state sufficiency tests here |
 | Ch. 3: Measurement and Operationalization | The target is not automatically what a number records; objectives and metrics may be proxies | Do not teach validity, reliability, latent-variable models, or measurement-error mathematics here |
 | Ch. 4: Observation Processes and Data Provenance | Ask why these records, rather than others, came to exist in this form | Do not inventory sampling, selection, missingness, censoring, aggregation, and reporting mechanisms in depth here |
-| Ch. 5: Assumptions, Adequacy, and Rival Models | State assumptions, anticipate failure, and acknowledge alternative formulations | Do not teach the full assumption record, dimensional and limiting checks, Fermi bounds, verification/validation, or rival-model criticism here |
+| Ch. 5: Assumptions, Adequacy, and Rival Models | State assumptions, anticipate failure, and acknowledge alternative formulations | Do not teach the full assumption record, dimensional and limiting checks, Fermi bounds, verification/validation, formal context of use, applicability, credibility, or rival-model criticism here |
 | Ch. 6: Probability, Prediction, and Simulation | Recognize uncertainty and predictive questions | Do not introduce probability rules, Bayes, expectation, simulation methods, scoring, or calibration here |
 | Ch. 7: Targets, Identification, and Causal Claims | Separate association, prediction, intervention, and counterfactual questions; ask what ideal evidence could establish | Do not define estimands, statistical identifiability, causal identification, causal graphs, or identification strategies here |
 | Ch. 8: Estimation, Uncertainty, and Model Checking | Ask what finite evidence says and how uncertain the answer remains | Do not teach likelihood, estimators, intervals, regression, or formal model checking here |
@@ -169,7 +172,7 @@ The chapter must teach the reader to do the following at an introductory but pro
 
 - Convert a broad concern or topic into an explicit intended-use statement.
 - Identify the person or institution using the answer, the judgment or action at stake, affected stakeholders, the target, context, population or system, time horizon, and consequences of major errors.
-- State provisional adequacy criteria without pretending they are already measured or optimized.
+- State provisional adequacy criteria for the stated intended use without pretending they are already measured or optimized.
 - Distinguish positive and normative components of a problem.
 - Distinguish descriptive or associational, predictive, interventional, and counterfactual claims at intuitive depth.
 - Recognize that explanatory aims and mechanism claims can accompany several claim types.
@@ -237,7 +240,10 @@ The expanded Reasoning Loop may appear as a reference figure, but the worked nar
 - Develop the anchor case from topic to practical concern, analytical question, claim, and decision.
 - Specify decision-maker, affected stakeholders, possible actions, target, context, horizon, information available at decision time, consequences of false reassurance and false alarm, and provisional adequacy criteria.
 - Contrast two intended uses that force different representations and evidence requirements.
-- Introduce assessment of adequacy for an intended use, with the exact phrase treated as provisional pending source verification, without implying that intended use can excuse incoherence, bias, or avoidable harm.
+- Introduce `adequate for the stated intended use` as disciplined reader-facing language, not as a universal standardized adequacy framework.
+- Make clear that overall adequacy depends on use even though some properties, including aspects of numerical verification, may be assessed independently.
+- If `context of use (COU)` is mentioned, label it as field-specific, do not require memorization, and route formal treatment to Chapter 5.
+- Do not imply that intended use can excuse incoherence, bias, or avoidable harm.
 - End with a reusable short prompt, not a named proprietary framework or acronym.
 
 ### Section 3: What Kind of Question Is This?
@@ -274,7 +280,7 @@ The narrative must also show that some stages can be screened out as immaterial 
 - Show at least two rival initial formulations of the anchor problem and what evidence or decision requirement would favor each.
 - Use the pendulum as a short contrasting case: estimating gravitational acceleration, predicting position, and designing a clock require different models of the same physical system.
 - Identify warning signs requiring a specialist rather than improvised use of advanced terminology.
-- Make clear that “adequate for use” is provisional and must be monitored after action.
+- Make clear that `adequate for the stated intended use` is provisional and must be monitored after action.
 
 ### Section 6: Cold-Start Practice and Retrieval
 

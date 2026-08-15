@@ -18,6 +18,33 @@ Entry format:
 - Definition status: TODO / verified
 ```
 
+## intended use
+
+- Preferred term: intended use
+- Field/origin: modeling and simulation / engineering M&S
+- Introduced in: Chapter 1
+- Distinct from: purpose; relevant application context; formal context of use; adequacy
+- Aliases/cautions: established terminology in modeling and simulation for the expected purpose or application of an M&S; this book cautiously extends the expression to analyses, estimates, forecasts, and recommendations as a pedagogical synthesis meaning what the analytical result will be used to judge, decide, or do; do not present that extension as one universal formal disciplinary definition
+- Definition status: verified for M&S usage; book extension adjudicated as pedagogical synthesis
+
+## context of use
+
+- Preferred term: context of use
+- Field/origin: computational modeling and simulation VVUQ / model credibility
+- Introduced in: Chapter 1 as an optional field-specific preview; formal home Chapter 5
+- Distinct from: intended use; ordinary relevant application context; validation domain; target context
+- Aliases/cautions: often abbreviated `COU` in ASME/FDA computational-model credibility practice; established but field-specific; do not present it as a universal synonym for intended use; Chapter 1 readers are not required to memorize the term or acronym
+- Definition status: verified at introductory depth; formal Chapter 5 terminology review still required
+
+## adequacy
+
+- Preferred term: adequacy
+- Field/origin: modeling and simulation / VVUQ / engineering evaluation; usage varies
+- Introduced in: Chapter 1 in disciplined ordinary language; developed in Chapter 5
+- Distinct from: accuracy; validity; validation; applicability; credibility; numerical correctness; fitness for purpose
+- Aliases/cautions: Chapter 1 should normally say `adequate for the stated use` or `adequate for the stated intended use`; the book does not claim that this phrase denotes one universal standardized adequacy framework; individual traditions operationalize adequacy differently
+- Definition status: verified for the Chapter 1 use-dependent principle; framework-specific formalization deferred to Chapter 5
+
 ## statistical identifiability
 
 - Preferred term: statistical identifiability
