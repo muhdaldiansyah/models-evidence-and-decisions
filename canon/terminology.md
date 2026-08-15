@@ -102,20 +102,29 @@ Entry format:
 ## target
 
 - Preferred term: target
-- Field/origin: TODO
-- Introduced in: Chapter 1 (informal); Chapter 7 (formal)
-- Distinct from: estimand; proxy; objective
-- Aliases/cautions: none recorded yet
-- Definition status: TODO — verify against canonical sources
+- Field/origin: ordinary and interdisciplinary analytic usage with multiple discipline-specific technical senses; the book-wide Chapter 1 use is pedagogical synthesis
+- Introduced in: Chapter 1 (informal); Chapter 7 (formal specialization)
+- Distinct from: construct; measure; operationalization; proxy; target quantity; estimand; estimator; estimate; response variable; label; decision; objective; metric
+- Aliases/cautions: qualify whenever possible; the noun following `target` carries the substantive meaning; do not claim one universal technical definition; Chapter 1 uses `target` as the informal organizing word for what an inquiry is trying to determine about a focal entity, unit, population, or system
+- Definition status: source-verified that disciplinary uses differ; book-wide Chapter 1 synthesis author-approved
+
+## target population
+
+- Preferred term: target population
+- Field/origin: survey statistics / statistics / clinical research
+- Introduced in: Chapter 1 (intuitive); formal development in Chapters 7 and 9
+- Distinct from: observed sample; study sample; data-collection setting; target system
+- Aliases/cautions: established qualified term for population-based questions; use only when inference or generalization concerns a population; do not force onto one-off physical-system problems
+- Definition status: established at introductory depth; later source/study-population, transport, and generalization distinctions remain pending
 
 ## estimand
 
 - Preferred term: estimand
-- Field/origin: statistics
-- Introduced in: Chapter 7
-- Distinct from: target; estimator; estimate
-- Aliases/cautions: none recorded yet
-- Definition status: TODO — verify against canonical sources
+- Field/origin: statistics / causal inference / clinical-trial methodology
+- Introduced in: Chapter 1 as a concept preview only; formal home Chapter 7
+- Distinct from: target; endpoint; estimator; estimate
+- Aliases/cautions: Chapter 1 does not require the term; ICH E9(R1) provides an authoritative treatment-effect definition for its clinical-trial context, but that definition must not be presented as the book's universal cross-disciplinary definition; broader formal adjudication remains Chapter 7 work
+- Definition status: clinical-trial usage verified; broader book-wide formal definition provisional pending Chapter 7 research
 
 ## estimator
 
