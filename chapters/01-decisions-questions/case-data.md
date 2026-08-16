@@ -13,13 +13,21 @@ All values in this file are synthetic authoring data. They are not industry aver
 | Dashboard storage at 08:00 | 10.8 ML | Initial recorded state |
 | Verified physical storage at 08:25 | 9.9 ML | Triggers observation revision |
 | Normal treated-water input | 8.4 ML/day | Baseline operation |
-| Temporary treated-water input | 8.8 ML/day | Candidate intervention |
-| Delay before higher input arrives | 6 hours | Physical/action delay |
+| Temporary treated-water input | 8.8 ML/day | Candidate intervention; supplied permitted temporary limit within case treatment, source, water-quality, and pumping constraints |
+| Delay before higher input arrives | 6 hours | Case-stipulated production ramp-up / physical-action delay |
 | Incremental cost at higher input | $2,000 per 24 hours | Consequence/trade-off |
 | Independent verification time | 25 minutes | Information-gathering alternative |
 | Voluntary request authority | Utility Director | Fictional governance fact |
 | Mandatory restriction authority | City Manager | Fictional governance fact |
 | Earliest mandatory restriction after request | 6 hours | Fictional governance/timing fact |
+
+## Observation wording control
+
+The independent verification is an **independent local tank-level check derived from a pressure measurement**, using a different observation path from the remote level transmitter feeding the dashboard.
+
+The case supplies the utility's conversion from measured tank level to usable volume using its known tank geometry and calibration. The reader is not asked to perform that engineering conversion or diagnose sensor physics.
+
+The supplied 9.9 ML result is therefore a case fact about verified usable volume, not a claim that any arbitrary distribution-pressure reading can be converted directly into storage volume.
 
 ## No-new-action demand forecast
 
@@ -58,11 +66,13 @@ the dashboard-based first pass lands just above the 4.5 ML case reserve.
 `9.9 + 58.8 - 64.9 = 3.8 ML`
 
 Interpretation:
-the independent level check moves the same operating plan below the reserve.
+the independent tank-level check moves the same operating plan below the reserve.
 
 ### Temporary production increase
 
-Six-hour delay means:
+For this fictional event, 8.8 ML/day is already supplied as the permitted temporary operating limit within treatment, source, water-quality, and pumping constraints. The case does not imply that output can be raised independently of those limits.
+
+The case-stipulated six-hour production ramp-up means:
 
 `8.4 × 0.25 + 8.8 × 6.75 = 61.5 ML`
 
@@ -106,13 +116,14 @@ Its pedagogical role is to show that the action has changed the process generati
 - Utility Director and broad candidate actions
 
 ### Observation revision
-- independent check takes 25 minutes
-- physical storage is 9.9 ML
+- independent local tank-level check derived from a pressure measurement takes 25 minutes
+- the utility/case supplies the level-to-usable-volume conversion
+- verified physical storage is 9.9 ML
 - remote transmitter is biased high
 
 ### Choice
-- 8.8 ML/day temporary input
-- six-hour action delay
+- 8.8 ML/day temporary input, already supplied as the permitted temporary operating limit within case treatment, source, water-quality, and pumping constraints
+- six-hour case-stipulated production ramp-up
 - $2,000/day incremental cost
 - authority split between voluntary request and mandatory restriction
 
@@ -127,12 +138,14 @@ Do not write or imply that:
 
 - 4.5 ML is a general reserve standard;
 - the storage capacity or input rates are typical;
-- the six-hour delay is typical;
+- the six-hour production ramp-up is typical;
 - the cost is representative;
 - the voluntary request has a known 0.4 ML causal effect;
 - the authority structure is normal municipal law;
 - reserve crossing guarantees immediate service loss;
-- SCADA is inherently unreliable.
+- SCADA is inherently unreliable;
+- any distribution-pressure reading directly determines storage volume;
+- a utility may increase treated-water output without satisfying treatment, source, water-quality, pumping, permit, or other applicable operating constraints.
 
 ## Publication gate
 
