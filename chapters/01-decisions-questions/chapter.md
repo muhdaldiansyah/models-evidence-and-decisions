@@ -7,8 +7,6 @@ status: draft
 
 # Chapter 1: Decisions, Questions, and a First Complete Pass
 
-<!-- Drafting order follows drafting-blueprint.md. Sections 1–4 are drafted; Sections 5 and 6 will be written around the worked-example spine, then this comment will be removed during integration. -->
-
 ## 1. A Good Answer to the Wrong Question
 
 At 08:00 on Monday, a fictional small municipal water utility is entering a seven-day hot, dry period. Its dashboard reports **10.8 megaliters (ML)** of usable finished-water storage. The utility's drought plan uses **4.5 ML** as an event-specific operating-reserve threshold. Current treated-water input is **8.4 ML per day**.
@@ -76,11 +74,9 @@ We therefore begin not with a model class, but with the **intended use** of the 
 
 ## 2. Intended Use and the Decision Situation
 
-A problem becomes easier to analyze once we stop treating its topic as its question.
-
 “Water shortage” is a topic. “Will demand exceed supply?” is an analytical question. “Should the utility change operations this morning?” is a decision. Those objects are related, but they are not interchangeable.
 
-The first discipline is therefore simple:
+The first discipline is simple:
 
 > **State what the answer will be used for before deciding what answer to produce.**
 
@@ -112,7 +108,7 @@ A useful test is:
 
 > Would two competent analysts, given this target statement, know that they are trying to answer the same substantive question?
 
-If not, the target needs another material qualifier. Perhaps the population, system, horizon, comparison, aggregation, or required answer form is missing. But qualification should solve ambiguity, not become a ritual. “Usable storage in the utility’s main finished-water facility at 08:00 Monday” is useful if the immediate state matters. Adding ten irrelevant descriptors does not make the target more scientific.
+If not, the target needs another material qualifier. Perhaps the population, system, horizon, comparison, aggregation, or required answer form is missing. But qualification should solve ambiguity, not become a ritual. “Usable storage in the utility’s main finished-water facility at 08:00 Monday” is useful if the immediate state matters. Adding irrelevant descriptors does not make the target more scientific.
 
 ### The record is not automatically the thing we care about
 
@@ -141,7 +137,7 @@ The **decision-maker** is the person, group, or institution with authority or re
 The case supplies a fictional authority structure. The director may:
 
 - order an independent level verification;
-- increase treated-water production up to 8.8 ML/day;
+- increase treated-water production up to **8.8 ML/day**;
 - issue a voluntary conservation request;
 - increase monitoring and review frequency.
 
@@ -175,7 +171,7 @@ Chapter 1 does not require a formal alternative-generation method. It asks for s
 
 > If the supplied option set is materially narrow, can you name at least one plausible missing, combined, contingent, information-gathering, staged, or escalation alternative?
 
-That one question is often enough to prevent a false binary from controlling the rest of the analysis.
+That question is often enough to prevent a false binary from controlling the rest of the analysis.
 
 ### Consequences are not values
 
@@ -235,7 +231,7 @@ The next mistake to avoid is asking for the wrong **kind of claim**. A forecast,
 
 ## 3. What Kind of Question Is This?
 
-Once the intended use, target, decision-maker, and alternatives are visible, another source of error appears: two questions can mention the same system and the same outcome while asking for different kinds of answers.
+Once intended use, target, decision-maker, and alternatives are visible, another source of error appears: two questions can mention the same system and the same outcome while asking for different kinds of answers.
 
 Consider four questions about the water utility:
 
@@ -259,7 +255,7 @@ Ask whether a component of the problem concerns:
 
 The first kind of component is often called **positive**. The second is **normative**.
 
-The distinction is easy to misuse. Positive does not mean “certain,” “objective,” or “merely descriptive.” A forecast is positive when it asks what will happen. An intervention question can be positive when it asks what would happen under an action. A counterfactual question can also be positive when it asks what would have happened under another condition.
+Positive does not mean “certain,” “objective,” or “merely descriptive.” A forecast is positive when it asks what will happen. An intervention question can be positive when it asks what would happen under an action. A counterfactual question can also be positive when it asks what would have happened under another condition.
 
 Normative does not mean “unsupported opinion.” A normative judgment may be constrained by law, professional obligation, explicit policy, ethical reasoning, institutional purpose, or carefully stated values. The key difference is that it concerns what should count as better, acceptable, important, or choice-worthy rather than only what would occur [@keynes1891scope; @bradley2016structured].
 
@@ -269,7 +265,7 @@ In the water case:
 - “How much additional operating cost would higher production create?” is also positive.
 - “How burdensome would a restriction be for households and businesses?” can still be positive if the task is to estimate the burden.
 - “How much burden is acceptable to reduce shortage risk?” introduces a normative premise.
-- “Should the director issue a conservation request?” cannot be answered by consequence estimates alone. It connects positive beliefs about consequences to normative or institutional premises about what should be preferred.
+- “Should the director issue a conservation request?” connects positive beliefs about consequences to normative or institutional premises about what should be preferred.
 
 A consequential problem will often contain both layers. The point is not to label the entire problem “positive” or “normative” and stop. The point is to notice where evidence about what would happen ends and evaluation of those consequences begins.
 
@@ -281,7 +277,7 @@ Within the positive part of a problem, several distinct claim forms may appear.
 
 > On historically hot days, was higher temperature associated with higher demand?
 
-That relationship may be useful. But by itself it does not say what would happen if we changed temperature, changed another predictor, or introduced a policy.
+That relationship may be useful. But by itself it does not say what would happen if we changed a predictor or introduced a policy.
 
 **Prediction** asks about an unknown, new, or future observable given the information currently available.
 
@@ -299,13 +295,11 @@ This requires reasoning about consequences under alternatives, not merely foreca
 
 > Suppose the utility crossed its reserve yesterday. Would that crossing have been avoided if a conservation request had been issued three days earlier?
 
-This is not just any hypothetical story. The question compares the observed or factual situation with an alternative course under a specified change. Chapter 7 will make that idea precise.
+This is not just any hypothetical story. The question compares the factual situation with an alternative course under a specified change. Chapter 7 will make that idea precise.
 
 These forms can overlap. A decision analysis may require a prediction of future demand, an intervention estimate for a conservation action, and a counterfactual assessment of an earlier missed action. The mistake is to force the entire problem into one label or to assume that evidence adequate for one claim automatically supports the others.
 
 ### Same outcome, different question
-
-The phrase “water demand” can hide these differences.
 
 | Question | What is being asked? | What would not be enough by itself? |
 |---|---|---|
@@ -331,7 +325,7 @@ A problem is **dynamic** when relevant states, quantities, or conditions evolve 
 
 A simple pendulum is enough to see this. Its position and motion change through time. If the purpose is to predict angular position, time and state matter. But the pendulum is not adapting its behavior because it anticipates our model. A dynamic system need not contain an adaptive or strategic agent.
 
-Feedback is another distinct idea. At the introductory level used here, **feedback** occurs when effects or consequences of a process or action return through the system and influence later behavior, outcomes, information, or actions. That does not mean every dynamic process contains a relevant feedback mechanism, and Chapter 1 does not yet classify feedback as positive or negative or analyze stability. Those topics belong to Chapters 13 and 14.
+Feedback is another distinct idea. At the introductory level used here, **feedback** occurs when effects or consequences of a process or action return through the system and influence later behavior, outcomes, information, or actions. Chapter 1 does not classify feedback as positive or negative or analyze stability. Those topics belong to Chapters 13 and 14.
 
 Repeated choice is also separate. A decision can be revisited as state or information changes even when there is no strategic opponent. When repeated choice matters, ask whether today’s action changes tomorrow’s state, tomorrow’s information, or the set of actions still available.
 
@@ -388,36 +382,25 @@ We can now perform the whole first pass once, with the details arriving in the o
 
 A first pass is not a shortcut to the final answer. It is a disciplined way to discover what the problem actually requires before the analysis becomes expensive, formal, or difficult to reverse.
 
-Consider a fictional small municipal water utility entering a seven-day hot, dry period. The numbers in this case are synthetic. They are designed to make the reasoning visible; they are not industry averages or regulatory standards.
+We will use a five-part navigation through the case:
 
-At 08:00 on Monday, the utility dashboard reports **10.8 megaliters (ML)** of usable finished-water storage. The fictional utility's drought plan uses **4.5 ML** as an event-specific operating-reserve threshold. Current treated-water input is **8.4 ML per day**. A no-new-action demand forecast for the next seven days is:
+**Frame and formulate → Learn from evidence → Choose → Act in responsive systems → Integrate and revise**
 
-| Day | Forecast high | Forecast demand |
-|---:|---:|---:|
-| 1 | 36°C | 9.0 ML |
-| 2 | 38°C | 9.3 ML |
-| 3 | 40°C | 9.6 ML |
-| 4 | 40°C | 9.5 ML |
-| 5 | 39°C | 9.4 ML |
-| 6 | 37°C | 9.2 ML |
-| 7 | 35°C | 8.9 ML |
-| **Total** |  | **64.9 ML** |
+This is a book-specific navigation device, not a formal scientific theory or a mandatory waterfall. Later evidence can send us backward to an earlier question, target, observation process, representation, alternative, or decision.
 
-The immediate decision-maker is the Utility Director. Broadly, the director could continue current operation, gather better information, increase treated-water production, ask customers to conserve water, combine several actions, or seek stronger action through another authority.
+Return to the fictional utility. The numbers are synthetic. They are designed to make the reasoning visible; they are not industry averages or regulatory standards.
 
-That looks like enough information to start calculating. It is. But calculation is only one part of the first pass.
+At 08:00 Monday, the dashboard reports **10.8 ML**. The case reserve is **4.5 ML**. Current treated-water input is **8.4 ML/day**. Seven-day forecast demand totals **64.9 ML**.
 
 ### Frame and formulate
 
-Start with intended use. The purpose here is not simply to "study demand" or "model storage." The immediate use is to **support the Utility Director's operating decision during the seven-day heatwave**.
+The intended use is to **support the Utility Director's operating decision during the seven-day heatwave**.
 
-That intended use immediately creates several different informational targets. We may want to know the current physical storage level. We may want to predict whether usable storage will fall below 4.5 ML during the horizon. We may want to estimate what would happen if treated-water production were increased. We may want to know what would happen if the utility issued a conservation request. None of those questions is identical to the decision itself.
+Relevant informational targets include current physical storage, whether storage will cross the case reserve, and the consequences of candidate actions. None is identical to the decision itself.
 
-This distinction matters because a decision can depend on several analytical answers at once. A good forecast is not automatically a recommendation, and a recommendation is not the same thing as the decision made by the authorized actor. Decision analysis distinguishes factual beliefs about consequences from the values and judgments needed to choose among them [@nasem2026decisionmaking].
+The first provisional boundary can stay simple. Include usable stored water, treated-water input, customer demand, the observation process that produces the dashboard value, available actions, and any customer response that could materially change demand. We do not need a hydraulic network model, treatment-chemistry model, or full municipal governance model merely because those systems exist.
 
-The first provisional boundary can also stay simple. For this pass, include usable stored water, treated-water input, customer demand, the observation process that produces the dashboard value, the available operating actions, and any customer response that could materially change demand. We do not need a hydraulic network model, treatment-chemistry model, or full municipal governance model merely because those systems exist. The boundary is tied to what could change this decision.
-
-Now use the simplest relevant balance:
+Use the simplest relevant balance:
 
 `ending storage = starting storage + treated-water input - demand`
 
@@ -425,23 +408,23 @@ At current operation, seven-day treated-water input is:
 
 `8.4 × 7 = 58.8 ML`
 
-Using the dashboard value as the starting state gives:
+Using the dashboard value as the starting state:
 
 `10.8 + 58.8 - 64.9 = 4.7 ML`
 
 The result is just above the 4.5 ML reserve.
 
-That is not a reassuring answer. It is a **conditional** answer. It says, in effect:
+That is a **conditional** answer:
 
-> If the dashboard value is an adequate representation of current physical storage, if the seven-day demand forecast is adequate for this use, and if operating conditions remain as represented, ending storage is projected to be about 4.7 ML.
+> If the dashboard value adequately represents current physical storage, if the seven-day demand forecast is adequate for this use, and if operating conditions remain as represented, ending storage is projected to be about 4.7 ML.
 
-Notice what this calculation has not established. It has not shown that 10.8 ML is the physical storage level. It has not established how demand would change after a conservation action. It has not chosen among actions. It has not shown that every important consequence has been represented.
+The calculation has not established that 10.8 ML is the physical storage level. It has not established how demand would change after a conservation action. It has not chosen among actions.
 
-A rival formulation now becomes important: **Is the urgent problem mainly forecasting future demand, or is it first verifying the current state?**
+A rival formulation becomes important: **Is the urgent problem mainly forecasting future demand, or is it first verifying the current state?**
 
 ### Pause: what evidence should be questioned first?
 
-Suppose the operational decision can change when starting storage moves by less than 1 ML. Before adding a more elaborate forecasting model, what evidence would you inspect first, and why?
+Suppose the operational decision can change when starting storage moves by less than 1 ML. Before adding a more elaborate forecast model, what evidence would you inspect first, and why?
 
 Commit to an answer before continuing.
 
@@ -449,45 +432,35 @@ Commit to an answer before continuing.
 
 The utility has an independent local pressure-based level check that does not use the same remote level transmitter as the dashboard. A field technician can obtain the check in about **25 minutes**.
 
-At 08:25 the independent check indicates **9.9 ML** of usable storage. A follow-up check finds that the remote transmitter feeding the dashboard is reading high because of calibration drift.
+At 08:25 the independent check indicates **9.9 ML**. A follow-up check finds that the remote transmitter feeding the dashboard is reading high because of calibration drift.
 
-Recompute the same balance:
+Recompute:
 
 `9.9 + 58.8 - 64.9 = 3.8 ML`
 
-Nothing about the seven-day demand forecast changed. Nothing about the operating reserve changed. The target did not change. What changed was our evidence about the current physical state. That change is enough to move the projected ending level from slightly above the case reserve to below it.
-
-This is the first backward move in the reasoning process.
+Nothing about the seven-day demand forecast changed. The target did not change. What changed was our evidence about the current physical state. That is enough to move the projected ending level from slightly above the case reserve to below it.
 
 **Revision 1: measurement / observation revision.**
 
-We return to an earlier stage because the dashboard record was not the target itself. The target was physical usable storage. The record was evidence about that target, produced by an observation process. Once the observation process failed in a decision-relevant way, the current-state belief—and therefore the urgency of the decision—had to change.
+We move backward because the dashboard record was not the target itself. The target was physical usable storage. The record was evidence about that target, produced by an observation process. Once the observation process failed in a decision-relevant way, the current-state belief—and therefore the urgency of the decision—had to change.
 
-The lesson is not that remote monitoring is inherently unreliable. Nor is it that every decision requires an independent physical check. The lesson is narrower: **when a decision is sensitive to a recorded value, the provenance and adequacy of that record can matter more than another layer of downstream modeling.**
+The lesson is not that remote monitoring is inherently unreliable or that every decision needs an independent check. It is narrower: **when a decision is sensitive to a recorded value, the provenance and adequacy of that record can matter more than another layer of downstream modeling.**
 
 Now consider the demand evidence. Historical hot-weather demand records can be useful for prediction. But predictive usefulness does not automatically tell us what would happen if we intervene. Prediction and causal explanation answer different questions, and an observed association alone does not establish the effect of an action [@shmueli2010predict; @pearl2009causal].
 
-That matters because one candidate action is a voluntary conservation request. Suppose past requests were often followed by lower observed demand. Those episodes occurred under different weather and operating conditions and sometimes alongside other utility actions. The historical pattern may be informative, but by itself it does not isolate the effect of the request.
-
-So our evidence situation is asymmetric. We have a direct reason to revise our belief about current storage. We have predictive evidence about demand under comparable no-new-action conditions. We have much weaker evidence about exactly how a new conservation request would change demand in this event.
+Suppose past voluntary conservation requests were often followed by lower observed demand. Those episodes occurred under different weather and operating conditions and sometimes alongside other utility actions. The historical pattern may be informative, but by itself it does not isolate the effect of the request.
 
 A first pass should expose that asymmetry rather than hide it behind one confidence statement.
 
 ### Choose: consequences, alternatives, and authority
 
-The director now has additional supplied facts.
+Return to the supplied action facts and quantify their consequences.
 
-The Utility Director may authorize a temporary increase in treated-water input from **8.4 to 8.8 ML/day**. The additional production takes **six hours** to become available, and operating at the higher rate costs an additional **$2,000 per 24 hours**. Production above 8.8 ML/day is unavailable during this event because of the supplied treatment and pumping constraints.
+The Utility Director may authorize a temporary increase in treated-water input from **8.4 to 8.8 ML/day**. The additional production takes **six hours** to become available and costs an additional **$2,000 per 24 hours**. Production above 8.8 ML/day is unavailable during this event because of the supplied treatment and pumping constraints.
 
-The director may also issue a **voluntary conservation request** and may increase monitoring. A **mandatory restriction**, however, requires approval by the City Manager and cannot take effect sooner than six hours after a request for authorization.
+The director may also issue a voluntary conservation request and increase monitoring. A mandatory restriction requires City Manager approval and cannot take effect sooner than six hours after a request for authorization.
 
-That authority distinction changes the alternative set. "Impose a mandatory restriction now" is not an action the Utility Director can directly choose. A realistic alternative is instead "request authorization for a mandatory restriction," perhaps conditionally if updated evidence crosses a trigger.
-
-The option set should not be limited to "pump more" versus "do nothing." Plausible alternatives include verification, higher production, voluntary conservation, combinations of those actions, staged decisions, monitoring, and escalation. Generating alternatives is itself part of good decision framing; treating the first supplied option set as complete can make an analysis technically precise but practically poor [@keeney1996valuefocused].
-
-What does the higher-production alternative do under the simple balance?
-
-Because the increase arrives after six hours, seven-day treated-water input becomes:
+Because the production increase arrives after six hours, seven-day treated-water input becomes:
 
 `8.4 × 0.25 + 8.8 × 6.75 = 61.5 ML`
 
@@ -497,9 +470,7 @@ Using the verified 9.9 ML starting level:
 
 Under the central no-new-action demand forecast, higher production restores substantial margin above 4.5 ML.
 
-But suppose, as a simple qualitative sensitivity check, we stress demand by **+0.4 ML/day** throughout the seven-day horizon. This is not a statistical prediction interval; it is just a supplied planning stress.
-
-Stressed demand is:
+Now stress demand by **+0.4 ML/day** throughout the seven-day horizon. This is a supplied planning stress, not a statistical prediction interval.
 
 `64.9 + (0.4 × 7) = 67.7 ML`
 
@@ -509,11 +480,11 @@ Then:
 
 Higher production helps, but it does not make the conclusion insensitive to demand assumptions.
 
-Now the evidence-choice boundary becomes visible. The calculation supports a positive consequence claim:
+The evidence-choice boundary is now visible. The calculation supports a positive consequence claim:
 
 > Under the supplied central demand forecast, increasing production raises projected ending storage from 3.8 ML to 6.5 ML.
 
-But the calculation alone cannot tell us whether the additional **$2,000 per day** is worth paying, how much inconvenience from conservation is acceptable, how much operating margin should be preferred, or when the burden of a mandatory restriction is justified. Those are evaluative premises, requirements, or judgments. Evidence informs the expected consequences; it does not by itself determine how those consequences should be valued [@nasem2026decisionmaking].
+The calculation alone cannot tell us whether the additional **$2,000 per day** is worth paying, how much inconvenience from conservation is acceptable, how much operating margin should be preferred, or when the burden of a mandatory restriction is justified. Evidence informs expected consequences; it does not by itself determine how those consequences should be valued [@nasem2026decisionmaking].
 
 A defensible first-pass recommendation might therefore be staged:
 
@@ -523,17 +494,17 @@ A defensible first-pass recommendation might therefore be staged:
 - monitor storage and demand;
 - retain escalation as a contingent alternative if the updated projection again crosses the case reserve.
 
-That recommendation is not the decision. The decision occurs when the Utility Director authorizes the actions within the director's authority and, if needed, requests authorization from the City Manager for actions outside it.
+That recommendation is not the decision. The decision occurs when the Utility Director authorizes permitted actions and, if needed, requests authorization from the City Manager for actions outside that authority.
 
-Nor is the staged recommendation uniquely correct. A different decision-maker with different legitimate evaluative premises could prefer a different balance of operating cost, precaution, public burden, and future flexibility. Chapter 10 will treat values and alternatives more systematically, and Chapter 11 will treat formal choice under uncertainty. Here we only need to make the bridge visible.
+Nor is the staged recommendation uniquely correct. A different legitimate set of evaluative premises could prefer a different balance of operating cost, precaution, public burden, and future flexibility. Chapter 10 will treat values and alternatives more systematically, and Chapter 11 will treat formal choice under uncertainty.
 
 ### Act in a responsive system
 
-So far the balance has looked almost static, but the decision is not.
+The balance is simple, but the decision is not static.
 
 Usable storage carries over from one period to the next. Treated-water input adds to it. Customer demand removes from it. The higher-production action is delayed by six hours. The independent verification takes 25 minutes. The director will reconsider the decision after new information arrives.
 
-There is also feedback in the ordinary systems sense used here: observations influence actions; actions change future storage or demand; the resulting observations influence later actions. Formal stock-flow diagrams, feedback-loop analysis, stability, and control belong later. For the first pass, the important question is simply whether today's action changes tomorrow's state, information, or behavior.
+There is also feedback in the ordinary systems sense used here: observations influence actions; actions change future storage or demand; resulting observations influence later actions. Formal stock-flow diagrams, feedback-loop analysis, stability, and control belong later.
 
 This matters especially for conservation.
 
@@ -543,7 +514,7 @@ Suppose the director chooses the staged combination: verified state, temporary p
 
 Twenty-four hours later, observed demand is **8.6 ML**, compared with the pre-action forecast of **9.0 ML** for that period. Several monitored large users report that they reduced nonessential use in response to the request.
 
-It would be tempting to say that the conservation request "saved 0.4 ML." That conclusion is not warranted. The difference between one forecast and one observed value does not identify the causal effect of the request. Weather, ordinary forecast error, other operating changes, and other factors could also contribute.
+It would be tempting to say that the conservation request “saved 0.4 ML.” That conclusion is not warranted. The difference between one forecast and one observed value does not identify the causal effect of the request. Weather, ordinary forecast error, other operating changes, and other factors could contribute.
 
 But something important **has** been established for the framing of the next decision: the system after deployment is no longer adequately represented as a system in which no new conservation action occurred.
 
@@ -553,17 +524,17 @@ Models, rules, predictions, and policies can become part of the process they are
 
 Return to the earlier forecast formulation.
 
-The first demand forecast answered a clear question:
+The first demand forecast answered:
 
 > What demand should we expect over the next seven days if no new conservation action is introduced?
 
 After the utility introduces a conservation request and users respond, that is no longer the right forecast question for the next review.
 
-This is not merely "replace 9.0 with 8.6 and continue." The analyst should reconsider the forecast assumptions, the monitoring plan, and perhaps the representation of demand response. The action has changed the process that produces future demand.
+This is not merely “replace 9.0 with 8.6 and continue.” The analyst should reconsider the forecast assumptions, monitoring plan, and perhaps the representation of demand response. The action has changed the process that produces future demand.
 
 **Revision 2: structural / process revision.**
 
-Contrast this with the first revision. In Revision 1, the target process did not change; our observation of the current state was wrong. In Revision 2, the decision itself helped change the process we were trying to forecast.
+Contrast the two revisions. In Revision 1, the target process did not change; our observation of the current state was wrong. In Revision 2, the decision itself helped change the process we were trying to forecast.
 
 ### Pause: estimate update or process revision?
 
@@ -573,12 +544,12 @@ A strong answer can acknowledge both uncertainty and structure. We do not yet kn
 
 ### Integrate, monitor, and decide again
 
-The decision therefore unfolds through repeated reviews rather than one irreversible choice for the full seven days.
+The decision unfolds through repeated reviews rather than one irreversible choice for the full seven days.
 
-A simple cadence is enough for the first pass:
+A simple cadence is enough:
 
 1. **08:00 Monday:** frame the decision and initial evidence.
-2. **About 08:25:** review after the independent storage verification.
+2. **About 08:25:** review after independent storage verification.
 3. **After actions are authorized:** monitor whether the production increase is online and how storage and demand evolve.
 4. **About 24 hours later:** update the projection using verified storage, actual demand, production status, and the changed behavioral environment.
 5. **If the updated projection again falls below 4.5 ML:** reconsider the alternative set, including a request to the City Manager for mandatory-restriction authority.
@@ -601,12 +572,303 @@ The first-pass record now looks something like this:
 | Revision triggers | Measurement discrepancy; post-deployment behavioral response; updated reserve projection |
 | Routing | Representation, measurement, evidence, causal, value, decision, dynamics, and strategy machinery in later chapters as needed |
 
-This table is a record of this case, not a mandatory universal checklist. A simpler problem may screen out several of these issues as immaterial. A harder problem may require much more detail.
+This table is a record of this case, not a mandatory universal checklist. A simpler problem may screen out several issues as immaterial. A harder problem may require much more detail.
 
-The point of the exercise was not to complete a professional water-utility analysis in a few pages. The point was to experience one complete pass through a consequential problem and to watch the reasoning move backward twice for different reasons.
+The point was not to complete a professional water-utility analysis in a few pages. The point was to experience one complete pass through a consequential problem and to watch the reasoning move backward twice for different reasons.
 
 The first revision said: **our record of the current state was wrong enough to change the decision.**
 
 The second said: **our action changed the process, so the old forecast question was no longer adequate.**
 
-Those two failures require different repairs. Recognizing that difference is one of the central skills this book will develop.
+Those failures require different repairs. Section 5 turns that distinction into a more general habit.
+
+## 5. When the First Formulation Fails
+
+A first formulation is provisional by design. If later evidence can never send us backward, either the problem is unusually simple or we have made the reasoning process too rigid.
+
+The important distinction is between **updating an answer inside the same formulation** and **changing the formulation itself**.
+
+Suppose tomorrow's weather forecast changes slightly and the utility revises expected demand. Or suppose a trusted measurement gives a newer storage level. Those changes may alter numbers while leaving the target, comparison, system boundary, authority, alternatives, and intended use intact.
+
+Other discoveries are different. If the dashboard record is not an adequate representation of physical storage, the observation problem must be reconsidered. If conservation changes the process generating future demand, a no-new-action forecast is no longer the right forecast. If the person receiving a recommendation lacks authority to take the proposed action, the decision situation has been misstated. These are not merely newer numbers in the same problem.
+
+| Adjustment within a formulation | Revision of the formulation |
+|---|---|
+| update the weather forecast | change the target or comparison |
+| update demand using newer observations | change the system boundary |
+| replace an old trusted reading with a newer trusted reading | separate a record from the substantive target |
+| refine a parameter while the model's role is unchanged | add a behavioral response the earlier representation omitted |
+| recompute consequences under the same alternatives | revise authority or the feasible alternative set |
+| rerun a sensitivity check | revise an evaluative premise or intended use |
+
+The distinction is not about whether the numerical change is large. A small discrepancy can force a major reframing if it exposes the wrong target or observation process. A large numerical update can remain an ordinary adjustment if the question and representation are still appropriate.
+
+### Rival formulations are useful before failure is obvious
+
+Consider two ways to formulate the water problem.
+
+**Formulation A**
+
+> Forecast whether usable storage will fall below reserve under current operation.
+
+**Formulation B**
+
+> Decide whether the current physical state should be verified before committing to an operating action.
+
+Neither formulation is absurd. At 08:00, both may deserve attention. They simply emphasize different uncertainties.
+
+If the dashboard is well verified and the forecast is highly sensitive to weather and demand, Formulation A may dominate the immediate work. If less than 1 ML of error in the starting state could change the action and an independent check can arrive in 25 minutes, Formulation B becomes much more important.
+
+The point is not to generate rivals for sport. It is to keep one plausible alternative formulation available when the current framing depends heavily on an assumption that could fail.
+
+Ask:
+
+> **What observation, consequence, or decision condition would make me wish I had formulated this problem differently?**
+
+That question turns a hidden assumption into a possible revision trigger.
+
+### The same object can need a different model
+
+Return briefly to the pendulum.
+
+A pendulum used to estimate local gravitational acceleration, predict angular position over a short horizon, and regulate a durable clock can be the same physical object. Yet intended use changes what matters in the representation and what counts as adequate.
+
+A model that ignores air resistance might be adequate for one use and inadequate for another. The object did not change; the question did.
+
+This is why model criticism should not begin with the demand that every representation contain every feature of the real system. The better question is whether an omitted feature could matter for the stated use. Chapter 2 develops representation and boundary choice more carefully, and Chapter 5 develops stronger model-checking and criticism tools.
+
+### A faded case: one test, two uses
+
+Now remove some scaffolding.
+
+A school has a **20-item mathematics assessment** and one total score for each student. Administrators propose using the same score for two purposes:
+
+1. rank applicants for a limited advanced program;
+2. diagnose which prerequisite skills current students need to review before the next unit.
+
+Assume all domain facts needed for this exercise are supplied here. You do not need psychometrics knowledge.
+
+Before reading further, write a short response:
+
+- State the intended use for each proposed use of the test.
+- State a plausible target for each.
+- Name one reason the observed total score might not be identical to the target we care about.
+- Give one consequence of treating the same analysis as automatically adequate for both uses.
+- Give one observation that would make you revise the initial formulation.
+
+Do not reconstruct the full Chapter 1 screen. Use only what is needed.
+
+A defensible comparison notices that the same **record** can support different inquiries.
+
+For ranking applicants, the target may concern relative standing under an explicitly defined selection purpose. For diagnosis, the target concerns what skills or prerequisite knowledge require attention. A single total score may be evidence relevant to both, but it need not carry the same information for both purposes.
+
+The consequences also differ. A ranking analysis can affect access to a scarce opportunity. A diagnostic analysis is supposed to guide subsequent instruction. An analysis adequate for ordering scores could still be poor for locating skill gaps.
+
+A useful revision trigger might be evidence that students with the same total score miss very different items or display different prerequisite weaknesses. That observation need not establish a full measurement theory. It is enough to challenge a formulation in which one total score is treated as an adequate answer to both questions.
+
+If the score becomes consequential, another revision may eventually be needed: students or institutions may respond to the rule itself. Chapter 1 only screens for that possibility; Chapters 14 and 15 provide more specialized treatment of sequential and strategic response.
+
+### Different failures require different repairs
+
+The examples suggest several reasons to go backward:
+
+- **intended-use failure:** the analysis is technically correct but serves a different practical use;
+- **target failure:** the answer concerns the wrong quantity, population, horizon, or comparison;
+- **observation failure:** the record is not an adequate representation of the target;
+- **evidence failure:** the available evidence supports prediction or association but not the intervention claim being made;
+- **alternative failure:** the option set omits a feasible combined, staged, information-gathering, or escalation alternative;
+- **authority failure:** the proposed action belongs to another decision-maker;
+- **evaluation failure:** a recommendation hides the values, requirements, obligations, or constraints connecting consequences to choice;
+- **response failure:** deployment changes behavior or the data-generating process enough that the earlier representation becomes inadequate.
+
+These labels are not a checklist to apply mechanically. They are reminders that different failures require different repairs.
+
+If the record is wrong, collecting more of the same forecast data may not help. If the intervention effect is not established, polishing predictive accuracy may not answer the causal question. If authority is misstated, a more precise calculation does not make an infeasible action feasible. If action changes behavior, a model fitted to the pre-action environment may need more than a parameter update.
+
+### Know when to hand the problem forward
+
+A strong Chapter 1 first pass often ends by identifying the kind of expertise needed next.
+
+Some common routes are:
+
+- representation and system boundary → **Chapter 2**;
+- construct and measurement validity → **Chapter 3**;
+- observation, records, and data-generating process → **Chapter 4**;
+- assumptions, checks, verification, and model criticism → **Chapter 5**;
+- probability, uncertainty, scoring, and calibration → **Chapter 6**;
+- causal identification and intervention questions → **Chapter 7**;
+- estimation and inferential procedures → **Chapter 8**;
+- values, objectives, and systematic alternative generation → **Chapter 10**;
+- formal choice under uncertainty → **Chapter 11**;
+- optimization → **Chapter 12**;
+- dynamics, feedback, and stability → **Chapter 13**;
+- sequential decisions, information, and control → **Chapter 14**;
+- incentives, gaming, and strategic response → **Chapter 15**.
+
+Routing is not an admission that the first pass failed. It is one of the outputs of a successful first pass.
+
+The purpose of Chapter 1 is not to solve every specialist problem before it appears. It is to recognize what kind of problem has appeared, what the current reasoning can support, and when continuing with the same formulation would create false confidence.
+
+A strong first pass is therefore valuable partly because it can tell you:
+
+> **This is no longer the problem I thought I was solving.**
+
+The final section removes most of the scaffolding.
+
+## 6. Cold-Start Practice and Retrieval
+
+The worked case is over. The scaffolding now has to disappear.
+
+The goal of this section is not to prove that four hours of instruction have produced durable expertise. It is to obtain a first piece of evidence about whether you can reconstruct the reasoning without being led through every step.
+
+You will do four things:
+
+1. diagnose a flawed analysis;
+2. produce a first-pass analysis in an unfamiliar domain without the Chapter 1 checklist or rubric in view;
+3. compare your response with the diagnostic rubric and explain one important revision;
+4. reconstruct the chapter's navigation from memory and schedule a delayed retest.
+
+### Activity 1 — Diagnose and repair a flawed analysis
+
+Read the following deliberately poor response to the water case.
+
+> The problem is a water shortage, so the main task is to forecast demand. The dashboard says current storage is 10.8 ML, so that is the current physical storage level. Historical hot-weather records predict high demand, and previous conservation requests were followed by lower demand, so issuing a conservation request will reduce demand in this event. The available choices are to pump more or impose a mandatory restriction. Because reserve crossing is dangerous, the data show that the Utility Director should impose the restriction, and that recommendation is the decision. There is no need to discuss values or stakeholders because the safer option is obvious. Once the action is chosen, the remaining stages can be completed in order; the forecast does not need to be reconsidered after deployment.
+
+Identify at least **six consequential failures**.
+
+For each one, write:
+
+1. **Diagnosis:** What is wrong?
+2. **Consequence:** What claim, decision, or adequacy judgment becomes unreliable because of it?
+3. **Repair:** What should be changed?
+
+Then answer:
+
+> Which failure should be repaired first, and why?
+
+Do not score yourself by the number of labels you can name. Several errors interact. The important skill is recognizing which repair changes the rest of the reasoning.
+
+A strong diagnosis should notice failures such as a topic substituted for an intended use, a dashboard record treated as the target state, predictive or associational evidence treated as an intervention effect, a false binary in the alternatives, ignored decision authority, hidden evaluative premises, a recommendation treated as the decision, and a responsive system treated as a passive one-shot problem.
+
+### Activity 2 — Cold transfer without the checklist
+
+Now work on one unfamiliar case.
+
+The two parallel forms supplied with this chapter are:
+
+- **Form A — Refrigerated warehouse cooling risk**
+- **Form B — Emergency temporary-housing allocation after a flood**
+
+For self-study, choose the domain that is **less familiar** to you from the titles alone. Open only that form. **Do not preview the other form.** It is reserved for the delayed retest.
+
+Do not consult the Chapter 1 map, the worked water solution, or the scoring rubric until you have finished a one-page first-pass analysis.
+
+The current pilot target is **30–40 minutes**. That is an operational design target, not a universal standard.
+
+Produce a defensible first pass. State only assumptions that are needed. Do not invent missing domain facts; if an important fact is absent, identify it and explain whether learning it could change the decision.
+
+The selected form supplies every domain fact required for the reasoning task. You are not being tested on refrigeration engineering, food law, housing law, or disaster-program expertise.
+
+Finish the one-page analysis before continuing.
+
+### After production: use the rubric
+
+Now score the response you actually produced. Do not rewrite it first.
+
+Score each dimension from **0 to 2**.
+
+| Dimension | 0 | 1 | 2 |
+|---|---|---|---|
+| Intended use and decision | Missing or merely names a topic | Partly specified | User, action or judgment, and use are explicit |
+| Target and context | Missing, unqualified, or conflated with a record or metric | Focal object and sought object are only partly specified | Who or what and what about it are explicit; material qualifiers are present without checklist padding |
+| Question and claim type | Major conflation | Labels present but weakly justified | Positive/normative and claim-type layers are separated correctly, and justified overlap is allowed |
+| Model, measurement, and records | Treated as identical | One distinction recognized | Target, representation, and recorded traces are separated |
+| Evidence limits | Unsupported certainty | Generic uncertainty statement | Specific limit and its consequence for the claim are stated |
+| Values and alternatives | Recommendation presented as factual necessity | Some consequences or options identified | Stakeholders, consequences, and a nontrivial option set are visible |
+| Dynamics and response | Assumes a passive one-shot world | Time or response noted | Feedback, repeated choice, or adaptation is screened appropriately |
+| Revision and routing | No failure condition or next step | Generic caveat | Rival formulation, diagnostic trigger, and justified later machinery are named |
+
+Use the dimensions diagnostically. There is **no validated aggregate cut score** for this task. A total can be recorded for pilot exploration, but the more useful question is which dimension failed and why.
+
+Regardless of any total, treat these as major category errors:
+
+- answering a different decision from the one stated;
+- treating a record or metric as identical to the target without justification;
+- treating association or predictive performance as sufficient evidence of an intervention effect;
+- deriving a recommendation while hiding material value judgments;
+- ignoring an explicitly stated adaptive or strategic response;
+- mechanically applying every stage even when a stage is irrelevant.
+
+### Explain one revision
+
+After comparing your response with the rubric, answer:
+
+> **What was the most consequential revision you would make, and why?**
+
+Name a change in reasoning, not merely an omitted detail.
+
+Good answers sound like:
+
+- “I treated the observed applicant file as the target population; I would separate them because outreach changes who is represented.”
+- “I treated the warehouse sensor reading as the thermal state; I would distinguish the room record, sampled product temperatures, and the decision target.”
+- “I used a predictive score as if it identified who benefits most from the intervention; I would separate prediction from the allocation-effect question.”
+
+### Return to your five-minute opening attempt
+
+Retrieve the response you wrote at the beginning of the chapter.
+
+Do not ask whether the later answer simply contains more terminology. Ask whether the structure changed.
+
+Compare the two responses:
+
+1. Did you state the intended use more clearly?
+2. Did you separate the target from its records or proxies?
+3. Did you separate consequence claims from the recommendation or decision?
+4. Did you identify a reason the analysis might have to move backward?
+
+Write one sentence naming the most important change in your default framing.
+
+### Retrieve the navigation from memory
+
+Close or cover the chapter map before doing this task.
+
+From memory, reconstruct the five-part navigation structure used in the worked case. Then add arrows showing at least two ways later evidence can send reasoning backward.
+
+Also reconstruct these relationships in your own words:
+
+- intended use versus target;
+- evidence versus claim type;
+- consequence claims versus evaluative premises;
+- action versus feedback or response;
+- monitoring versus revision and routing.
+
+Only after you have finished should you compare your reconstruction with the chapter's navigation:
+
+**Frame and formulate → Learn from evidence → Choose → Act in responsive systems → Integrate and revise**
+
+The arrows are not one-way. A measurement problem can send you back to the target or observation process. Deployment can change the process and send you back to the forecast, representation, evidence requirements, alternatives, or decision.
+
+Repair what you omitted. Then choose one omission and explain why it mattered in the water case.
+
+### Delayed retest
+
+Do not use or preview the second transfer form immediately.
+
+For self-study, schedule the form you did **not** use today for approximately **7–14 days** from now. The interval is a pilot window, not a universal spacing optimum.
+
+At the retest:
+
+- do not reread Chapter 1 first;
+- do not display the checklist or rubric while producing the response;
+- open the previously unseen parallel form;
+- use the same one-page first-pass task;
+- consult the same eight rubric dimensions only after production;
+- compare dimension-level performance with the first transfer attempt.
+
+The purpose is not to prove far transfer from one delayed exercise. It is to test whether the reasoning structure can be produced again after the immediate scaffolding and narrative details have faded.
+
+A successful Chapter 1 outcome is modest but important:
+
+> **You can begin an unfamiliar consequential problem by making the use, target, claim, evidence limits, alternatives, consequences, environment, and revision conditions explicit—without pretending that this first pass is the finished analysis.**
+
+That is enough to move forward. The rest of the book supplies the machinery needed when the first pass identifies what must be learned, estimated, tested, compared, optimized, monitored, or revised next.
