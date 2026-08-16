@@ -48,7 +48,7 @@ These are fictional institutional rules supplied by the case.
 The Utility Director may directly authorize:
 
 - an independent field verification of storage level;
-- treated-water production up to **8.8 ML/day**;
+- treated-water production up to the supplied permitted temporary operating limit of **8.8 ML/day**;
 - a voluntary public conservation request;
 - enhanced monitoring and more frequent review.
 
@@ -72,14 +72,16 @@ The 4.5 ML reserve is a fictional internal rule for the case, not a universal en
 
 Normal treated-water input is **8.4 ML/day**.
 
-The director can authorize a temporary increase to **8.8 ML/day**, subject to these supplied case facts:
+The director can authorize a temporary increase to **8.8 ML/day**. For this fictional event, **8.8 ML/day is already supplied as the permitted temporary operating limit within the utility's treatment, source, water-quality, and pumping constraints**. The case does not imply that treated-water output can be raised independently of those constraints or of any applicable operating requirements.
 
-- the increase has a **six-hour action/physical delay** before the additional production is available;
+Additional supplied case facts:
+
+- the case stipulates a **six-hour production ramp-up** before the higher permitted output becomes available;
 - once online, 8.8 ML/day can be sustained through the seven-day horizon;
 - incremental operating cost is **$2,000 per 24 hours** at the higher output;
-- production above 8.8 ML/day is unavailable during this event because of supplied treatment and pumping constraints.
+- production above 8.8 ML/day is unavailable during this event.
 
-The cost and operating limit are synthetic.
+The cost, operating limit, and ramp-up time are synthetic. The six-hour production ramp-up is a case-specific delay, not an industry-typical response time.
 
 ## Frozen no-new-action demand forecast
 
@@ -122,15 +124,17 @@ This is intentionally marginal rather than comfortably safe.
 
 ## Required backward revision 1 — observation / measurement
 
-An independent local pressure-based level check is available and does not use the same remote level transmitter as the dashboard.
+An independent local **tank-level check derived from a pressure measurement** is available. It uses a different observation path from the remote level transmitter feeding the dashboard.
 
 The check:
 
 - takes **25 minutes**;
+- uses a local pressure measurement to infer tank level;
+- uses the utility's supplied conversion from measured tank level to usable volume based on known tank geometry and calibration;
 - indicates **9.9 ML** usable storage;
 - is followed by a supplied finding that the remote level transmitter is reading high because of calibration drift.
 
-The reader is not required to diagnose sensor physics.
+The reader is not required to perform the level-to-volume engineering conversion or diagnose sensor physics. The case does not imply that an arbitrary distribution-pressure reading directly determines storage volume.
 
 Using the verified physical level:
 
@@ -146,7 +150,7 @@ This revision teaches:
 
 ## Production-increase scenario
 
-With a six-hour delay before the increase takes effect:
+With the case-stipulated six-hour production ramp-up before the higher permitted output is available:
 
 `8.4 × 0.25 + 8.8 × 6.75 = 61.5 ML`
 
@@ -256,9 +260,9 @@ The chapter should not imply that a formal optimizer produces the unique correct
 A defensible first-pass path is:
 
 1. do not treat the 10.8 ML dashboard record as the physical state without considering provenance;
-2. obtain the 25-minute independent verification because the action is sensitive to starting storage;
+2. obtain the 25-minute independent tank-level verification because the action is sensitive to starting storage;
 3. after 9.9 ML is verified, recognize that current operation projects reserve breach under the central forecast;
-4. authorize the 8.8 ML/day temporary production increase while noting its delay and cost;
+4. authorize the permitted temporary increase to 8.8 ML/day while noting the case-stipulated ramp-up and cost;
 5. issue a voluntary conservation request if the stated evaluative premises support the additional margin relative to the burden;
 6. monitor storage and demand rather than treating the pre-action forecast as fixed;
 7. recompute after approximately 24 hours;
@@ -290,8 +294,9 @@ Reveal:
 ### Evidence / observation stage
 Reveal:
 
-- independent check exists;
+- independent local tank-level check derived from a pressure measurement exists;
 - it takes 25 minutes;
+- the case supplies the level-to-usable-volume conversion;
 - verified storage is 9.9 ML;
 - remote transmitter is biased high.
 
@@ -300,8 +305,8 @@ This triggers Revision 1.
 ### Choose stage
 Reveal:
 
-- temporary 8.8 ML/day production;
-- six-hour delay;
+- temporary 8.8 ML/day production, already supplied as the permitted temporary operating limit within case treatment, source, water-quality, and pumping constraints;
+- case-stipulated six-hour production ramp-up;
 - $2,000/day incremental cost;
 - voluntary request is within director authority;
 - mandatory restriction requires City Manager approval.
@@ -334,11 +339,17 @@ All numerical values and governance rules in this case are synthetic.
 The case design has been checked against authoritative water-utility guidance for the limited plausibility of:
 
 - supply/demand drought response;
-- SCADA/telemetry versus independent level evidence;
+- SCADA/telemetry versus independent tank-level evidence derived from a different local pressure-based observation path;
 - conservation requiring forecast revision;
 - utility-specific governance and restriction procedures.
 
 These checks support the **type of mechanism**, not the numerical values.
+
+The current wording also makes explicit that:
+
+- the 9.9 ML verified usable volume is a supplied case conversion from tank level, not a generic inference from distribution pressure;
+- 8.8 ML/day is already within supplied treatment, source, water-quality, and pumping constraints for the fictional event;
+- the six-hour production ramp-up is synthetic and case-specific.
 
 Before Chapter 1 is declared verified or frozen for publication, obtain a human drinking-water utility / engineering review focused on operational wording and hidden assumptions.
 
