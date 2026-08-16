@@ -7,7 +7,72 @@ status: draft
 
 # Chapter 1: Decisions, Questions, and a First Complete Pass
 
-<!-- Drafting order follows drafting-blueprint.md. Sections 2–4 are drafted; Sections 1, 5, and 6 will be written around the worked-example spine, then this comment will be removed during integration. -->
+<!-- Drafting order follows drafting-blueprint.md. Sections 1–4 are drafted; Sections 5 and 6 will be written around the worked-example spine, then this comment will be removed during integration. -->
+
+## 1. A Good Answer to the Wrong Question
+
+At 08:00 on Monday, a fictional small municipal water utility is entering a seven-day hot, dry period. Its dashboard reports **10.8 megaliters (ML)** of usable finished-water storage. The utility's drought plan uses **4.5 ML** as an event-specific operating-reserve threshold. Current treated-water input is **8.4 ML per day**.
+
+The utility's no-new-action demand forecast is:
+
+| Day | Forecast high | Forecast demand |
+|---:|---:|---:|
+| 1 | 36°C | 9.0 ML |
+| 2 | 38°C | 9.3 ML |
+| 3 | 40°C | 9.6 ML |
+| 4 | 40°C | 9.5 ML |
+| 5 | 39°C | 9.4 ML |
+| 6 | 37°C | 9.2 ML |
+| 7 | 35°C | 8.9 ML |
+| **Total** |  | **64.9 ML** |
+
+The immediate decision-maker is the Utility Director. Broadly, the director could continue current operation, gather more information, increase treated-water production, ask customers to conserve water, combine several actions, or seek stronger action through another authority.
+
+You have enough information to start doing something. That is the point.
+
+### Before reading further: make a first pass
+
+Take about **five minutes**. Without looking for a named method or checklist, write a short response to four questions:
+
+1. What should be modeled, calculated, or otherwise determined?
+2. What evidence would you want to check first?
+3. What action would you advise now?
+4. What is one important assumption you are making?
+
+Keep what you write. Do not polish it after the fact.
+
+This response is not a graded test. It is a baseline. Later in the chapter you will compare it with a more explicit first-pass analysis and with an unfamiliar problem.
+
+The temptation is to start with technique. You might sum the seven-day demand forecast, project the storage balance, fit a demand model, inspect recent weather-demand data, or compare operating scenarios. Any of those could be technically competent.
+
+But competent work can still answer the wrong question.
+
+Consider several analyses that an expert might reasonably begin in this same situation:
+
+- forecast demand over the next seven days;
+- verify the current physical storage level;
+- calculate whether the reserve will be crossed under current operation;
+- estimate the consequence of increasing treated-water production;
+- estimate the consequence of issuing a conservation request;
+- compare combinations of actions and recommend what the director should do.
+
+These are not interchangeable tasks. They differ in what must be determined, what evidence would count, what assumptions matter, and what kind of conclusion is justified.
+
+A highly accurate demand forecast could still be a poor answer if the urgent problem is that the current storage record is unreliable. A precise estimate of storage could still be insufficient if the actual question is what a conservation action would do. A strong estimate of action consequences could still fail to determine what should be chosen if the relevant costs, burdens, obligations, and authority are left implicit.
+
+So before asking, “Which model should we use?” or “Which method is best?”, ask a more basic question:
+
+> **What is being asked, for what use, and what would count as an adequate answer?**
+
+That question is the organizing problem of this chapter.
+
+It does not mean that every real problem begins with a perfectly stated decision. Sometimes the immediate task is a scientific judgment, an estimate, a diagnosis, a forecast, or an authorization request. Nor does it mean that all analysis must wait until every value and stakeholder is formally catalogued. A first pass is supposed to be fast enough to use.
+
+The discipline is narrower: do not let the available data, familiar technique, or first wording of the problem silently decide what question you answer.
+
+The same topic can contain several legitimate questions. The job is to make the relevant one explicit enough that two competent analysts are not doing different work while believing they agree.
+
+We therefore begin not with a model class, but with the **intended use** of the answer and the **decision situation** in which it will matter.
 
 ## 2. Intended Use and the Decision Situation
 
