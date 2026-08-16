@@ -7,7 +7,7 @@ status: draft
 
 # Chapter 1: Decisions, Questions, and a First Complete Pass
 
-<!-- Drafting order follows drafting-blueprint.md. Sections 2 and 4 are drafted; Sections 1, 3, 5, and 6 will be written around the worked-example spine, then this comment will be removed during integration. -->
+<!-- Drafting order follows drafting-blueprint.md. Sections 2–4 are drafted; Sections 1, 5, and 6 will be written around the worked-example spine, then this comment will be removed during integration. -->
 
 ## 2. Intended Use and the Decision Situation
 
@@ -167,6 +167,157 @@ Before choosing a technical method, we can now state the problem more clearly:
 This is not yet a complete analysis. It is a disciplined statement of what the analysis is for and what it must connect.
 
 The next mistake to avoid is asking for the wrong **kind of claim**. A forecast, an intervention effect, a counterfactual comparison, and a recommendation can mention the same outcome while requiring different evidence and reasoning.
+
+## 3. What Kind of Question Is This?
+
+Once the intended use, target, decision-maker, and alternatives are visible, another source of error appears: two questions can mention the same system and the same outcome while asking for different kinds of answers.
+
+Consider four questions about the water utility:
+
+1. Is hotter weather associated with higher water demand?
+2. Will usable storage fall below 4.5 ML during the next seven days?
+3. Would a voluntary conservation request reduce shortage risk compared with no request?
+4. Should the Utility Director issue the request?
+
+All four may use some of the same records. They do not ask for the same claim.
+
+A useful first pass therefore screens the question in layers. The layers are not an exhaustive taxonomy, and they are not mutually exclusive boxes. Their job is to expose what kind of evidence and reasoning the answer will eventually require.
+
+### First layer: what would happen, and what should matter?
+
+Begin before technical labels.
+
+Ask whether a component of the problem concerns:
+
+- **what is, was, or would happen under specified conditions**, or
+- **what should matter, count as acceptable or preferable, or be done**.
+
+The first kind of component is often called **positive**. The second is **normative**.
+
+The distinction is easy to misuse. Positive does not mean “certain,” “objective,” or “merely descriptive.” A forecast is positive when it asks what will happen. An intervention question can be positive when it asks what would happen under an action. A counterfactual question can also be positive when it asks what would have happened under another condition.
+
+Normative does not mean “unsupported opinion.” A normative judgment may be constrained by law, professional obligation, explicit policy, ethical reasoning, institutional purpose, or carefully stated values. The key difference is that it concerns what should count as better, acceptable, important, or choice-worthy rather than only what would occur [@keynes1891scope; @bradley2016structured].
+
+In the water case:
+
+- “Will storage fall below 4.5 ML?” asks what would happen. It is a positive question.
+- “How much additional operating cost would higher production create?” is also positive.
+- “How burdensome would a restriction be for households and businesses?” can still be positive if the task is to estimate the burden.
+- “How much burden is acceptable to reduce shortage risk?” introduces a normative premise.
+- “Should the director issue a conservation request?” cannot be answered by consequence estimates alone. It connects positive beliefs about consequences to normative or institutional premises about what should be preferred.
+
+A consequential problem will often contain both layers. The point is not to label the entire problem “positive” or “normative” and stop. The point is to notice where evidence about what would happen ends and evaluation of those consequences begins.
+
+### Second layer: what kind of claim is being asked for?
+
+Within the positive part of a problem, several distinct claim forms may appear.
+
+**Association** asks whether variables or events are related under observed or specified conditions.
+
+> On historically hot days, was higher temperature associated with higher demand?
+
+That relationship may be useful. But by itself it does not say what would happen if we changed temperature, changed another predictor, or introduced a policy.
+
+**Prediction** asks about an unknown, new, or future observable given the information currently available.
+
+> Given the current storage record, weather forecast, and demand history, will usable storage fall below reserve during the next seven days?
+
+A prediction may be excellent without explaining why the outcome occurs. A variable can be useful for prediction without being a lever that would change the outcome if we intervened on it. Prediction and explanation are different analytical goals [@shmueli2010predict].
+
+**Intervention** asks what would happen under an action or changed condition.
+
+> Would issuing a voluntary conservation request reduce shortage risk compared with not issuing one?
+
+This requires reasoning about consequences under alternatives, not merely forecasting what normally follows observed conditions. An association between past requests and lower demand is not, by itself, enough to establish the effect of the request. Formal causal identification belongs to Chapter 7; here the important point is simply that the question changed [@pearl2009causal].
+
+**Counterfactual** asks about an alternative outcome under a changed action or condition while retaining relevant factual or background information.
+
+> Suppose the utility crossed its reserve yesterday. Would that crossing have been avoided if a conservation request had been issued three days earlier?
+
+This is not just any hypothetical story. The question compares the observed or factual situation with an alternative course under a specified change. Chapter 7 will make that idea precise.
+
+These forms can overlap. A decision analysis may require a prediction of future demand, an intervention estimate for a conservation action, and a counterfactual assessment of an earlier missed action. The mistake is to force the entire problem into one label or to assume that evidence adequate for one claim automatically supports the others.
+
+### Same outcome, different question
+
+The phrase “water demand” can hide these differences.
+
+| Question | What is being asked? | What would not be enough by itself? |
+|---|---|---|
+| Are hotter days associated with higher demand? | Association | A causal conclusion about changing demand |
+| What will demand be tomorrow? | Prediction | Evidence that a predictor is a causal lever |
+| What would a conservation request do to demand? | Intervention consequence | Historical association alone |
+| What would demand have been without yesterday’s request? | Counterfactual comparison | An unrelated hypothetical scenario |
+| What should the utility do? | Recommendation / decision support | Consequence evidence without evaluative premises |
+
+This is why “we have data on the outcome” is not a sufficient description of the evidence problem. Evidence is adequate only relative to the claim we are trying to support.
+
+### Third layer: what kind of environment are we acting in?
+
+Even when the claim type is clear, the environment can change what must be represented.
+
+Ask a few ordinary-language questions:
+
+> **What changes through time? What carries over? What is delayed? What feeds back? Will we decide again? Who or what may respond to our action, rule, model, metric, or prediction—and could that response change the process we thought we were analyzing?**
+
+These are screening questions, not a new formal framework.
+
+A problem is **dynamic** when relevant states, quantities, or conditions evolve through time. Dynamics do not require strategic behavior.
+
+A simple pendulum is enough to see this. Its position and motion change through time. If the purpose is to predict angular position, time and state matter. But the pendulum is not adapting its behavior because it anticipates our model. A dynamic system need not contain an adaptive or strategic agent.
+
+Feedback is another distinct idea. At the introductory level used here, **feedback** occurs when effects or consequences of a process or action return through the system and influence later behavior, outcomes, information, or actions. That does not mean every dynamic process contains a relevant feedback mechanism, and Chapter 1 does not yet classify feedback as positive or negative or analyze stability. Those topics belong to Chapters 13 and 14.
+
+Repeated choice is also separate. A decision can be revisited as state or information changes even when there is no strategic opponent. When repeated choice matters, ask whether today’s action changes tomorrow’s state, tomorrow’s information, or the set of actions still available.
+
+Finally, people and institutions may **adapt** or respond **strategically**. Adaptation is the broader idea: behavior or operating practice changes after conditions, information, experience, or intervention change. Strategic response is narrower: behavior changes partly because a rule, incentive, metric, prediction, policy, or anticipated action of others makes some response more advantageous.
+
+The presence of people does not automatically make a problem strategic.
+
+### Two short contrasts
+
+Consider a simple pendulum under three intended uses:
+
+- estimate local gravitational acceleration;
+- predict short-horizon angular position;
+- design a durable clock.
+
+The target system is the same. The use changes what must be represented and what would count as adequate. The system is dynamic, but nothing about the example requires adaptive or strategic behavior.
+
+Now consider a student assessment.
+
+The same 20-item test might be proposed to rank applicants, diagnose prerequisite skills, or choose the next instructional activity. The observed responses are the same type of record, but the intended use and target differ. If the score becomes consequential—for admission, placement, reward, or instruction—students or institutions may also change behavior in response to the rule. That possibility matters even before we know how to model it formally.
+
+The contrast is structural:
+
+- the pendulum shows **dynamic does not imply strategic**;
+- the assessment shows that **measurement and decision use can change the environment in which later data are produced**.
+
+### Pause: a predictor is not automatically a lever
+
+Suppose historical data show that a particular variable predicts shortage very well.
+
+Why does that not, by itself, tell us that changing that variable will prevent shortage?
+
+Commit to an explanation before continuing.
+
+A strong answer distinguishes two questions. Prediction asks whether the variable helps forecast an outcome. Intervention asks what would happen if an action changed something in the system. The first relationship can be useful without licensing the second inference.
+
+### A compact screen
+
+At this point, a first pass can ask three layers without pretending they form a complete ontology:
+
+1. **Positive or normative:** are we asking what is or would happen, what should matter or be done, or both?
+2. **Claim form:** is the relevant component associational, predictive, interventional, counterfactual, or some combination?
+3. **Environment:** do time, accumulation, delay, feedback, repeated choice, adaptation, or strategic response materially change the analysis?
+
+The layers are deliberately orthogonal. A predictive question can be positive. An intervention question can also be positive. A decision problem can contain positive consequence claims and normative evaluation at the same time. A dynamic setting can be non-strategic. A responsive institutional setting can require several claim types at once.
+
+The purpose of the screen is not to reward labeling. It is to make the next question sharper:
+
+> **What evidence and reasoning would actually be capable of answering this claim in this environment?**
+
+We can now perform the whole first pass once, with the details arriving in the order an analyst might actually encounter them.
 
 ## 4. A First Complete Pass: Preventing a Town Water Shortage
 
