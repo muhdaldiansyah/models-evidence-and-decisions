@@ -37,6 +37,8 @@ The reader should leave with a usable first-pass analysis of a new problem and a
 The Reasoning Loop introduced here is explicitly the book's pedagogical synthesis, as registered in `../../canon/pedagogy.md`.
 It is a navigation device assembled from established distinctions, not a new formal theory, universal ontology, mandatory checklist, or one-directional workflow.
 
+Chapter 1's instructional progression — initial unsupported attempt, complete worked example, prompted self-explanation, reduced support, error diagnosis and repair, independent cold transfer, retrieval, and delayed retest — is also a book-specific pedagogical synthesis. No single source is claimed to validate the exact combined sequence, and its numerical timings and prompt counts are pilotable design parameters rather than universal learning-science optima.
+
 ## Hard prerequisites
 
 - Ordinary algebra, ratios, units, and the ability to interpret a simple table or graph.
@@ -74,10 +76,11 @@ Those returns provide evidence of learning and expose whether later technical kn
 - Decision situation or decision context: who faces what judgment or action, under what conditions.
 - Intended use for a model or simulation, extended by this book as a pedagogical synthesis to an analysis, estimate, forecast, or recommendation.
 - Relevant application context in ordinary language; formal `context of use (COU)` is an optional field-specific preview whose formal treatment belongs to Chapter 5.
-- Decision-maker, affected stakeholders, candidate actions or alternatives, consequences, constraints, time horizon, and consequences of error.
+- Decision-maker and decision authority, affected stakeholders, candidate actions or alternatives, consequences, constraints, time horizon, and consequences of error; when an attractive action belongs to another actor, represent the needed request, authorization, negotiation, or escalation rather than silently assuming authority.
 - Assessment of whether a model or analysis is adequate for the stated intended use and relevant application context; Chapter 1 uses this as disciplined reader-facing language rather than a universal standardized adequacy framework.
 - Overall adequacy cannot be judged without a stated use. Some properties, such as internal consistency, dimensional correctness, or numerical correctness, may be assessed independently, but whether a model or analysis is adequate depends on what it will be used for.
 - Distinction among a broad topic, a practical concern, a research or analytical question, a claim, and a decision.
+- Distinction among analysis, recommendation, and decision: an analysis characterizes relevant facts or consequences; a recommendation advises what should be chosen under stated or assumed decision premises; a decision is the selection, authorization, or commitment made by the relevant decision-maker.
 - `Target` is Chapter 1's informal organizing word for what an inquiry is trying to determine about a focal entity, unit, population, or system; the book-wide use is a pedagogical synthesis, not one universal disciplinary technical definition.
 - Qualify the target whenever possible using the substantive object actually sought, such as a quantity, event, state, outcome, relationship, comparison, population, or system.
 - A minimally usable target specification states who or what the answer concerns and what about it is being sought, then adds context, horizon, resolution or aggregation, comparator, population, required answer form, or threshold only when changing that qualifier would materially change the question.
@@ -110,9 +113,9 @@ A single decision problem may contain a predictive subproblem, an interventional
 - Process being modeled versus process producing the observed records.
 - Model implication versus observation.
 - Ideal evidence question versus finite-evidence question, introduced without the formal terminology of identification and estimation.
-- Evidence or model claims about consequences versus the evaluative premises used to judge those consequences.
-- Recommendation as a decision conclusion that may depend on both consequence claims and evaluative or decision premises; do not present a recommendation as if it followed from evidence alone.
-- Supplied alternatives versus the need to search for or construct alternatives.
+- Evidence or model claims about consequences versus the evaluative premises used to judge those consequences; one analytical target need not exhaust all decision-relevant consequences.
+- Recommendation as advice that may support a decision and that depends on both consequence claims and evaluative or decision premises; do not present a recommendation as if it followed from evidence alone, and do not treat the recommendation as the decision itself.
+- Supplied alternatives versus the need to search for or construct alternatives; when the initial option set is materially narrow, consider at least one plausible missing, combined, contingent, information-gathering, staged, or escalation/authorization alternative.
 - One-shot action versus policy or contingent action through time.
 - Prediction before deployment versus behavior after deployment changes incentives or information.
 - Parameter or input adjustment versus revision of the question, target, boundary, representation, observation process, structural assumption, or objective, introduced only as an intuitive distinction.
@@ -136,7 +139,9 @@ Any term requiring book-wide control must be flagged for canon review before dra
 |---|---|---|
 | intended use | Required vocabulary; introduce and use throughout | Established in modeling and simulation; this book's extension to analyses, estimates, forecasts, and recommendations is explicitly a pedagogical synthesis; must name the use of the answer, not merely the topic being studied |
 | context of use (COU) | Optional field-specific preview only | Established in computational M&S VVUQ / model credibility; readers need not memorize it; formal treatment belongs to Chapter 5; do not treat it as a universal synonym for intended use |
-| decision situation / decision context | Introduce at practical depth | Includes decision-maker, stakeholders, alternatives, consequences, constraints, information, and horizon; not every analytical question immediately implies a decision |
+| decision situation / decision context | Introduce at practical depth | Includes decision-maker, authority, the immediate decision, stakeholders, alternatives, consequences, constraints, information, and horizon; not every analytical question immediately implies a decision |
+| decision | Required practical distinction; formal home Chapter 11 | The selection, authorization, or commitment made by the relevant actor or institution; distinguish from analysis and recommendation |
+| decision-maker | Required practical distinction | Person, group, or institution with authority or responsibility for the immediate decision; authority may be distributed, and unavailable actions should be reframed as requests, negotiations, escalations, or another actor's decision |
 | target | Required informal organizing vocabulary; qualify whenever possible | Book-wide sense is pedagogical synthesis, not one universal technical definition; distinguish from construct, measure, proxy, estimand, estimator, estimate, response variable, decision, objective, and metric |
 | target quantity | Use when the sought object is literally a quantity | Ordinary qualifying phrase; not a synonym for estimand and not suitable for every inquiry |
 | target population | Introduce intuitively when inference or generalization concerns a population | Established qualified term; distinct from observed sample and data-collection setting; formal development later |
@@ -153,9 +158,10 @@ Any term requiring book-wide control must be flagged for canon review before dra
 | prediction | Preview only | Formal probabilistic prediction and calibration begin in Chapter 6; prediction is not synonymous with explanation or intervention |
 | intervention | Preview only | Formal causal treatment begins in Chapter 7 |
 | counterfactual | Preview only | Formal causal treatment begins in Chapter 7; do not use as a loose synonym for any hypothetical scenario |
-| alternative | Introduce as a possible action or course of action | Alternative generation and value-focused thinking belong to Chapter 10 |
-| consequence | Introduce at practical depth | Evidence may inform consequences, but values are needed to evaluate them |
-| adaptive agent / strategic agent | Preview as an environment property | Formal strategic interaction, equilibrium, and incentives belong to Chapter 15 |
+| alternative | Required practical vocabulary | Candidate action or course that can be chosen, authorized, requested, negotiated, or otherwise pursued; do not assume the initially supplied option set is complete; systematic alternative generation belongs to Chapter 10 |
+| consequence | Required practical vocabulary | Material outcome, effect, burden, benefit, cost, or risk under an alternative; evidence may inform consequences, but values or requirements are needed to evaluate them; one target rarely exhausts all decision-relevant consequences |
+| feedback | Required intuitive systems vocabulary | Consequences of a process or action return through the system and influence later behavior, outcomes, information, or actions; distinguish systems feedback from reviewer feedback; do not teach positive/negative feedback, loop polarity, controller design, or stability here |
+| adaptive or strategic response | Preview in ordinary language as an environment property | Adaptation need not be strategic; call a response strategic only when case facts make rule-, incentive-, metric-, prediction-, policy-, or other-agent dependence material; formal strategic interaction belongs to Chapter 15 |
 | Reasoning Loop | Introduce explicitly as pedagogical synthesis | It is a revisable navigation structure, not an established formal theory or mandatory waterfall |
 
 Do not require `estimand` or formally introduce `estimator`, `utility`, `objective function`, `identification`, `structural identifiability`, `observability`, `equilibrium`, or `robust optimization` in this chapter.
@@ -177,7 +183,7 @@ Where the first complete pass needs their underlying questions, use ordinary lan
 | Ch. 10: Values, Objectives, and Alternatives | Identify stakeholders, consequences, and whether the available option set is artificially narrow | Do not formalize utility, objectives, trade-offs, metrics, or alternative-generation methods here |
 | Ch. 11: Decisions Under Uncertainty and Value of Information | Separate beliefs about consequences from choice and ask whether more information could change the decision | Do not calculate expected utility or value of information here |
 | Ch. 12: Optimization, Robustness, and Adaptive Plans | Recognize constraints, feasibility, model uncertainty, and brittleness | Do not formulate or solve optimization models here |
-| Ch. 13: Dynamics, Feedback, and Stability | Screen for time, accumulation, delay, feedback, and policy resistance | Do not teach stocks and flows, stability, oscillation, or formal dynamics here |
+| Ch. 13: Dynamics, Feedback, and Stability | Screen for time, accumulation, physical/action and information/observation delays, and systems feedback | Do not teach stock-flow representation, formal delay models, positive/negative feedback, loop analysis, equilibrium, stability, oscillation, or policy resistance here |
 | Ch. 14: Sequential Decisions, Information, and Control | Recognize that a policy may be more appropriate than a one-shot action and that actions can change future information | Do not teach control, observability, structural identifiability, exploration, filtering, or dynamic programming here |
 | Ch. 15: Strategic Interaction, Incentives, and Endogenous Response | Ask whether agents will respond to the model, policy, evidence, or metric | Do not teach equilibrium, games, principal-agent models, Goodhart taxonomies, or mechanism design here |
 | Ch. 16: Integration: The Full Loop on Unfamiliar Problems | Establish the baseline whole-loop attempt and initial routing habit | Chapter 1 is heavily scaffolded; Chapter 16 requires independent triage and repeated backward revision |
@@ -194,14 +200,16 @@ The chapter must teach the reader to do the following at an introductory but pro
 - Add conditions, horizon, resolution or aggregation, comparison or reference condition, target population, required answer form, or threshold only when omission could materially change the meaning of the question.
 - Keep the target distinct from the observed or recorded variable, proxy, decision, objective, and adequacy criterion.
 - Screen the claim type only far enough to determine whether the target requires description, prediction, comparison under intervention, counterfactual comparison, or decision support; formal treatment remains later.
-- Identify the person or institution using the answer, the judgment or action at stake, affected stakeholders, and consequences of major errors.
+- Identify who will use the answer, who has authority or responsibility for the immediate decision, the judgment or action at stake, affected stakeholders, and consequences of major errors.
 - State provisional adequacy criteria for the stated intended use without pretending they are already measured or optimized.
 - Distinguish positive and normative components of a problem using ordinary language first, then stabilize the formal labels.
 - Treat positive inquiry as broader than description and keep the positive/normative layer separate from the later claim-type layer.
-- When a recommendation is made, identify the material evaluative or decision premise needed to move from consequence claims to action.
+- Keep analysis, recommendation, and decision distinct; when a recommendation is made, identify the material consequence claims and evaluative or decision premises that support the advice.
+- Treat the initially supplied alternative set as provisional; when it is materially narrow, consider at least one plausible missing, combined, contingent, information-gathering, staged, or escalation/authorization alternative, and do not silently assume decision authority.
 - Distinguish descriptive or associational, predictive, interventional, and counterfactual claims at intuitive depth.
 - Recognize that explanatory aims and mechanism claims can accompany several claim types.
-- Screen for dynamics, repeated decisions, feedback, adaptive behavior, strategic response, and the possibility that model deployment changes the target process.
+- Screen for what changes through time, what carries over, what is delayed, systems feedback, whether decisions repeat, adaptive response, strategic response when warranted, and the possibility that deployment changes the future process producing observations.
+- Do not collapse dynamics, feedback, repeated choice, adaptation, and strategic behavior into one category; they may occur separately or together.
 - Distinguish the target system, model, measured or recorded data, evidence claim, value judgment, and action at a first-pass level.
 - Generate at least two plausible formulations or interpretations when the prompt is materially ambiguous.
 - Perform one informal pass through all five parts of the book using a single consequential case.
@@ -222,7 +230,7 @@ The chapter must teach the reader to do the following at an introductory but pro
 - Value structuring, objectives, measurable proxies, metrics, trade-offs, utility, constraints, and systematic alternative generation: Chapter 10.
 - Formal decisions under uncertainty, expected utility, decision trees, sensitivity analysis, ambiguity, and value of information: Chapter 11.
 - Optimization, computational tractability, robustness, regret, scenarios, and adaptive plans: Chapter 12.
-- Stocks and flows, delay, feedback, equilibrium, stability, oscillation, and policy resistance: Chapter 13.
+- Formal stock-flow representation, accumulation analysis, delay models, feedback-loop analysis, equilibrium, stability, oscillation, and policy resistance: Chapter 13.
 - Policies, sequential information, control, observability, structural identifiability, and exploration versus exploitation: Chapter 14.
 - Strategic dependence, incentives, equilibrium, commitment, information asymmetry, principal-agent reasoning, metric gaming, and endogenous response: Chapter 15.
 - Independent integration on unfamiliar cases and post-deployment monitoring and revision: Chapters 16 and 17.
@@ -265,7 +273,9 @@ The expanded Reasoning Loop may appear as a reference figure, but the worked nar
 - Develop the anchor case from topic to practical concern, analytical question, claim, and decision.
 - Separate intended use (`what will the answer be used for?`) from target (`what exactly is the inquiry trying to determine, and about whom or what?`).
 - Require a minimally qualified target, then add context, horizon, aggregation, comparator, or answer form only when those details change the substantive question.
-- Specify decision-maker, affected stakeholders, possible actions, information available at decision time, consequences of false reassurance and false alarm, and provisional adequacy criteria.
+- Specify the decision-maker and relevant authority, affected stakeholders, possible actions, information available at decision time, consequences of false reassurance and false alarm, and provisional adequacy criteria; supply any governance facts needed rather than asking the reader to infer them from domain knowledge.
+- Keep analysis, recommendation, and decision distinct: a recommendation may advise the decision-maker, but it is not the selection, authorization, or commitment itself.
+- Treat the initial option set as provisional; when it is materially narrow, require at least one plausible missing, hybrid, contingent, information-gathering, staged, or escalation/authorization alternative.
 - Use the same target under two different intended uses and two different targets under one intended use to demonstrate that intended use and target are related but not identical.
 - Preserve `adequate for the stated intended use` as a separate judgment rather than treating it as part of target specification.
 - Introduce `adequate for the stated intended use` as disciplined reader-facing language, not as a universal standardized adequacy framework.
@@ -281,7 +291,8 @@ The expanded Reasoning Loop may appear as a reference figure, but the worked nar
 - Then introduce `positive` and `normative`, applying them to components or subquestions rather than entire problems.
 - Make clear that positive is broader than descriptive and that normative is not a synonym for unsupported opinion.
 - Then distinguish description or association, prediction, intervention, and counterfactual comparison.
-- Then screen for time, feedback, repeated action, and adaptive or strategic response.
+- Then screen for time and accumulation, material physical/action or information/observation delay, systems feedback, repeated action, and adaptive or strategic response when the case facts warrant it.
+- Make clear that a dynamic process need not contain feedback or strategic agents, and that adaptive response is not automatically strategic response.
 - Use minimally different questions about the same case to show why the required evidence and machinery change.
 - Use claim-type screening only to expose target differences: a predicted outcome, an intervention comparison, and a counterfactual comparison may mention the same outcome variable while asking for different objects.
 - Keep the layers orthogonal: a prediction, intervention-effect question, or counterfactual comparison may still be positive because it asks what would happen.
@@ -291,18 +302,18 @@ The expanded Reasoning Loop may appear as a reference figure, but the worked nar
 
 ### Section 4: A First Complete Pass: Preventing a Town Water Shortage
 
-The pass should be informal, concrete, and organized under the five book parts.
+The pass should be informal, concrete, and organized under the five book parts. It must expose the reasoning transitions — what is noticed, what remains unresolved, why an alternative framing is plausible, and why later evidence changes the analysis — rather than presenting only a polished final answer.
 
-1. **Frame and Formulate:** intended use; a target event, quantity, or other sought object distinguished from a dashboard or sensor reading; the relevant service area, storage system, horizon, heat and rainfall conditions supplied by the case, provisional boundary, important assumptions, and a rival formulation. If the task is whether to change pumping, issue a conservation request, or combine actions, state that decision separately from the prediction or consequence targets that inform it.
+1. **Frame and Formulate:** intended use; a target event, quantity, or other sought object distinguished from a dashboard or sensor reading; the relevant service area, storage system, horizon, heat and rainfall conditions supplied by the case, provisional boundary, important assumptions, a rival formulation, and the authority for the immediate decision. If the task is whether to change pumping, issue a conservation request, gather more information, or combine actions, state that decision separately from the prediction or consequence targets that inform it and identify when an action requires another actor's authorization.
 2. **Learn from Evidence:** uncertainty, how level sensors, telemetry, and demand records came to exist, what historical weather-demand patterns can predict, what they cannot establish about the effect of a conservation request or pumping change, finite-evidence limits, and whether the evidence applies to the current heatwave and service area.
-3. **Choose:** distinguish positive claims about consequences from the normative evaluation of those consequences; identify affected stakeholders, alternatives beyond “pump more or do nothing,” constraints, and whether additional information such as a manual level verification, a leak check, or updated demand information could change the decision.
-4. **Act in Responsive Systems:** storage, inflow, demand, pumping limits, time delay, repeated decisions, feedback, and the possibility that residents, businesses, or utility operators change behavior after a conservation notice, restriction, or alert.
+3. **Choose:** distinguish positive claims about consequences from the normative evaluation of those consequences; keep recommendation distinct from the decision; identify affected stakeholders, alternatives beyond “pump more or do nothing,” authority and constraints, and whether additional information such as a manual level verification, a leak check, or updated demand information could change the decision.
+4. **Act in Responsive Systems:** ask what carries over, what adds to or removes from usable storage, what physical/action effect is delayed, what information or observation is delayed, whether consequences feed back into later outcomes or actions, whether the decision will be revisited, and whether residents, businesses, or operators adapt or respond strategically when the supplied facts warrant that interpretation. Show explicitly that a deployed notice, rule, model, or prediction can change the process producing future observations.
 5. **Integrate and Revise:** deployment, monitoring, discrepancy detection, diagnosis by stage, and deliberate return to an earlier formulation choice.
 
 The worked case must visibly loop backward at least twice so that readers encounter two materially different forms of revision.
 The number is a worked-example design requirement, not a general rule for competent reasoning; outside the example, revision occurs whenever later information warrants it.
 One backward move should be triggered by discovering that the dashboard storage level and a verified physical level diverge because telemetry is delayed or a level sensor is miscalibrated.
-Another should be triggered by the conservation action itself changing water-use behavior enough that a forecast assuming unchanged demand is no longer adequate.
+Another should be triggered by the conservation action itself changing water-use behavior enough that a forecast assuming unchanged demand is no longer adequate. Treat this as a structural/process revision in which the action has changed the process generating future demand, not merely as a numerical parameter update.
 
 Each stage should end with a forward pointer explaining which later chapter supplies the missing machinery.
 The narrative must also show that some stages can be screened out as immaterial in simpler problems.
@@ -318,13 +329,13 @@ The narrative must also show that some stages can be screened out as immaterial 
 
 ### Section 6: Cold-Start Practice and Retrieval
 
-- Diagnose a planted formulation that begins with a technique, treats a recorded variable or available label as the target, conflates prediction with intervention, and recommends an action without stating values or alternatives.
+- Diagnose a planted formulation that begins with a technique, treats a recorded variable or available label as the target, conflates prediction with intervention, recommends an action without stating values or alternatives, and may also treat the recommendation as identical to the decision. Require diagnosis, consequence, and repair rather than error labels alone.
 - Require the learner to repair an underspecified target by adding only the qualifiers that materially change the question rather than completing a fixed checklist.
-- Give a faded case with prompts reduced relative to the worked example.
-- Require an unfamiliar-domain first-pass analysis using one of the two parallel forms in `transfer.md`, completed before consulting the rubric.
-- Require a short self-explanation of the most consequential revision made after checking the answer.
-- End with retrieval from memory: the reader reconstructs the five-part navigation map and its backward links without copying the diagram.
-- Schedule a 7–14 day retest using the other parallel form; counterbalance form order during pilots so that practice effects are not confused with domain difficulty. The retest result becomes baseline evidence for the Part I transfer gate.
+- Give a faded case with reasoning prompts reduced relative to the worked example while preserving every domain fact needed to solve the case; pair the missing support with principle-focused self-explanation rather than mere paraphrase.
+- Require an unfamiliar-domain first-pass analysis using one of the two parallel forms in `transfer.md`, with the Chapter 1 checklist, worked solution, and scoring rubric out of view until production is complete.
+- Require a short self-explanation of the most consequential reasoning revision made after checking the answer.
+- End with retrieval from memory: the reader reconstructs the five-part navigation map, important relationships, and backward links without copying the diagram, then compares and repairs omissions.
+- Schedule a delayed retest using the other parallel form; retain 7–14 days as the current operational pilot window rather than a claimed universal spacing optimum, and counterbalance form order during pilots so that practice effects are not confused with domain difficulty. The retest result becomes baseline evidence for the Part I transfer gate.
 
 ### Drafting constraints
 
@@ -334,7 +345,7 @@ The narrative must also show that some stages can be screened out as immaterial 
 - Keep formal notation minimal; a simple storage balance may be used only when it clarifies the distinction among physical storage, measured level, inflow, and demand.
 - Do not define later specialist terms merely to mention them.
 - Every preview must either support the anchor decision or be removed.
-- At least half of the chapter's active-learning time must require prediction, production, self-explanation, error diagnosis, or retrieval rather than rereading.
+- Retain the current authoring guardrail that at least half of the chapter's active-learning time requires prediction, production, self-explanation, error diagnosis, or retrieval rather than rereading; `50%` is a pilotable design parameter, not an evidence-backed universal threshold.
 - The prose must explicitly state where the worked case is simplified and where domain expertise would be required in practice.
 
 ## Examples / recurring cases
@@ -350,11 +361,11 @@ The case is selected because it supports every book part without requiring advan
 - Measurement and observation: physical storage differs from dashboard readings; sensor calibration, telemetry delay, meter aggregation, and missing readings can distort the record.
 - Evidence: historical weather and demand data can support prediction while remaining insufficient by themselves for a causal claim about a new conservation notice, restriction, or pumping policy.
 - Value and choice: continuity of water service, operating and energy cost, burden on households and businesses, equity, reserve margin, and restrictions on nonessential use create competing consequences and alternatives.
-- Dynamics: storage, inflow, demand, pumping, leakage, and repeated operating decisions evolve through time.
-- Strategic or adaptive response: residents, businesses, and utility operators may change behavior after alerts, conservation requests, restrictions, or operating targets are deployed.
+- Dynamics: usable stored water carries over through time and changes through supplied additions and removals; the case must include at least one material information/observation delay and one material physical/action delay, plus repeated operating review, without requiring formal stock-flow or delay notation.
+- Adaptive or strategic response: residents, businesses, and utility operators may change behavior after alerts, conservation requests, restrictions, or operating targets are deployed; do not call a response strategic unless the supplied rules, incentives, metrics, or anticipated reactions make that interpretation material.
 - Monitoring and revision: verified level checks, telemetry discrepancies, pressure or demand patterns, and decision outcomes can send the analysis back to measurement, representation, evidence, or objectives.
 
-The case must use synthetic data and must supply every utility-specific fact needed by the reader.
+The case must use synthetic data and must supply every utility-specific fact needed by the reader, including the authority or authorization facts needed to distinguish actions the named decision-maker can take directly from actions that require another actor.
 Any claims about water-utility operations, storage or pumping constraints, demand response, or operating-reserve practice require authoritative sourcing or domain review; the chapter must not assume specialized water-engineering knowledge.
 
 ### Short contrast: simple pendulum
@@ -378,7 +389,7 @@ Use two parallel cold-transfer forms specified in `transfer.md`, neither of whic
 
 Both forms must require the same first-pass outputs and use the same scoring dimensions. They should differ in mechanism rather than merely surface domain: Form A emphasizes physical state, measurement, dynamics, and intervention under a mostly non-strategic environment; Form B emphasizes target population, observation/selection, values, alternatives, and adaptive response.
 
-For self-study, the reader completes first the form from the domain in which they have less prior familiarity and uses the other form for the 7–14 day retest. During pilot testing, form order should be counterbalanced so that difficulty and practice effects can be separated.
+For self-study, the reader completes first the form from the domain in which they have less prior familiarity and uses the other form for the delayed retest; 7–14 days is the current operational pilot window rather than a claimed optimal interval. During pilot testing, form order should be counterbalanced so that difficulty and practice effects can be separated.
 Each prompt must supply enough domain facts that performance reflects reasoning rather than hidden specialist knowledge.
 
 ### Proposed recurrence opportunities
@@ -393,12 +404,12 @@ These are candidate later homes, not obligations imposed by the Chapter 1 specif
 
 ## Exercise architecture
 
-The exercise sequence follows worked-example study, self-explanation, fading, error diagnosis, independent production, and delayed retrieval.
+The exercise sequence follows the governed scaffold: initial unsupported attempt, complete worked-example study, principle-focused self-explanation, structural contrast, fading of reasoning support, error diagnosis and repair, independent cold transfer, retrieval from memory, and delayed retest. This integrated sequence is a book-specific pedagogical synthesis rather than a reader-facing named framework.
 
 ### 1. Opening prediction
 
-Before reading the worked case, the reader responds to the underspecified prompt in five minutes.
-The response is preserved and compared with the exit task rather than corrected immediately.
+Before reading the worked case, the reader responds to the underspecified prompt in approximately five minutes, retained as the current pilot parameter rather than a universal optimum.
+The response is preserved as an unscored diagnostic baseline and compared with the exit task; it is not line-edited immediately, but the worked example and later comparison must provide corrective information for consequential errors.
 
 ### 2. Dual-use contrast
 
@@ -420,7 +431,7 @@ It must also allow descriptive, predictive, interventional, or counterfactual it
 
 ### 4. Worked-case self-explanation
 
-At three pauses in the municipal water-supply case, require the reader to predict:
+At three high-value pauses in the municipal water-supply case — the current pilotable count — require the reader to predict and explain the underlying reasoning principle:
 
 - which later question will force a boundary or target revision;
 - whether the next evidence bears on prediction, intervention, or both;
@@ -437,14 +448,15 @@ Present a concise analysis containing at least six faults:
 - a target qualifier omitted even though its omission materially changes the question;
 - association treated as evidence of intervention effect;
 - recommendation made without consequences, values, or alternatives;
+- recommendation treated as identical to the decision;
 - deployment assumed not to affect behavior;
 - the Reasoning Loop treated as a mandatory waterfall.
 
-The reader identifies, ranks, and revises the faults rather than merely labeling them.
+For each selected fault, the reader states the diagnosis, its consequence for the claim, decision, or adequacy, and a repair; when useful, the reader also prioritizes which failure should be fixed first.
 
 ### 6. Cold-transfer production task
 
-Without a chapter checklist in view, the reader produces a one-page first-pass analysis for an unfamiliar case.
+Without the Chapter 1 checklist, worked solution, or scoring rubric in view, the reader produces a one-page first-pass analysis for an unfamiliar case; the rubric is consulted only after production is complete.
 The submission must include:
 
 - intended use and decision-maker;
@@ -490,7 +502,7 @@ Regardless of any future numerical scoring convention, the following constitute 
 
 ## Transfer target
 
-Given a previously unseen consequential problem and no named method, the reader should be able to produce within 30–40 minutes a defensible first-pass analysis that:
+Given a previously unseen consequential problem and no named method, the reader should be able to produce a defensible first-pass analysis within the current 30–40 minute pilot target that:
 
 1. identifies who needs what answer and why;
 2. states the relevant decision or judgment and a qualified target, adding context or horizon when material;
@@ -503,7 +515,7 @@ Given a previously unseen consequential problem and no named method, the reader 
 9. identifies the next chapter-level machinery or specialist expertise required;
 10. avoids pretending that the first pass is a completed analysis.
 
-Transfer must be demonstrated on at least one domain outside the reader's training and outside the chapter's worked examples.
+Transfer must be demonstrated on at least one domain outside the reader's training and outside the chapter's worked examples. Chapter 1 aims to establish an initial capability for independent transfer and to diagnose where transfer still fails; it does not claim durable far transfer after four hours.
 The standard is not specialist correctness.
 The standard is an explicit, coherent, purpose-governed, revisable formulation with no unresolved major category error.
 
@@ -515,7 +527,7 @@ Draft material and secondary source maps may be used as design and source-discov
 Any terminology, example, or source lead drawn from them must be checked against the original literature before reuse.
 
 No citation key should be created from memory.
-Every load-bearing source must be verified, added to `../../references.bib`, and accompanied by a source note under the future `../../sources/` directory before the corresponding prose is treated as supported, in accordance with `../../decisions/0003-citation-and-source-note-system.md`.
+Every load-bearing source must be verified, added to `../../references.bib`, and accompanied by a source note under `../../sources/` before the corresponding prose is treated as supported, in accordance with `../../decisions/0003-citation-and-source-note-system.md`.
 
 ### Conceptual source clusters to verify
 
@@ -556,6 +568,7 @@ Every load-bearing source must be verified, added to `../../references.bib`, and
 | Treating observed records as neutral facts | Physical storage versus sensor and telemetry records | Chapters 3 and 4 |
 | Confusing target, proxy, metric, objective, and estimand | Qualified informal use of target plus explicit deferral | Chapters 3, 7, and 10 |
 | Treating positive evidence as sufficient for a normative recommendation | Require an explicit bridge from consequence claims to material evaluative premises, stakeholders, values, and action | Chapters 10 and 11 |
+| Treating recommendation as identical to the decision | Distinguish advice from the selection, authorization, or commitment made by the decision-maker | Chapters 10 and 11 |
 | Confusing association or prediction with intervention | Layered question exercise and planted failure | Chapters 6 and 7 |
 | Assuming an effect or pattern automatically applies in the relevant application context | Require the qualifiers that materially affect application, such as population, system, context, or horizon | Chapter 9 |
 | Accepting the supplied option set | Require at least one additional plausible alternative | Chapter 10 |
@@ -563,7 +576,8 @@ Every load-bearing source must be verified, added to `../../references.bib`, and
 | Treating feasibility or optimization as objective formation | Values and alternatives appear before any optimization preview | Chapters 10–12 |
 | Treating uncertainty as one undifferentiated lack of confidence | Ask where uncertainty enters and what conclusion it affects | Chapters 5, 6, 8, and 12 |
 | Ignoring time, accumulation, delay, and repeated decisions | Environment screening and dynamic anchor case | Chapters 13 and 14 |
-| Ignoring adaptation, incentives, and metric response | Adaptive-agent screen and deployment-induced revision | Chapter 15 |
+| Collapsing dynamics, feedback, adaptation, and strategy | Use the pendulum and transfer contrasts to show that these properties may occur separately; keep systems feedback distinct from strategic response | Chapters 13–15 |
+| Ignoring adaptation, incentives, and metric response | Adaptive/strategic-response screen and deployment-induced revision | Chapter 15 |
 | Treating the teaching order as a real-world waterfall | Worked demonstration of two distinct backward revisions, while reader revision remains evidence-triggered | Chapters 16 and 17 |
 | Mechanically applying every stage to every problem | Require relevance justification and allow explicit “not material here” findings | Chapter 16 |
 | Becoming overconfident from possession of terminology | Preview without formal mastery, specialist-handoff prompts, and preserved baseline errors | Throughout the book |
@@ -598,12 +612,12 @@ The following questions must be resolved during chapter design or pilot testing,
 
 ### Before drafting
 
-- No unresolved conflict with `README.md`, the decision records, or `canon/`.
+- No unresolved conflict with `README.md`, the decision records, or `canon/`; in particular, the decision/recommendation boundary, dynamics-and-response depth, and pedagogical parameter status must remain synchronized with Decisions 0006–0008.
 - Terminology requiring canon control or source verification has been identified and assigned a clear research action.
 - The section, page, and hour budgets still total 24 pages and 4 hours.
 - The anchor case, contrasts, scope boundaries, and required backward-revision demonstrations are specified clearly enough to draft.
 - The source plan identifies the literature and domain evidence needed for every load-bearing section.
-- The exercise progression, transfer task, rubric dimensions, and major category errors are specified without claiming validated measurement.
+- The exercise progression, transfer task, rubric dimensions, and major category errors are specified without claiming validated measurement; the five-minute opening attempt, three self-explanation pauses, 50% active-learning guardrail, 30–40 minute transfer target, and 7–14 day retest window remain explicit pilot parameters.
 
 ### Before declaring Chapter 1 verified or frozen
 
