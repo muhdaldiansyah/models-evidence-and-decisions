@@ -39,58 +39,24 @@ A strong diagnosis should be able to notice failures such as a topic substituted
 
 Now work on one unfamiliar case.
 
-For self-study, choose the domain that is **less familiar** to you. Do not consult the Chapter 1 map, the worked water solution, or the scoring rubric until you have finished a one-page first-pass analysis.
+The two parallel forms are:
+
+- **Form A — Refrigerated warehouse cooling risk**
+- **Form B — Emergency temporary-housing allocation after a flood**
+
+For self-study, choose the domain that is **less familiar** to you from the titles alone. Then open only that form. **Do not preview the other form.** It is reserved for the delayed retest.
+
+[Authoring/layout note: the complete governed forms remain in `transfer.md`. In the final reader layout, Form A and Form B must be delivered as separate exercise cards/pages/links so a learner can reach the rubric without seeing the unused parallel form. Do not place both full prompts inline before the rubric.]
+
+Do not consult the Chapter 1 map, the worked water solution, or the scoring rubric until you have finished a one-page first-pass analysis.
 
 The current pilot target is **30–40 minutes**. That is an operational design target, not a universal standard.
 
 Your task is to produce a defensible first pass. State only assumptions that are needed. Do not invent missing domain facts; if an important fact is absent, identify it and explain whether learning it could change the decision.
 
-#### Form A — Refrigerated warehouse cooling risk
+The selected form supplies every domain fact required for the reasoning task. You are not being tested on refrigeration engineering, food law, housing law, or disaster-program expertise.
 
-A regional food distributor operates one refrigerated room containing products that this exercise specifies must remain between **1°C and 5°C** until dispatch tomorrow afternoon. The room normally uses two cooling units. Unit A is operating. Unit B has generated an intermittent fault alarm. Outdoor temperature is expected to remain unusually high for the next **20 hours**.
-
-The control dashboard reports **3.8°C** from the room sensor. A handheld thermometer near the loading door reads **4.6°C**, but that reading is only a spot measurement and may not represent the whole room. Product-core temperatures have not yet been checked. The dashboard reading has risen gradually for the last three hours.
-
-The operations manager must decide within **20 minutes** whether to continue current operation, send a technician to verify Unit B and the sensors, reduce door openings and loading activity, move the most temperature-sensitive product to another room with limited spare capacity, start an available backup cooling unit, or combine actions.
-
-Use only these supplied facts:
-
-- The 1–5°C band is the relevant safe band for this exercise; no external food-safety knowledge is required.
-- The backup unit can be started immediately, but its effect under comparable extreme heat is uncertain.
-- Historical records show that higher outdoor temperature and frequent door opening are associated with higher room temperature; those records do not by themselves establish the causal effect of starting backup cooling.
-- The fixed room sensor was calibrated six months ago. A sensor or telemetry fault is possible but not known.
-- A technician can produce an independent sensor check in **25 minutes**.
-- Product-core measurements require **15 minutes** and cover only a sample of products.
-- Moving product reduces exposure in this room but consumes scarce capacity elsewhere and creates handling cost.
-- Reducing loading activity delays some dispatch work.
-- Product temperature has thermal inertia: a brief air-temperature excursion does not imply immediate product-core failure, and a normal air reading does not guarantee every product is within range.
-- No strategic external actor is assumed. Staff may change door-opening behavior after an instruction, but the setting is otherwise mainly physical.
-
-#### Form B — Emergency temporary-housing allocation after a flood
-
-A local emergency-management office has **80 temporary-housing vouchers** available for the next two weeks after a flood. It has received **260 applications**, while field teams estimate that additional displaced households have not yet applied. No external housing law or disaster-program rule is needed; all relevant rules are supplied here.
-
-The office must decide how to allocate the first 80 vouchers and whether to reserve some vouchers while more information is collected.
-
-The administrative file contains household size, current reported sleeping arrangement, neighborhood, whether a dwelling passed a rapid habitability inspection, self-reported health or mobility needs, contactability, and prior program records. Some fields are missing. Applicants with poor internet access are underrepresented in online applications.
-
-A risk score developed after earlier floods predicts which **observed applicants** remained without stable temporary housing for at least seven days. The score has not been evaluated as an allocation rule, and there is no supplied evidence that giving a voucher to a high-score household produces a larger benefit than giving one to another household.
-
-Use only these supplied facts:
-
-- All 260 current applicants satisfy the minimal eligibility rule.
-- The office's immediate purpose is to reduce severe short-term housing instability while avoiding systematic exclusion of households poorly represented in the application data.
-- Field outreach can identify additional households, but reserving vouchers for that process can delay their final allocation by up to **one day**.
-- Some landlords may stop accepting vouchers if administrative delay becomes too long.
-- Publishing a simple priority rule may change application behavior and the documentation people submit.
-- A voucher helps only if an accepting provider is available; provider availability varies across neighborhoods.
-- The historical risk score is predictive, not by itself evidence of the causal effect of receiving a voucher.
-- The exercise does not stipulate one ethically correct allocation rule. Material evaluative premises must be made visible rather than hidden inside the score.
-- Candidate actions include immediate allocation by a stated rule, reserving a fraction for outreach-discovered households, gathering targeted information before ranking, using categories rather than a single score, or combining these actions.
-
-Stop here until your one-page analysis is complete.
-
----
+Finish the one-page analysis before returning here.
 
 ### After production: use the rubric
 
@@ -173,7 +139,7 @@ Repair what you omitted. Then choose one omission and explain why it mattered in
 
 ### Delayed retest
 
-Do not use the second transfer form immediately.
+Do not use or preview the second transfer form immediately.
 
 For self-study, schedule the form you did **not** use today for approximately **7–14 days** from now. The interval is a pilot window, not a universal spacing optimum.
 
@@ -181,6 +147,7 @@ At the retest:
 
 - do not reread Chapter 1 first;
 - do not display the checklist or rubric while producing the response;
+- open the previously unseen parallel form;
 - use the same one-page first-pass task;
 - consult the same eight rubric dimensions only after production;
 - compare dimension-level performance with the first transfer attempt.
