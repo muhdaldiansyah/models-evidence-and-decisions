@@ -7,7 +7,166 @@ status: draft
 
 # Chapter 1: Decisions, Questions, and a First Complete Pass
 
-<!-- Drafting order follows drafting-blueprint.md. Sections 1–3 and 5–6 will be written around this worked-example spine, then this comment will be removed during integration. -->
+<!-- Drafting order follows drafting-blueprint.md. Sections 2 and 4 are drafted; Sections 1, 3, 5, and 6 will be written around the worked-example spine, then this comment will be removed during integration. -->
+
+## 2. Intended Use and the Decision Situation
+
+A problem becomes easier to analyze once we stop treating its topic as its question.
+
+“Water shortage” is a topic. “Will demand exceed supply?” is an analytical question. “Should the utility change operations this morning?” is a decision. Those objects are related, but they are not interchangeable.
+
+The first discipline is therefore simple:
+
+> **State what the answer will be used for before deciding what answer to produce.**
+
+In the water case, the immediate intended use is to support the Utility Director’s operating decision during a seven-day heatwave. That is more informative than saying that the purpose is to “understand demand” or “analyze storage.” It tells us who needs the answer, when it will be used, and what kind of consequence an inadequate answer could have.
+
+Model-credibility and verification/validation frameworks use intended use or closely related use statements because adequacy cannot be separated from the application a model is meant to support [@nasa2024models; @nrc2012reliability]. Chapter 1 extends that discipline beyond formal models: an estimate, forecast, comparison, or recommendation should also be judged against what someone intends to do with it.
+
+### Intended use is not the target
+
+Once the use is clear, ask a second question:
+
+> **What exactly are we trying to determine, and about whom or what?**
+
+This book uses **target** as an informal organizing word for that answer.
+
+For the same utility, several targets are possible:
+
+- the current physical quantity of usable stored water;
+- whether usable storage will fall below 4.5 ML within seven days;
+- customer demand over the next seven days if no new conservation action is introduced;
+- the consequence of increasing treated-water production;
+- the consequence of issuing a voluntary conservation request.
+
+These targets can support the same decision, but they are not the same target.
+
+Conversely, the same target can serve different intended uses. An estimate of current physical storage could be used to decide whether to change operations now, to investigate a sensor discrepancy, or to prepare a monthly operating report. The target may be similar while the required timeliness, accuracy, evidence, and consequences of error differ.
+
+A useful test is:
+
+> Would two competent analysts, given this target statement, know that they are trying to answer the same substantive question?
+
+If not, the target needs another material qualifier. Perhaps the population, system, horizon, comparison, aggregation, or required answer form is missing. But qualification should solve ambiguity, not become a ritual. “Usable storage in the utility’s main finished-water facility at 08:00 Monday” is useful if the immediate state matters. Adding ten irrelevant descriptors does not make the target more scientific.
+
+### The record is not automatically the thing we care about
+
+The dashboard displays **10.8 ML**. It is tempting to write:
+
+> Current storage = 10.8 ML.
+
+That sentence silently turns a record into the target.
+
+A more careful first pass distinguishes at least three things:
+
+- the **target**: current physical usable storage;
+- the **record**: 10.8 ML displayed on the dashboard;
+- the **observation process**: a remote level transmitter and telemetry system that produced the record.
+
+At this point we have no reason to declare the dashboard wrong. We also have no reason to erase the distinction. A measurement or administrative record can be excellent evidence about a target without being identical to the target itself.
+
+That separation will become much more important in Chapters 3 and 4. For now, it prevents a common framing error: answering a question about what was recorded when the decision depends on what is physically or substantively true.
+
+### Name the decision—and who can make it
+
+Now make the decision situation explicit.
+
+The **decision-maker** is the person, group, or institution with authority or responsibility for the immediate decision. Here it is the Utility Director.
+
+The case supplies a fictional authority structure. The director may:
+
+- order an independent level verification;
+- increase treated-water production up to 8.8 ML/day;
+- issue a voluntary conservation request;
+- increase monitoring and review frequency.
+
+The director may **not** directly impose a mandatory water-use restriction. That requires City Manager approval.
+
+This matters because an action is not a genuine alternative for a decision-maker merely because an analyst can imagine it. If another actor controls the action, the relevant alternative may be to **request**, **negotiate**, **escalate**, or **seek authorization**.
+
+It also keeps three objects separate:
+
+| Object | What it does |
+|---|---|
+| Analysis | Describes, predicts, estimates, or otherwise characterizes relevant facts and consequences |
+| Recommendation | Advises what should be chosen given stated or assumed evaluative premises |
+| Decision | Selects, authorizes, or commits to an action by the relevant decision-maker |
+
+Evidence can change an analysis. An analyst can issue a recommendation. Neither event is automatically the decision itself. Practical decision processes similarly distinguish facts, values, alternatives, predicted consequences, uncertainty, and the actual choice [@nasem2026decisionmaking].
+
+### Do not accept the first option set as complete
+
+Suppose the problem is initially phrased as:
+
+> Should we pump more or do nothing?
+
+That is already a decision question, but the alternatives are suspiciously narrow.
+
+The Utility Director could also verify the current state before acting, issue a voluntary conservation request, combine production and conservation, increase monitoring, stage actions over time, or prepare an escalation request if a later trigger is crossed.
+
+An **alternative** is a candidate course of action that can actually be chosen, authorized, requested, negotiated, or otherwise pursued. Good decision framing does not assume that the first alternatives supplied by the problem statement exhaust the possibilities. Value-focused decision analysis makes active creation of alternatives an explicit part of better decision making [@keeney1996valuefocused].
+
+Chapter 1 does not require a formal alternative-generation method. It asks for something simpler:
+
+> If the supplied option set is materially narrow, can you name at least one plausible missing, combined, contingent, information-gathering, staged, or escalation alternative?
+
+That one question is often enough to prevent a false binary from controlling the rest of the analysis.
+
+### Consequences are not values
+
+Alternatives matter because they can produce different **consequences**.
+
+In the water case, relevant consequences may include:
+
+- crossing or avoiding the case-specific operating reserve;
+- maintaining service margin;
+- additional operating cost;
+- burden on households and businesses;
+- burden from voluntary or mandatory restrictions;
+- the time required for information or action to arrive;
+- preserving or losing future options.
+
+The affected stakeholders include households, local businesses, essential community services, utility staff, and the municipal budget or governing authority.
+
+Evidence can help estimate these consequences. But evidence does not by itself tell us how much each consequence should matter.
+
+For example, a calculation may support the claim that higher production increases projected storage. It cannot, by itself, determine whether an extra $2,000 per day is worth paying, how precautionary the utility should be, or what public burden is acceptable. Those judgments require values, obligations, requirements, constraints, or other evaluative premises.
+
+This is why “the data say we should increase production” is usually too compressed. The data may support beliefs about what higher production would do. A recommendation requires an additional bridge from consequences to what should be chosen.
+
+### What would count as adequate?
+
+A final framing question is:
+
+> **What would count as a good enough answer for this intended use?**
+
+There is no useful notion of overall adequacy that ignores use. A model or analysis that is adequate for a rough screening task may be inadequate for a threshold-sensitive operational decision. At the same time, some properties—such as arithmetic consistency or dimensional correctness—can be criticized regardless of use. The point is not that “anything is acceptable if the purpose says so.” The point is that the required evidence, precision, timeliness, and scope depend on what the answer must support [@nasa2024models; @fda2023credibility].
+
+For this utility, provisional adequacy questions include:
+
+- Is the current storage estimate reliable enough when less than 1 ML could change the action?
+- Does the forecast cover the same seven-day horizon as the decision?
+- Does evidence about historical demand support the specific claim being made?
+- If an intervention is recommended, do we have evidence relevant to its consequences rather than only predictive association?
+- Have material consequences and feasible alternatives been represented well enough for this decision?
+
+These criteria are provisional. Later evidence can force us to revise them along with the analysis.
+
+### A compact first frame
+
+Before choosing a technical method, we can now state the problem more clearly:
+
+- **Intended use:** support the Utility Director’s immediate operating decision during the seven-day heatwave.
+- **Decision:** choose or authorize actions within the director’s authority and decide whether escalation is needed.
+- **Decision-maker:** Utility Director; City Manager controls mandatory-restriction authorization.
+- **Targets:** current physical usable storage, risk of falling below the 4.5 ML case reserve, and material consequences of candidate actions.
+- **Alternatives:** continue, verify, increase production, request voluntary conservation, combine and stage actions, monitor, and escalate when warranted.
+- **Consequences:** service margin, operating cost, public burden, timing, and future flexibility.
+- **Stakeholders:** households, businesses, essential services, utility staff, and municipal governance.
+
+This is not yet a complete analysis. It is a disciplined statement of what the analysis is for and what it must connect.
+
+The next mistake to avoid is asking for the wrong **kind of claim**. A forecast, an intervention effect, a counterfactual comparison, and a recommendation can mention the same outcome while requiring different evidence and reasoning.
 
 ## 4. A First Complete Pass: Preventing a Town Water Shortage
 
