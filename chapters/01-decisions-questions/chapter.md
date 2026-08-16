@@ -10,7 +10,7 @@ status: drafted
 ## 1. A Good Answer to the Wrong Question
 
 At 08:00 on Monday, a fictional small municipal water utility is entering a seven-day hot, dry period.
-Its usable finished-water storage capacity is **14.0 megaliters (ML)**, and the operations dashboard reports **10.8 ML** currently in storage.
+Its operations dashboard reports **10.8 megaliters (ML)** of usable finished-water storage.
 The utility's drought plan uses **4.5 ML** as an event-specific operating-reserve threshold — a planning rule supplied by this fictional case, not an industry standard.
 Falling below the reserve would not mean that taps immediately run dry; it would mean that the operating margin the plan treats as acceptable is gone, and that the situation must be reconsidered or escalated.
 Current treated-water input is **8.4 ML per day**.
@@ -179,7 +179,7 @@ The case supplies a fictional authority structure.
 The director may:
 
 - order an independent verification of the storage level;
-- increase treated-water production up to a permitted temporary limit of **8.8 ML/day**;
+- authorize a temporary increase in treated-water production within the supplied operating limits;
 - issue a voluntary conservation request;
 - increase monitoring and review frequency.
 
