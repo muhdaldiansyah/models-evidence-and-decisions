@@ -63,6 +63,42 @@ Entry format:
 - Aliases/cautions: at Chapter 1 depth concerns what should count as better, acceptable, important, or preferable, or what should be done; do not reduce normative reasoning to mere opinion; do not use `prescriptive` as a universal synonym because later decision-theory usage may distinguish it
 - Definition status: paired economics usage verified; Chapter 1 introductory use author-approved; later decision-theory specialization remains deferred
 
+## decision
+
+- Preferred term: decision
+- Field/origin: ordinary language / decision analysis / decision theory
+- Introduced in: Chapter 1 at practical depth; formal home Chapter 11
+- Distinct from: analytical question; target; analysis; recommendation; consequence
+- Aliases/cautions: Chapter 1 uses `decision` for the selection, authorization, or commitment concerning an action or course of action by the relevant actor or institution; an analysis can inform a decision and a recommendation can advise a decision, but neither is the decision itself; not every analytical question immediately implies a decision
+- Definition status: established usage verified at introductory depth; formal decision-under-uncertainty treatment remains Chapter 11
+
+## decision-maker
+
+- Preferred term: decision-maker
+- Field/origin: decision analysis / decision theory / organizational decision practice
+- Introduced in: Chapter 1
+- Distinct from: analyst; recommender; stakeholder; implementer
+- Aliases/cautions: the person, group, or institution with the relevant authority or responsibility for the immediate decision; authority may be distributed, and an attractive action outside that authority should be reframed as a request, escalation, negotiation, or another actor's decision rather than silently treated as feasible
+- Definition status: verified at introductory practical depth; formal governance and decision-theory distinctions remain later work
+
+## alternative
+
+- Preferred term: alternative
+- Field/origin: decision analysis / ordinary decision practice
+- Introduced in: Chapter 1 at intuitive depth; formal value-focused development Chapter 10
+- Distinct from: consequence; scenario; target; recommendation
+- Aliases/cautions: a candidate course of action that can be chosen, authorized, requested, negotiated, or otherwise pursued through the relevant decision process; do not assume the initially supplied alternatives are complete; when the option set is materially narrow, consider at least one plausible missing, combined, contingent, information-gathering, or escalation alternative; `option` may appear in ordinary prose but `alternative` is preferred controlled vocabulary
+- Definition status: introductory use verified; systematic alternative generation remains Chapter 10
+
+## consequence
+
+- Preferred term: consequence
+- Field/origin: decision analysis / ordinary decision practice
+- Introduced in: Chapter 1 at practical depth
+- Distinct from: alternative; target; value; utility; recommendation
+- Aliases/cautions: an outcome, effect, burden, benefit, cost, risk, or other material result that may occur under an alternative for a relevant stakeholder or system; evidence may inform beliefs about consequences, but the evaluation of those consequences requires values, requirements, or other decision premises; one analytical target rarely exhausts all decision-relevant consequences
+- Definition status: verified at introductory practical depth; formal value and utility treatment remains Chapters 10–11
+
 ## statistical identifiability
 
 - Preferred term: statistical identifiability
