@@ -270,6 +270,15 @@ Entry format:
 - Aliases/cautions: none recorded yet
 - Definition status: TODO — verify against canonical sources
 
+## feedback
+
+- Preferred term: feedback
+- Field/origin: dynamical systems / control / system dynamics
+- Introduced in: Chapter 1 as an intuitive environment screen; formal home Chapter 13 with engineered-control specialization in Chapter 14
+- Distinct from: ordinary evaluative or reviewer feedback; delay; accumulation; adaptive response; strategic response; stability
+- Aliases/cautions: at Chapter 1 depth, use `feedback` when consequences of a process or action return through the system and influence later behavior, outcomes, information, or actions; do not teach `positive feedback` or `negative feedback`, loop polarity, controller design, or stability analysis here; feedback does not by itself imply adaptation or strategic behavior
+- Definition status: verified at introductory systems depth; formal dynamical and control treatment remains Chapters 13–14
+
 ## stability
 
 - Preferred term: stability
