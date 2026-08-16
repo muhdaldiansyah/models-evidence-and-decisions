@@ -162,32 +162,41 @@ Entry format:
 - Aliases/cautions: none recorded yet
 - Definition status: TODO — verify against canonical sources
 
+## association
+
+- Preferred term: association
+- Field/origin: statistics / epidemiology / causal inference
+- Introduced in: Chapter 1 at intuitive depth
+- Distinct from: correlation; prediction; causal effect; intervention
+- Aliases/cautions: Chapter 1 uses `association` broadly for a relationship among variables, events, quantities, or states under observed or otherwise specified conditions; correlation is one narrower associational concept; association alone does not establish what would happen under intervention; do not infer that observational data can never support causal inference, because causal conclusions may use observational evidence together with additional causal assumptions or design information
+- Definition status: technical associational-versus-causal distinction verified at introductory depth; broad reader-facing wording adjudicated for Chapter 1
+
 ## prediction
 
 - Preferred term: prediction
-- Field/origin: statistics / forecasting
-- Introduced in: Chapter 6
-- Distinct from: intervention; counterfactual
-- Aliases/cautions: none recorded yet
-- Definition status: TODO — verify against canonical sources
+- Field/origin: statistics / machine learning / forecasting
+- Introduced in: Chapter 1 at intuitive depth; formal home Chapter 6
+- Distinct from: description; causal explanation; intervention effect; counterfactual attribution
+- Aliases/cautions: Chapter 1 uses prediction for an unknown, new, or future observable outcome given information available for making the prediction; prediction may exploit associations without causal interpretation; a useful predictor is not automatically a causal lever; `forecast` is a more specific future-directed term
+- Definition status: verified at introductory depth; formal probabilistic prediction, uncertainty, scoring, and calibration remain Chapter 6
 
 ## intervention
 
 - Preferred term: intervention
-- Field/origin: causal inference
-- Introduced in: Chapter 7
-- Distinct from: prediction; counterfactual
-- Aliases/cautions: none recorded yet
-- Definition status: TODO — verify against canonical sources
+- Field/origin: causal inference / experimental science / policy evaluation
+- Introduced in: Chapter 1 as an intuitive preview; formal home Chapter 7
+- Distinct from: observed exposure; association; prediction; decision or recommendation
+- Aliases/cautions: at Chapter 1 depth asks what would happen under an action or externally changed condition; state the action and comparison condition when material; association alone is insufficient for an intervention-effect claim, although observational evidence may contribute under additional causal assumptions and identification conditions
+- Definition status: verified at introductory depth; formal causal targets, notation, identification, and design remain Chapter 7
 
 ## counterfactual
 
 - Preferred term: counterfactual
-- Field/origin: causal inference
-- Introduced in: Chapter 7
-- Distinct from: prediction; intervention
-- Aliases/cautions: none recorded yet
-- Definition status: TODO — verify against canonical sources
+- Field/origin: causal inference / philosophy / economics
+- Introduced in: Chapter 1 as an intuitive preview; formal home Chapter 7
+- Distinct from: generic hypothetical scenario; ordinary association; forecast
+- Aliases/cautions: at Chapter 1 depth asks about an alternative outcome under a different action or condition while retaining relevant factual or background information about the case; do not use `counterfactual` as a loose synonym for any hypothetical scenario; do not present intervention and counterfactual as mutually exclusive formal categories because causal frameworks relate them closely
+- Definition status: verified at introductory depth; framework-specific formal semantics, potential outcomes, and counterfactual notation remain Chapter 7
 
 ## utility
 
