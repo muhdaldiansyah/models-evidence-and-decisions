@@ -2,15 +2,9 @@
 
 **An Integrated Course in Reasoning Under Uncertainty**
 
-## Status
+The book teaches technically literate professionals and advanced students to reason about unfamiliar consequential problems: working out what is actually being asked, what the available records can and cannot support, what a decision requires beyond evidence, and what to revise when action changes the system being acted on.
 
-Architecture baseline established.
-
-Detailed chapter architecture and manuscript development will follow. The book architecture should be treated as stable enough to begin chapter design, but not as immune to empirical revision.
-
-## Purpose
-
-The book is designed for technically literate professionals and advanced students who want to reason better about unfamiliar consequential problems. The intended reader is comfortable with algebra and willing to use light computation or simulation, but does not need prior specialist training in statistics, economics, operations research, causal inference, control theory, or decision analysis.
+The intended reader is comfortable with algebra and willing to use light computation or simulation, but does not need prior specialist training in statistics, economics, operations research, causal inference, control theory, or decision analysis.
 
 The book is not intended to replace specialist textbooks. Its differentiated purpose is to teach:
 
@@ -21,7 +15,66 @@ The book is not intended to replace specialist textbooks. Its differentiated pur
 5. monitoring, criticism, and revision after deployment;
 6. transfer to unfamiliar problems.
 
-A separate depth curriculum may later provide deeper technical study of specialist machinery.
+It is an integrated pedagogical architecture built from established concepts — not a proposed new discipline or unified formal theory — and it preserves the disciplinary distinctions it draws on rather than collapsing them for elegance (see [Intellectual Principle](#intellectual-principle)). A separate depth curriculum may later provide deeper technical study of specialist machinery.
+
+## Start Here
+
+**To read the book.** One chapter is fully drafted so far:
+
+> **[Chapter 1 — Decisions, Questions, and a First Complete Pass](chapters/01-decisions-questions/chapter.md)** — six sections, designed for about four learning hours including exercises.
+
+Its worked case is a small municipal water utility deciding, across a seven-day heatwave, whether to act on a storage reading that may be wrong. Read the manuscript in order: it opens by asking you to write a five-minute first pass that later exercises build on, so do not skim ahead.
+
+Four files beside the manuscript are exercise materials — `transfer-form-a.md` and `transfer-form-b.md` (parallel unfamiliar-domain cases), `transfer-rubric.md` (scoring; open it only after you have written your own analysis), and `diagnosis-feedback.md` (the discussion for the diagnosis exercise). The chapter links each one at the moment it is needed. The transfer exercise and its delayed retest only work on material you have not seen, so let the manuscript decide when you open them. Everything else in the chapter directory is authoring and validation scaffolding; some of it discusses the exercises' answers, so if you intend to do the exercises, stay out of it until you have finished the delayed retest.
+
+**To work on the project.** Authority runs `README.md → decisions/ → canon/ → chapter spec.md → working files`; the operating contract is [CLAUDE.md](CLAUDE.md).
+
+- [`decisions/`](decisions/) — settled decisions and their reopening conditions, indexed by scope: three book-level, five governing Chapter 1.
+- [`canon/`](canon/) — controlled terminology and registered pedagogical syntheses.
+- [`chapters/`](chapters/) — one directory per chapter; `spec.md` is each chapter's contract.
+- [`references.bib`](references.bib) and [`sources/`](sources/) — one global bibliography; one note per source, named by citation key.
+
+Chapter 1's directory, the most developed, shows the kinds of file a chapter accumulates:
+
+- **Manuscript** — `chapter.md`. The chapter itself; the only file a reader opens directly.
+- **Exercise materials** — `transfer-form-a.md`, `transfer-form-b.md`, `transfer-rubric.md`, `diagnosis-feedback.md`. Linked from the manuscript at the moment they are needed.
+- **Chapter contract** — `spec.md`. Governed scope, section architecture, and design targets.
+- **Authoring controls** — `anchor.md`, `case-data.md`, `decision-framing.md`, `dynamics-response.md`, `learning-sequence.md`, `transfer.md`. Frozen case facts and boundary rules implementing Decisions 0004–0008.
+- **Validation instruments** — `freeze-gates.md`, `sme-review-water-anchor.md`, `pilot-protocol.md`, `pilot-data-capture.md`, `validation-handoff.md`. The evidence trail from drafted toward frozen.
+- **Working notes** — `notes.md`, `drafting-blueprint.md`. Research dossier and drafting plan.
+
+## Current State
+
+Last reviewed 2026-08-18.
+
+- The 5-part, 17-chapter architecture is frozen for drafting ([Decision 0001](decisions/0001-book-architecture-freeze.md)).
+- **Chapter 1 is fully drafted** and awaiting external validation: before it can be frozen, its water-utility anchor case needs a human subject-matter-expert review and its exercise design needs reader-pilot data ([freeze gates](chapters/01-decisions-questions/freeze-gates.md); gates 1–3 open).
+- Chapter 2 is in bounded pre-drafting research ([research plan](chapters/02-representation-mechanisms/research-plan.md)) and is [not yet drafting-ready](chapters/02-representation-mechanisms/readiness-audit.md).
+- Chapters 3–17 exist as skeleton specs: governed title, central question, core competence, and page and hour targets, with content architecture still open.
+
+| Part | Ch. | Chapter and central question | Status |
+|---|---:|---|---|
+| I | 1 | **[Decisions, Questions, and a First Complete Pass](chapters/01-decisions-questions/chapter.md)**<br>What is being asked, for what use, and what would count as an adequate answer? | **Drafted** — [in validation](chapters/01-decisions-questions/freeze-gates.md) |
+| I | 2 | **[Representation, Mechanisms, and Scale](chapters/02-representation-mechanisms/spec.md)**<br>What is inside the model, at what grain, and how do parts produce behavior? | [In research](chapters/02-representation-mechanisms/research-plan.md) |
+| I | 3 | **[Measurement and Operationalization](chapters/03-measurement-operationalization/spec.md)**<br>What do the numbers stand for, and how well? | Spec skeleton |
+| I | 4 | **[Observation Processes and Data Provenance](chapters/04-observation-provenance/spec.md)**<br>Why did these records, and not others, come to exist in this form? | Spec skeleton |
+| I | 5 | **[Assumptions, Adequacy, and Rival Models](chapters/05-assumptions-rival-models/spec.md)**<br>How could this formulation fail its purpose, and what would show it? | Spec skeleton |
+| II | 6 | **[Probability, Prediction, and Simulation](chapters/06-probability-simulation/spec.md)**<br>How is uncertainty represented, updated, and scored? | Spec skeleton |
+| II | 7 | **[Targets, Identification, and Causal Claims](chapters/07-targets-identification/spec.md)**<br>Could ideal evidence establish the target, and under what assumptions? | Spec skeleton |
+| II | 8 | **[Estimation, Uncertainty, and Model Checking](chapters/08-estimation-uncertainty/spec.md)**<br>What does finite evidence say, with what reliability? | Spec skeleton |
+| II | 9 | **[Combining and Transporting Evidence](chapters/09-evidence-synthesis/spec.md)**<br>What do many imperfect sources jointly support — here? | Spec skeleton |
+| III | 10 | **[Values, Objectives, and Alternatives](chapters/10-values-alternatives/spec.md)**<br>What matters, to whom, and what options exist beyond those offered? | Spec skeleton |
+| III | 11 | **[Decisions Under Uncertainty and Value of Information](chapters/11-decisions-voi/spec.md)**<br>Which act is defensible, and would more evidence change it? | Spec skeleton |
+| III | 12 | **[Optimization, Robustness, and Adaptive Plans](chapters/12-optimization-robustness/spec.md)**<br>How do we choose well at scale when the model itself is uncertain? | Spec skeleton |
+| IV | 13 | **[Dynamics, Feedback, and Stability](chapters/13-dynamics-feedback/spec.md)**<br>How does the system evolve once acted upon? | Spec skeleton |
+| IV | 14 | **[Sequential Decisions, Information, and Control](chapters/14-sequential-control/spec.md)**<br>How should choices be made through time as information arrives? | Spec skeleton |
+| IV | 15 | **[Strategic Interaction, Incentives, and Endogenous Response](chapters/15-strategic-interaction/spec.md)**<br>What changes when the system contains other modelers? | Spec skeleton |
+| V | 16 | **[Integration: The Full Loop on Unfamiliar Problems](chapters/16-integration-full-loop/spec.md)**<br>Which machinery does this problem need, and how do the pieces connect? | Spec skeleton |
+| V | 17 | **[Deployment, Monitoring, and Revision](chapters/17-deployment-monitoring/spec.md)**<br>Is the deployed reasoning still working — and if not, which stage failed? | Spec skeleton |
+
+Stages: **spec skeleton** (governed title, question, competence, and targets only) → **in research** (bounded pre-drafting research) → **drafting** → **drafted — in validation** (manuscript complete; external evidence pending) → **frozen**. Update a chapter's row, and the date above, in the same commit that moves the chapter across a stage boundary.
+
+Chapter names link to the manuscript where one exists, otherwise to that chapter's `spec.md`. This table restates governed titles and central questions for orientation; the per-chapter blocks below remain the full architectural record.
 
 ## Intellectual Principle
 
@@ -321,36 +374,14 @@ Reading completion alone is not mastery.
 
 Treat this architecture as the working baseline for manuscript development. Do not casually restructure parts or chapters during drafting.
 
-The architecture should only be reopened for a genuine structural reason, such as:
-
-- evidence that the formulation-first sequence materially harms learning;
-- evidence that identification-before-estimation materially harms competence without reducing identification errors;
-- a chapter proving unable to support its promised competence within the available scope;
-- a major new competing work eliminating the book's intellectual differentiation.
+The architecture should only be reopened for a genuine structural reason; the reopening conditions are recorded in [Decision 0001](decisions/0001-book-architecture-freeze.md).
 
 Ordinary drafting difficulties should lead to chapter revision, not immediate architecture redesign.
 
-## Repository Development Rules
+## Governance
 
-For now:
-
-- `README.md` is the architectural source of truth.
-- Do not create manuscript chapter files yet.
-- Do not invent content that has not been adjudicated.
-- Do not silently change chapter names or order.
-- Do not introduce novel academic terminology merely for elegance.
-- Keep the repository suitable for a serious long-term book project.
-
-The following will be designed separately, later:
-
-- directory structure;
-- chapter Markdown convention;
-- citation/reference system;
-- source-note system;
-- research files;
-- exercises;
-- figures;
-- computational notebooks;
-- architecture/version records.
-
-Do not preempt those decisions now.
+- `README.md` is the architectural source of truth for the book: parts, chapters, sequence, and freeze status. Chapter titles, central questions, and core competences must remain synchronized between this file and each chapter's `spec.md`; conflicts are surfaced, not silently resolved.
+- The operating contract — authority order, intellectual rules, source discipline, writing conventions — is [CLAUDE.md](CLAUDE.md).
+- Architectural change goes through a decision record in [`decisions/`](decisions/), never through silent edits here; each record carries its own reopening conditions.
+- The manuscript must conform to [`canon/`](canon/): introducing or varying a term requires an entry in the terminology registry, and pedagogical syntheses must be labeled as such rather than presented as established theory.
+- Repository structure and the citation system are settled by [Decision 0002](decisions/0002-repository-architecture.md) and [Decision 0003](decisions/0003-citation-and-source-note-system.md); new top-level systems require demonstrated need.
