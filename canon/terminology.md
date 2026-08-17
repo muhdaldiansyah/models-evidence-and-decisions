@@ -20,9 +20,11 @@ Entry format:
 
 ## Index
 
-32 entries, in registry order. Navigation only — the entries below are the record.
+41 entries, in registry order. Navigation only — the entries below are the record.
 
-[intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
+**Adjudicated (32).** [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
+
+**Provisional — Chapter 2 block (9), pending adjudication of [Decision 0009](../decisions/0009-chapter2-representation-terminology-and-boundary.md).** [representation](#representation) · [target system](#target-system) · [boundary](#boundary) · [mechanism](#mechanism) · [abstraction](#abstraction) · [idealization](#idealization) · [generality](#generality) · [aggregation](#aggregation) · [state](#state)
 
 ## intended use
 
@@ -311,3 +313,90 @@ Entry format:
 - Distinct from: structural identifiability; the observation process (Chapter 4)
 - Aliases/cautions: never use as a loose synonym for "measurable"
 - Definition status: TODO — verify against canonical sources
+
+---
+
+## Chapter 2 block — PROVISIONAL
+
+The nine entries below were introduced by **proposed** `decisions/0009-chapter2-representation-terminology-and-boundary.md`, which has **not** been author-adjudicated. They are recorded here so that Chapter 2's drafting is inspectable against a single vocabulary. Treat them as provisional: rejecting a clause of Decision 0009 invalidates the corresponding entry.
+
+## representation
+
+- Preferred term: representation
+- Field/origin: philosophy of science; modeling and simulation; engineering
+- Introduced in: Chapter 2
+- Distinct from: the target system it represents; a description of the model (`frigg2025models` §2.4); reality
+- Aliases/cautions: used interchangeably with `model` at Chapter 2 depth, preferring `representation` because it foregrounds selection and purpose; **no distinction between the two is manufactured**; a representation stands for a *selected* part or aspect of a target system, and selection is part of the definition rather than a later concession
+- Definition status: verified — `frigg2025models` §1; `astrom2008feedback` p. 27
+
+## target system
+
+- Preferred term: target system
+- Field/origin: philosophy of science (established)
+- Introduced in: Chapter 2; reserved by Chapter 1's spec at orientation depth
+- Distinct from: the model or representation of it; Chapter 1's `target`; target population; target quantity
+- Aliases/cautions: **not a renaming of Chapter 1's `target`** — Chapter 1's `target` is what the answer is about, while the target system is the part of the world under representation; they frequently coincide and are not the same concept; `focal system` was considered and rejected as an unnecessary coinage
+- Definition status: verified — `frigg2025models` §1
+
+## boundary
+
+- Preferred term: boundary (model boundary; system boundary)
+- Field/origin: system dynamics; modeling and simulation; systems engineering
+- Introduced in: Chapter 2
+- Distinct from: a physical edge; the scope of a decision; the target population; the observation window
+- Aliases/cautions: an analytical cut, not a wall; governed by purpose and provisional; narrowing can hide delayed and distal consequences (`sterman2006evidence`); widening enables new questions rather than merely adding work (`astrom2008feedback` p. 29); where the cut falls can change the internal description, not only its size (`astrom2008feedback` p. 33); **Chapter 2 teaches boundary choice by worked example and warning, not by criterion — no general selection procedure is sourced**
+- Definition status: partially verified — component claims are sourced; no general boundary-selection theory was obtained (see `research-01-models-representations-boundaries.md` §3)
+
+## mechanism
+
+- Preferred term: mechanism
+- Field/origin: philosophy of science (mechanistic explanation); life sciences
+- Introduced in: Chapter 2, phenomenon-indexed and epistemically hedged; causal identification remains Chapter 7
+- Distinct from: an identified causal effect; a correlation; structure or dependency without production; dynamics (Chapter 13); explanation
+- Aliases/cautions: reader-facing definition is the **minimal** formulation — a mechanism *for a phenomenon* is a set of parts whose activities and interactions are organized so as to be responsible for that phenomenon (`craver2026mechanisms` §2); **always a mechanism *of* a specified phenomenon**, never of a system as such; the regularity-bearing `machamer2000mechanisms` p. 3 formulation is **not** the reader-facing one, since most of this book's cases are not regular; Chapter 2 may say a mechanism is *proposed*, *represented*, or *could produce* the phenomenon, and may **not** say it is *established* or that X *causes* Y; drawing a mechanism is a hypothesis — intervention is what supplies evidence (`machamer2000mechanisms` p. 17); how mechanisms relate to causation is itself contested (`craver2026mechanisms` §2.1.3) and Chapter 2 does not adjudicate it
+- Definition status: verified — `craver2026mechanisms` §2, §2.1.1, §5.1; `machamer2000mechanisms` pp. 2–3, 17–18
+
+## abstraction
+
+- Preferred term: abstraction
+- Field/origin: philosophy of science; mechanistic explanation
+- Introduced in: Chapter 2
+- Distinct from: idealization; generality or scope; aggregation; approximation; simplification as a loose synonym
+- Aliases/cautions: abstraction is **leaving a feature out** — it is silent about what it omits, and silence asserts nothing false; must be kept apart from generality: "Abstraction is an issue of the amount of detail … The generality of a schema is the scope (small or large) of the domain in which it can be instantiated" (`machamer2000mechanisms` p. 16); the omission-versus-distortion cut is Jones's (2005) and is **one defensible position rather than consensus** — Weisberg reports it and declines to adopt it, and Aristotelian idealization is omission filed under idealization
+- Definition status: verified as a reported position — `weisberg2007idealization` fn. 14; `frigg2025models` §1; `machamer2000mechanisms` p. 16
+
+## idealization
+
+- Preferred term: idealization
+- Field/origin: philosophy of science
+- Introduced in: Chapter 2 as a **named contrast only**; taxonomy deferred to the depth curriculum
+- Distinct from: abstraction; error; approximation; falsification
+- Aliases/cautions: idealization is **putting in something known to be false**; the asymmetry is what the reader needs — an omission is defended by showing the feature does not bear on the question, while a distortion must be defended by showing the error it introduces is tolerable for the use, which is a harder argument; do not teach Galilean, minimalist, or multiple-models idealization as reader vocabulary; the abstraction/idealization boundary is contested in the literature
+- Definition status: verified as a reported position — `weisberg2007idealization` fn. 14; `frigg2025models` §1
+
+## generality
+
+- Preferred term: generality (scope)
+- Field/origin: mechanistic explanation; model-building methodology
+- Introduced in: Chapter 2
+- Distinct from: abstraction; precision; realism; robustness; external validity and transportability (Chapter 9)
+- Aliases/cautions: generality is the **size of the domain over which a representation can be instantiated**, which is a different dial from how much detail it contains; simpler and more general are different moves; the generality/realism/precision trade-off (`levins1966strategy` p. 422) is Levins's influential **strategy argument**, not a proven constraint, and is disputed in later literature that has not been inspected
+- Definition status: verified — `machamer2000mechanisms` p. 16; `levins1966strategy` p. 422
+
+## aggregation
+
+- Preferred term: aggregation (representational aggregation, in Chapter 2)
+- Field/origin: modeling practice; the term is also heavily used in data and reporting contexts
+- Introduced in: Chapter 2 for representational aggregation; Chapter 4 for aggregation introduced by the observation, recording, or reporting process
+- Distinct from: abstraction; aggregation in records and reporting (Chapter 4); the ecological fallacy and aggregate-to-individual inference (Chapters 4 and 9); averaging as a computation
+- Aliases/cautions: in Chapter 2, aggregation means **treating distinguishable things as one for the purpose at hand**, a choice made before any data exist; the Chapter 2 / Chapter 4 split must be stated explicitly wherever the word appears; **no inspected source defines representational aggregation or supplies criteria for it**, so Chapter 2 demonstrates aggregation failure arithmetically in its own anchor case rather than citing one; do not import the ecological-fallacy literature
+- Definition status: **unsourced at representation level** — taught by self-evidencing demonstration per Decision 0009 clause 6.3
+
+## state
+
+- Preferred term: state
+- Field/origin: dynamical systems; control theory
+- Introduced in: Chapter 2 at representation depth; formal home Chapter 13, with observability and control in Chapter 14
+- Distinct from: any variable; a parameter; an observed or recorded value; the state space; equilibrium; stability
+- Aliases/cautions: the state is **the collection of things that must be carried forward — what summarizes the past well enough to answer what comes next**; the canonical control-theory definition is itself purpose-qualified: "a collection of variables that summarize the past of a system for the purpose of predicting the future" (`astrom2008feedback` p. 34); a quantity recomputable from others, or irrelevant to what comes next, is **not** state; do not define state as "a variable that changes over time"; state is a property of the representation relative to what is to be predicted, not a property of the system; **no symbolic notation, no state-space form, no order, linearity, reachability, or observability in Chapter 2**; `state space` is not named until Chapter 13
+- Definition status: verified — `astrom2008feedback` pp. 28, 34
