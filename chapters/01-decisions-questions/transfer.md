@@ -1,6 +1,8 @@
 # Chapter 1 Cold-Transfer Forms
 
-Status: selected for pilot; not yet empirically calibrated
+Status: selected for pilot; not yet empirically calibrated.
+
+Contains answer commentary for both transfer forms. Do not read this file if you intend to complete the Chapter 1 transfer exercises; use the reader copies `transfer-form-a.md` and `transfer-form-b.md`, which the manuscript links at the right moment.
 
 These are parallel unfamiliar-domain production forms for Chapter 1. They are design artifacts, not claims of validated measurement. Both forms use the same output requirements and self-scoring rubric in `spec.md`.
 

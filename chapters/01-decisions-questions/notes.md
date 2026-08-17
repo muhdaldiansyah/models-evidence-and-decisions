@@ -1,5 +1,9 @@
 # Chapter 1 Research Notes
 
+Status: accumulated research dossier, superseded in part. Each bounded task below records its own adjudication date and disposition, but the file as a whole has not been consolidated — `freeze-gates.md` lists that consolidation as non-blocking housekeeping.
+
+This file is evidence for decisions, not a statement of them. Where it appears to conflict with a governed artifact, the governed artifact wins: the adjudicated outcomes live in `../../decisions/` (0004–0008), `../../canon/`, and `spec.md`. Do not cite this file as authority.
+
 ## Bounded task: intended use, context of use, and adequacy for use
 
 Status: author approved for implementation on 2026-08-15.
