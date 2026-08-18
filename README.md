@@ -19,13 +19,21 @@ It is an integrated pedagogical architecture built from established concepts —
 
 ## Start Here
 
-**To read the book.** One chapter is fully drafted so far:
+**To read the book.** Three chapters are fully drafted, and they are written to be read in order:
 
-> **[Chapter 1 — Decisions, Questions, and a First Complete Pass](chapters/01-decisions-questions/chapter.md)** — six sections, designed for about four learning hours including exercises.
+> **[Chapter 1 — Decisions, Questions, and a First Complete Pass](chapters/01-decisions-questions/chapter.md)** — six sections, about four learning hours including exercises.
+>
+> **[Chapter 2 — Representation, Mechanisms, and Scale](chapters/02-representation-mechanisms/chapter.md)** — seven sections, about six learning hours.
+>
+> **[Chapter 3 — Measurement and Operationalization](chapters/03-measurement-operationalization/chapter.md)** — seven sections, about five learning hours.
 
-Its worked case is a small municipal water utility deciding, across a seven-day heatwave, whether to act on a storage reading that may be wrong. Read the manuscript in order: it opens by asking you to write a five-minute first pass that later exercises build on, so do not skim ahead.
+All three work one case: a small municipal water utility during a seven-day heatwave.
 
-Four files beside the manuscript are exercise materials — `transfer-form-a.md` and `transfer-form-b.md` (parallel unfamiliar-domain cases), `transfer-rubric.md` (scoring; open it only after you have written your own analysis), and `diagnosis-feedback.md` (the discussion for the diagnosis exercise). The chapter links each one at the moment it is needed. The transfer exercise and its delayed retest only work on material you have not seen, so let the manuscript decide when you open them. Everything else in the chapter directory is authoring and validation scaffolding; some of it discusses the exercises' answers, so if you intend to do the exercises, stay out of it until you have finished the delayed retest.
+Chapter 1 frames the decision and discovers that the storage reading it depends on may be wrong. Chapter 2 asks what belongs inside a representation of that utility, and finds that the picture which answered Chapter 1's question cannot express who loses service first. Chapter 3 opens a phrase Chapter 2 deliberately left standing — *adequate or not* — and shows the utility's records calling a zone adequately served because of where an instrument happened to be installed.
+
+Read each manuscript in order rather than skimming. All three open by asking you to produce something unaided — a first-pass analysis, a representation, a definition — before any of the chapter's vocabulary arrives, and later exercises compare against what you wrote. Skipping that opening costs you the comparison.
+
+Each drafted chapter carries the same four exercise files beside its manuscript — `transfer-form-a.md` and `transfer-form-b.md` (parallel unfamiliar-domain cases), `transfer-rubric.md` (scoring; open it only after you have written your own analysis), and `diagnosis-feedback.md` (the discussion for the diagnosis exercise). The chapter links each one at the moment it is needed. The transfer exercises and their delayed retests only work on material you have not seen, so let the manuscript decide when you open them. Everything else in a chapter directory is authoring and validation scaffolding; some of it discusses the exercises' answers, so if you intend to do the exercises, stay out of it until you have finished the delayed retest.
 
 **To work on the project.** Authority runs `README.md → decisions/ → canon/ → chapter spec.md → working files`; the operating contract is [CLAUDE.md](CLAUDE.md).
 
@@ -34,14 +42,14 @@ Four files beside the manuscript are exercise materials — `transfer-form-a.md`
 - [`chapters/`](chapters/) — one directory per chapter; `spec.md` is each chapter's contract.
 - [`references.bib`](references.bib) and [`sources/`](sources/) — one global bibliography; one note per source, named by citation key.
 
-Chapter 1's directory, the most developed, shows the kinds of file a chapter accumulates:
+Chapter 1's directory, still the most developed, shows the kinds of file a chapter accumulates. Chapters 2 and 3 carry the same kinds, minus the validation instruments and with their research split across separate dossiers rather than a single notes file.
 
 - **Manuscript** — `chapter.md`. The chapter itself; the only file a reader opens directly.
 - **Exercise materials** — `transfer-form-a.md`, `transfer-form-b.md`, `transfer-rubric.md`, `diagnosis-feedback.md`. Linked from the manuscript at the moment they are needed.
 - **Chapter contract** — `spec.md`. Governed scope, section architecture, and design targets.
 - **Authoring controls** — `anchor.md`, `case-data.md`, `decision-framing.md`, `dynamics-response.md`, `learning-sequence.md`, `transfer.md`. Frozen case facts and boundary rules implementing Decisions 0004–0008.
 - **Validation instruments** — `freeze-gates.md`, `sme-review-water-anchor.md`, `pilot-protocol.md`, `pilot-data-capture.md`, `validation-handoff.md`. The evidence trail from drafted toward frozen.
-- **Working notes** — `notes.md`, `drafting-blueprint.md`. Research dossier and drafting plan.
+- **Research and drafting** — `drafting-blueprint.md`, plus `notes.md` in Chapter 1 and `readiness-audit.md`, `research-plan.md`, and numbered `research-0N-*.md` dossiers in Chapters 2 and 3.
 
 ## Current State
 
