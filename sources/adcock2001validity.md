@@ -8,7 +8,9 @@ Adcock, Robert, and David Collier. 2001. "Measurement Validity: A Shared Standar
 
 Verified direct source. The published article was inspected page by page. The journal running heads print *American Political Science Review*, Vol. 95, No. 3, September 2001, and the article begins on printed p. 529. Authors are given as of the University of California, Berkeley.
 
-Printed pages 529–532 were read in full. Later pages were not inspected in this pass.
+Printed pages 529–532 were read in full.
+
+**Extended 2026-08-18.** Printed pages 537–539 were subsequently read, closing the recorded gap on the article's treatment of validation types. Pages 533–536 and 540–546 remain uninspected and may not be cited.
 
 ## Role in Chapter 3
 
@@ -38,6 +40,35 @@ It is also deliberately cross-disciplinary — its stated aim is a standard shar
 - p. 532: "Because error is a pervasive threat to measurement, it is essential to view the interpretations of scores in relation to systematized concepts as falsifiable claims (Messick 1989, 13–4). Scholars should treat these claims just as they would any casual hypothesis, that is, as tentative statements that require supporting evidence. Validity assessment is the search for this evidence."
 - p. 532: Kaplan's paradox of conceptualization — "Proper concepts are needed to formulate a good theory, but we need a good theory to arrive at the proper concepts. … The paradox is resolved by a process of approximation."
 - p. 532: three traps in forming a systematized concept — misconstruing flexibility as everything being up for grabs; claiming too much for one's chosen systematization; and stopping short of a fleshed-out account of it.
+
+## Verified locators — pp. 537–539, kinds of evidence
+
+Read during the 2026-08-18 gap-closing pass. These ground Chapter 3's treatment of what evidence for an interpretation actually looks like, which was previously written in the book's own voice.
+
+### The classical three, defined (p. 537)
+
+- **Content validity** "assesses the degree to which an indicator represents the universe of content entailed in the systematized concept being measured."
+- **Criterion validity** "assesses whether the scores produced by an indicator are empirically associated with scores for other variables, called criterion variables, which are considered direct measures of the phenomenon of concern."
+- **Construct validity** "has had many meanings. One central focus has been on assessing whether a given indicator is empirically associated with other indicators in a way that conforms to theoretical expectations about their interrelationship."
+
+### That the three are kinds of *evidence*, not kinds of validity (p. 537)
+
+- The authors quote Moss (1995, 6): "there is a close to universal consensus among validity theorists that 'content- and criterion-related evidence of validity are simply two of many types of evidence that support construct validity.'"
+- p. 537: "in the psychometric literature (e.g., Messick 1980, 1015), the term 'construct validity' has become essentially a synonym for what we call measurement validity."
+- p. 537, on the historical trinity: a recurring metaphor characterized the three types as "something of a holy trinity representing three different roads to psychometric salvation" (Guion 1980, 386); the later "unitarian" phase saw "the earlier trinity … in a monothestic mode as the three aspects of a unitary psychometric divinity."
+
+### Their own regrouping (pp. 537–538)
+
+- p. 537: procedures are grouped "into two types according to the kind of theoretical or conceptual relationship that serves as the point of reference", based on "the heuristic distinction between description and explanation" — **convergent/discriminant validation** for descriptive expectations, **nomological/construct validation** for explanatory causal relations.
+- p. 538, section heading "THREE TYPES OF MEASUREMENT VALIDATION": "We organize our presentation in terms of a threefold typology: content, convergent/discriminant, and nomological/construct validation."
+- p. 538, and this is the load-bearing caution: "no rigid boundaries exist among alternative procedures, given that one occasionally shades off into another. **Our typology is a heuristic device** that shows how validation procedures can be grouped in terms of basic questions."
+
+### Content validation, and its limits (pp. 538–539)
+
+- p. 538, basic question: "In the framework of Figure 1, does a given indicator (level 3) adequately capture the full content of the systematized concept (level 2)?" — assessed through two questions: "First, are key elements omitted from the indicator? Second, are inappropriate elements included in the indicator?"
+- p. 538, footnote 9: "Some readers may think of these questions as raising issues of 'face validity.' We have found so many different definitions of face validity that we prefer not to use this label."
+- p. 539: "although a necessary condition, the findings of content validation alone are not a sufficient condition for establishing validity … The key point is that an indicator with valid content may still produce scores with low overall measurement validity, because further threats to validity can be introduced in the coding of cases."
+- p. 539: "It is a matter of judgment for scholars to decide when efforts to further improve the adequacy of content may become counterproductive."
 
 ## Chapter 3 use and cautions
 
