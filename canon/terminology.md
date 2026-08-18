@@ -20,7 +20,7 @@ Entry format:
 
 ## Index
 
-119 entries, in registry order. Navigation only — the entries below are the record.
+131 entries, in registry order. Navigation only — the entries below are the record.
 
 **Adjudicated (29).** Note that `construct`, `measure`, and `proxy` appear in this sequence but were filled in from proposed Decision 0010 and are provisional; see the Chapter 3 block. Six further entries in this sequence — `statistical identifiability`, `causal identification`, `target`, `estimand`, `intervention`, and `counterfactual` — were closed or specialised from proposed Decision 0014 and are provisional; see the Chapter 7 block. `estimator` and `estimate` were closed from proposed Decision 0015; see the Chapter 8 block. `target population` was closed from proposed Decision 0016; see the Chapter 9 block. `objective` and `metric` were closed from proposed Decision 0017; see the Chapter 10 block. [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
 
@@ -45,6 +45,8 @@ Entry format:
 **Provisional — Chapter 11 block (8), pending adjudication of [Decision 0018](../decisions/0018-chapter11-decision-terminology-and-boundary.md).** [decision tree](#decision-tree) · [expected value](#expected-value) · [risk attitude](#risk-attitude) · [sensitivity analysis](#sensitivity-analysis) · [value of information](#value-of-information) · [value of perfect information](#value-of-perfect-information) · [ambiguity](#ambiguity) · [decision quality](#decision-quality) — plus [consequence](#consequence), **specialised** by the same decision in its existing position above. Clause 2 takes a **third bounded notation extension** (a decision table and one inline tree); **clause 4.4 records the closest the book has come to a fifth instance of the demonstrate-because-unsourced disposition and states why it is not one.**
 
 **Provisional — Chapter 12 block (10), pending adjudication of [Decision 0019](../decisions/0019-chapter12-optimization-terminology-and-boundary.md).** [feasible region](#feasible-region) · [marginal benefit](#marginal-benefit) · [marginal cost](#marginal-cost) · [shadow price](#shadow-price) · [convexity](#convexity) · [local optimum](#local-optimum) · [scenario](#scenario) · [regret](#regret) · [adaptive plan](#adaptive-plan) · [signpost](#signpost) — plus [robustness](#robustness), **closed from `TODO`** by the same decision in its existing position above, where Decision 0012 clause 5.4 reserved it. Clause 1 records that **nothing in this chapter is taught unsourced** and that the demonstrate-because-unsourced count **stays at four**.
+
+**Provisional — Chapter 13 block (12), pending adjudication of [Decision 0020](../decisions/0020-chapter13-dynamics-terminology-and-boundary.md).** [stock](#stock) · [flow](#flow) · [accumulation](#accumulation) · [delay](#delay) · [open loop](#open-loop) · [closed loop](#closed-loop) · [reinforcing feedback](#reinforcing-feedback) · [balancing feedback](#balancing-feedback) · [oscillation](#oscillation) · [overshoot](#overshoot) · [policy resistance](#policy-resistance) · [state space](#state-space) — plus [equilibrium](#equilibrium) and [stability](#stability), **both closed from `TODO`** by the same decision in their existing positions above, where they had stood open since Chapter 1, and [feedback](#feedback), developed there from Chapter 1's screening depth to its formal home. Chapter 13's scope was set in advance by **Accepted** [Decision 0007](../decisions/0007-chapter1-dynamics-and-response-boundary.md); clauses 1.3, 3, 5, and 8 are the ones that go beyond it. **After this chapter three `TODO` entries remain** — `observability` and `structural identifiability`, both Chapter 14's, and **`utility`, which the registry assigns to the already-drafted Chapter 11 and which Chapter 11 did not close**. See Decision 0020 clause 12.4.
 
 ## intended use
 
@@ -304,26 +306,26 @@ Entry format:
 - Field/origin: dynamical systems / control / system dynamics
 - Introduced in: Chapter 1 as an intuitive environment screen; formal home Chapter 13 with engineered-control specialization in Chapter 14
 - Distinct from: ordinary evaluative or reviewer feedback; delay; accumulation; adaptive response; strategic response; stability
-- Aliases/cautions: at Chapter 1 depth, use `feedback` when consequences of a process or action return through the system and influence later behavior, outcomes, information, or actions; do not teach `positive feedback` or `negative feedback`, loop polarity, controller design, or stability analysis here; feedback does not by itself imply adaptation or strategic behavior
-- Definition status: verified at introductory systems depth; formal dynamical and control treatment remains Chapters 13–14
+- Aliases/cautions: at Chapter 1 depth, use `feedback` when consequences of a process or action return through the system and influence later behavior, outcomes, information, or actions; do not teach `positive feedback` or `negative feedback`, loop polarity, controller design, or stability analysis there; feedback does not by itself imply adaptation or strategic behavior; **at Chapter 13 depth**, feedback is the situation in which two or more dynamical systems "are connected together such that each system influences the other and their dynamics are thus strongly coupled" (`astrom2008feedback` p. 1), with the consequence that "simple causal reasoning about a feedback system is difficult... leading to a circular argument" (same page); the principle of feedback is to "base correcting actions on the difference between desired and actual performance" (`astrom2008feedback` p. 17); **feedback is reactive — "there must be an error before corrective actions are taken"** (`astrom2008feedback` p. 22)
+- Definition status: verified — `astrom2008feedback` pp. 1, 17, 22; formal home reached at Chapter 13, engineered-control specialization remains Chapter 14
 
 ## stability
 
 - Preferred term: stability
 - Field/origin: dynamical systems
 - Introduced in: Chapter 13
-- Distinct from: equilibrium; robustness
-- Aliases/cautions: README requires equilibrium-versus-stability to remain distinct
-- Definition status: TODO — verify against canonical sources
+- Distinct from: equilibrium; robustness (Chapter 12); reliability (Chapter 3); a system simply not changing
+- Aliases/cautions: **stability is a property of the solutions near a point, not of the point** — "the stability of a solution determines whether or not solutions nearby the solution remain close, get closer or move further away" (`astrom2008feedback` p. 102); three grades are taught in words — **unstable**, **neutrally stable** (nearby solutions stay near but need not converge), and **asymptotically stable** (nearby solutions converge); a system that is stable is not thereby in a good state, and the water case's do-nothing equilibrium is stable below the utility's own critical level; **no Lyapunov function, no eigenvalues, no linearization**; the source's formal definitions carry symbols and comparison operators and are paraphrased rather than quoted
+- Definition status: verified — `astrom2008feedback` pp. 102–104 (closed from `TODO` by proposed `../decisions/0020` clause 7)
 
 ## equilibrium
 
 - Preferred term: equilibrium
 - Field/origin: dynamical systems; game theory
 - Introduced in: Chapter 13 (dynamic sense); Chapter 15 (strategic sense, "equilibrium as consistency")
-- Distinct from: stability
-- Aliases/cautions: the dynamic and strategic senses must not be conflated
-- Definition status: TODO — verify against canonical sources
+- Distinct from: stability; a good state; a state the system will reach; a state the system will return to
+- Aliases/cautions: **"an equilibrium point of a dynamical system represents a stationary condition for the dynamics"** (`astrom2008feedback` p. 100), and "a dynamical system can have zero, one or more equilibrium points" (same page); **equilibrium is a property of a point and stability is a property of the solutions near it** — the two must never be collapsed, and the inverted pendulum's upright position is the standing counterexample; the dynamic and strategic senses must not be conflated
+- Definition status: verified — `astrom2008feedback` p. 100 (closed from `TODO` by proposed `../decisions/0020` clause 7)
 
 ## observability
 
@@ -1187,3 +1189,145 @@ Clause 2 adds **no notation**; the governed word "intuition" is read as controll
 - Distinct from: a metric (Chapter 10); a monitoring indicator; a key performance indicator; a review date
 - Aliases/cautions: an observation, **with a threshold agreed in advance**, that "warn[s] of the need to change the mix of actions" (`lempert2003shaping` p. 58, reporting Dewar); **the part organisations omit** — a plan with shaping and hedging actions but no signposts is a portfolio, not an adaptive plan, because nothing states what would cause it to change; a signpost without a named threshold is a metric being watched; **Chapter 12 designs signposts and Chapter 17 operates them**, which is where the question of whether anyone is actually looking belongs
 - Definition status: **provisional** — proposed `decisions/0019` §6; source-verified against `lempert2003shaping` p. 58
+
+---
+
+## Chapter 13 block — PROVISIONAL
+
+Ten entries below are proposed by `../decisions/0020` and are provisional pending author adjudication. Two further entries — `equilibrium` and `stability` — are **closed from `TODO`** by the same decision in their existing positions above, and `feedback` is developed there from Chapter 1's screening depth to its formal home.
+
+Chapter 13's scope was set in advance by `../decisions/0007`, which is **Accepted**; where these entries restate it they report a settled decision rather than proposing one.
+
+---
+
+## stock
+
+- Preferred term: stock
+- Field/origin: system dynamics; accounting; epidemiology
+- Introduced in: Chapter 13
+- Distinct from: a flow; any quantity that changes over time; a parameter; a measurement
+- Aliases/cautions: a stock is **what accumulates its net flows** — "stocks integrate (accumulate) their net inflows" (`sterman2006evidence` p. 508); the same distinction appears as prevalence and incidence, balance and cash flow, population and births, and is taught once rather than per domain; **a quantity that varies is not thereby a stock**, and `../decisions/0007` guards this with the refrigerated-warehouse temperature case; do not introduce stock-and-flow diagramming notation
+- Definition status: verified — `sterman2006evidence` p. 508
+
+---
+
+## flow
+
+- Preferred term: flow
+- Field/origin: system dynamics
+- Introduced in: Chapter 13
+- Distinct from: a stock; a rate of change of anything; a transfer that leaves the stock unchanged
+- Aliases/cautions: **flows are named in pairs — what increases the stock and what decreases it**; "a population is increased by births and decreased by mortality; the burden of mercury in a child's body is increased by ingestion and decreased by excretion" (`sterman2006evidence` p. 508); a stock with only its inflow named has not been analysed
+- Definition status: verified — `sterman2006evidence` p. 508
+
+---
+
+## accumulation
+
+- Preferred term: accumulation
+- Field/origin: system dynamics
+- Introduced in: Chapter 13
+- Distinct from: growth; a trend; the net flow itself
+- Aliases/cautions: **the stock does not have the same shape as the net flow** — "a stock rises even as its net inflow falls, as long as the net inflow is positive" (`sterman2006evidence` p. 508); the common error is assuming "that system inputs and outputs are correlated" (same page); this is the book's only claim of difficulty supported by a measurement — mean scores of 0.77, 0.48, and 0.41 on three tasks (`boothsweeney2000bathtub` p. 264), with "conceptual confusion, not arithmetical error" (p. 265); **doing and undoing have fundamentally different time constants** (`sterman2006evidence` p. 507)
+- Definition status: verified — `sterman2006evidence` pp. 507–508; `boothsweeney2000bathtub` pp. 264–265, 278
+
+---
+
+## delay
+
+- Preferred term: delay
+- Field/origin: system dynamics; control
+- Introduced in: Chapter 1 as a screening prompt; formal home Chapter 13
+- Distinct from: slowness; a lag in a statistical model; the time an analysis takes
+- Aliases/cautions: two kinds are distinguished, following `../decisions/0007` — an **information delay** between the system changing and the decision-maker observing it, and a **physical or action delay** between an action being taken and its effect on the system; **the two add**, and their sum is what determines whether a correction can arrive in time; delays "slow the accumulation of evidence", make short- and long-run impacts differ, and "create instability and fluctuations that confound our ability to learn" (`sterman2006evidence` p. 508); **no time constants, lag operators, transfer functions, or delay differential equations**
+- Definition status: verified — `sterman2006evidence` p. 508
+
+---
+
+## open loop
+
+- Preferred term: open loop
+- Field/origin: control theory
+- Introduced in: Chapter 13
+- Distinct from: a system with no dynamics; an unmonitored process; an uncontrolled process
+- Aliases/cautions: a configuration in which the interconnection between the two systems is broken, so that what one does no longer returns to influence it (`astrom2008feedback` p. 2); **most of this book's earlier reasoning is open loop**, and naming the configuration is what makes that visible
+- Definition status: verified — `astrom2008feedback` p. 2
+
+---
+
+## closed loop
+
+- Preferred term: closed loop
+- Field/origin: control theory
+- Introduced in: Chapter 13
+- Distinct from: a repeated decision; a monitored process; a feedback *effect* without a return path
+- Aliases/cautions: systems "interconnected in a cycle" (`astrom2008feedback` p. 2); closing the loop is what makes causal reasoning circular and what makes formal analysis necessary; **a decision that is revisited is not thereby closed loop** — the loop closes when the action changes what the next observation will be
+- Definition status: verified — `astrom2008feedback` p. 2
+
+---
+
+## reinforcing feedback
+
+- Preferred term: reinforcing feedback
+- Field/origin: system dynamics (`self-reinforcing`); control theory (`positive feedback`)
+- Introduced in: Chapter 13
+- Distinct from: balancing feedback; growth; a trend; instability, which is a consequence and not the definition
+- Aliases/cautions: a loop in which an increase in a quantity leads to that quantity being "further increased through its dynamics" (`astrom2008feedback` p. 22); **the book prefers `reinforcing` to `positive`** because `positive` is a controlled term in this book paired with `normative` since Chapter 1, and `../decisions/0007` banned the collision from Chapter 1 for that reason; `positive feedback` is named once as the term the reader will meet; **a reinforcing loop is not a prediction of unbounded growth** — it is "usually accompanied by a saturation that limits the growth of the quantity" (same page)
+- Definition status: verified — `astrom2008feedback` p. 22; `sterman2006evidence` p. 507
+
+---
+
+## balancing feedback
+
+- Preferred term: balancing feedback
+- Field/origin: system dynamics (`self-correcting`); control theory (`negative feedback`)
+- Introduced in: Chapter 13
+- Distinct from: reinforcing feedback; stability, which it does not guarantee; a correction that works
+- Aliases/cautions: a loop that acts to reduce the discrepancy it responds to — the principle being to "base correcting actions on the difference between desired and actual performance" (`astrom2008feedback` p. 17); **balancing does not mean stabilising**: a balancing loop with enough delay produces overshoot and oscillation; `negative feedback` is named once and not adopted, for the reason given at `reinforcing feedback`
+- Definition status: verified — `astrom2008feedback` pp. 17, 22; `sterman2006evidence` p. 507
+
+---
+
+## oscillation
+
+- Preferred term: oscillation
+- Field/origin: dynamical systems
+- Introduced in: Chapter 13
+- Distinct from: noise; seasonality; measurement variation; instability, which is a different property
+- Aliases/cautions: repeated over- and under-correction around a target, arising when "the system overreacts since a small change in the error makes the actuated variable change over the full range" (`astrom2008feedback` p. 24) or when corrections are applied through a delay; **oscillation is not evidence that anyone did anything wrong**; `limit cycle` — an isolated periodic solution (`astrom2008feedback` p. 101) — is named once and not developed, and the phase-plane machinery is deferred by `../decisions/0007`
+- Definition status: verified — `astrom2008feedback` pp. 24, 101
+
+---
+
+## overshoot
+
+- Preferred term: overshoot
+- Field/origin: system dynamics; control
+- Introduced in: Chapter 13
+- Distinct from: overreaction as a character failing; a forecasting error; oscillation, which is what repeated overshoot produces
+- Aliases/cautions: **the mechanism is that correction continues after enough correction has been applied and before its effect is visible** — decision-makers "continue to intervene to correct apparent discrepancies between the desired and actual state of the system even after sufficient corrective actions have been taken to restore equilibrium" (`sterman2006evidence` p. 508); **the rule being followed is a correct rule**, which is why overshoot must never be presented as carelessness
+- Definition status: verified — `sterman2006evidence` p. 508
+
+---
+
+## policy resistance
+
+- Preferred term: policy resistance
+- Field/origin: system dynamics
+- Introduced in: Chapter 13
+- Distinct from: a policy failing; opposition to a policy; non-compliance; a bad forecast; unintended consequences in the loose sense
+- Aliases/cautions: **"the tendency for interventions to be defeated by the response of the system to the intervention itself"** (`sterman2002models` p. 504) — the locator Chapter 2 verified and was instructed to reserve for here; it "arises because we do not understand the full range of feedbacks surrounding—and created by—our decisions" (`sterman2006evidence` p. 507); **"there are no side effects—just effects"** (`sterman2006evidence` p. 505); the system is not being perverse, it is responding, which is what a system does; recognising that structure shapes behaviour "does not relieve us of personal responsibility for our actions" (`sterman2006evidence` p. 510)
+- Definition status: verified — `sterman2002models` p. 504; `sterman2006evidence` pp. 505, 507, 510
+
+---
+
+## state space
+
+- Preferred term: state space
+- Field/origin: dynamical systems; control theory
+- Introduced in: Chapter 13, **named only**
+- Distinct from: the state; a sample space; a set of scenarios; the feasible region (Chapter 12)
+- Aliases/cautions: the set of all possible states of a system (`astrom2008feedback` p. 28); **named once to discharge the promise recorded in the `state` entry that "`state space` is not named until Chapter 13", and not developed**; no state-space form, no order of a system, no linearity, no reachability, no observability — those are Chapter 14 and the depth curriculum
+- Definition status: verified — `astrom2008feedback` p. 28
+
+---
