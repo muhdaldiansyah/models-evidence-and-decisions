@@ -20,11 +20,13 @@ Entry format:
 
 ## Index
 
-41 entries, in registry order. Navigation only — the entries below are the record.
+53 entries, in registry order. Navigation only — the entries below are the record.
 
-**Adjudicated (32).** [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
+**Adjudicated (29).** Note that `construct`, `measure`, and `proxy` appear in this sequence but were filled in from proposed Decision 0010 and are provisional; see the Chapter 3 block. [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
 
 **Provisional — Chapter 2 block (9), pending adjudication of [Decision 0009](../decisions/0009-chapter2-representation-terminology-and-boundary.md).** [representation](#representation) · [target system](#target-system) · [boundary](#boundary) · [mechanism](#mechanism) · [abstraction](#abstraction) · [idealization](#idealization) · [generality](#generality) · [aggregation](#aggregation) · [state](#state)
+
+**Provisional — Chapter 3 block (12), pending adjudication of [Decision 0010](../decisions/0010-chapter3-measurement-terminology-and-boundary.md).** [working definition](#working-definition) · [operationalization](#operationalization) · [score](#score) · [validity](#validity) · [validation](#validation) · [reliability](#reliability) · [measurement error](#measurement-error) · [precision](#precision) · [trueness](#trueness) · [accuracy](#accuracy) · [measurand](#measurand) · [calibration](#calibration) — plus [construct](#construct), [measure](#measure), and [proxy](#proxy), filled in from the same decision in their existing positions above.
 
 ## intended use
 
@@ -137,29 +139,29 @@ Entry format:
 ## construct
 
 - Preferred term: construct
-- Field/origin: measurement science / psychometrics
+- Field/origin: measurement science / psychometrics; the concept-to-indicator framing follows social-science methodology
 - Introduced in: Chapter 3
-- Distinct from: measure; proxy; target
-- Aliases/cautions: none recorded yet
-- Definition status: TODO — verify against canonical sources
+- Distinct from: measure; proxy; score; target; measurand; metric
+- Aliases/cautions: the thing you are trying to measure, as opposed to any procedure for measuring it; rung 1 of the Chapter 3 ladder `construct → working definition → measure → score`; a construct is not fixed by choosing a measure for it (see `operationalization`); `adcock2001validity` §p. 530 separates the loose idea (their *background concept*) from the specific formulation adopted (their *systematized concept*), and this book calls the second a **working definition**; do not treat `construct` as implying a psychological or latent variable — it covers stored volume and service adequacy alike
+- Definition status: **provisional** — introduced by proposed `decisions/0010`; source-verified against `adcock2001validity` p. 530
 
 ## measure
 
 - Preferred term: measure
-- Field/origin: measurement science
+- Field/origin: measurement science; social-science methodology uses `indicator` for the same thing
 - Introduced in: Chapter 3
-- Distinct from: construct; proxy; metric
-- Aliases/cautions: distinct from the measure-theoretic sense, which this book does not use
-- Definition status: TODO — verify against canonical sources
+- Distinct from: construct; working definition; score; proxy; metric; measurand
+- Aliases/cautions: the **procedure** that produces numbers or classifications, not the numbers themselves and not the thing measured; rung 3 of the Chapter 3 ladder; `indicator` is the equivalent term in the literature and is named once, attributed (`adcock2001validity` p. 530: indicators are "also routinely called measures"); the procedure includes classification, not only quantification; distinct from the measure-theoretic sense, which this book does not use
+- Definition status: **provisional** — introduced by proposed `decisions/0010`; source-verified against `adcock2001validity` p. 530
 
 ## proxy
 
 - Preferred term: proxy
 - Field/origin: measurement / econometrics
 - Introduced in: Chapter 3
-- Distinct from: construct; measure; target
-- Aliases/cautions: none recorded yet
-- Definition status: TODO — verify against canonical sources
+- Distinct from: construct; measure; score; target
+- Aliases/cautions: a measure of something **else**, accepted because the construct cannot be measured directly or affordably; using a proxy is a substitution whose cost must be stated, not a free convenience; **a proxy's failure mode is structured, not random** — it fails in the specific circumstances where the substitution breaks, which is why more data does not repair it; do not write as though the proxy and the construct were the same quantity
+- Definition status: **provisional** — introduced by proposed `decisions/0010`; the structured-failure point is the book's own formulation, not a cited claim
 
 ## target
 
@@ -400,3 +402,117 @@ The nine entries below were introduced by **proposed** `decisions/0009-chapter2-
 - Distinct from: any variable; a parameter; an observed or recorded value; the state space; equilibrium; stability
 - Aliases/cautions: the state is **the collection of things that must be carried forward — what summarizes the past well enough to answer what comes next**; the canonical control-theory definition is itself purpose-qualified: "a collection of variables that summarize the past of a system for the purpose of predicting the future" (`astrom2008feedback` p. 34); a quantity recomputable from others, or irrelevant to what comes next, is **not** state; do not define state as "a variable that changes over time"; state is a property of the representation relative to what is to be predicted, not a property of the system; **no symbolic notation, no state-space form, no order, linearity, reachability, or observability in Chapter 2**; `state space` is not named until Chapter 13
 - Definition status: verified — `astrom2008feedback` pp. 28, 34
+
+---
+
+## Chapter 3 block — PROVISIONAL
+
+The twelve entries below were introduced by **proposed** `decisions/0010-chapter3-measurement-terminology-and-boundary.md`, which has **not** been author-adjudicated. The existing `construct`, `measure`, and `proxy` entries above were filled in from the same decision and carry the same provisional status.
+
+## working definition
+
+- Preferred term: working definition
+- Field/origin: plain English for what `adcock2001validity` p. 530 calls a *systematized concept*
+- Introduced in: Chapter 3
+- Distinct from: construct; measure; score; a dictionary definition; a stipulation
+- Aliases/cautions: the **specific formulation of a construct adopted for this analysis**, usually an explicit definition; rung 2 of the Chapter 3 ladder, and the rung most often skipped; skipping it means operationalizing a loose idea directly, so the procedure carries an unexamined choice about what the construct means; it is called a *working* definition because it is revisable — `adcock2001validity` p. 530 shows three upward revision tasks and p. 532 quotes Kaplan's paradox, resolved "by a process of approximation"; the source's own term is named once, attributed, and not used as working vocabulary because it is a field-specific coinage
+- Definition status: **provisional** — proposed `decisions/0010` clause 1.3; content source-verified against `adcock2001validity` p. 530
+
+## operationalization
+
+- Preferred term: operationalization
+- Field/origin: social-science methodology
+- Introduced in: Chapter 3; the term appears in the chapter's governed title
+- Distinct from: conceptualization; scoring; definition; calibration
+- Aliases/cautions: the move from a **working definition to a measure** — not "turning a vague idea into a number", which conflates two rungs; **choosing a measure does not define the construct**, because interpretations of scores are falsifiable claims requiring evidence (`adcock2001validity` p. 532) and a stipulation cannot be falsified; the historical position that the procedure *is* the definition (operationism) may be mentioned as having existed but must not be characterized, since it was not researched
+- Definition status: **provisional** — proposed `decisions/0010` clauses 1.4, 1.6; source-verified against `adcock2001validity` pp. 530, 532
+
+## score
+
+- Preferred term: score
+- Field/origin: social-science methodology / measurement
+- Introduced in: Chapter 3
+- Distinct from: construct; working definition; measure; estimate; metric
+- Aliases/cautions: what a measure produces for a case, including "both numerical scores and the results of qualitative classification" (`adcock2001validity` p. 530); rung 4 of the ladder; **a score is uninterpretable without its working definition** — "Scores are never examined in isolation; rather, they are interpreted and given meaning in relation to the systematized concept" (p. 531); two organizations reporting the same-looking score under different working definitions are not reporting comparable things
+- Definition status: **provisional** — proposed `decisions/0010` clause 6.3; source-verified against `adcock2001validity` pp. 530–531
+
+## validity
+
+- Preferred term: validity
+- Field/origin: measurement science / social-science methodology / psychometrics
+- Introduced in: Chapter 3
+- Distinct from: reliability; accuracy; trueness; precision; model validation (Chapter 5); internal and external validity of causal inference (Chapters 7 and 9); credibility
+- Aliases/cautions: **a property of the interpretation of scores in relation to a construct, for a use — never a property of an instrument**; `adcock2001validity` p. 531 locates validation on "the conjunction of these components"; "is this measure valid?" is a **malformed question**, and the answerable form is "are these scores interpretable as this construct, for this use?"; teach **one validity with several kinds of evidence for it**, never a taxonomy of validities — the source reports 37 adjectives attached to the word and resolves them as "types of evidence for validity", not separate validities; **contextual specificity** holds: a measure valid in one context may be invalid in another (p. 530), which is Chapter 3's own point and must not be extended into Chapter 9's transportability; `adcock2001validity` p. 529 separates measurement validity from the validity of causal inference
+- Definition status: **provisional** — proposed `decisions/0010` §2; source-verified against `adcock2001validity` pp. 529–531
+
+## validation
+
+- Preferred term: *avoided in Chapter 3*
+- Field/origin: two distinct traditions share the word
+- Introduced in: named once in Chapter 3 as a collision to be avoided; the computational-model sense belongs to Chapter 5
+- Distinct from: validity; verification; calibration
+- Aliases/cautions: **do not use as reader-facing Chapter 3 vocabulary**; in measurement it names the procedures for assessing evidence that scores support an interpretation (`adcock2001validity` p. 530 separates *validity* from *validation*), while in computational modelling it names assessment of whether a model is adequate for a context of use (`asme2025credibility`, `fda2023credibility`); Chapter 3 says *assessing the evidence for an interpretation* and names the collision explicitly once, so that readers arriving at Chapter 5 do not merge the two
+- Definition status: **provisional** — proposed `decisions/0010` clause 2.5
+
+## reliability
+
+- Preferred term: reliability
+- Field/origin: social-science methodology / psychometrics; the metrology counterpart is precision
+- Introduced in: Chapter 3
+- Distinct from: validity; trueness; accuracy; robustness (Chapter 12); dependability in ordinary speech
+- Aliases/cautions: concerns whether **repeated applications of a procedure yield consistent results** — "Random error, which occurs when repeated applications of a given measurement procedure yield inconsistent results, is conventionally labeled a problem of reliability" (`adcock2001validity` p. 531); **reliable does not mean valid** — an instrument can be highly repeatable and consistently wrong; how reliability relates to validity is **contested** and Chapter 3 shows the disagreement rather than resolving it (p. 532: on one account unreliable scores may still be correct "on average" and so valid; on another, reliability is "a necessary but not sufficient condition of measurement validity")
+- Definition status: **provisional** — proposed `decisions/0010` clauses 3.1, 3.7; source-verified against `adcock2001validity` pp. 531–532
+
+## measurement error
+
+- Preferred term: measurement error
+- Field/origin: metrology; social-science methodology uses `bias` for the systematic component
+- Introduced in: Chapter 3; measurement-error models and correction are Chapter 8
+- Distinct from: mistake; production error; uncertainty; residual; noise alone
+- Aliases/cautions: VIM §2.16 defines it as "measured quantity value minus a reference quantity value", and Note 2 warns it "should not be confused with production error or mistake" — a general reader will otherwise hear *error* as *someone blundered*; **knowability is conditional**: §2.16 Note 1 makes the error known only where a reference value exists through calibration or convention; splits into **systematic** error (called **bias** in the social-science tradition, `adcock2001validity` p. 531) and **random** error; **where the construct is chosen rather than standardized there is no reference value to subtract from**, and error language must be used with visible care
+- Definition status: **provisional** — proposed `decisions/0010` clauses 3.1, 3.6, 4.2; source-verified against `jcgm2012vim` §2.16 and `adcock2001validity` p. 531
+
+## precision
+
+- Preferred term: precision
+- Field/origin: metrology (VIM §2.15)
+- Introduced in: Chapter 3
+- Distinct from: accuracy; trueness; resolution; certainty; significant figures
+- Aliases/cautions: "closeness of agreement between indications or measured quantity values obtained by replicate measurements on the same or similar objects under specified conditions"; **precision is the one that is a number** — expressed by standard deviation, variance, or coefficient of variation; VIM §2.15 Note 4 records that "measurement precision" is sometimes **erroneously** used to mean measurement accuracy; **more measurements improve precision**; do not teach repeatability, intermediate precision, or reproducibility conditions (ISO 5725), which are specialist
+- Definition status: **provisional** — proposed `decisions/0010` clause 3.1; source-verified against `jcgm2012vim` §2.15
+
+## trueness
+
+- Preferred term: trueness
+- Field/origin: metrology (VIM §2.14)
+- Introduced in: Chapter 3
+- Distinct from: accuracy; precision; validity
+- Aliases/cautions: "closeness of agreement between the average of an infinite number of replicate measured quantity values and a reference quantity value"; **not a quantity and not expressed numerically**; **inversely related to systematic measurement error and unrelated to random measurement error** — from which the chapter's central practical result follows: **more measurements do nothing for trueness**; VIM §2.14 states that "measurement accuracy" should not be used for trueness
+- Definition status: **provisional** — proposed `decisions/0010` clauses 3.1, 3.4; source-verified against `jcgm2012vim` §2.14
+
+## accuracy
+
+- Preferred term: accuracy
+- Field/origin: metrology (VIM §2.13)
+- Introduced in: Chapter 3, taught as the **combination** of trueness and precision
+- Distinct from: trueness alone; precision alone; validity; resolution
+- Aliases/cautions: "closeness of agreement between a measured quantity value and a true quantity value of a measurand"; **accuracy is not a quantity and is not given a numerical quantity value** (§2.13 Note 1) — a measurement is said to be more accurate when it offers a smaller measurement error; §2.13 Note 2 forbids using the term for trueness or for precision "although it does relate to both these concepts"; therefore **a quoted "accuracy" figure on a specification sheet is not what the standard means by accuracy**, and the reportable quantity is not the one that matters
+- Definition status: **provisional** — proposed `decisions/0010` clauses 3.2, 3.3; source-verified against `jcgm2012vim` §2.13
+
+## measurand
+
+- Preferred term: measurand
+- Field/origin: metrology (VIM §2.3)
+- Introduced in: Chapter 3, **signposted only** — not reader-facing working vocabulary
+- Distinct from: construct; working definition; target; target quantity
+- Aliases/cautions: the quantity **intended** to be measured, with the VIM warning that the quantity actually measured can differ from it — structurally the same gap as working definition versus measure, arrived at independently; **the vocabularies do not translate cleanly**: a measurand is a *quantity*, whereas a working definition need not be quantitative at all; Chapter 1's note already forbids using `measurand` as a general synonym for the book's `target`
+- Definition status: **provisional** — proposed `decisions/0010` clause 6.2; source-verified against `jcgm2012vim` §2.3
+
+## calibration
+
+- Preferred term: calibration
+- Field/origin: metrology
+- Introduced in: Chapter 3 at recognition depth only
+- Distinct from: validation; validity; verification; probability calibration (Chapter 6)
+- Aliases/cautions: taught only far enough to explain how a systematic offset is found, and to establish that **calibrating an instrument against a standard does not establish that the quantity it measures is the quantity you want**; traceability chains and calibration hierarchies are depth-curriculum material; **not** to be confused with the Chapter 6 sense of calibration for probabilistic forecasts, which is a different concept sharing the word
+- Definition status: **provisional** — proposed `decisions/0010` clause 3.9
