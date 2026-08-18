@@ -44,7 +44,7 @@ Both produce the same signature inside a dataset: a recorded quantity that does 
 
 ## 4. The chapter's case
 
-**The twelfth recurrence of the water anchor, and the first with a second party.**
+**The fifteenth recurrence of the water anchor, and the first with a second party.**
 
 ### 4.1 The metric and the date
 

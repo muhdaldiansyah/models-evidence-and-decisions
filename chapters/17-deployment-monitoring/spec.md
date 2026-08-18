@@ -112,7 +112,7 @@ Three self-explanation pauses: §3 (is seven a signal?), §4 (what should the co
 
 **Two cases, both inherited, frozen in `case-data.md`.**
 
-**Case 1** operates Chapter 12's signposts for four years. **The water anchor's thirteenth and final appearance**, and the chapter says so.
+**Case 1** operates Chapter 12's signposts for four years. **The water anchor's sixteenth and final appearance**, and the chapter says so.
 
 **Case 2** monitors Chapter 16's repairs tool. No new fact about the tool; only the monitoring arrangements are new.
 
@@ -183,5 +183,5 @@ Shewhart (1931) — **not obtained**. Deming on tampering — **not obtained**. 
 3. **`tampering` is unsourced** and named in governed text — clause 6.
 4. **How the book ends** — clause 10.
 5. **`utility` remains open in the registry with no later chapter to close it.**
-6. **Gate 1 remains open**, fourteen chapters deep, across all thirteen chapters in which the anchor appears.
+6. **Gate 1 remains open**, fourteen chapters deep, across all sixteen chapters in which the anchor appears.
 7. **No pilot data exists for any exercise in this book.**

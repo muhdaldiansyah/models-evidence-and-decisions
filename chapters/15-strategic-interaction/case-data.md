@@ -2,7 +2,7 @@
 
 Status: frozen case facts. The manuscript may not contradict this file.
 
-**The water anchor's twelfth recurrence, and the first with a second party.** No new physical fact about the network. Every figure was computed and checked before drafting.
+**The water anchor's fifteenth recurrence, and the first with a second party.** No new physical fact about the network. Every figure was computed and checked before drafting.
 
 ## 1. The metric, and the date
 

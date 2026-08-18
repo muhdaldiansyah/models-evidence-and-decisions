@@ -121,7 +121,7 @@ Whether a deployed rule is still working is post-deployment.
 
 ## 8. Candidate example constraints
 
-The anchor is available for an **eleventh** recurrence, and for the first time the chapter must run the case over **several years** rather than one episode.
+The anchor is available for a **fourteenth** recurrence, and for the first time the chapter must run the case over **several years** rather than one episode.
 
 Constraints:
 
@@ -141,7 +141,7 @@ Constraints:
 3. **How far into control to go.** Recommend the definition and the sensing–computation–actuation loop, and nothing else. The README's own exclusions are binding.
 4. **Whether the exploration treatment uses the bandit formalism.** Recommend naming the k-armed bandit once and refusing the formalism, following the source's own stated depth choice.
 5. **Whether an instrument's value is computed.** Recommend **no computed value and a stated ceiling**, per Chapter 11's screening rule, because Chapter 12 established there is no prior here.
-6. **The eleventh water-case recurrence, run across five summers.**
+6. **The fourteenth water-case recurrence, run across five summers.**
 
 ## 10. Drafting gate
 

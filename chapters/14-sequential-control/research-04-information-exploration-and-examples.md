@@ -44,7 +44,7 @@ Chapter 11 taught value of information as arithmetic, with the perfect-informati
 
 ## 4. The chapter's case — design constraints and arithmetic
 
-**The eleventh recurrence of the water anchor, and the first run across several years.**
+**The fourteenth recurrence of the water anchor, and the first run across several years.**
 
 Constraints from `readiness-audit.md` §8, all met.
 

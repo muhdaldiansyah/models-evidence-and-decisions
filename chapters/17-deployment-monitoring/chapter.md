@@ -17,7 +17,7 @@ Chapter 16 ended by saying that its analysis was a photograph of a system that w
 
 Chapter 16 set the water utility aside deliberately, because a chapter about unfamiliar problems cannot be taught on the most familiar one.
 
-**It returns here, for its thirteenth and final appearance**, and it returns in order to have its own Chapter 12 output examined.
+**It returns here, for its sixteenth and final appearance**, and it returns in order to have its own Chapter 12 output examined.
 
 ### Before reading further
 

@@ -113,7 +113,7 @@ Three self-explanation pauses: §2 (which rule would you keep?), §4 (what would
 
 ## Examples / recurring cases
 
-**The water anchor's eleventh recurrence, and the first run across several years.** Frozen in `case-data.md`; every policy figure computed by simulation before drafting.
+**The water anchor's fourteenth recurrence, and the first run across several years.** Frozen in `case-data.md`; every policy figure computed by simulation before drafting.
 
 ## Exercise architecture
 

@@ -4,7 +4,7 @@ Status: frozen case facts. The manuscript may not contradict this file.
 
 **Two cases, both inherited.** Neither is new. A closing chapter that invented a fresh case would be starting rather than finishing.
 
-**Case 1 is the water anchor's thirteenth and final appearance.**
+**Case 1 is the water anchor's sixteenth and final appearance.**
 
 Every figure below was computed and checked before drafting.
 

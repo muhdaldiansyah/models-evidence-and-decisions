@@ -2,7 +2,7 @@
 
 Status: frozen case facts. The manuscript may not contradict this file.
 
-**The water anchor's tenth recurrence, and the first run forward in time.** No new mechanism, no new physical fact about Hillcrest. Every figure below was computed by simulating the stated rules and checked before drafting.
+**The water anchor's thirteenth recurrence, and the first run forward in time.** No new mechanism, no new physical fact about Hillcrest. Every figure below was computed by simulating the stated rules and checked before drafting.
 
 ## 1. The system
 

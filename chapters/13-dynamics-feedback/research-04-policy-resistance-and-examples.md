@@ -68,7 +68,7 @@ And p. 512 on what makes a model testable — which is Chapter 5's and Chapter 8
 
 ## 5. The chapter's case — design constraints and the arithmetic
 
-**The tenth recurrence of the water anchor, and the first run forward in time.**
+**The thirteenth recurrence of the water anchor, and the first run forward in time.**
 
 Constraints from `readiness-audit.md` §8, all met:
 

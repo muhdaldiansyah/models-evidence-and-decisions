@@ -48,7 +48,7 @@ Four failure modes specific to this chapter.
 
 ## 4. Reader-facing sequence
 
-Per `../../decisions/0008`. The case is the water anchor's tenth recurrence, run forward.
+Per `../../decisions/0008`. The case is the water anchor's thirteenth recurrence, run forward.
 
 Self-explanation pauses: exactly three — §3 (why is storage still falling?), §4 (when should the order have been placed?), §6 (is 88 ML an equilibrium?).
 

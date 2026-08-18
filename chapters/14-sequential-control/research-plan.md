@@ -67,4 +67,4 @@ Written after `readiness-audit.md` and executed against it.
 4. **`astrom2008feedback` observability read at pp. 201–202 only**; the rank test and the observer construction are unread.
 5. **The `ff`-ligature extraction problem** in `sutton2018reinforcement`, which cost several quotable sentences.
 6. **`practical identifiability` was not anticipated by `README.md`'s Chapter 14 block.** It is registered on the strength of the source and is flagged for author review, because the governed core competence does not name it.
-7. The **Chapter 14 case is the water anchor's eleventh recurrence**, and Chapter 1's Gate 1 remains open.
+7. The **Chapter 14 case is the water anchor's fourteenth recurrence**, and Chapter 1's Gate 1 remains open.

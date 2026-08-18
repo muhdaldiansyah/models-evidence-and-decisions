@@ -126,7 +126,7 @@ Whether a deployed policy is still working is post-deployment. Chapter 13 stops 
 
 ## 8. Candidate example constraints
 
-The anchor is available for a **tenth** recurrence, and for the first time the book must run the case **forward in time** rather than analysing a snapshot.
+The anchor is available for a **thirteenth** recurrence, and for the first time the book must run the case **forward in time** rather than analysing a snapshot.
 
 Constraints:
 
@@ -147,7 +147,7 @@ Constraints:
 4. **Whether simulation returns.** Chapter 6 taught Monte Carlo. Recommend a bounded return: the chapter simulates a *trajectory*, not a distribution, and carries `sterman2006evidence` p. 512's warning that a poor model in a potent interface "may teach harmful lessons more effectively than ever before."
 5. **Whether `boothsweeney2000bathtub` is promoted.** Recommend **yes**. Decision 0007 made promotion conditional on the book making an explicit empirical claim about learner difficulty; Chapter 13 makes exactly that claim, and the primary source is obtainable with checkable pagination.
 6. **The `robustness`/`stability` collision announcement.**
-7. **The tenth water-case recurrence, run forward in time.**
+7. **The thirteenth water-case recurrence, run forward in time.**
 
 ## 10. Drafting gate
 

@@ -183,7 +183,7 @@ Chapter 15's organizing claim is:
 5. **`manheim2019goodhart` is a preprint** whose taxonomy originates in blog posts, which the source states openly.
 6. **`perdomo2020performative` read at two of twelve pages**; nothing claimed about its results.
 7. **The case's payoff numbers are the book's own construction**, not derived from any source, and `case-data.md` says so.
-8. The **Chapter 15 case is the water anchor's twelfth recurrence**, and Chapter 1's Gate 1 remains open.
+8. The **Chapter 15 case is the water anchor's fifteenth recurrence**, and Chapter 1's Gate 1 remains open.
 
 ## No architecture change
 

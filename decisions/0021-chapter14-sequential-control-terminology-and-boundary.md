@@ -174,7 +174,7 @@ Chapter 14's organizing claim is:
 5. **An `ff`-ligature extraction problem in `sutton2018reinforcement`** cost several quotable sentences, which are paraphrased with the paraphrase declared.
 6. **`practical identifiability` is not named in `README.md`'s Chapter 14 block** — clause 6.
 7. **No source was sought for how often a decision rule is dominated in practice.** The case shows one that is; no frequency is claimed.
-8. The **Chapter 14 case is the water anchor's eleventh recurrence**, and Chapter 1's Gate 1 remains open.
+8. The **Chapter 14 case is the water anchor's fourteenth recurrence**, and Chapter 1's Gate 1 remains open.
 
 ## No architecture change
 

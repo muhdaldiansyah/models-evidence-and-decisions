@@ -22,7 +22,7 @@ Chapter 17's organizing claim is:
 
 **1.2** **The chapter takes both and invents nothing.** A closing chapter that introduced a fresh case would be starting rather than finishing.
 
-**1.3** **Case 1 is the water anchor's thirteenth and final appearance**, and the manuscript says so. Chapter 16 set the anchor aside deliberately; this chapter brings it back in order to criticise Chapter 12's own output.
+**1.3** **Case 1 is the water anchor's sixteenth and final appearance**, and the manuscript says so. Chapter 16 set the anchor aside deliberately; this chapter brings it back in order to criticise Chapter 12's own output.
 
 **1.4** **Chapter 12 invited the criticism in its own text**: "those numbers are arguable, and being arguable is the property that matters."
 
@@ -147,7 +147,7 @@ Chapter 17's organizing claim is:
 3. **`sumanprajapati2018control` read at one page of twenty-one**, and used for two claims.
 4. **`nasa2024models` read at seven pages of eighty-eight**; nothing claimed about its assurance architecture, criticality assessment, or credibility scales.
 5. **No pilot data exists for any transfer form in this book**, including this chapter's.
-6. **The case is the water anchor's thirteenth and final appearance**, and Gate 1 remains open across all thirteen.
+6. **The case is the water anchor's sixteenth and final appearance**, and Gate 1 remains open across all thirteen.
 7. **`utility` remains open in the registry** and there is no later chapter to close it.
 
 ## No architecture change

@@ -127,7 +127,7 @@ Whether a deployed rule is still working after people have responded to it is Ch
 
 ## 8. Candidate example constraints
 
-The anchor is available for a **twelfth** recurrence, and the case must for the first time contain a **second party with its own objectives** — the regulator.
+The anchor is available for a **fifteenth** recurrence, and the case must for the first time contain a **second party with its own objectives** — the regulator.
 
 Constraints:
 
@@ -147,7 +147,7 @@ Constraints:
 3. **How to handle three unobtainable primary sources.** Recommend the **as reported at** device for all three, with the gap recorded at book level, because Goodhart, Campbell, and Lucas are named in governed text.
 4. **What to do about `principal-agent` and `information asymmetry`, for which no source was obtained.** This is the live question and it is §9's real content — see the decision record.
 5. **How `equilibrium`'s two senses are separated.** Recommend one paragraph and one table row, in the chapter that owns the second sense.
-6. **The twelfth water-case recurrence, with a second party.**
+6. **The fifteenth water-case recurrence, with a second party.**
 
 ## 10. Drafting gate
 

@@ -29,7 +29,7 @@ Five observations.
 
 **The chapter therefore has two cases handed to it**, and it should take both: the water utility's adaptive plan from Chapter 12, and Chapter 16's automated tool.
 
-**And the water anchor comes home.** Chapter 16 left it deliberately. **This is the last chapter of the book and the anchor's thirteenth and final appearance**, and it appears in order to have its own Chapter 12 output criticised.
+**And the water anchor comes home.** Chapter 16 left it deliberately. **This is the last chapter of the book and the anchor's sixteenth and final appearance**, and it appears in order to have its own Chapter 12 output criticised.
 
 **The permitted machinery is permitted, not required.** "May include... where appropriate" is the only permissive phrasing of its kind in the book's architecture. The audit's recommendation is that the chapter take the **distinction** — signal against ordinary variation — and refuse the **charts**, because the core competence names the distinction and not the technique.
 
@@ -128,7 +128,7 @@ Chapter 17 is the last chapter. **Its final section is the book's final section*
 
 **Two cases, both inherited.**
 
-**Case 1 — the water utility's Chapter 12 signposts, operated for four years.** The anchor's thirteenth and final appearance. Constraints: no new physical fact; the plan is quoted from Chapter 12 unchanged; and the criticism must be of a threshold rather than of the people watching it.
+**Case 1 — the water utility's Chapter 12 signposts, operated for four years.** The anchor's sixteenth and final appearance. Constraints: no new physical fact; the plan is quoted from Chapter 12 unchanged; and the criticism must be of a threshold rather than of the people watching it.
 
 **Case 2 — Chapter 16's repairs-triage tool.** Constraints: no new facts beyond what Chapter 16 froze, plus the monitoring the authority actually had; and the diagnosis must land on a stage Chapter 16 already identified, because the point is that the failure was diagnosable before it was visible.
 

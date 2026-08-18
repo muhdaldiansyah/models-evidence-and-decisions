@@ -10,7 +10,7 @@ Cluster 4 of four. Case arithmetic was computed and checked before this dossier 
 
 **Case 2** is the automated tool Chapter 16 analysed. Chapter 16's own last section hands it over: "Chapter 17 asks what happens next."
 
-**Case 1 is the water anchor's thirteenth and final appearance.** The chapter says so.
+**Case 1 is the water anchor's sixteenth and final appearance.** The chapter says so.
 
 ## 2. Case 1 — operating Chapter 12's signposts
 

@@ -68,4 +68,4 @@ The audit identified four clusters. Three sources cover them, and a fourth was a
 4. **Sterman's *Business Dynamics* not obtained** — the gap above.
 5. **`boothsweeney2000bathtub` is a single-institution convenience sample from 2000**, and its demographic analysis reports a gender difference as "marginally significant". The chapter uses the study's *measurements* and not its threshold verdicts, which is Chapter 8's discipline applied to the book's own source.
 6. **No source was sought for the claim that overshoot is common in practice.** `sterman2006evidence` p. 508 gives the mechanism and names instances; the book does not claim a frequency.
-7. The **Chapter 13 case is the water anchor's tenth recurrence**, and Chapter 1's Gate 1 remains open.
+7. The **Chapter 13 case is the water anchor's thirteenth recurrence**, and Chapter 1's Gate 1 remains open.

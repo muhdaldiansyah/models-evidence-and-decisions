@@ -81,4 +81,4 @@ Suman and Prajapati, "Control chart applications in healthcare: a literature rev
 3. **`sumanprajapati2018control` is a healthcare literature review**, read at one page, and used for two claims only.
 4. **`nasa2024models` read at seven of eighty-eight pages**; nothing is claimed about the standard's assurance architecture, its criticality assessment, or its credibility scales.
 5. **No pilot data exists for any transfer form in this book**, including this chapter's.
-6. **The case is the water anchor's thirteenth and final appearance**, and Chapter 1's Gate 1 remains open across all thirteen.
+6. **The case is the water anchor's sixteenth and final appearance**, and Chapter 1's Gate 1 remains open across all sixteen.

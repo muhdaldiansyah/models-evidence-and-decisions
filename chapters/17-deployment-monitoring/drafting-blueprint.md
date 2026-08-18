@@ -84,7 +84,7 @@ Per `../../decisions/0008`. Three pauses: §3 (is seven a signal?), §4 (what sh
 
 1. Pick up Chapter 16's closing sentence directly.
 2. Say what has changed: sixteen chapters built things, and nothing in the book has yet asked whether a built thing is still working.
-3. **The water case returns**, and say plainly that this is its thirteenth and last appearance.
+3. **The water case returns**, and say plainly that this is its sixteenth and last appearance.
 4. **Opening task, about twelve minutes, before any vocabulary.** Give Chapter 12's plan verbatim and the four operating years from `case-data.md` §3. Ask: **what should the October report have said each year, and what would have counted as a signal?** **Preserve unscored.**
 5. Do not reveal the baseline. §3 does.
 

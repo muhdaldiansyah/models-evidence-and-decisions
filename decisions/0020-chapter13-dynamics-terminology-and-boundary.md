@@ -169,7 +169,7 @@ Chapter 13's organizing claim is:
 5. `sterman2006evidence` **pp. 513–514 unread**.
 6. `boothsweeney2000bathtub` **read at four pages of thirty-eight**; the instruments and the manufacturing-case analysis are uncharacterised, and the study is a single-institution convenience sample from 2000.
 7. **No source was sought for how often overshoot occurs in practice.** The mechanism is sourced; no frequency is claimed.
-8. The **Chapter 13 case is the water anchor's tenth recurrence**, and Chapter 1's Gate 1 remains open.
+8. The **Chapter 13 case is the water anchor's thirteenth recurrence**, and Chapter 1's Gate 1 remains open.
 
 ## No architecture change
 

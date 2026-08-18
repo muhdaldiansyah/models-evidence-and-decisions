@@ -87,4 +87,4 @@ Written after `readiness-audit.md` and executed against it.
 5. **`manheim2019goodhart` is an arXiv preprint**, not peer-reviewed, and its own framing is oriented toward artificial-intelligence alignment. The book uses its taxonomy and not its framing.
 6. **`perdomo2020performative` read at two of twelve pages**; nothing is claimed about its results.
 7. **`osborne2004game` read at three pages of forty-two**; nothing is claimed about game theory beyond the strategic form and the definition of equilibrium.
-8. The **Chapter 15 case is the water anchor's twelfth recurrence**, and Chapter 1's Gate 1 remains open.
+8. The **Chapter 15 case is the water anchor's fifteenth recurrence**, and Chapter 1's Gate 1 remains open.

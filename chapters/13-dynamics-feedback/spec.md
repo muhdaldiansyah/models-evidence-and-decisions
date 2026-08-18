@@ -113,7 +113,7 @@ Three self-explanation pauses: §3 (why is storage still falling?), §4 (when sh
 
 ## Examples / recurring cases
 
-**The water anchor's tenth recurrence, and the first run forward in time.**
+**The water anchor's thirteenth recurrence, and the first run forward in time.**
 
 The stock is usable stored water — known since Chapter 1 and distrusted since Chapter 1. Frozen in `case-data.md`. Every figure computed and checked by simulation before drafting.
 

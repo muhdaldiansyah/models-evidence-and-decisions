@@ -108,7 +108,7 @@ Three self-explanation pauses: §1 (what happened?), §4 (which is it?), §6 (wh
 
 ## Examples / recurring cases
 
-**The water anchor's twelfth recurrence, and the first with a second party.** Frozen in `case-data.md`; every ratio and forecast error computed and checked before drafting.
+**The water anchor's fifteenth recurrence, and the first with a second party.** Frozen in `case-data.md`; every ratio and forecast error computed and checked before drafting.
 
 ## Exercise architecture
 

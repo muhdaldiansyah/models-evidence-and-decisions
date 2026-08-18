@@ -2,7 +2,7 @@
 
 Status: frozen case facts. The manuscript may not contradict this file.
 
-**The water anchor's eleventh recurrence, and the first run across several years.** No new mechanism and no new physical fact. Every figure below was computed by simulation and checked before drafting.
+**The water anchor's fourteenth recurrence, and the first run across several years.** No new mechanism and no new physical fact. Every figure below was computed by simulation and checked before drafting.
 
 ## 1. The system, unchanged from Chapter 13
 
