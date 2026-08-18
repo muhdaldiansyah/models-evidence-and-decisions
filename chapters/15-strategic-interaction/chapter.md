@@ -871,7 +871,7 @@ It is the only one of the six that suggests a remedy.
 **The regulator could commit to fixed measurement points for five years.** Publish them, freeze them, and refuse changes.
 The utility's re-siting option disappears, and the bottom-right cell with it.
 
-**And here is what that costs.** Some of the utility's fifteen points were badly sited in 1994 — Chapter 3 established exactly that.
+**And here is what that costs.** Some of the utility's fifteen points are badly sited — Chapter 3 established the phenomenon on the one monitoring point it examined, and §4 above dated this one to 1994.
 A commitment to freeze them freezes the bad ones too, for five years, in zones where the count is understating a real problem.
 
 **So the commitment buys protection against strategic re-siting at the price of the regulator's ability to correct genuine error, and there is no version where it gets both.**

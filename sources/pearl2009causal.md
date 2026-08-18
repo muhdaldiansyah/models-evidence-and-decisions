@@ -27,6 +27,16 @@ The published reprint was inspected through the UCLA author-hosted copy. Journal
 - §2.4, printed p. 101: potential-outcome and intervention notation are presented as ways to express causal rather than associational questions.
 - §3.4, printed pp. 119–120: formal counterfactual analysis in structural models.
 
+**Extended during Chapter 7 research**, which reads this survey far more heavily than Chapter 1 did. Additionally read at:
+
+- printed p. 109: the caution that "the prevailing practice of conditioning on as many pre-treatment measurements as possible should be approached with great caution", some covariates increasing rather than reducing bias.
+- printed p. 114: the back-door paths passage — spurious association along back-door paths against causative association along directed paths. **The criterion itself is named and not taught**; see [Decision 0014](../decisions/0014-chapter7-identification-terminology-and-notation.md).
+- printed p. 117, §3.3.3 "From identification to estimation": deriving what to compute "is merely a first step toward computing quantitative estimates of those effects from finite samples". **This page carries the Chapter 7 / Chapter 8 boundary** in the source's own terms.
+- printed p. 121: attributional queries are "generally not identifiable in nonparametric models".
+- printed p. 122: the four-step sequence — Define, Assume, Identify, Estimate — which **Chapter 7 is organised on**. Step 4 includes approximating a quantity that is not identifiable, which is why the chapter teaches *not identified* as a result rather than a failure.
+
+**Read at pp. 96–101, 109, 114, 117, and 119–122 of a 51-page survey spanning printed pp. 96–146.** The remainder — including the mediation formula, the transportability material, and the extended examples — is unread and nothing here characterises it.
+
 ## Chapter 1 use and cautions
 
 Chapter 1 uses only the high-level structural lesson. It does not adopt Pearl's formal notation, causal graphs, structural equations, do-calculus, or identification criteria at this stage.

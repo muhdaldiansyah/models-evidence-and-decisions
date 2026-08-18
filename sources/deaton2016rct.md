@@ -14,7 +14,11 @@ This is the same discipline applied to Brier (1950) in Chapter 6 and to Rubin (1
 
 ## Verification status
 
-Read directly at printed pp. 7–11 of 70. Abstract read. **Nothing after printed p. 11 has been read**, and the paper's second part — which concerns how to use trial results and belongs to Chapter 9's territory — is not characterised anywhere in this book.
+Read directly at printed **pp. 7–11 and pp. 26–29** of 70. Abstract read.
+
+**Extended during Chapter 9 research.** Chapters 7 and 8 recorded that the paper's second part — how to use trial results — belonged to Chapter 9's territory and was unread. Section 2 begins at printed p. 26 and was read there; the reading is recorded in `../chapters/09-evidence-synthesis/research-04-transport-and-examples.md` and in [Decision 0016](../decisions/0016-chapter9-synthesis-terminology-and-boundary.md), which states the extension.
+
+**Printed pp. 12–25 and 30–70 remain unread** and nothing here characterises them.
 
 Printed page numbers were mapped against the PDF: printed page = PDF page − 1.
 
@@ -45,4 +49,6 @@ Printed page numbers were mapped against the PDF: printed page = PDF page − 1.
 
 **Do not use this source to argue that randomized trials are unreliable.** The paper's own abstract says RCTs "would be more useful if there were more realistic expectations of them" — a call for accurate expectations, not for abandonment. A chapter that used it as ammunition against experiments would be quoting against the source's stated purpose.
 
-**Only pp. 7–11 support anything here.** The paper's treatment of extrapolation, of Bayesian updating from trial results, and of evidence hierarchies is unread and uncharacterised.
+**Only pp. 7–11 and pp. 26–29 support anything here.** The paper's treatment of extrapolation, of Bayesian updating from trial results, and of evidence hierarchies is unread and uncharacterised.
+
+**Chapter 9 uses pp. 27–29** for replication in both directions, `external validity` as a criticised concept, `support factor`, and the condition under which two populations share an average effect. Russell (1912), Mackie (1974), and Cartwright and Hardie (2012) are cited **within** those pages and were not obtained; the manuscript uses them **as reported at** this source and claims nothing about them.
