@@ -90,6 +90,20 @@ The second is unexpectedly useful. It is a concrete, verifiable case in which **
 
 No source in this cluster supplies a **general theory of boundary selection** — criteria, procedures, or a taxonomy of boundary errors. Sterman gives a warning; Åström and Murray give mechanics.
 
+### Addendum, 2026-08-18 — one principle obtained
+
+`sterman2002models` (*System Dynamics Review* 18(4), pp. 501–531; pp. 501–507 read) was obtained during a later gap-closing pass and supplies a **principle**, which the cluster previously lacked:
+
+- p. 505: "There are no side effects—only effects. Those we thought of in advance, the ones we like, we call the main, or intended, effects, and take credit for them. The ones we didn't anticipate … those are the 'side effects'."
+- p. 505: appealing to outside shocks and side effects means "we are highlighting the limitations of our mental models"; system dynamics "helps us expand the boundaries of our mental models".
+- p. 505, section heading: "(Almost) nothing is exogenous."
+
+A *side effect* is therefore an effect outside the boundary drawn. That reframes a word readers use constantly and gives Chapter 2 a sourced reason to interrogate exclusions.
+
+**It still does not supply criteria.** The article is a prize lecture arguing for wider boundaries from a system-dynamics standpoint, not a method for choosing them. The gap above stands, narrowed.
+
+**One tension to record.** The endogenous position pushes toward including more, while Chapter 2 teaches that some exclusions are correct and that a maximal representation fails (`levins1966strategy` p. 421). The manuscript resolves this by presenting the passage as an argument for checking exclusions rather than as a rule against having any. That resolution is the book's own.
+
 The system-dynamics literature (Forrester's endogenous point of view; Sterman's *Business Dynamics* model boundary chart) and the modelling-and-simulation literature (Zeigler's experimental frame) are the obvious places to look, and both were identified but **not obtained in verifiable full text** in this pass.
 
 ### Implication for Chapter 2
@@ -152,7 +166,7 @@ Note the strength difference: Åström and Murray describe a *hierarchy* selecte
 
 | Gap | Effect on Chapter 2 | What would close it |
 |---|---|---|
-| No sourced boundary-selection theory | Chapter 2 teaches boundary reasoning by example and warning rather than by criterion | Verified text of Sterman *Business Dynamics* ch. 3 (model boundary chart, endogenous point of view), or Zeigler's experimental frame |
+| No sourced boundary-selection theory — **partially addressed 2026-08-18** | Chapter 2 teaches boundary reasoning by example, warning, and now one sourced principle, but still not by criterion | Verified text of Sterman *Business Dynamics* ch. 3 (model boundary chart), or Zeigler's experimental frame. Both remain unobtained. |
 | `weisberg2007idealization` read in preprint | Locators are section headings, not printed pages | Published *Journal of Philosophy* 104(12):639–659 |
 | Jones 2005 not read directly | The omission/distortion distinction rests on two secondary reports | Jones, "Idealization and Abstraction: A Framework," *Idealization XII* (Rodopi, 2005), 173–217 |
 

@@ -206,7 +206,23 @@ It is silence about consequences that arrive later or elsewhere.
 
 Policies can produce delayed and distal effects, and interventions can trigger responses that undermine what they were meant to achieve; narrow boundaries can hide both [@sterman2006evidence].
 
-This is why a boundary is always provisional.
+There is a sharper way to put this, and it is worth sitting with because it reframes a word you use constantly.
+
+> "There are no side effects—only effects. Those we thought of in advance, the ones we like, we call the main, or intended, effects, and take credit for them. The ones we didn't anticipate, the ones that came around and bit us in the rear—those are the 'side effects'." [@sterman2002models, p. 505]
+
+Read that as a claim about boundaries, which is how it is meant.
+
+A *side effect* is not a special kind of effect that behaves differently from the main one. It is an ordinary effect that fell outside the boundary somebody drew. The world does not sort consequences into main and side; a representation does, by what it included.
+
+Which means the phrase is doing something unhelpful whenever it is used. Calling an outcome a side effect describes your model, not the world — and it quietly transfers responsibility from the modeller to reality. The same source is blunt about it: when we blame outside shocks and side effects for a policy's failure, "we think we are describing a capricious and unpredictable reality. In fact, we are highlighting the limitations of our mental models" [@sterman2002models, p. 505].
+
+Two cautions before you carry that too far.
+
+The passage comes from system dynamics, a tradition that pushes hard toward putting more inside the boundary — its own section heading is "(Almost) nothing is exogenous" [@sterman2002models, p. 505]. That is an argument for widening, and it is a good one, but this chapter has just spent several pages establishing that some exclusions are correct. A representation that includes everything answers nothing, as Levins's brute-force case showed. Take the passage as a reason to check your exclusions, not as a rule that there should not be any.
+
+And it is a prize lecture rather than a research result. It asserts from long experience; it does not demonstrate.
+
+This is also why a boundary is always provisional.
 You draw it from the purpose you have, and you redraw it when the analysis shows you something the cut was hiding.
 
 ### When to redraw

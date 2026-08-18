@@ -344,6 +344,8 @@ Per `../../decisions/0003`. Every citation key must exist in `../../references.b
 | Legitimacy of simplification depends on the question | `levins1966strategy` pp. 421–422 |
 | Intended use must state what is represented | `nasa2024models` §4.1.1.1 |
 | Narrow boundaries hide distal consequences | `sterman2006evidence` |
+| A side effect is an effect outside the boundary drawn; appealing to side effects highlights a model's limits | `sterman2002models` p. 505 |
+| The endogenous position — "(Almost) nothing is exogenous" — as an argument for widening, not a rule | `sterman2002models` p. 505 |
 | Widening enables new questions; the cut changes the internal description | `astrom2008feedback` pp. 29, 33 |
 | Entities engage in activities | `machamer2000mechanisms` p. 3 |
 | State is purpose-qualified; grain is a decision | `astrom2008feedback` pp. 28, 34 |
@@ -357,6 +359,7 @@ Per `../../decisions/0003`. Every citation key must exist in `../../references.b
 ### Known source gaps constraining the manuscript
 
 1. **No sourced boundary-selection procedure.** §2 teaches by example and warning. The manuscript may not present a general procedure as sourced.
+   *Partially addressed 2026-08-18.* `sterman2002models` (pp. 504–507 read) supplies a sourced **principle** — that a "side effect" is an effect outside the boundary drawn, and that appealing to side effects highlights the limits of a model rather than the caprice of the world — together with the system-dynamics endogenous position. This materially strengthens §2 and does **not** close the gap: the article offers an attitude and an argument for widening, not criteria for selection. `../../decisions/0009` clause 2.3 stands.
 2. **No sourced definition of representational aggregation.** §5 demonstrates arithmetically. The manuscript may not cite a source for the Chapter 2 sense.
 3. **`weisberg2007idealization` read in preprint.** Locators are section headings. Before freeze, the published *Journal of Philosophy* 104(12):639–659 text must be checked and locators converted to printed pages.
 4. **Jones (2005) not read directly.** The omission/distortion distinction rests on two secondary reports and must be attributed as such.
@@ -401,4 +404,4 @@ Drawn from `readiness-audit.md` §5. Each must be actively defeated in the manus
 8. Has the network extension passed water-domain SME review?
 9. Do the transfer forms need their own SME check?
 10. Does the 29-page / 6-hour budget survive a timed reader pilot?
-11. Is R01 reopened for a boundary-selection source, or does the chapter stand on example and warning?
+11. Is R01 reopened for a boundary-selection source, or does the chapter stand on example and warning? *(Partially resolved 2026-08-18: `sterman2002models` adds a sourced principle. A procedure remains unsourced; Zeigler's experimental frame and Sterman's* Business Dynamics *model boundary chart were identified and remain unobtained.)*
