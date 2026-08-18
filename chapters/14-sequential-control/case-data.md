@@ -132,3 +132,18 @@ Those are the seven demand figures the book has used since Chapter 13.
 - Any claim about how often a real operating rule is dominated. The case shows one that is; no frequency is claimed.
 - Any claim that these values are typical, standard, or recommended for a real utility. They are synthetic and internally consistent, and nothing more.
 - Any suggestion that 4 ML/day or 42 ML/day is a plausible leakage rate for a particular network. The three splits exist to show that the data cannot choose among them.
+
+## Publication gate
+
+Frozen for first drafting.
+
+Before publication freeze, a drinking-water utility SME with leakage or network-analysis experience should review this extension. In particular:
+
+- whether **night-flow measurement at 03:00** is a recognised method for separating background leakage from legitimate demand, and whether **£18,000 installed** is a plausible order of magnitude for one such meter at a zone inlet;
+- whether a utility of this size could genuinely lack the instrumentation to distinguish hot-weather demand from a burst, given the four instruments listed in §7 — this is the chapter's observability claim and it must not be a straw man;
+- whether **base demand and background leakage entering only through their sum** is a fair description of what total-draw records can support, and whether the three candidate splits (78/4, 60/22, 40/42) span a range a practitioner would call live;
+- whether a nine-year-old operating rule remaining in force unexamined is organisationally plausible.
+
+The SME is not asked to validate the simulated policy results, which are arithmetic on stated rules, nor to treat any rule as recommended practice. The reviewer should flag any wording implying that night-flow measurement resolves leakage exactly, or that a dominated rule implies negligence by named roles.
+
+**These facts inherit Chapter 1's open Gate 1, now fourteen chapters deep.** Fourteen case-data files now extend one anchor whose operating story has never been reviewed by a domain expert.

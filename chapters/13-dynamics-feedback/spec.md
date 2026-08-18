@@ -192,4 +192,4 @@ Chapter 13 must not claim durable far transfer.
 1. **Decision 0020 is unadjudicated**, as are 0009–0019.
 2. **Sterman's *Business Dynamics* was not obtained.** The chapter teaches stocks, flows, and delays from a journal article and a test instrument.
 3. **`utility` is recorded as Chapter 11's and was not closed there.** Surfaced by Decision 0020 clause 12.4; not repaired.
-4. **Gate 1 remains open**, now ten chapters deep.
+4. **Gate 1 remains open**, now thirteen chapters deep.

@@ -137,7 +137,7 @@ Constraints:
 - The policy-resistance instance must be one **the book has already recorded**: Chapter 1's conservation request changed demand and invalidated the forecast. No new mechanism.
 - No new physical fact about Hillcrest, and no reopening of Chapter 7's identification verdict.
 
-**Gate 1 remains open and is now ten chapters deep.**
+**Gate 1 remains open and is now thirteen chapters deep.**
 
 ## 9. Decisions likely required after research
 

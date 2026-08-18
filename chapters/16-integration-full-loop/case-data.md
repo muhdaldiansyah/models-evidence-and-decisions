@@ -193,3 +193,26 @@ Next year's list is **90,000 names**. The mean gift is **£27.40**.
 - Any claim about artificial intelligence as a subject. Per `README.md`, AI here is an application and a stress test.
 - Any suggestion that eleven of fourteen is the normal result of a triage. The manuscript states that it is not.
 - Reworking or re-estimating anything in the water case.
+
+## Publication gate
+
+Frozen for first drafting.
+
+**This is the first chapter since Chapter 1 whose cases are not the water anchor, so it does not inherit Gate 1 — it opens two gates of its own.**
+
+Problem A requires a **social-housing or property-maintenance SME**:
+
+- whether a repairs triage tool trained on 96,400 historical jobs, assigning priority codes, is a realistic deployment for a landlord of this size;
+- whether **emergency jobs and hazard referrals** are the right pair of downstream indicators, and whether the stated movements (+22% and +3.1%) are coherent;
+- whether **£148 against £62** is a plausible cost ratio between an emergency attendance and a scheduled one;
+- whether any wording could imply that a real tool, vendor, or landlord is being described, or that priority coding is a safety-critical decision the book is advising on.
+
+Problem B requires a **fundraising or direct-marketing SME**:
+
+- whether a **90,000-record appeal at a £27.40 mean gift** is a coherent scale;
+- whether comparing six October sends against two November sends is the kind of comparison a real team would actually be shown and asked to act on;
+- whether **£4,800 for a split test** is a plausible cost, and whether roughly 40% of the disputed difference is a fair way to express what it buys.
+
+Neither reviewer is asked to validate any figure as typical. Both are asked whether the case implies unsafe practice or resembles an identifiable organisation.
+
+**Gate 1 remains open on the water anchor and is untouched by this chapter.**

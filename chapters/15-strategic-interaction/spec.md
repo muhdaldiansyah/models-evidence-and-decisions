@@ -180,4 +180,4 @@ Goodhart (1975), Campbell (1979), Lucas (1976) — **none obtained**. Kerr (1975
 3. **Three concepts named in governed text are taught through a single reporting source** — clause 7.
 4. **A bounded exception to the pagination rule is proposed** — clause 8.
 5. **`principal-agent` and `information asymmetry` are unsourced after a documented reopening** — clause 9. **This is the live governance question.**
-6. **Gate 1 remains open**, twelve chapters deep.
+6. **Gate 1 remains open**, fifteen chapters deep.

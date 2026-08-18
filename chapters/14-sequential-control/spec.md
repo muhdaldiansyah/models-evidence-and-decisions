@@ -185,4 +185,4 @@ Bellman and Åström (1970) — **not obtained**; recorded as the chapter's prin
 2. **`practical identifiability` is not in the governed core competence** — clause 6.
 3. **Bellman and Åström (1970) not obtained**; a canon `TODO` is closed from a secondary source for the first time — clause 8.
 4. **`utility` remains open in the registry**, assigned to the drafted Chapter 11. It is now the only one.
-5. **Gate 1 remains open**, eleven chapters deep.
+5. **Gate 1 remains open**, fourteen chapters deep.

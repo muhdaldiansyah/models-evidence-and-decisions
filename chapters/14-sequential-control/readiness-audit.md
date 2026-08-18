@@ -132,7 +132,7 @@ Constraints:
 - The instrument that repairs both must be **one instrument**, and its cost must be small relative to a decision the book has already priced.
 - No reopening of Chapter 7's verdict.
 
-**Gate 1 remains open and is now eleven chapters deep.**
+**Gate 1 remains open and is now fourteen chapters deep.**
 
 ## 9. Decisions likely required after research
 

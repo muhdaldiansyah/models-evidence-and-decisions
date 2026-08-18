@@ -176,7 +176,7 @@ Per `../../decisions/0008`. Three pauses: §3 (is seven a signal?), §4 (what sh
 1. Return to the §1 answer. Compare, do not score. Two things to look for.
 2. **Cold transfer.** Both forms listed, one assigned. Retrieval from memory, five steps. Rubric after production. Delayed retest.
 3. **Then the book's ending**, and it is short.
-4. **What has not been established**, named: no pilot data for any exercise in the book; Gate 1 open since Chapter 1 and now fourteen chapters deep; sixteen decision records unadjudicated; and the book's claim about its own transfer, which is nil.
+4. **What has not been established**, named: no pilot data for any exercise in the book; Gate 1 open since Chapter 1 and now sixteen chapters deep; sixteen decision records unadjudicated; and the book's claim about its own transfer, which is nil.
 5. **One registry entry does not close.** `utility`, belonging to Chapter 11, with no later chapter to close it in.
 6. **And close on retirement**, applied to the book: the last item in the standard's five-verb plan is the one nothing here has discussed, including about itself.
 7. **No summary. No congratulation.**

@@ -107,3 +107,24 @@ Given re-siting, the regulator does no worse keeping the incentive than dropping
 - Any claim that the payoff numbers were derived from anything. They are constructed to make the strategic structure legible and nothing more.
 - Re-estimating anything Chapter 7 declared not identified.
 - Any implication of dishonesty. Every action in the case is legal, documented, and compliant.
+
+## Publication gate
+
+Frozen for first drafting.
+
+This chapter needs **two** reviewers, because its case is half operational and half regulatory.
+
+A drinking-water utility SME should review:
+
+- whether **measurement-point selection is in practice delegated to the licensee** in the way §3 describes, since the entire case rests on it;
+- whether moving nine measurement points without capital work is operationally realistic;
+- whether reported low-pressure counts and customer complaints are the kind of pair that would ordinarily track each other, so that the broken relationship in §4 reads as a genuine anomaly.
+
+A regulatory or price-control SME should review:
+
+- whether a **published comparative table with £1.8m at stake across a price-control period** is a plausible incentive structure at this scale;
+- whether the payoff table's framing — regulator and licensee each choosing once — is a fair simplification or misrepresents how determinations are actually made.
+
+Neither reviewer is asked to validate the payoff numbers, which are synthetic. **The single most important review question is whether anything in the case could be read as describing, alleging, or resembling the conduct of a real utility or regulator.** The manuscript states that nothing here is illegal and that every move was documented and compliant; the reviewer should confirm that this survives a hostile reading.
+
+**These facts inherit Chapter 1's open Gate 1, now fifteen chapters deep.** Fifteen case-data files now extend one anchor whose operating story has never been reviewed by a domain expert, and this is the anchor's last appearance before Chapter 17.

@@ -153,3 +153,24 @@ All facts about the tool are frozen in `../16-integration-full-loop/case-data.md
 - Any claim about how often signposts are misread, or about how often deployed tools fail this way. **No frequency is claimed.**
 - Any suggestion that the committee or the asset planning lead behaved badly. The rule was misread, and the misreading produced the defensible answer for the wrong reason.
 - Any climate claim. The heat-event series is synthetic and the chapter draws no conclusion about whether heat events are becoming more frequent — which is, in fact, one of the things the case shows the utility cannot tell from its own data.
+
+## Publication gate
+
+Frozen for first drafting.
+
+**Two cases, two inherited gates.** Neither case is new, so neither opens a new domain.
+
+Case 1 requires the **drinking-water utility SME** already required by Gate 1:
+
+- whether **peak-week demand against forecast** and **heat events per year** are indicators a utility would in fact watch, and whether heat events are plausibly already counted for a regulator;
+- whether the seven-year baselines are internally coherent — demand errors of +0.4 to +3.3 per cent, and heat events between 2 and 7 a year;
+- whether a capital committee receiving a signpost report each October, and minuting "signposts reported; no action required" in a year a limb fired, is organisationally plausible rather than a caricature;
+- most importantly, whether anything in §4 could be read as **criticising the people in the room rather than the threshold**. The chapter's position is that not acting was defensible on the arithmetic and that nobody present could have said so. A reviewer should confirm the text sustains that.
+
+Case 2 requires the **social-housing or property-maintenance SME** introduced at Chapter 16:
+
+- whether three monitored indicators of the kind listed — volume, completion within target, satisfaction — are what such a service would actually report;
+- whether **completion-within-target improving because of the failure** is a mechanism a practitioner recognises;
+- whether a ratio of emergency jobs to hazard referrals is a quantity no single team would own, which is the case's central claim about why nobody reported it.
+
+**These facts inherit Chapter 1's open Gate 1, now sixteen chapters deep, and Chapter 16's Problem A gate.** Sixteen case-data files extend one anchor whose operating story has never been reviewed by a domain expert. **This is the last chapter, so the accumulation stops here and is handed to validation entire.**

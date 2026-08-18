@@ -132,7 +132,7 @@ Chapter 17 is the last chapter. **Its final section is the book's final section*
 
 **Case 2 — Chapter 16's repairs-triage tool.** Constraints: no new facts beyond what Chapter 16 froze, plus the monitoring the authority actually had; and the diagnosis must land on a stage Chapter 16 already identified, because the point is that the failure was diagnosable before it was visible.
 
-**Gate 1 remains open and is now fourteen chapters deep.** With this chapter the anchor's appearances end, and Gate 1's scope is complete: it concerns the thirteen chapters in which the water case appears.
+**Gate 1 remains open and is now sixteen chapters deep.** With this chapter the anchor's appearances end, and Gate 1's scope is complete: it concerns the thirteen chapters in which the water case appears.
 
 ## 9. Decisions likely required after research
 

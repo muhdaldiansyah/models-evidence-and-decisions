@@ -623,7 +623,7 @@ This is the last section of the last chapter, and it is not a summary.
 **No pilot data exists for any exercise in this book.** Every chapter's transfer design carries a line forbidding a claim of durable far transfer, and every one of those lines is still true.
 The two studies underlying the exercise architecture were verified at abstract level and neither was read in full.
 
-**Gate 1 has been open since Chapter 1.** The water-utility anchor — which has now appeared in thirteen chapters and finished its work in this one — has never been reviewed by a subject-matter expert.
+**Gate 1 has been open since Chapter 1.** The water-utility anchor — which has now appeared in sixteen chapters and finished its work in this one — has never been reviewed by a subject-matter expert.
 Everything built on it is internally consistent and externally unchecked.
 
 **Sixteen decision records are unadjudicated.** Every chapter from 2 to 17 rests on a proposed record that no author has ruled on, and the terminology, scope boundaries, and example architecture of all sixteen inherit that status.

@@ -183,5 +183,5 @@ Shewhart (1931) — **not obtained**. Deming on tampering — **not obtained**. 
 3. **`tampering` is unsourced** and named in governed text — clause 6.
 4. **How the book ends** — clause 10.
 5. **`utility` remains open in the registry with no later chapter to close it.**
-6. **Gate 1 remains open**, fourteen chapters deep, across all sixteen chapters in which the anchor appears.
+6. **Gate 1 remains open**, sixteen chapters deep, across all sixteen chapters in which the anchor appears.
 7. **No pilot data exists for any exercise in this book.**

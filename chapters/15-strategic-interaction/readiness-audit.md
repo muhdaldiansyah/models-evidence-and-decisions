@@ -138,7 +138,7 @@ Constraints:
 - The case must reuse **Chapter 3's representative-point finding** and add no new physical fact.
 - The regulator must be **acting reasonably**, or the chapter teaches that regulation is foolish.
 
-**Gate 1 remains open and is now twelve chapters deep.**
+**Gate 1 remains open and is now fifteen chapters deep.**
 
 ## 9. Decisions likely required after research
 

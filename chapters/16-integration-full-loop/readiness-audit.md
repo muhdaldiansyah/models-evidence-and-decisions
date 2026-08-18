@@ -118,7 +118,7 @@ Constraints:
 - **No new machinery may appear anywhere.** Every move must be traceable to a chapter the reader has read.
 - The water case may be **referred to and not reworked**.
 
-**Gate 1 remains open and is now thirteen chapters deep** — and it is worth noting that Chapter 16 is the first chapter whose case is not the anchor Gate 1 is about.
+**Gate 1 remains open, fifteen chapters deep, and this chapter does not deepen it** — Chapter 16 is the first chapter since Chapter 1 whose case is not the anchor Gate 1 is about.
 
 ## 9. Decisions likely required after research
 

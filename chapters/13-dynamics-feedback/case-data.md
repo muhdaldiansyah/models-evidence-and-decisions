@@ -157,3 +157,18 @@ No new physical fact: Chapter 7 established the main's age, and Chapter 12's sch
 - Recommending a capital programme — Chapter 12 did that.
 - Any claim about how often overshoot occurs in practice. The mechanism is sourced; no frequency is claimed.
 - Any suggestion that these values are typical, standard, or recommended for a real utility. They are synthetic and internally consistent, and nothing more.
+
+## Publication gate
+
+Frozen for first drafting.
+
+Before publication freeze, a drinking-water utility SME with operational or distribution-engineering experience should review the reservoir behaviour for plausibility and accidental unsafe implication. In particular:
+
+- whether a 260 ML usable-storage reservoir with a 220 ML operating target, a 120 ML critical level, and a 100 ML/day standing production rate is a coherent operating configuration for a system of this size;
+- whether the **two-day observation delay and two-day production-response delay** are plausible as case-stipulated facts, given that the four-day loop delay carries the chapter's entire argument;
+- whether **spill over the weir** on refill is a realistic consequence of ordering extra production late, and whether 30 ML and 44 ML are coherent against a 260 ML capacity;
+- whether the policy-resistance loop — higher inlet pressure driving more water out through existing defects in the main — is a mechanism a distribution engineer would recognise, and whether **two thirds of the water never reaching Hillcrest** is a defensible synthetic magnitude rather than an implausible one.
+
+The SME is not asked to validate any value as an industry average, a design criterion, or a recommended operating rule. The reviewer should flag any wording implying that a critical level is a regulatory threshold, that crossing it causes immediate service failure, or that any of the three trajectories is recommended practice.
+
+**These facts inherit Chapter 1's open Gate 1, now thirteen chapters deep.** Thirteen case-data files now extend one anchor whose operating story has never been reviewed by a domain expert. This is a standing risk and remains a book-level decision the author has not yet made.

@@ -181,4 +181,4 @@ Chi, Feltovich and Glaser (1981) — **not obtained**. Any AI or machine-learnin
 3. **The pagination exception is applied a second time** — clause 6 — and falls if `0022` clause 8 is declined.
 4. **The central empirical warrant is a commentary, not the study** — clause 7.
 5. **No pilot data exists for any transfer form in this book.**
-6. **Gate 1 remains open**, thirteen chapters deep — and Chapter 16 is the first chapter whose case is not the anchor Gate 1 concerns.
+6. **Gate 1 remains open**, fifteen chapters deep, and this chapter does not deepen it — Chapter 16 is the first chapter since Chapter 1 whose case is not the anchor Gate 1 concerns.

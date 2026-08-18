@@ -118,7 +118,7 @@ Chapter 17's organizing claim is:
 
 **10.2** This is the last chapter, and its final section is the book's final section.
 
-**10.3** **It closes on what has not been established**, not on what has. Specifically: that no pilot data exists for any exercise in the book; that Gate 1 has been open since Chapter 1 and is now fourteen chapters deep; that sixteen decision records remain unadjudicated; and that the book's own claims about transfer are, correctly, nil.
+**10.3** **It closes on what has not been established**, not on what has. Specifically: that no pilot data exists for any exercise in the book; that Gate 1 has been open since Chapter 1 and is now sixteen chapters deep; that sixteen decision records remain unadjudicated; and that the book's own claims about transfer are, correctly, nil.
 
 **10.4** **And it closes on retirement** — the one item in [@nasa2024models, p. 39]'s five-verb plan that nothing in this book has discussed, which is a fair note for a last page.
 
