@@ -20,9 +20,9 @@ Entry format:
 
 ## Index
 
-95 entries, in registry order. Navigation only — the entries below are the record.
+101 entries, in registry order. Navigation only — the entries below are the record.
 
-**Adjudicated (29).** Note that `construct`, `measure`, and `proxy` appear in this sequence but were filled in from proposed Decision 0010 and are provisional; see the Chapter 3 block. Six further entries in this sequence — `statistical identifiability`, `causal identification`, `target`, `estimand`, `intervention`, and `counterfactual` — were closed or specialised from proposed Decision 0014 and are provisional; see the Chapter 7 block. `estimator` and `estimate` were closed from proposed Decision 0015; see the Chapter 8 block. `target population` was closed from proposed Decision 0016; see the Chapter 9 block. [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
+**Adjudicated (29).** Note that `construct`, `measure`, and `proxy` appear in this sequence but were filled in from proposed Decision 0010 and are provisional; see the Chapter 3 block. Six further entries in this sequence — `statistical identifiability`, `causal identification`, `target`, `estimand`, `intervention`, and `counterfactual` — were closed or specialised from proposed Decision 0014 and are provisional; see the Chapter 7 block. `estimator` and `estimate` were closed from proposed Decision 0015; see the Chapter 8 block. `target population` was closed from proposed Decision 0016; see the Chapter 9 block. `objective` and `metric` were closed from proposed Decision 0017; see the Chapter 10 block. [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
 
 **Provisional — Chapter 2 block (9), pending adjudication of [Decision 0009](../decisions/0009-chapter2-representation-terminology-and-boundary.md).** [representation](#representation) · [target system](#target-system) · [boundary](#boundary) · [mechanism](#mechanism) · [abstraction](#abstraction) · [idealization](#idealization) · [generality](#generality) · [aggregation](#aggregation) · [state](#state)
 
@@ -39,6 +39,8 @@ Entry format:
 **Provisional — Chapter 8 block (7), pending adjudication of [Decision 0015](../decisions/0015-chapter8-estimation-terminology-and-notation.md).** [sampling variability](#sampling-variability) · [standard error](#standard-error) · [interval estimate](#interval-estimate) · [P value](#p-value) · [statistical significance](#statistical-significance) · [analytic flexibility](#analytic-flexibility) · [model checking](#model-checking) — plus [estimator](#estimator) and [estimate](#estimate), **closed from `TODO`** by the same decision in their existing positions above. Decision 0015 clause 2 **declines** to extend the notation exception, departing from a promise Chapter 6 made to the reader; it is the first notation clause in the book that refuses rather than permits.
 
 **Provisional — Chapter 9 block (8), pending adjudication of [Decision 0016](../decisions/0016-chapter9-synthesis-terminology-and-boundary.md).** [evidence synthesis](#evidence-synthesis) · [heterogeneity](#heterogeneity) · [dependence](#dependence) · [replication](#replication) · [external validity](#external-validity) · [transportability](#transportability) · [support factor](#support-factor) · [expert judgment](#expert-judgment) — plus [target population](#target-population), **closed** by the same decision in its existing position above. Decision 0016 clause 2 teaches **no synthesis method**; clause 6 records a **fourth** instance of the demonstrate-because-unsourced disposition and refers it to the author rather than invoking precedent.
+
+**Provisional — Chapter 10 block (6), pending adjudication of [Decision 0017](../decisions/0017-chapter10-values-terminology-and-boundary.md).** [value](#value) · [fundamental objective](#fundamental-objective) · [means objective](#means-objective) · [attribute](#attribute) · [stakeholder](#stakeholder) · [constraint](#constraint) — plus [objective](#objective) and [metric](#metric), **closed from `TODO`** by the same decision in their existing positions above. Decision 0017 clause 1 records that `keeney1996valuefocused` could not be obtained in full and that the framework is used **as reported at** `bradley2016structured`. Clause 5 **resolves a conflict** between `decisions/0006` and `README.md` over where trade-offs live, in favour of `README.md`.
 
 ## intended use
 
@@ -268,20 +270,20 @@ Entry format:
 ## objective
 
 - Preferred term: objective
-- Field/origin: decision analysis / optimization
+- Field/origin: decision analysis
 - Introduced in: Chapter 10
-- Distinct from: utility; metric
-- Aliases/cautions: values are structured before objectives are defined (Ch. 10)
-- Definition status: TODO — verify against canonical sources
+- Distinct from: value; attribute; metric; utility (Chapter 11); target (Chapter 1); estimand (Chapter 7); a vision statement; a policy; a target figure
+- Aliases/cautions: **an objective has an item of value and a direction of preference** — "Objectives are usually described as something that matters … and a verb indicating the preferred direction of change (e.g., maximize or minimize)" (`bradley2016structured` p. 50, reporting Keeney and others); that two-part format is a **test**, and *improve service resilience* fails both halves; objectives "become the evaluation criteria for identifying and evaluating alternatives" (p. 49), so a decision with no usable objectives has criteria supplied by whoever framed the options; **"Objectives are context specific: they are defined for the decision at hand, not for universal usage"** (p. 50), which is the book's recurring relativity shape in Part III; the documented failure is that what decision-makers have is "a messy mix of means and ends, targets, policies and vision statements, most of which are not useful for decision-making" (p. 49)
+- Definition status: **provisional** — closed by proposed `decisions/0017` clause 3.1; source-verified against `bradley2016structured` pp. 49–50
 
 ## metric
 
 - Preferred term: metric
-- Field/origin: TODO
+- Field/origin: management practice / decision analysis; the decision-analytic term for the same role is `attribute`
 - Introduced in: Chapter 10
-- Distinct from: objective; measure; utility
-- Aliases/cautions: metric gaming and Goodhart-type failures treated in Chapter 15
-- Definition status: TODO — verify against canonical sources
+- Distinct from: objective; value; attribute (the decision-analytic term this book prefers); measure (Chapter 3, the measurement procedure); score (Chapter 3)
+- Aliases/cautions: the quantity actually tracked as a stand-in for an objective; **a metric is not an objective**, in the same way a `measure` is not a `construct` (Chapter 3) — choosing what to count does not fix what is valued, and the gap between them is where the failures live; effective attributes are "characterized by their measurability, understandability, and operability" (`bradley2016structured` p. 51); **metric gaming and Goodhart-type failures are treated in Chapter 15**, and Chapter 10 introduces the stand-in relationship that makes them possible without treating the failure
+- Definition status: **provisional** — closed by proposed `decisions/0017` clause 3.5; source-verified against `bradley2016structured` p. 51
 
 ## robustness
 
@@ -944,3 +946,64 @@ Clause 2 teaches **no synthesis method**, on the strength of the governed core c
 - Distinct from: opinion; consensus; authority; prior (Chapter 6); assumption record (Chapter 5)
 - Aliases/cautions: a source of evidence like any other, to be treated as one — **not excluded for being judgment, and not privileged for being expert**; the discipline is Chapter 6's, reused rather than re-taught: a panel that has never been scored is in exactly the position of Chapter 6's unscored forecaster, and the remedy is a record of what was said, when, conditional on what, and what happened; `tversky1974judgment` p. 1124 is explicit that the underlying heuristics "are quite useful", so do not present expert judgment as merely defective; **this book teaches no elicitation protocol and no aggregation method**, per proposed `decisions/0016` clause 8.3; experts sharing training or a literature are a dependence problem, not five independent sources
 - Definition status: **provisional** — proposed `decisions/0016` clause 8; reuses `gneiting2007scoring` p. 359 and `tversky1974judgment` p. 1124, both verified for Chapter 6
+
+## Chapter 10 block — PROVISIONAL
+
+Six entries introduced by proposed [Decision 0017](../decisions/0017-chapter10-values-terminology-and-boundary.md), which is **not author-adjudicated**.
+The same decision closes `objective` and `metric` — TODO since Chapter 1 — and specialises `alternative`, whose Chapter 1 entry recorded that systematic generation remained Chapter 10.
+Clause 1 records that `keeney1996valuefocused` could **not** be obtained in full and that the framework is used **as reported at** `bradley2016structured`, honouring the prohibition standing in that source note since Chapter 1.
+Clause 5 **resolves a conflict** between `decisions/0006` and `README.md` over where trade-offs live, in favour of `README.md`.
+
+## value
+
+- Preferred term: value
+- Field/origin: decision analysis
+- Introduced in: Chapter 10
+- Distinct from: objective; preference; utility (Chapter 11); a number in a dataset; moral value as a subject of ethics
+- Aliases/cautions: **"Values are what we fundamentally care about"** (`bradley2016structured` p. 5, reporting Keeney 1992); "The consequences that stakeholders care about are considered values" (p. 8); **values are present in every decision and the only question is whether they were written down** — "Alternative-focused decision-making does consider values, but often only implicitly. They may not be clearly stated and thus not fully considered when making a decision" (p. 5); **an option set is already a claim about what matters**, which is the book's own formulation of that point; do not confuse with the numeric sense — this book writes `value` for what is cared about and never for a datum
+- Definition status: **provisional** — proposed `decisions/0017` clause 2.1; source-verified against `bradley2016structured` pp. 5, 8
+
+## fundamental objective
+
+- Preferred term: fundamental objective
+- Field/origin: decision analysis
+- Introduced in: Chapter 10
+- Distinct from: means objective; constraint; metric; a vision statement
+- Aliases/cautions: an objective wanted for its own sake — **"A fundamental objective is usually determined when the answer to 'why is this important' is '…just because'…. meaning that it is simply something that humans need or want"** (`bradley2016structured` p. 51); **fundamental objectives evaluate alternatives, means objectives generate them**, which is the book's own formulation of the distinction's practical use; six properties of good objectives are listed at p. 51 as "Fundamental, Complete, Concise, Sensitive, Understandable, Independent", attributed there to Gregory et al. (2012), **which was not obtained** — the book quotes the list and develops only *Fundamental* and *Independent*, since inventing glosses would attribute content to an unread source; most stakeholders "will agree on objectives high in the hierarchy even if not specific approaches" (p. 54)
+- Definition status: **provisional** — proposed `decisions/0017` clause 3.2; source-verified against `bradley2016structured` pp. 51, 54
+
+## means objective
+
+- Preferred term: means objective
+- Field/origin: decision analysis
+- Introduced in: Chapter 10
+- Distinct from: fundamental objective; alternative; constraint
+- Aliases/cautions: an objective wanted **because it leads to something else** — it fails the "why is this important" test by producing another objective rather than "just because"; the documented failure is a "messy mix of means and ends" presented as objectives (`bradley2016structured` p. 49); **mistaking a means for an end is how an organisation optimises something completely and still fails at what it wanted**, which is the book's own statement of the consequence; means objectives are not defective — they are where alternatives come from, and the error is only in treating them as the thing evaluated against
+- Definition status: **provisional** — proposed `decisions/0017` clause 3.2; source-verified against `bradley2016structured` pp. 49, 51
+
+## attribute
+
+- Preferred term: attribute
+- Field/origin: decision analysis
+- Introduced in: Chapter 10
+- Distinct from: objective; value; metric (the same role in management vocabulary); measure and construct (Chapter 3); **the estimand attributes of Chapter 7, which are a different object sharing the word**
+- Aliases/cautions: the measurable quantity at the bottom of an objectives hierarchy, standing in for the objective above it — "Evaluation measures, attributes that can be used to evaluate performance toward higher-level objectives, are at the bottom of the OH" (`bradley2016structured` p. 51); "Effective attributes are characterized by their measurability, understandability, and operability" (p. 51); **the objective is what is valued and the attribute is what will be assessed** (p. 51), a pairing that is Chapter 3's construct/measure ladder in a new setting; Chapter 7's use of `attribute` for the components of an estimand is a different object and a compatible sense, and neither should be read into the other
+- Definition status: **provisional** — proposed `decisions/0017` clause 3.4; source-verified against `bradley2016structured` p. 51
+
+## stakeholder
+
+- Preferred term: stakeholder
+- Field/origin: decision analysis / public-sector practice
+- Introduced in: Chapter 10
+- Distinct from: decision-maker (Chapter 1); expert; consultee; user; the people who were asked
+- Aliases/cautions: **a party affected by the decision** — and the qualification for having a value is being affected, not expertise: "All parties, regardless of education or socio-economic status know what is important to them and can communicate those values" (`bradley2016structured` p. 7); **who knows how the system works and who has a stake in it are different rosters**, and a consultation list built for the first will silently answer the second, which is the book's own formulation; `common values` are "those that most stakeholders will agree upon, i.e., values that they share even if at different magnitudes" (p. 6) — **not consensus**; the book teaches no facilitation or elicitation technique, per proposed `decisions/0017` clause 4.4
+- Definition status: **provisional** — proposed `decisions/0017` clause 4.1; source-verified against `bradley2016structured` pp. 6–7
+
+## constraint
+
+- Preferred term: constraint
+- Field/origin: decision analysis / optimization
+- Introduced in: Chapter 10
+- Distinct from: objective; assumption (Chapter 5); boundary (Chapter 2); a preference
+- Aliases/cautions: a limit on what alternatives may be considered — and **"accepting constraints as immoveable" is one of four documented traps** (`bradley2016structured` p. 7, attributed there to Gregory et al. 2012, which was not obtained); the practical question is **who set this and what would change it**, since a constraint accepted without examination decides the outcome while remaining unexaminable, exactly as an implicit value does — but unlike a value it usually has an author who could be asked; the book's own sorting into constraints that are physical or statutory and constraints that are conventions, budgets, or timetables is an illustration rather than a theory, and is labelled as such; the other three traps at p. 7 are anchoring on the first proposed alternative, avoiding controversial trade-offs, and rushing to premature solutions
+- Definition status: **provisional** — proposed `decisions/0017` clause 4.3; the trap is source-verified against `bradley2016structured` p. 7; the sorting is the book's own
