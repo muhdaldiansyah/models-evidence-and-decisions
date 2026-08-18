@@ -29,7 +29,7 @@ Four files beside the manuscript are exercise materials — `transfer-form-a.md`
 
 **To work on the project.** Authority runs `README.md → decisions/ → canon/ → chapter spec.md → working files`; the operating contract is [CLAUDE.md](CLAUDE.md).
 
-- [`decisions/`](decisions/) — settled decisions and their reopening conditions, indexed by scope: three book-level, five governing Chapter 1.
+- [`decisions/`](decisions/) — settled decisions and their reopening conditions, indexed by scope: three book-level, five governing Chapter 1, and two proposed for Chapters 2 and 3.
 - [`canon/`](canon/) — controlled terminology and registered pedagogical syntheses.
 - [`chapters/`](chapters/) — one directory per chapter; `spec.md` is each chapter's contract.
 - [`references.bib`](references.bib) and [`sources/`](sources/) — one global bibliography; one note per source, named by citation key.
@@ -49,14 +49,14 @@ Last reviewed 2026-08-18.
 
 - The 5-part, 17-chapter architecture is frozen for drafting ([Decision 0001](decisions/0001-book-architecture-freeze.md)).
 - **Chapter 1 is fully drafted** and awaiting external validation: before it can be frozen, its water-utility anchor case needs a human subject-matter-expert review and its exercise design needs reader-pilot data ([freeze gates](chapters/01-decisions-questions/freeze-gates.md); gates 1–3 open).
-- **Chapter 2 is fully drafted**, on a specification and terminology block that remain **provisional**: [Decision 0009](decisions/0009-chapter2-representation-terminology-and-boundary.md) proposes the chapter's controlled vocabulary, scope boundary, and example architecture, and has not yet been author-adjudicated.
-- Chapters 3–17 exist as skeleton specs: governed title, central question, core competence, and page and hour targets, with content architecture still open.
+- **Chapters 2 and 3 are fully drafted**, on specifications and terminology blocks that remain **provisional**: [Decision 0009](decisions/0009-chapter2-representation-terminology-and-boundary.md) and [Decision 0010](decisions/0010-chapter3-measurement-terminology-and-boundary.md) propose those chapters' controlled vocabulary, scope boundaries, and example architecture, and neither has been author-adjudicated.
+- Chapters 4–17 exist as skeleton specs: governed title, central question, core competence, and page and hour targets, with content architecture still open.
 
 | Part | Ch. | Chapter and central question | Status |
 |---|---:|---|---|
 | I | 1 | **[Decisions, Questions, and a First Complete Pass](chapters/01-decisions-questions/chapter.md)**<br>What is being asked, for what use, and what would count as an adequate answer? | **Drafted** — [in validation](chapters/01-decisions-questions/freeze-gates.md) |
 | I | 2 | **[Representation, Mechanisms, and Scale](chapters/02-representation-mechanisms/chapter.md)**<br>What is inside the model, at what grain, and how do parts produce behavior? | **Drafted** — [decision pending](decisions/0009-chapter2-representation-terminology-and-boundary.md) |
-| I | 3 | **[Measurement and Operationalization](chapters/03-measurement-operationalization/spec.md)**<br>What do the numbers stand for, and how well? | Spec skeleton |
+| I | 3 | **[Measurement and Operationalization](chapters/03-measurement-operationalization/chapter.md)**<br>What do the numbers stand for, and how well? | **Drafted** — [decision pending](decisions/0010-chapter3-measurement-terminology-and-boundary.md) |
 | I | 4 | **[Observation Processes and Data Provenance](chapters/04-observation-provenance/spec.md)**<br>Why did these records, and not others, come to exist in this form? | Spec skeleton |
 | I | 5 | **[Assumptions, Adequacy, and Rival Models](chapters/05-assumptions-rival-models/spec.md)**<br>How could this formulation fail its purpose, and what would show it? | Spec skeleton |
 | II | 6 | **[Probability, Prediction, and Simulation](chapters/06-probability-simulation/spec.md)**<br>How is uncertainty represented, updated, and scored? | Spec skeleton |
