@@ -22,13 +22,14 @@ Authority runs `README.md → decisions/ → canon/ → chapter spec.md → work
 | [0007](0007-chapter1-dynamics-and-response-boundary.md) | Dynamics and Response Boundary | A dynamic-and-responsive-environment screen at introductory depth, short of system dynamics, control, and game theory. |
 | [0008](0008-chapter1-pedagogical-scaffold.md) | Pedagogical Scaffold | The authoring sequence from initial attempt through delayed retest, registered as a book-specific pedagogical synthesis rather than a universal instructional algorithm. |
 
-## Chapters 2 and 3 — proposed, not yet adjudicated
+## Chapters 2–4 — proposed, not yet adjudicated
 
 | # | Decision | Settles |
 |---:|---|---|
 | [0009](0009-chapter2-representation-terminology-and-boundary.md) | Chapter 2 Representation Terminology and Boundary | Purpose-relative representation; `mechanism` phenomenon-indexed and hedged; abstraction as omission versus idealization as asserted falsehood; representational aggregation demonstrated rather than cited; `state` as what must be carried forward. **PROPOSED.** |
 | [0010](0010-chapter3-measurement-terminology-and-boundary.md) | Chapter 3 Measurement Terminology and Boundary | The `construct → working definition → measure → score` ladder; validity as a property of an interpretation for a use, never of an instrument; the accuracy/trueness/precision separation; the Chapter 3 / Chapter 4 line. **PROPOSED.** |
+| [0011](0011-chapter4-observation-process-terminology-and-boundary.md) | Chapter 4 Observation-Process Terminology and Boundary | The dataset as the output of two processes; the five-stage enumeration as the book's own device; more records do not fix a selection problem; missingness as a question rather than a taxonomy; absence as the invisible case; the Chapter 4 / Chapter 15 line. **PROPOSED.** |
 
-Records 0001–0008 are **Accepted**. Records 0009 and 0010 are **PROPOSED and not author-adjudicated**; the chapter specifications, terminology entries, and manuscripts built on them inherit that status.
+Records 0001–0008 are **Accepted**. Records 0009, 0010, and 0011 are **PROPOSED and not author-adjudicated**; the chapter specifications, terminology entries, and manuscripts built on them inherit that status.
 
 Each record carries its own status, date, and reopening conditions; this index is navigation only and does not restate them.
