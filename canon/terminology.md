@@ -20,13 +20,15 @@ Entry format:
 
 ## Index
 
-53 entries, in registry order. Navigation only — the entries below are the record.
+60 entries, in registry order. Navigation only — the entries below are the record.
 
 **Adjudicated (29).** Note that `construct`, `measure`, and `proxy` appear in this sequence but were filled in from proposed Decision 0010 and are provisional; see the Chapter 3 block. [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
 
 **Provisional — Chapter 2 block (9), pending adjudication of [Decision 0009](../decisions/0009-chapter2-representation-terminology-and-boundary.md).** [representation](#representation) · [target system](#target-system) · [boundary](#boundary) · [mechanism](#mechanism) · [abstraction](#abstraction) · [idealization](#idealization) · [generality](#generality) · [aggregation](#aggregation) · [state](#state)
 
 **Provisional — Chapter 3 block (12), pending adjudication of [Decision 0010](../decisions/0010-chapter3-measurement-terminology-and-boundary.md).** [working definition](#working-definition) · [operationalization](#operationalization) · [score](#score) · [validity](#validity) · [validation](#validation) · [reliability](#reliability) · [measurement error](#measurement-error) · [precision](#precision) · [trueness](#trueness) · [accuracy](#accuracy) · [measurand](#measurand) · [calibration](#calibration) — plus [construct](#construct), [measure](#measure), and [proxy](#proxy), filled in from the same decision in their existing positions above.
+
+**Provisional — Chapter 4 block (7), pending adjudication of [Decision 0011](../decisions/0011-chapter4-observation-process-terminology-and-boundary.md).** [observation process](#observation-process) · [record](#record) · [selection](#selection) · [coverage](#coverage) · [nonresponse](#nonresponse) · [missingness](#missingness) · [censoring](#censoring)
 
 ## intended use
 
@@ -516,3 +518,72 @@ The twelve entries below were introduced by **proposed** `decisions/0010-chapter
 - Distinct from: validation; validity; verification; probability calibration (Chapter 6)
 - Aliases/cautions: taught only far enough to explain how a systematic offset is found, and to establish that **calibrating an instrument against a standard does not establish that the quantity it measures is the quantity you want**; traceability chains and calibration hierarchies are depth-curriculum material; **not** to be confused with the Chapter 6 sense of calibration for probabilistic forecasts, which is a different concept sharing the word
 - Definition status: **provisional** — proposed `decisions/0010` clause 3.9
+
+---
+
+## Chapter 4 block — PROVISIONAL
+
+The seven entries below were introduced by **proposed** `decisions/0011-chapter4-observation-process-terminology-and-boundary.md`, which has **not** been author-adjudicated. The existing `aggregation` entry already carries the Chapter 2 / Chapter 4 split and is not re-registered.
+
+## observation process
+
+- Preferred term: observation process
+- Field/origin: statistics and survey methodology; the term is fixed by this chapter's governed title
+- Introduced in: Chapter 4
+- Distinct from: the process being modelled; measurement (Chapter 3); the representation (Chapter 2); monitoring (Chapter 17)
+- Aliases/cautions: **the process that decides which things get written down**, which is a different system from the one being studied and has its own actors, purposes, and failure modes; the key idea is that **being recorded is something that happens to a unit and can depend on the unit's value** — `meng2018paradox` p. 685 formalizes exactly this, decomposing error using "the correlation between X_j and the response/recording indicator R_j"; five stages are taught — eligibility, coverage, capture, retention, reporting — of which only eligibility and capture are sourced, so **the five-stage enumeration is the book's own pedagogical device**; do not describe the recording indicator itself as the observation process, since the indicator is per unit and the process is what generates it
+- Definition status: **provisional** — proposed `decisions/0011` §1–2; core claim source-verified against `meng2018paradox` p. 685
+
+## record
+
+- Preferred term: record
+- Field/origin: ordinary and administrative usage; no inspected source defines it as a term of art
+- Introduced in: Chapter 4
+- Distinct from: the thing recorded; the score (Chapter 3); the measure; data as an undifferentiated mass
+- Aliases/cautions: a record exists because something caused it to exist, and that cause is **not** the phenomenon it describes; `provenance` — the history of how a record came to exist, who produced it, for what purpose, under what requirement — is used as ordinary careful language and is **not** registered, because no inspected source defines it; provenance is not a metadata field
+- Definition status: **provisional** — proposed `decisions/0011` clauses 2.1–2.2; **unsourced**, taught by demonstration
+
+## selection
+
+- Preferred term: selection
+- Field/origin: statistics; survey methodology; econometrics
+- Introduced in: Chapter 4; identification consequences are Chapter 7; correction methods are Chapter 8
+- Distinct from: sampling; random error; measurement error (Chapter 3); the selection of alternatives (Chapter 10)
+- Aliases/cautions: selection is **not one event at a sampling stage** — it operates at every stage of the observation process, so a dataset with no sampling design still has selection; what matters is not how many units were selected but **whether being selected is related to the value**; a designed random sample is valuable precisely because it *arranges* for that relation to be absent (`meng2018paradox` p. 685, insight I); **more records do not fix a selection problem** — without that arrangement, error grows with the population size rather than shrinking with the number collected (insight II; p. 687)
+- Definition status: **provisional** — proposed `decisions/0011` §3; source-verified against `meng2018paradox` pp. 685, 687
+
+## coverage
+
+- Preferred term: coverage
+- Field/origin: survey methodology and official statistics
+- Introduced in: Chapter 4
+- Distinct from: response rate; sample size; representativeness; completeness
+- Aliases/cautions: **complete is not representative** — covering most or all of a population does not control whether being recorded is related to the value; `meng2018paradox` p. 685 insight (III) holds that the "bigness" of a dataset for population inferences "should be measured by the *relative size* f = n/N, not the *absolute size* n"; a dataset with no gaps can still be badly wrong for a given quantity; do not treat a coverage figure as evidence of trustworthiness
+- Definition status: **provisional** — proposed `decisions/0011` clauses 3.1, 3.5; source-verified against `meng2018paradox` p. 685
+
+## nonresponse
+
+- Preferred term: nonresponse
+- Field/origin: survey methodology
+- Introduced in: Chapter 4
+- Distinct from: missingness generally; coverage; refusal as a motive; attrition
+- Aliases/cautions: **the response rate is a poor indicator of bias** — "Response rates lack validity in that there is not even a moderate correlation with nonresponse bias" (`davern2013nonresponse`); this does **not** mean nonresponse is harmless, only that the rate does not measure the damage; bias attaches to a **quantity being estimated, not to a dataset** — it "is an estimate level measure and it cannot be easily summarized by a survey level proxy measure" (same source), which is the same move Chapter 1 made about adequacy and Chapter 3 about validity; the survey-methodology framing does not automatically cover administrative or operational records
+- Definition status: **provisional** — proposed `decisions/0011` clauses 3.5–3.6; source-verified against `davern2013nonresponse`
+
+## missingness
+
+- Preferred term: missingness
+- Field/origin: statistics
+- Introduced in: Chapter 4 as a question to ask; methods are Chapter 8
+- Distinct from: censoring; absence of a unit from the dataset entirely; zero; not applicable
+- Aliases/cautions: the reader is taught **the question, not the taxonomy** — *is whatever caused this to be absent related to what it would have been?*; three plain-language cases are given (unrelated to the value; related to something else recorded; **related to the value itself**, which is the dangerous one because nothing in the data reveals it); whether the missingness process may be ignored **depends on why the data are missing**, and the conditions are restrictive (`rubin1976missing`, published summary); **MCAR / MAR / MNAR must not be attributed to `rubin1976missing`** — its verified summary uses *missing at random* and *observed at random* and does not contain the three-way scheme, which was consolidated later; a pattern of missingness is visible in the data but its cause is not; deleting rows with gaps is an assumption about the observation process, not a tidying step
+- Definition status: **provisional** — proposed `decisions/0011` §4; `rubin1976missing` is **abstract-verified only**, no internal locator citable
+
+## censoring
+
+- Preferred term: censoring
+- Field/origin: statistics; survival analysis owns the formal treatment
+- Introduced in: Chapter 4 at recognition depth; formal treatment is depth curriculum
+- Distinct from: missingness; truncation; rounding; saturation treated as a valid reading
+- Aliases/cautions: a **censored** observation carries partial information — you know the value lies beyond a bound, because the recording process stopped there — whereas a **missing** one carries none; a logger that saturates at its maximum has not lost the reading, it has told you the value was at least the maximum; treating a censored value as missing discards real information and treating it as the bound understates the value, and **both errors run in known directions**; censoring is often disguised as an ordinary value and is detectable only if the bound is documented or a pile-up at a limit is noticed; **no inspected source defines this distinction**, so Chapter 4 teaches it by worked arithmetic demonstration and cites nothing for it
+- Definition status: **provisional and unsourced** — proposed `decisions/0011` clause 4.4; taught by demonstration
