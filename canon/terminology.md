@@ -20,9 +20,9 @@ Entry format:
 
 ## Index
 
-87 entries, in registry order. Navigation only — the entries below are the record.
+95 entries, in registry order. Navigation only — the entries below are the record.
 
-**Adjudicated (29).** Note that `construct`, `measure`, and `proxy` appear in this sequence but were filled in from proposed Decision 0010 and are provisional; see the Chapter 3 block. Six further entries in this sequence — `statistical identifiability`, `causal identification`, `target`, `estimand`, `intervention`, and `counterfactual` — were closed or specialised from proposed Decision 0014 and are provisional; see the Chapter 7 block. `estimator` and `estimate` were closed from proposed Decision 0015; see the Chapter 8 block. [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
+**Adjudicated (29).** Note that `construct`, `measure`, and `proxy` appear in this sequence but were filled in from proposed Decision 0010 and are provisional; see the Chapter 3 block. Six further entries in this sequence — `statistical identifiability`, `causal identification`, `target`, `estimand`, `intervention`, and `counterfactual` — were closed or specialised from proposed Decision 0014 and are provisional; see the Chapter 7 block. `estimator` and `estimate` were closed from proposed Decision 0015; see the Chapter 8 block. `target population` was closed from proposed Decision 0016; see the Chapter 9 block. [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
 
 **Provisional — Chapter 2 block (9), pending adjudication of [Decision 0009](../decisions/0009-chapter2-representation-terminology-and-boundary.md).** [representation](#representation) · [target system](#target-system) · [boundary](#boundary) · [mechanism](#mechanism) · [abstraction](#abstraction) · [idealization](#idealization) · [generality](#generality) · [aggregation](#aggregation) · [state](#state)
 
@@ -37,6 +37,8 @@ Entry format:
 **Provisional — Chapter 7 block (7), pending adjudication of [Decision 0014](../decisions/0014-chapter7-identification-terminology-and-notation.md).** [target quantity](#target-quantity) · [identifying assumption](#identifying-assumption) · [exchangeability](#exchangeability) · [positivity](#positivity) · [consistency](#consistency) · [target trial](#target-trial) · [confounding](#confounding) — plus [statistical identifiability](#statistical-identifiability) and [causal identification](#causal-identification), **closed from `TODO`** by the same decision, and [estimand](#estimand), [intervention](#intervention), and [counterfactual](#counterfactual), specialised from their Chapter 1 previews, all in their existing positions above. Decision 0014 clause 2 takes a **second bounded notation exception**, extending Decision 0013's with `do(·)` inside the conditioning bar and inline arrows for causal structure.
 
 **Provisional — Chapter 8 block (7), pending adjudication of [Decision 0015](../decisions/0015-chapter8-estimation-terminology-and-notation.md).** [sampling variability](#sampling-variability) · [standard error](#standard-error) · [interval estimate](#interval-estimate) · [P value](#p-value) · [statistical significance](#statistical-significance) · [analytic flexibility](#analytic-flexibility) · [model checking](#model-checking) — plus [estimator](#estimator) and [estimate](#estimate), **closed from `TODO`** by the same decision in their existing positions above. Decision 0015 clause 2 **declines** to extend the notation exception, departing from a promise Chapter 6 made to the reader; it is the first notation clause in the book that refuses rather than permits.
+
+**Provisional — Chapter 9 block (8), pending adjudication of [Decision 0016](../decisions/0016-chapter9-synthesis-terminology-and-boundary.md).** [evidence synthesis](#evidence-synthesis) · [heterogeneity](#heterogeneity) · [dependence](#dependence) · [replication](#replication) · [external validity](#external-validity) · [transportability](#transportability) · [support factor](#support-factor) · [expert judgment](#expert-judgment) — plus [target population](#target-population), **closed** by the same decision in its existing position above. Decision 0016 clause 2 teaches **no synthesis method**; clause 6 records a **fourth** instance of the demonstrate-because-unsourced disposition and refers it to the author rather than invoking precedent.
 
 ## intended use
 
@@ -188,8 +190,8 @@ Entry format:
 - Field/origin: survey statistics / statistics / clinical research
 - Introduced in: Chapter 1 (intuitive); formal development in Chapters 7 and 9
 - Distinct from: observed sample; study sample; data-collection setting; target system
-- Aliases/cautions: established qualified term for population-based questions; use only when inference or generalization concerns a population; do not force onto one-off physical-system problems
-- Definition status: established at introductory depth; later source/study-population, transport, and generalization distinctions remain pending
+- Aliases/cautions: established qualified term for population-based questions; use only when inference or generalization concerns a population; do not force onto one-off physical-system problems; **the target population is the one the decision is about, which is routinely not the one any source studied** — `bareinboim2016fusion` p. 7350 records that "we cannot guarantee that the study population would be the same as the population of interest"; distinguish it from the **study population** (whom a source actually observed) and the **source population** (whom that study's sampling drew from), and state which you mean whenever they differ; naming it is Chapter 7's second estimand attribute and is the first thing to check before combining sources
+- Definition status: **closed** by proposed `decisions/0016` clause 9.2; source-verified against `bareinboim2016fusion` p. 7350 and `deaton2016rct` p. 27
 
 ## estimand
 
@@ -864,3 +866,81 @@ Clause 2 **declines** to extend the notation exception, departing from a promise
 - Distinct from: verification (Chapter 5); validation (Chapter 5); criticism (Chapter 5); calibration (Chapters 3 and 6); monitoring (Chapter 17)
 - Aliases/cautions: examining the assumptions you were **not** interested in — the ones the computed number silently depends on; the source's guideline is that careful interpretation "demands critical examination of the assumptions and conventions used for the statistical analysis—not just the usual statistical assumptions, but also the hidden assumptions about how results were generated and chosen for presentation" (`greenland2016misinterpretations` p. 347); **fitting the data the model was built from is not model checking** — Chapter 5 established that such a check could not have failed; checking against data the model was not fitted to is the honest form, and Chapter 6's calibration-and-sharpness framing applies unchanged; distinct from Chapter 17's post-deployment monitoring, which is the same activity after the model is in use
 - Definition status: **provisional** — proposed `decisions/0015` clause 8.1; source-verified against `greenland2016misinterpretations` p. 347
+
+## Chapter 9 block — PROVISIONAL
+
+Eight entries introduced by proposed [Decision 0016](../decisions/0016-chapter9-synthesis-terminology-and-boundary.md), which is **not author-adjudicated**.
+The same decision closes `target population`, whose Chapter 1 entry recorded that formal development in Chapters 7 and 9 was outstanding.
+Clause 2 teaches **no synthesis method**, on the strength of the governed core competence's phrase "at an appropriate conceptual level". Clause 6 records a **fourth** instance of the demonstrate-because-unsourced disposition and refers it to the author rather than invoking precedent.
+
+## evidence synthesis
+
+- Preferred term: evidence synthesis
+- Field/origin: research methodology / evidence-based practice
+- Introduced in: Chapter 9 at concept depth only
+- Distinct from: averaging; meta-analysis as a technique; triangulation as loose speech; data fusion (the formal problem)
+- Aliases/cautions: the activity of working out what several sources jointly support; **this book teaches no method for it**, per proposed `decisions/0016` clause 2, because the chapter's demonstration is that defensible weighting rules disagree and teaching one would teach the rule whose failure is being shown; the prior question is always whether the sources are about the **same quantity**, tested attribute by attribute against Chapter 7's estimand list; the formal version of the problem is named **data fusion** — "piecing together multiple datasets collected under heterogeneous conditions (i.e., different populations, regimes, and sampling methods)" (`bareinboim2016fusion` p. 7345)
+- Definition status: **provisional** — proposed `decisions/0016` clause 9.1; framing source-verified against `bareinboim2016fusion` p. 7345
+
+## heterogeneity
+
+- Preferred term: heterogeneity
+- Field/origin: meta-analysis / statistics / causal inference
+- Introduced in: Chapter 9
+- Distinct from: sampling variability (Chapter 8); measurement error (Chapter 3); disagreement caused by analytic flexibility (Chapter 8); noise
+- Aliases/cautions: real differences between what sources studied — different populations, different regimes, different sampling methods (`bareinboim2016fusion` p. 7345); **treat it as a finding, not a nuisance to be averaged away** — when two sources differ because the settings differ, the difference is information about which settings matter; do not use the word for disagreement that arises from analytic choices, which is Chapter 8's subject and has a different remedy; the book teaches **no heterogeneity statistic**
+- Definition status: **provisional** — proposed `decisions/0016` clause 9.1; source-verified against `bareinboim2016fusion` p. 7345
+
+## dependence
+
+- Preferred term: dependence (between sources) — **always qualify**
+- Field/origin: the book's own usage in this sense
+- Introduced in: Chapter 9
+- Distinct from: statistical dependence between variables; correlation; conditional independence (Chapter 6)
+- Aliases/cautions: two sources are dependent when they share data, authors, assumptions, training, software defaults, or a measurement standard — and **agreement among dependent sources is cheap**, being indistinguishable from agreement among independent ones when all you see is the numbers; counting five reports as five pieces of evidence assumes an independence nobody checked; **no source in this book's bibliography supports this entry**, which is the book's own reasoning from what dependence means, and proposed `decisions/0016` clause 6 records it as a fourth instance of the demonstrate-because-unsourced disposition and refers it to the author
+- Definition status: **provisional and unsourced** — proposed `decisions/0016` clause 6; pending the book-level adjudication that clause requests
+
+## replication
+
+- Preferred term: replication
+- Field/origin: research methodology
+- Introduced in: Chapter 9
+- Distinct from: reproduction of an analysis on the same data; verification (Chapter 5); transportability; robustness (Chapter 12)
+- Aliases/cautions: **successful replication settles less than it appears to** — "even successful replication tells us little either for or against simple generalization or to support for the conclusion that the next will work in the same way" (`deaton2016rct` p. 27) — and **failed replication settles less than it appears to in the other direction**: "Nor do failures of replication make the original result useless" (same page), because "We often learn much from coming to understand why replication failed" (p. 28); the illustration this book uses is Russell's chicken, **as reported at** `deaton2016rct` p. 28, where the diagnosis is that "Her problem was not her methodology, but rather that she did not understand the social and economic structure that gave rise to the causal relations that she observed"; Russell (1912) was not obtained
+- Definition status: **provisional** — proposed `decisions/0016` clause 5; source-verified against `deaton2016rct` pp. 27–28
+
+## external validity
+
+- Preferred term: external validity — **registered as a hazard; `transportability` is preferred**
+- Field/origin: research design / social science methodology
+- Introduced in: Chapter 9
+- Distinct from: validity in the measurement sense (Chapter 3); internal validity; transportability; generalizability as loose speech
+- Aliases/cautions: the idea that a result found in one setting "holds" elsewhere; **the binary framing is the problem** — it "asks the results of an RCT to satisfy a condition that is neither necessary nor sufficient for a trial to be useful, and so both overstates and understates their value" (`deaton2016rct` p. 27); not necessary, because a study can be useful without its result holding elsewhere; not sufficient, because a result holding elsewhere need not make the study useful for your decision; **it is a relation between a study and a target, never a property a study has**; register the term because readers will meet it, and do not organise thinking around it — the same handling `statistical significance` got in Chapter 8
+- Definition status: **provisional** — proposed `decisions/0016` clause 4; source-verified against `deaton2016rct` p. 27
+
+## transportability
+
+- Preferred term: transportability
+- Field/origin: causal inference
+- Introduced in: Chapter 9
+- Distinct from: external validity (the binary framing this book declines); statistical adjustment; extrapolation; interpolation; robustness (Chapter 12)
+- Aliases/cautions: whether a result established in one setting applies in another, and **under what conditions** — the question form rather than the yes/no form; it "lies at the heart of every scientific investigation because, invariably, experiments performed in one environment are intended to be used elsewhere, where conditions are likely to be different" (`bareinboim2016fusion` p. 7350); **not a statistical adjustment** — answering it requires knowing how the settings differ in ways that bear on the mechanism, which is subject-matter knowledge and is in neither dataset; `bareinboim2016fusion` p. 7345 names **transportability bias** as distinct from confounding and sample selection bias; **the book teaches no transport formula**; a failure of transport and a failure of positivity (Chapter 7) are the same fact approached from opposite directions, which is the book's own observation
+- Definition status: **provisional** — proposed `decisions/0016` clause 7; source-verified against `bareinboim2016fusion` pp. 7345, 7350
+
+## support factor
+
+- Preferred term: support factor
+- Field/origin: philosophy of causation / economics; the term is used in this sense at `deaton2016rct` p. 28
+- Introduced in: Chapter 9
+- Distinct from: confounder (Chapter 7); moderator; covariate; mechanism (Chapter 2); necessary condition
+- Aliases/cautions: a condition a cause needs in order to operate — "without which a cause that produces the targeted effect in one place, even though it may be present and have the capacity to operate elsewhere, will remain latent and inoperative" (`deaton2016rct` p. 28); the source's example is a television that burns a house down only given "wiring faults, the presence of tinder, and so on"; **the consequence for averages is exact**: two populations share an average effect only if they share the average net effect of the support factors (p. 29), and those "are however just the kind of factors that are likely to be differently distributed in different populations"; **this is why transport is a subject-matter question** — identifying the support factors requires knowing how the thing works; the source attributes the underlying analysis to Mackie (1974) under the name INUS causality, which was not obtained and which this book does not use
+- Definition status: **provisional** — proposed `decisions/0016` clause 7.1; source-verified against `deaton2016rct` pp. 28–29
+
+## expert judgment
+
+- Preferred term: expert judgment
+- Field/origin: decision analysis / risk analysis
+- Introduced in: Chapter 9
+- Distinct from: opinion; consensus; authority; prior (Chapter 6); assumption record (Chapter 5)
+- Aliases/cautions: a source of evidence like any other, to be treated as one — **not excluded for being judgment, and not privileged for being expert**; the discipline is Chapter 6's, reused rather than re-taught: a panel that has never been scored is in exactly the position of Chapter 6's unscored forecaster, and the remedy is a record of what was said, when, conditional on what, and what happened; `tversky1974judgment` p. 1124 is explicit that the underlying heuristics "are quite useful", so do not present expert judgment as merely defective; **this book teaches no elicitation protocol and no aggregation method**, per proposed `decisions/0016` clause 8.3; experts sharing training or a literature are a dependence problem, not five independent sources
+- Definition status: **provisional** — proposed `decisions/0016` clause 8; reuses `gneiting2007scoring` p. 359 and `tversky1974judgment` p. 1124, both verified for Chapter 6
