@@ -20,9 +20,9 @@ Entry format:
 
 ## Index
 
-80 entries, in registry order. Navigation only — the entries below are the record.
+87 entries, in registry order. Navigation only — the entries below are the record.
 
-**Adjudicated (29).** Note that `construct`, `measure`, and `proxy` appear in this sequence but were filled in from proposed Decision 0010 and are provisional; see the Chapter 3 block. Six further entries in this sequence — `statistical identifiability`, `causal identification`, `target`, `estimand`, `intervention`, and `counterfactual` — were closed or specialised from proposed Decision 0014 and are provisional; see the Chapter 7 block. [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
+**Adjudicated (29).** Note that `construct`, `measure`, and `proxy` appear in this sequence but were filled in from proposed Decision 0010 and are provisional; see the Chapter 3 block. Six further entries in this sequence — `statistical identifiability`, `causal identification`, `target`, `estimand`, `intervention`, and `counterfactual` — were closed or specialised from proposed Decision 0014 and are provisional; see the Chapter 7 block. `estimator` and `estimate` were closed from proposed Decision 0015; see the Chapter 8 block. [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
 
 **Provisional — Chapter 2 block (9), pending adjudication of [Decision 0009](../decisions/0009-chapter2-representation-terminology-and-boundary.md).** [representation](#representation) · [target system](#target-system) · [boundary](#boundary) · [mechanism](#mechanism) · [abstraction](#abstraction) · [idealization](#idealization) · [generality](#generality) · [aggregation](#aggregation) · [state](#state)
 
@@ -35,6 +35,8 @@ Entry format:
 **Provisional — Chapter 6 block (8), pending adjudication of [Decision 0013](../decisions/0013-chapter6-probability-terminology-and-notation.md).** [probability](#probability) · [conditional probability](#conditional-probability) · [prior](#prior) · [posterior](#posterior) · [base rate](#base-rate) · [expectation](#expectation) · [sharpness](#sharpness) · [scoring rule](#scoring-rule) — plus [calibration](#calibration), updated from the same decision in its existing position above. Decision 0013 clause 2 also takes a **bounded exception to the book's no-notation policy**, permitting `P(A | B)` and odds notation and nothing else.
 
 **Provisional — Chapter 7 block (7), pending adjudication of [Decision 0014](../decisions/0014-chapter7-identification-terminology-and-notation.md).** [target quantity](#target-quantity) · [identifying assumption](#identifying-assumption) · [exchangeability](#exchangeability) · [positivity](#positivity) · [consistency](#consistency) · [target trial](#target-trial) · [confounding](#confounding) — plus [statistical identifiability](#statistical-identifiability) and [causal identification](#causal-identification), **closed from `TODO`** by the same decision, and [estimand](#estimand), [intervention](#intervention), and [counterfactual](#counterfactual), specialised from their Chapter 1 previews, all in their existing positions above. Decision 0014 clause 2 takes a **second bounded notation exception**, extending Decision 0013's with `do(·)` inside the conditioning bar and inline arrows for causal structure.
+
+**Provisional — Chapter 8 block (7), pending adjudication of [Decision 0015](../decisions/0015-chapter8-estimation-terminology-and-notation.md).** [sampling variability](#sampling-variability) · [standard error](#standard-error) · [interval estimate](#interval-estimate) · [P value](#p-value) · [statistical significance](#statistical-significance) · [analytic flexibility](#analytic-flexibility) · [model checking](#model-checking) — plus [estimator](#estimator) and [estimate](#estimate), **closed from `TODO`** by the same decision in their existing positions above. Decision 0015 clause 2 **declines** to extend the notation exception, departing from a promise Chapter 6 made to the reader; it is the first notation clause in the book that refuses rather than permits.
 
 ## intended use
 
@@ -203,18 +205,18 @@ Entry format:
 - Preferred term: estimator
 - Field/origin: statistics
 - Introduced in: Chapter 8
-- Distinct from: estimand; estimate
-- Aliases/cautions: none recorded yet
-- Definition status: TODO — verify against canonical sources
+- Distinct from: estimand; estimate; model; algorithm
+- Aliases/cautions: the **procedure** applied to data to produce a number — *how* you work it out, as against `estimand` (*what you want to know*) and `estimate` (*what you got*); its properties — **bias**, **variance**, **consistency** — are properties of the **procedure over repeated application**, never of any number it produced, which makes "this is an unbiased estimate" a category error; **`consistency` here is unrelated to the causal condition of the same name (Chapter 7)**, and the book announces the collision rather than avoiding it; no estimator is derived in this book and no estimator notation is used, per proposed `decisions/0015` clause 2
+- Definition status: **provisional** — closed by proposed `decisions/0015` clause 3; concept-depth separation follows `fda2021estimands`, already verified for Chapters 1 and 7
 
 ## estimate
 
 - Preferred term: estimate
 - Field/origin: statistics
 - Introduced in: Chapter 8
-- Distinct from: estimand; estimator
-- Aliases/cautions: none recorded yet
-- Definition status: TODO — verify against canonical sources
+- Distinct from: estimand; estimator; the true value; a forecast (Chapter 6)
+- Aliases/cautions: the **number** an estimator produced on the data you actually have; carries none of the estimator's properties — a single estimate is neither biased nor unbiased, in the same way a single reading from a calibrated instrument is not thereby correct (Chapter 3); **every estimate is conditional on an entire model**, including assumptions about how the analysis was conducted (`greenland2016misinterpretations` p. 339), so reporting one without its conditioning repeats the defect Chapter 6 named for probabilities; reporting more decimal places does not add information, which is Chapter 3's resolution-is-not-trueness point in a new setting
+- Definition status: **provisional** — closed by proposed `decisions/0015` clause 3; source-verified against `greenland2016misinterpretations` p. 339
 
 ## association
 
@@ -793,3 +795,72 @@ Clause 2 takes a **second bounded notation exception**, extending Decision 0013'
 - Distinct from: correlation; selection (Chapter 4); measurement error (Chapter 3); a list of covariates
 - Aliases/cautions: **a causal concept, not an associational one** — `pearl2009causal` p. 100 lists it among concepts that "cannot be defined in term of distribution functions", and argues that any associational definition must fail because it would allow a causal conclusion with no causal assumption; the consequence is blunt: "confounding bias cannot be detected or corrected by statistical methods alone" (p. 100); **controlling for more covariates is not safer** — "the prevailing practice of conditioning on as many pre-treatment measurements as possible should be approached with great caution; some covariates … may actually increase bias if included in the analysis" (p. 117); the graphical back-door criterion (p. 114) settles which sets suffice, and this book states its intuition — back-door paths "carry spurious associations" (p. 114) — **without stating the criterion**, which would require blocking and collision concepts the book does not teach
 - Definition status: **provisional** — proposed `decisions/0014` clause 8.1; source-verified against `pearl2009causal` pp. 100, 114, 117
+
+## Chapter 8 block — PROVISIONAL
+
+Seven entries introduced by proposed [Decision 0015](../decisions/0015-chapter8-estimation-terminology-and-notation.md), which is **not author-adjudicated**.
+The same decision closes `estimator` and `estimate` — TODO since Chapter 1 — in their existing positions above.
+Clause 2 **declines** to extend the notation exception, departing from a promise Chapter 6 made to the reader. It is the first notation clause in the book that refuses rather than permits.
+
+## sampling variability
+
+- Preferred term: sampling variability
+- Field/origin: statistics
+- Introduced in: Chapter 8
+- Distinct from: measurement uncertainty (Chapter 3); structural uncertainty (Chapter 5); Monte Carlo error (Chapter 6); the data-quality term (Chapter 4); model error
+- Aliases/cautions: how much a computed quantity would move if you drew another sample of the same size from the same process — **and nothing else**; it is the only component an interval estimate ordinarily covers, which is why an interval looks like a statement about the answer and is a statement about sampling; **it shrinks with more data and the other components do not**, which is the book's recurring shape appearing for the fifth time; `meng2018paradox` p. 687 is the sharpest available statement that what matters for a defective dataset is a term whose expression does not contain the number of records at all
+- Definition status: **provisional** — proposed `decisions/0015` clause 8.1; the separation from the other uncertainty components is the book's own and is labelled
+
+## standard error
+
+- Preferred term: standard error
+- Field/origin: statistics
+- Introduced in: Chapter 8 at concept depth only
+- Distinct from: standard deviation; measurement uncertainty; the width of a prediction; precision (Chapter 3)
+- Aliases/cautions: a summary of how much an estimate would move between repeated applications of the same procedure to fresh data — **a property of the procedure and the sample size, not of the number reported**; the book states no formula for one, per proposed `decisions/0015` clause 2.3; do not read a small standard error as evidence that the estimate is close to the estimand, since it speaks only to sampling variability and is silent about every other assumption in the model
+- Definition status: **provisional** — proposed `decisions/0015` clause 8.1; concept depth, taught by demonstration on the anchor
+
+## interval estimate
+
+- Preferred term: interval estimate — **the book's preferred term over `confidence interval`**
+- Field/origin: statistics
+- Introduced in: Chapter 8
+- Distinct from: a range of plausible values in ordinary speech; a prediction interval; a tolerance; a sensitivity range (Chapter 5)
+- Aliases/cautions: `confidence interval` is the term the reader will meet everywhere else and is named once for that reason, but **the book does not use `confidence` alone in the technical sense** — `greenland2016misinterpretations` p. 339 records that the statistical usages of "significance" and "confidence" are "at odds with … ordinary English definitions"; **a reported interval is "a range between two numbers"** (p. 343) and does not have a 95 % chance of containing the true value; intervals share P values' weaknesses because they rest on the same model (p. 340), and reading whether an interval covers zero "force[s] the 0.05-level cutoff on the reader … and in this way [is] as bad as presenting P values as dichotomies" (p. 344); **overlapping intervals do not establish agreement** — the same page gives two overlapping 95 % intervals whose difference tests at P = 0.03
+- Definition status: **provisional** — proposed `decisions/0015` clauses 4.2 and 8.4; source-verified against `greenland2016misinterpretations` pp. 339, 340, 343, 344
+
+## P value
+
+- Preferred term: P value
+- Field/origin: statistics
+- Introduced in: Chapter 8
+- Distinct from: the probability a hypothesis is true; the probability the result is due to chance; an effect size; a measure of importance; a posterior (Chapter 6)
+- Aliases/cautions: "a statistical summary of the compatibility between the observed data and what we would predict or expect to see if we knew the entire statistical model … were correct" (`greenland2016misinterpretations` p. 339); **it tests the entire model, not the hypothesis of interest** — including "assumptions about the conduct of the analysis, for example that intermediate analysis results were not used to determine which analyses would be presented" (p. 339); a small value "does not tell us which assumption is incorrect" (p. 339), which is Chapter 5's structure in a new setting; **it is not a hypothesis probability** (p. 340, misinterpretation 1), and reading it as one is Chapter 6's inversion again; `asa2016pvalue` principle 2 states the same institutionally
+- Definition status: **provisional** — proposed `decisions/0015` clause 5.2; source-verified against `greenland2016misinterpretations` pp. 339–340 and `asa2016pvalue`
+
+## statistical significance
+
+- Preferred term: statistical significance — **registered as a hazard, not as a tool**
+- Field/origin: statistics
+- Introduced in: Chapter 8
+- Distinct from: practical importance; scientific significance; effect size; evidence
+- Aliases/cautions: the practice of declaring results "significant" if a P value falls on or below a cut-off and "nonsignificant" otherwise; the source that supplies this book's treatment closes by "singling out the degradation of P values into ''significant'' and ''nonsignificant'' as an especially pernicious statistical practice" (`greenland2016misinterpretations` p. 348); it "is neither necessary nor sufficient for determining the scientific or practical significance of a set of observations", a view "affirmed unanimously by the U.S. Supreme Court" in Matrixx Initiatives v. Siracusano, **as reported at** p. 347 — the judgment itself was not read; `asa2016pvalue` principle 3 says conclusions "should not be based only on whether a p-value passes a specific threshold", and principle 5 that significance "does not measure the size of an effect or the importance of a result"; **the book does not teach any test procedure**
+- Definition status: **provisional** — proposed `decisions/0015` clauses 5 and 8.3; source-verified against `greenland2016misinterpretations` pp. 339, 347, 348 and `asa2016pvalue`
+
+## analytic flexibility
+
+- Preferred term: analytic flexibility
+- Field/origin: statistics / research methodology
+- Introduced in: Chapter 8
+- Distinct from: fraud; sensitivity analysis (Chapter 5); model uncertainty; measurement error
+- Aliases/cautions: the range of defensible analyses the same records support, each yielding a different answer; **this book treats it as an assumption inside the statistical model, not as a research-ethics topic**, because the model's assumptions include "the conduct of the analysis" (`greenland2016misinterpretations` p. 339) and proper inference "requires full reporting and transparency" (`asa2016pvalue` principle 4); the practitioners producing it are usually not dishonest — every choice is individually defensible, which is what makes the phenomenon hard to see; **preregistration is one device with real limits and is not a solution**; do not characterise the replication literature, which this book has not read
+- Definition status: **provisional** — proposed `decisions/0015` clauses 1.4 and 7; source-verified against `greenland2016misinterpretations` p. 339 and `asa2016pvalue` principle 4
+
+## model checking
+
+- Preferred term: model checking
+- Field/origin: statistics
+- Introduced in: Chapter 8
+- Distinct from: verification (Chapter 5); validation (Chapter 5); criticism (Chapter 5); calibration (Chapters 3 and 6); monitoring (Chapter 17)
+- Aliases/cautions: examining the assumptions you were **not** interested in — the ones the computed number silently depends on; the source's guideline is that careful interpretation "demands critical examination of the assumptions and conventions used for the statistical analysis—not just the usual statistical assumptions, but also the hidden assumptions about how results were generated and chosen for presentation" (`greenland2016misinterpretations` p. 347); **fitting the data the model was built from is not model checking** — Chapter 5 established that such a check could not have failed; checking against data the model was not fitted to is the honest form, and Chapter 6's calibration-and-sharpness framing applies unchanged; distinct from Chapter 17's post-deployment monitoring, which is the same activity after the model is in use
+- Definition status: **provisional** — proposed `decisions/0015` clause 8.1; source-verified against `greenland2016misinterpretations` p. 347
