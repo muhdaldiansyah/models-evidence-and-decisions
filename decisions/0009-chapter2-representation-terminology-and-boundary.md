@@ -145,6 +145,8 @@ Newly added and verified: `machamer2000mechanisms`, `craver2026mechanisms`, `fri
 
 Reused from Chapter 1, verified as directly supporting a Chapter 2 claim per `research-plan.md` §10: `astrom2008feedback` (upgraded to page-level verification), `sterman2006evidence`, `nasa2024models`, `pearl2009causal`.
 
+Added 2026-08-18 during the gap-closing pass: `sterman2002models` (pp. 501–507 read). Note that this is a **different article** from `sterman2006evidence`; both are in the bibliography and must not be conflated.
+
 `weisberg2007idealization` was read in **preprint**; before any load-bearing quotation is frozen, the published *Journal of Philosophy* text must be checked and locators converted to printed pages.
 
 ## No architecture change
@@ -153,7 +155,7 @@ This decision does not change the Chapter 2 title, central question, core compet
 
 ## Known gaps carried forward
 
-1. No sourced boundary-selection procedure (R01 §3, §7).
+1. No sourced boundary-selection procedure (R01 §3, §7). **Partially addressed 2026-08-18** by `sterman2002models`, which supplies a principle — a side effect is an effect outside the boundary drawn — but not criteria. Clause 2.3 is unaffected and stands.
 2. No sourced definition of representational aggregation (R03 §3).
 3. `weisberg2007idealization` locators are preprint section headings, not printed pages.
 4. Jones (2005) not read directly; the omission/distortion distinction rests on two secondary reports.

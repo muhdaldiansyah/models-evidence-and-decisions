@@ -121,7 +121,7 @@ Reused, verified as directly supporting a Chapter 3 claim: `jcgm2012vim` (upgrad
 ## Known gaps carried forward
 
 1. **Messick (1989) not read.** The falsifiable-claims formulation at `adcock2001validity` p. 532 is credited to it and must be attributed as reported.
-2. **`adcock2001validity` read to p. 532 only.** Later pages, including the treatment of the three types of validation, were not inspected. The manuscript may not cite beyond p. 532.
+2. ~~**`adcock2001validity` read to p. 532 only.**~~ **Closed 2026-08-18.** Pages **537–539** were read, covering the treatment of validation types. Clause 2.2's "one validity, several kinds of evidence" is now directly supported rather than inferred: p. 538 calls the three-way grouping "a heuristic device" for grouping **procedures**, and p. 537 records near-universal consensus that content and criterion evidence are types of evidence for construct validity. Pages **533–536 and 540–546 remain uninspected and may not be cited.**
 3. **Operationism not researched.** May be mentioned as having existed; may not be characterized.
 4. **No source obtained for scale types or units theory.** Units are taught as ordinary careful practice, not from a cited framework.
 
