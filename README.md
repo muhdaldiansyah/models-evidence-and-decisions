@@ -19,7 +19,7 @@ It is an integrated pedagogical architecture built from established concepts —
 
 ## Start Here
 
-**To read the book.** Four chapters are fully drafted, and they are written to be read in order:
+**To read the book.** **Part I is complete** — five chapters, written to be read in order:
 
 > **[Chapter 1 — Decisions, Questions, and a First Complete Pass](chapters/01-decisions-questions/chapter.md)** — six sections, about four learning hours including exercises.
 >
@@ -28,10 +28,14 @@ It is an integrated pedagogical architecture built from established concepts —
 > **[Chapter 3 — Measurement and Operationalization](chapters/03-measurement-operationalization/chapter.md)** — seven sections, about five learning hours.
 >
 > **[Chapter 4 — Observation Processes and Data Provenance](chapters/04-observation-provenance/chapter.md)** — seven sections, about five learning hours.
+>
+> **[Chapter 5 — Assumptions, Adequacy, and Rival Models](chapters/05-assumptions-rival-models/chapter.md)** — seven sections, about five learning hours.
 
-All four work one case: a small municipal water utility during a seven-day heatwave.
+All five work one case: a small municipal water utility during a seven-day heatwave.
 
 Chapter 1 frames the decision and discovers that the storage reading it depends on may be wrong. Chapter 2 asks what belongs inside a representation of that utility, and finds that the picture which answered Chapter 1's question cannot express who loses service first. Chapter 3 opens a phrase Chapter 2 deliberately left standing — *adequate or not* — and shows the utility's records calling a zone adequately served because of where an instrument happened to be installed. Chapter 4 turns on a figure the reader has been using since Chapter 2 and shows that it was never measured at all: it is a subtraction residual, arithmetically correct, containing about a third of things that are neither Hillcrest nor demand.
+
+Chapter 5 introduces nothing and criticizes what the other four built. Its centrepiece is a division nobody performed for four chapters — two numbers already on the page, which turn out to imply about five times a plausible household's water use, and whose reconciliation reveals an option the entire analysis had no way to express.
 
 Read each manuscript in order rather than skimming. All three open by asking you to produce something unaided — a first-pass analysis, a representation, a definition — before any of the chapter's vocabulary arrives, and later exercises compare against what you wrote. Skipping that opening costs you the comparison.
 
@@ -39,7 +43,7 @@ Each drafted chapter carries the same four exercise files beside its manuscript 
 
 **To work on the project.** Authority runs `README.md → decisions/ → canon/ → chapter spec.md → working files`; the operating contract is [CLAUDE.md](CLAUDE.md).
 
-- [`decisions/`](decisions/) — settled decisions and their reopening conditions, indexed by scope: three book-level, five governing Chapter 1, and three proposed for Chapters 2, 3, and 4.
+- [`decisions/`](decisions/) — settled decisions and their reopening conditions, indexed by scope: three book-level, five governing Chapter 1, and four proposed for Chapters 2–5.
 - [`canon/`](canon/) — controlled terminology and registered pedagogical syntheses.
 - [`chapters/`](chapters/) — one directory per chapter; `spec.md` is each chapter's contract.
 - [`references.bib`](references.bib) and [`sources/`](sources/) — one global bibliography; one note per source, named by citation key.
@@ -59,8 +63,8 @@ Last reviewed 2026-08-18.
 
 - The 5-part, 17-chapter architecture is frozen for drafting ([Decision 0001](decisions/0001-book-architecture-freeze.md)).
 - **Chapter 1 is fully drafted** and awaiting external validation: before it can be frozen, its water-utility anchor case needs a human subject-matter-expert review and its exercise design needs reader-pilot data ([freeze gates](chapters/01-decisions-questions/freeze-gates.md); gates 1–3 open).
-- **Chapters 2, 3, and 4 are fully drafted**, on specifications and terminology blocks that remain **provisional**: Decisions [0009](decisions/0009-chapter2-representation-terminology-and-boundary.md), [0010](decisions/0010-chapter3-measurement-terminology-and-boundary.md), and [0011](decisions/0011-chapter4-observation-process-terminology-and-boundary.md) propose those chapters' controlled vocabulary, scope boundaries, and example architecture, and none has been author-adjudicated.
-- Chapters 5–17 exist as skeleton specs: governed title, central question, core competence, and page and hour targets, with content architecture still open.
+- **Part I is fully drafted.** Chapters 2–5 rest on specifications and terminology blocks that remain **provisional**: Decisions [0009](decisions/0009-chapter2-representation-terminology-and-boundary.md), [0010](decisions/0010-chapter3-measurement-terminology-and-boundary.md), [0011](decisions/0011-chapter4-observation-process-terminology-and-boundary.md), and [0012](decisions/0012-chapter5-criticism-terminology-and-boundary.md) propose those chapters' controlled vocabulary, scope boundaries, and example architecture, and none has been author-adjudicated.
+- Chapters 6–17 exist as skeleton specs: governed title, central question, core competence, and page and hour targets, with content architecture still open.
 
 | Part | Ch. | Chapter and central question | Status |
 |---|---:|---|---|
@@ -68,7 +72,7 @@ Last reviewed 2026-08-18.
 | I | 2 | **[Representation, Mechanisms, and Scale](chapters/02-representation-mechanisms/chapter.md)**<br>What is inside the model, at what grain, and how do parts produce behavior? | **Drafted** — [decision pending](decisions/0009-chapter2-representation-terminology-and-boundary.md) |
 | I | 3 | **[Measurement and Operationalization](chapters/03-measurement-operationalization/chapter.md)**<br>What do the numbers stand for, and how well? | **Drafted** — [decision pending](decisions/0010-chapter3-measurement-terminology-and-boundary.md) |
 | I | 4 | **[Observation Processes and Data Provenance](chapters/04-observation-provenance/chapter.md)**<br>Why did these records, and not others, come to exist in this form? | **Drafted** — [decision pending](decisions/0011-chapter4-observation-process-terminology-and-boundary.md) |
-| I | 5 | **[Assumptions, Adequacy, and Rival Models](chapters/05-assumptions-rival-models/spec.md)**<br>How could this formulation fail its purpose, and what would show it? | Spec skeleton |
+| I | 5 | **[Assumptions, Adequacy, and Rival Models](chapters/05-assumptions-rival-models/chapter.md)**<br>How could this formulation fail its purpose, and what would show it? | **Drafted** — [decision pending](decisions/0012-chapter5-criticism-terminology-and-boundary.md) |
 | II | 6 | **[Probability, Prediction, and Simulation](chapters/06-probability-simulation/spec.md)**<br>How is uncertainty represented, updated, and scored? | Spec skeleton |
 | II | 7 | **[Targets, Identification, and Causal Claims](chapters/07-targets-identification/spec.md)**<br>Could ideal evidence establish the target, and under what assumptions? | Spec skeleton |
 | II | 8 | **[Estimation, Uncertainty, and Model Checking](chapters/08-estimation-uncertainty/spec.md)**<br>What does finite evidence say, with what reliability? | Spec skeleton |
