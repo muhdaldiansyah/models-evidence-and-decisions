@@ -20,7 +20,7 @@ Entry format:
 
 ## Index
 
-65 entries, in registry order. Navigation only — the entries below are the record.
+73 entries, in registry order. Navigation only — the entries below are the record.
 
 **Adjudicated (29).** Note that `construct`, `measure`, and `proxy` appear in this sequence but were filled in from proposed Decision 0010 and are provisional; see the Chapter 3 block. [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
 
@@ -31,6 +31,8 @@ Entry format:
 **Provisional — Chapter 4 block (7), pending adjudication of [Decision 0011](../decisions/0011-chapter4-observation-process-terminology-and-boundary.md).** [observation process](#observation-process) · [record](#record) · [selection](#selection) · [coverage](#coverage) · [nonresponse](#nonresponse) · [missingness](#missingness) · [censoring](#censoring)
 
 **Provisional — Chapter 5 block (5), pending adjudication of [Decision 0012](../decisions/0012-chapter5-criticism-terminology-and-boundary.md).** [verification](#verification) · [assumption record](#assumption-record) · [rival model](#rival-model) · [structural uncertainty](#structural-uncertainty) · [failure mode](#failure-mode) — plus [adequacy](#adequacy) and [validation](#validation), updated from the same decision in their existing positions above.
+
+**Provisional — Chapter 6 block (8), pending adjudication of [Decision 0013](../decisions/0013-chapter6-probability-terminology-and-notation.md).** [probability](#probability) · [conditional probability](#conditional-probability) · [prior](#prior) · [posterior](#posterior) · [base rate](#base-rate) · [expectation](#expectation) · [sharpness](#sharpness) · [scoring rule](#scoring-rule) — plus [calibration](#calibration), updated from the same decision in its existing position above. Decision 0013 clause 2 also takes a **bounded exception to the book's no-notation policy**, permitting `P(A | B)` and odds notation and nothing else.
 
 ## intended use
 
@@ -516,10 +518,10 @@ The twelve entries below were introduced by **proposed** `decisions/0010-chapter
 
 - Preferred term: calibration
 - Field/origin: metrology
-- Introduced in: Chapter 3 at recognition depth only
-- Distinct from: validation; validity; verification; probability calibration (Chapter 6)
-- Aliases/cautions: taught only far enough to explain how a systematic offset is found, and to establish that **calibrating an instrument against a standard does not establish that the quantity it measures is the quantity you want**; traceability chains and calibration hierarchies are depth-curriculum material; **not** to be confused with the Chapter 6 sense of calibration for probabilistic forecasts, which is a different concept sharing the word
-- Definition status: **provisional** — proposed `decisions/0010` clause 3.9
+- Introduced in: Chapter 3 at recognition depth only (instrument sense); **taken up in Chapter 6** in the forecast sense
+- Distinct from: validation; validity; verification; sharpness; accuracy
+- Aliases/cautions: in the **Chapter 3 instrument sense**, taught only far enough to explain how a systematic offset is found, and to establish that **calibrating an instrument against a standard does not establish that the quantity it measures is the quantity you want**; traceability chains and calibration hierarchies are depth-curriculum material. In the **Chapter 6 forecast sense**, calibration "refers to the statistical consistency between the distributional forecasts and the observations, and is a **joint property** of the forecasts and the events or values that materialize" (`gneiting2007scoring` p. 359) — assessed over a record of forecasts *and* outcomes, and therefore **never from a single forecast**. **The two senses are different concepts sharing a word**, and **Chapter 6 must reopen the collision explicitly** rather than adopting the term silently, exactly as Chapter 5 was required to do with `validation`. A calibrated forecaster is not thereby a useful one — see `sharpness`
+- Definition status: **provisional** — proposed `decisions/0010` clause 3.9 and `decisions/0013` clauses 5.3, 5.6; Chapter 6 sense source-verified against `gneiting2007scoring` p. 359
 
 ---
 
@@ -640,3 +642,83 @@ The five entries below were introduced by **proposed** `decisions/0012-chapter5-
 - Distinct from: a risk; an error that has occurred; a limitation; a caveat
 - Aliases/cautions: a **specific predicted way this formulation would fail its purpose**, paired with the observation that would show it; **a predicted failure mode is not a prevented one** — prediction is the cheap half; how many failure modes it is worth working through is governed by what happens if the model is wrong, not by a fixed standard; detecting failures after deployment is Chapter 17
 - Definition status: **provisional** — proposed `decisions/0012` clauses 1.3, 3.1
+
+---
+
+## Chapter 6 block — PROVISIONAL
+
+The eight entries below were introduced by **proposed** `decisions/0013-chapter6-probability-terminology-and-notation.md`, which has **not** been author-adjudicated. The existing `calibration` entry was updated from the same decision and carries the same provisional status.
+
+**Note on notation.** Decision 0013 clause 2 takes a bounded exception to the book's five-chapter no-notation policy, permitting `P(A | B)` and odds written as `3 : 1` and nothing else. That exception is registered here because it governs how several of these entries may be written in the manuscript.
+
+## probability
+
+- Preferred term: probability
+- Field/origin: mathematics; the interpretations debate spans philosophy, statistics, and decision theory
+- Introduced in: Chapter 6
+- Distinct from: frequency alone; certainty; confidence (Chapter 8 owns a technical sense); plausibility as loose speech; odds
+- Aliases/cautions: **a probability is not a property of an event — it is a property of an event given stated information**, and stating that information is part of stating the probability; this makes the frequency / degree-of-belief distinction something the book **names once and sets aside** rather than adjudicates, because it needs both readings (a coin has a long-run frequency; a one-off mechanism does not) and the conditioning framing unifies them; the objection that a unique event cannot carry a probability assumes the property belongs to the event, and dissolves once it belongs to your evidential position; **do not present a probability without its conditioning information**
+- Definition status: **provisional** — proposed `decisions/0013` §1; mathematics, taught by demonstration
+
+## conditional probability
+
+- Preferred term: conditional probability
+- Field/origin: mathematics
+- Introduced in: Chapter 6
+- Distinct from: filtering a dataset; intervention (Chapter 7); joint probability; the reverse conditional
+- Aliases/cautions: conditioning changes **what you are taking as given**, which is a statement about your reference position rather than about a subset of rows; **do not teach conditioning as filtering** — filtering fails for unique events and hides the direction problem; **`P(A | B)` and `P(B | A)` are different quantities** and confusing them is the most consequential single error in the chapter; **conditioning is not intervening** — updating belief about which mechanism operates, given an observation, establishes nothing about what would happen under an intervention (`pearl2009causal`; Chapter 7)
+- Definition status: **provisional** — proposed `decisions/0013` clause 1.4; mathematics, taught by demonstration
+
+## prior
+
+- Preferred term: prior
+- Field/origin: Bayesian statistics
+- Introduced in: Chapter 6
+- Distinct from: base rate (a prior is often *set from* a base rate but need not be); assumption; guess; posterior
+- Aliases/cautions: the probability held **before** the observation in question, itself conditional on whatever information was already in hand; a prior is not an arbitrary starting point to be apologised for, and where a relevant base rate exists it is usually the right thing to condition on; do not present priors as subjective in a way that implies they are unconstrained
+- Definition status: **provisional** — proposed `decisions/0013` §1
+
+## posterior
+
+- Preferred term: posterior
+- Field/origin: Bayesian statistics
+- Introduced in: Chapter 6
+- Distinct from: prior; a decision; a conclusion; certainty
+- Aliases/cautions: the probability **after** conditioning on the new observation; obtained in this book by the **odds form** — prior odds × ratio = posterior odds — which is one multiplication and avoids the denominator where readers stall; a posterior stated without the ratio hides whether the evidence did any work; **the ratio is not called a likelihood ratio in reader-facing prose**, since `likelihood` has an estimation sense that Chapter 8 owns
+- Definition status: **provisional** — proposed `decisions/0013` §3; mathematics, taught by demonstration
+
+## base rate
+
+- Preferred term: base rate
+- Field/origin: statistics; judgment and decision-making research
+- Introduced in: Chapter 6
+- Distinct from: prior; sample proportion; prevalence in a different population; the observed frequency in your data
+- Aliases/cautions: the prior probability or frequency of an outcome in the relevant population; **base-rate neglect is not universal** — `tversky1974judgment` p. 1125 documents that "people respond differently when given no evidence and when given worthless evidence. When no specific evidence is given, prior probabilities are properly utilized; when worthless evidence is given, prior probabilities are ignored"; the trigger for abandoning a base rate is therefore **being handed something that looks like information**, which is a sharper and more useful warning than the generic one; the same source (p. 1124) is explicit that the underlying heuristics "are quite useful", so **do not present intuition as merely broken**
+- Definition status: **provisional** — proposed `decisions/0013` §4; source-verified against `tversky1974judgment` pp. 1124–1125
+
+## expectation
+
+- Preferred term: expectation
+- Field/origin: mathematics
+- Introduced in: Chapter 6 as a **summary of a distribution**; as a decision rule it is Chapter 11
+- Distinct from: the most likely outcome; the median; what will happen; expected utility (Chapter 11)
+- Aliases/cautions: **the expectation is not what will happen** and may be a value the quantity cannot take; do not slide from *the expected value is X* to *therefore act as if X*, which smuggles in risk neutrality — that move belongs to Chapter 11 and must be made deliberately there; no expectation operator notation
+- Definition status: **provisional** — proposed `decisions/0013` clause 7.1; mathematics, taught by demonstration
+
+## sharpness
+
+- Preferred term: sharpness
+- Field/origin: forecast verification / statistics
+- Introduced in: Chapter 6
+- Distinct from: calibration; accuracy; precision (Chapter 3); confidence
+- Aliases/cautions: "**Sharpness refers to the concentration of the predictive distributions and is a property of the forecasts only**" (`gneiting2007scoring` p. 359) — assessable before anything happens, unlike calibration; the stated goal is "to maximize the sharpness of the predictive distributions subject to calibration" (p. 359), so **calibration is the constraint and sharpness the objective**, not the reverse; a forecaster who always states the base rate is perfectly calibrated and useless, which is the book's own demonstration of why calibration alone is not the goal
+- Definition status: **provisional** — proposed `decisions/0013` clause 5.3; source-verified against `gneiting2007scoring` p. 359
+
+## scoring rule
+
+- Preferred term: scoring rule
+- Field/origin: forecast verification / statistics / decision theory
+- Introduced in: Chapter 6 at concept depth; the mathematics is depth curriculum
+- Distinct from: accuracy metric; loss function in the estimation sense (Chapter 8); a performance target
+- Aliases/cautions: a rule assigning a numerical score to a probabilistic forecast given what materialized; the concept that matters is **propriety** — a rule is proper when "the forecaster has no incentive to predict any P ≠ Q and is encouraged to quote his or her true belief" (`gneiting2007scoring` p. 359), so honesty is the score-maximising strategy by construction; invented scoring schemes are frequently "intuitively appealing but improper" (pp. 359–360) and reward distortion; **do not teach which rules are proper**, and do not write the notation; **a single forecast cannot be scored** — one outcome is consistent with any probability strictly between 0 and 1, and an unscored forecast is unfalsifiable in exactly Chapter 5's sense; the idea dates at least to Brier (1950) **as reported at `gneiting2007scoring` p. 360**, a source that was not obtained and may not be cited directly
+- Definition status: **provisional** — proposed `decisions/0013` §5; source-verified against `gneiting2007scoring` pp. 359–360
