@@ -100,3 +100,26 @@ This is Chapter 13's source for feedback, equilibrium, stability, and oscillatio
 - **`positive feedback` collides with the book's `positive` / `normative` pair**, which is why `../decisions/0007` banned it from Chapter 1. Chapter 13 prefers `reinforcing` and `balancing`, names the positive/negative pair once as the terms in circulation, and gives the reason.
 - **The saturation clause at p. 22 matters.** Reinforcing feedback is "usually accompanied by a saturation that limits the growth of the quantity", so a reinforcing loop is not a prediction of unbounded growth.
 - **§4.4 (Lyapunov analysis) and §4.5 (parametric and nonlocal behaviour) are unread**, deliberately, and no claim is made about them.
+
+## Role in Chapter 14
+
+**Extended 2026-08-18 during Chapter 14 research.** Read at printed pp. 201–202, extending the pp. 1–4, 17–24, 27–34, and 98–104 readings recorded for Chapters 2 and 13. Same first edition, same offset.
+
+This is the book's source for `observability`, which has stood in `../canon/terminology.md` as `TODO — verify against canonical sources` since Chapter 1.
+
+### Verified locators
+
+- p. 201, on what the source's Chapter 7 does: "In this chapter we show how to use output feedback to modify the dynamics of the system through the use of observers. We introduce the concept of observability and show that if a system is observable, it is possible to recover the state from measurements of the inputs and outputs to the system."
+- p. 202, **Definition 7.1 (Observability)** — **not quoted**; it carries a quantifier, an inequality and an interval, and under the standing rule from Chapter 8 no quotation in this book may contain a comparison symbol. **The declared paraphrase**: a system is observable if the state at any chosen time can be determined from the record of its inputs and its measured outputs over an interval.
+- p. 202: "The definition above holds for nonlinear systems as well, and the results discussed here have extensions to the nonlinear case."
+- p. 202, **the prose that carries the chapter**: "The problem of observability is one that has many important applications, even outside feedback systems. If a system is observable, then there are no 'hidden' dynamics inside it; we can understand everything that is going on through observation (over time) of the inputs and outputs. As we shall see, the problem of observability is of significant practical interest because it will determine if a set of sensors is sufficient for controlling a system."
+- p. 202: "Sensors combined with a mathematical model can also be viewed as a 'virtual sensor' that gives information about variables that are not measured directly. The process of reconciling signals from many sensors with mathematical models is also called sensor fusion."
+- p. 378, bibliography entry confirming the origin of `structural identifiability`: "R. Bellman and K. J. Åström. On structural identifiability. Mathematical Biosciences, 7:329–339, 1970."
+
+### Chapter 14 cautions
+
+- **Definition 7.1 is paraphrased and not quoted**, and the manuscript says so where it is used.
+- **`README.md` excludes filtering from the core book**, and the line falls immediately after observability. §7.2 (state estimation), §7.3 (control using estimated state), and §7.4 (Kalman filtering) were **not read**. The chapter teaches whether the state *could* be recovered and stops before recovering it.
+- **The observability rank test at pp. 202–203 was read only far enough to confirm that it is a test**, and it is not taught.
+- **Chapter 6 of the source — reachability and state feedback — was not read at all**, and `reachability` is not introduced.
+- **"Virtual sensor" needs a caution when used.** Chapter 3 taught that a score is not the construct and Chapter 4 that records exist because of a process. A virtual sensor is a model output treated as a measurement, and the manuscript notes the tension rather than passing the term on unqualified.
