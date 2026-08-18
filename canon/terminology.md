@@ -20,7 +20,7 @@ Entry format:
 
 ## Index
 
-101 entries, in registry order. Navigation only — the entries below are the record.
+109 entries, in registry order. Navigation only — the entries below are the record.
 
 **Adjudicated (29).** Note that `construct`, `measure`, and `proxy` appear in this sequence but were filled in from proposed Decision 0010 and are provisional; see the Chapter 3 block. Six further entries in this sequence — `statistical identifiability`, `causal identification`, `target`, `estimand`, `intervention`, and `counterfactual` — were closed or specialised from proposed Decision 0014 and are provisional; see the Chapter 7 block. `estimator` and `estimate` were closed from proposed Decision 0015; see the Chapter 8 block. `target population` was closed from proposed Decision 0016; see the Chapter 9 block. `objective` and `metric` were closed from proposed Decision 0017; see the Chapter 10 block. [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
 
@@ -41,6 +41,8 @@ Entry format:
 **Provisional — Chapter 9 block (8), pending adjudication of [Decision 0016](../decisions/0016-chapter9-synthesis-terminology-and-boundary.md).** [evidence synthesis](#evidence-synthesis) · [heterogeneity](#heterogeneity) · [dependence](#dependence) · [replication](#replication) · [external validity](#external-validity) · [transportability](#transportability) · [support factor](#support-factor) · [expert judgment](#expert-judgment) — plus [target population](#target-population), **closed** by the same decision in its existing position above. Decision 0016 clause 2 teaches **no synthesis method**; clause 6 records a **fourth** instance of the demonstrate-because-unsourced disposition and refers it to the author rather than invoking precedent.
 
 **Provisional — Chapter 10 block (6), pending adjudication of [Decision 0017](../decisions/0017-chapter10-values-terminology-and-boundary.md).** [value](#value) · [fundamental objective](#fundamental-objective) · [means objective](#means-objective) · [attribute](#attribute) · [stakeholder](#stakeholder) · [constraint](#constraint) — plus [objective](#objective) and [metric](#metric), **closed from `TODO`** by the same decision in their existing positions above. Decision 0017 clause 1 records that `keeney1996valuefocused` could not be obtained in full and that the framework is used **as reported at** `bradley2016structured`. Clause 5 **resolves a conflict** between `decisions/0006` and `README.md` over where trade-offs live, in favour of `README.md`.
+
+**Provisional — Chapter 11 block (8), pending adjudication of [Decision 0018](../decisions/0018-chapter11-decision-terminology-and-boundary.md).** [decision tree](#decision-tree) · [expected value](#expected-value) · [risk attitude](#risk-attitude) · [sensitivity analysis](#sensitivity-analysis) · [value of information](#value-of-information) · [value of perfect information](#value-of-perfect-information) · [ambiguity](#ambiguity) · [decision quality](#decision-quality) — plus [consequence](#consequence), **specialised** by the same decision in its existing position above. Clause 2 takes a **third bounded notation extension** (a decision table and one inline tree); **clause 4.4 records the closest the book has come to a fifth instance of the demonstrate-because-unsourced disposition and states why it is not one.**
 
 ## intended use
 
@@ -120,8 +122,8 @@ Entry format:
 - Field/origin: decision analysis / ordinary decision practice
 - Introduced in: Chapter 1 at practical depth
 - Distinct from: alternative; target; value; utility; recommendation
-- Aliases/cautions: an outcome, effect, burden, benefit, cost, risk, or other material result that may occur under an alternative for a relevant stakeholder or system; evidence may inform beliefs about consequences, but the evaluation of those consequences requires values, requirements, or other decision premises; one analytical target rarely exhausts all decision-relevant consequences
-- Definition status: verified at introductory practical depth; formal value and utility treatment remains Chapters 10–11
+- Aliases/cautions: an outcome, effect, burden, benefit, cost, risk, or other material result that may occur under an alternative for a relevant stakeholder or system; evidence may inform beliefs about consequences, but the evaluation of those consequences requires values, requirements, or other decision premises; one analytical target rarely exhausts all decision-relevant consequences; **Chapter 11 adds that consequences are stated per act and per state** — the third column of a decision layout — and that reducing several of Chapter 10's objectives to one number per cell is a **value judgment, not a measurement**, since value-of-information machinery "typically do require a single currency for the relevant values" (`colyvan2016voi` p. 305)
+- Definition status: **specialised** by proposed `decisions/0018` clause 8.3; the single-currency limitation source-verified against `colyvan2016voi` p. 305
 
 ## statistical identifiability
 
@@ -1007,3 +1009,82 @@ Clause 5 **resolves a conflict** between `decisions/0006` and `README.md` over w
 - Distinct from: objective; assumption (Chapter 5); boundary (Chapter 2); a preference
 - Aliases/cautions: a limit on what alternatives may be considered — and **"accepting constraints as immoveable" is one of four documented traps** (`bradley2016structured` p. 7, attributed there to Gregory et al. 2012, which was not obtained); the practical question is **who set this and what would change it**, since a constraint accepted without examination decides the outcome while remaining unexaminable, exactly as an implicit value does — but unlike a value it usually has an author who could be asked; the book's own sorting into constraints that are physical or statutory and constraints that are conventions, budgets, or timetables is an illustration rather than a theory, and is labelled as such; the other three traps at p. 7 are anchoring on the first proposed alternative, avoiding controversial trade-offs, and rushing to premature solutions
 - Definition status: **provisional** — proposed `decisions/0017` clause 4.3; the trap is source-verified against `bradley2016structured` p. 7; the sorting is the book's own
+
+## Chapter 11 block — PROVISIONAL
+
+Eight entries introduced by proposed [Decision 0018](../decisions/0018-chapter11-decision-terminology-and-boundary.md), which is **not author-adjudicated**.
+The same decision specialises `consequence` in its existing position above.
+Clause 2 takes a **third bounded notation extension**: a decision table, and one inline text tree where sequence matters. Nothing else, and **no read source teaches the tree** — the layout is the book's own presentation of standard material.
+**Clause 4.4 records the closest the book has come to a fifth instance of the demonstrate-because-unsourced disposition, and states why it is not one**: no source was obtained for risk attitude, and the chapter declines to teach the practice rather than teaching it unsourced.
+
+## decision tree
+
+- Preferred term: decision tree
+- Field/origin: decision analysis
+- Introduced in: Chapter 11
+- Distinct from: a causal diagram (Chapter 7); an influence diagram; a classification tree in machine learning, which is an unrelated object sharing the word; a flowchart
+- Aliases/cautions: a layout of **acts**, **states**, and **consequences**, branching from a choice through what you do not control to what results; **it is a layout, not a decision** — drawing one settles nothing and its value is that it forces every act to be stated against every state; for a one-shot decision a table with acts as rows and states as columns carries the same information and is easier to read, and this book uses the tree only where sequence matters, as in test-then-act; **no source read for this book teaches the device**, which is standard material in a literature this book did not obtain, so the presentation is the book's own and is labelled; no formal node conventions are used
+- Definition status: **provisional** — proposed `decisions/0018` clauses 2.2 and 2.5; presentation is the book's own
+
+## expected value
+
+- Preferred term: expected value (as a **decision rule**)
+- Field/origin: decision analysis
+- Introduced in: Chapter 6 as `expectation`, a summary of a distribution; Chapter 11 as a rule for choosing
+- Distinct from: the expectation itself (Chapter 6); the most likely outcome; utility; the best worst case
+- Aliases/cautions: choosing the act with the best probability-weighted average consequence; **Chapter 6 refused to make this move and instructed Chapter 11 to make it deliberately**, so the chapter states plainly that using the rule is a choice which "smuggles in risk neutrality"; the positive case is that it is **the only rule that uses all the information in the table** — best-worst-case and smallest-spread rules discard most of the numbers and all of the probabilities — and that it is what makes value of information computable at all; a source applying it records that where two acts have equal expected monetary value "decision theory recommends indifference" (`colyvan2016voi` p. 303), which shows the recommendation follows from the rule rather than from the situation
+- Definition status: **provisional** — proposed `decisions/0018` clauses 4.1–4.2; source-verified against `colyvan2016voi` p. 303
+
+## risk attitude
+
+- Preferred term: risk attitude
+- Field/origin: decision analysis / economics
+- Introduced in: Chapter 11, **named and demonstrated but not formalized**
+- Distinct from: risk as a hazard; uncertainty; ambiguity; variance; irrationality
+- Aliases/cautions: a decision-maker's disposition toward spread in consequences, as against their average; **demonstrable without machinery**: where one act costs the same in every state and more in expectation than the act with the best average, preferring it is a preference the arithmetic cannot supply, and neither can any amount of evidence; **no source was obtained for a formal treatment**, so this book names the phenomenon, shows it in a table, and routes utility functions, certainty equivalents, and risk premiums to the depth curriculum; **do not present risk aversion as an error** — it is a value, and Chapter 10 established that values are the decision-maker's to supply; proposed `decisions/0018` clause 4.4 records this as the closest the book has come to teaching a practice unsourced and states why it is not one
+- Definition status: **provisional and unsourced** — proposed `decisions/0018` clauses 4.3–4.4; the chapter states only what its own table displays
+
+## sensitivity analysis
+
+- Preferred term: sensitivity analysis
+- Field/origin: modelling / decision analysis
+- Introduced in: named and refused as criticism in Chapter 5; used as a model check in Chapter 8; used in its decision sense in Chapter 11
+- Distinct from: criticism (Chapter 5); robustness (Chapter 12); uncertainty quantification; varying every input by a fixed percentage
+- Aliases/cautions: **one technique with three jobs** — in Chapter 5 it is named and refused as a substitute for criticism, because varying inputs inside a formulation cannot see the formulation; in Chapter 8 it is a model check, telling you which assumptions the answer is sensitive to and therefore where checking effort should go; in Chapter 11 it asks the decision question — **at what point does the best act change?** — which is the form that makes value of information tractable; the useful output is not a range of answers but a **critical value**, and the question is whether your uncertainty straddles it (`colyvan2016voi` p. 302); **varying every input by ±20% is not sensitivity analysis** in any of the three senses, because it answers a question nobody asked
+- Definition status: **provisional** — proposed `decisions/0018` clause 5; the decision sense source-verified against `colyvan2016voi` p. 302
+
+## value of information
+
+- Preferred term: value of information
+- Field/origin: decision analysis
+- Introduced in: Chapter 11
+- Distinct from: how informative an observation is (Chapter 6's ratio); the cost of collection; the interest of a finding; statistical power
+- Aliases/cautions: **how much better off you would be with the information than without it, measured in the decision's own currency** — and it is **zero whenever no possible result would change the act**; the standing example is a radiograph for a suspected broken toe, where "the treatment for a bruised toe or a broken toe is the same" so "The value of information delivered by the radiographic examination in this decision about treatment is zero" (`colyvan2016voi` p. 303), and the test is perfectly accurate; **always relative to a decision** — "the same information might be valuable for other purposes" (p. 303) and "it depends on what you're going to do with the information" (p. 304); **informative is not valuable**, which separates this from Chapter 6's likelihood ratio; the summary to carry is "Reducing ignorance is not the name of the game, it's improving management decisions" (p. 304); four documented limitations apply — framing, the single-currency requirement, budgets not being fungible, and value arriving later (pp. 305–306) — and **the study itself costs something** (p. 308 n. 16)
+- Definition status: **provisional** — proposed `decisions/0018` §6; source-verified against `colyvan2016voi` pp. 303–306, 308
+
+## value of perfect information
+
+- Preferred term: value of perfect information
+- Field/origin: decision analysis
+- Introduced in: Chapter 11
+- Distinct from: the value of a particular study; certainty; the cost of the decision being wrong
+- Aliases/cautions: what it would be worth to know the state of the world exactly, before choosing — **and it is a ceiling**, since "the value of imperfect information is always less than that of perfect information" (`colyvan2016voi` p. 303); **this makes it a screening rule and the cheapest thing in the chapter**: if the ceiling is below the price of the cheapest study you could commission, no study can pay for itself and you are finished in an afternoon; it is arithmetic on a table already built, requires no new data, and is almost never run before studies are commissioned
+- Definition status: **provisional** — proposed `decisions/0018` clause 6.3; source-verified against `colyvan2016voi` p. 303
+
+## ambiguity
+
+- Preferred term: ambiguity
+- Field/origin: decision theory
+- Introduced in: Chapter 11, at concept depth only
+- Distinct from: risk; uncertainty in the general sense; vagueness; structural uncertainty (Chapter 5); imprecision in a measurement (Chapter 3)
+- Aliases/cautions: not knowing a probability exactly, as against knowing it and facing a chance outcome; **whether it matters depends on whether the range straddles a critical value** — a source works a bet where the probability is known only to lie between 0.4 and 0.6 and concludes "No further information is required in deciding whether to accept this bet or not", and contrasts a range of 0.2 to 0.4 which "straddles the critical value of 1/3" (`colyvan2016voi` p. 302); **the book treats ambiguity only this far**; **Ellsberg (1961) was not obtained**, the term "Ellsberg paradox" is not used, and those experiments are not described
+- Definition status: **provisional** — proposed `decisions/0018` §7; source-verified against `colyvan2016voi` p. 302
+
+## decision quality
+
+- Preferred term: decision quality
+- Field/origin: decision analysis
+- Introduced in: Chapter 11 as a **disposition, not a framework**
+- Distinct from: outcome quality; a named commercial methodology; decision-making capability as an organisational assessment
+- Aliases/cautions: **a good decision and a good outcome are different things**, since an uncertain world can punish a well-made choice — `nasem2026decisionmaking` supports the distinction between decision process and outcome, as recorded in its source note; the practical form this book teaches is that a decision is defensible when its acts, states, consequences, probabilities, and the rule used to choose are all written down and arguable, which is the same discipline Chapters 6 to 10 applied to probabilities, causal claims, estimates, sources, and objectives; **no named framework is taught**, and the commercial decision-quality literature was not obtained; do not use the term to grade decisions after their outcomes are known, which is the error it exists to prevent
+- Definition status: **provisional** — proposed `decisions/0018` clause 8.1; the process/outcome distinction reuses `nasem2026decisionmaking` as verified for Chapter 1
