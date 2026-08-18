@@ -325,6 +325,8 @@ A decision or recommendation must remain distinct from the informational targets
 
 This implementation changes target-related terminology control, source provenance, and narrowly scoped Chapter 1 specification wording only.
 It does not change the chapter title, central question, six-section architecture, 24-page / 4-hour budget, hospital anchor, pendulum or student-assessment contrasts, exercise progression, transfer intent, or the book architecture.
+
+> **Later annotation (2026-08-18).** The reference to a *hospital anchor* above is historically accurate and is retained deliberately: at the time of Research 02 the Chapter 1 anchor was the hospital-pharmacy stockout case. `../../decisions/0004-chapter1-primary-anchor-case.md` subsequently retired it in favour of the municipal water-supply case, "with no recurrence obligation". This sentence records what Research 02 did and did not change, not what the chapter now contains, and it is not corrected here because rewriting it would falsify the record. The governed artifact controls.
 It does not perform the later claim-type, measurement, estimand, identification, transportability, value, or decision-theory research tasks.
 
 ## Bounded task: positive and normative questions
