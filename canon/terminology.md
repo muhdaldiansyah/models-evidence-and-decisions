@@ -20,7 +20,7 @@ Entry format:
 
 ## Index
 
-109 entries, in registry order. Navigation only — the entries below are the record.
+119 entries, in registry order. Navigation only — the entries below are the record.
 
 **Adjudicated (29).** Note that `construct`, `measure`, and `proxy` appear in this sequence but were filled in from proposed Decision 0010 and are provisional; see the Chapter 3 block. Six further entries in this sequence — `statistical identifiability`, `causal identification`, `target`, `estimand`, `intervention`, and `counterfactual` — were closed or specialised from proposed Decision 0014 and are provisional; see the Chapter 7 block. `estimator` and `estimate` were closed from proposed Decision 0015; see the Chapter 8 block. `target population` was closed from proposed Decision 0016; see the Chapter 9 block. `objective` and `metric` were closed from proposed Decision 0017; see the Chapter 10 block. [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
 
@@ -43,6 +43,8 @@ Entry format:
 **Provisional — Chapter 10 block (6), pending adjudication of [Decision 0017](../decisions/0017-chapter10-values-terminology-and-boundary.md).** [value](#value) · [fundamental objective](#fundamental-objective) · [means objective](#means-objective) · [attribute](#attribute) · [stakeholder](#stakeholder) · [constraint](#constraint) — plus [objective](#objective) and [metric](#metric), **closed from `TODO`** by the same decision in their existing positions above. Decision 0017 clause 1 records that `keeney1996valuefocused` could not be obtained in full and that the framework is used **as reported at** `bradley2016structured`. Clause 5 **resolves a conflict** between `decisions/0006` and `README.md` over where trade-offs live, in favour of `README.md`.
 
 **Provisional — Chapter 11 block (8), pending adjudication of [Decision 0018](../decisions/0018-chapter11-decision-terminology-and-boundary.md).** [decision tree](#decision-tree) · [expected value](#expected-value) · [risk attitude](#risk-attitude) · [sensitivity analysis](#sensitivity-analysis) · [value of information](#value-of-information) · [value of perfect information](#value-of-perfect-information) · [ambiguity](#ambiguity) · [decision quality](#decision-quality) — plus [consequence](#consequence), **specialised** by the same decision in its existing position above. Clause 2 takes a **third bounded notation extension** (a decision table and one inline tree); **clause 4.4 records the closest the book has come to a fifth instance of the demonstrate-because-unsourced disposition and states why it is not one.**
+
+**Provisional — Chapter 12 block (10), pending adjudication of [Decision 0019](../decisions/0019-chapter12-optimization-terminology-and-boundary.md).** [feasible region](#feasible-region) · [marginal benefit](#marginal-benefit) · [marginal cost](#marginal-cost) · [shadow price](#shadow-price) · [convexity](#convexity) · [local optimum](#local-optimum) · [scenario](#scenario) · [regret](#regret) · [adaptive plan](#adaptive-plan) · [signpost](#signpost) — plus [robustness](#robustness), **closed from `TODO`** by the same decision in its existing position above, where Decision 0012 clause 5.4 reserved it. Clause 1 records that **nothing in this chapter is taught unsourced** and that the demonstrate-because-unsourced count **stays at four**.
 
 ## intended use
 
@@ -290,11 +292,11 @@ Entry format:
 ## robustness
 
 - Preferred term: robustness
-- Field/origin: decision analysis / optimization
-- Introduced in: Chapter 12
-- Distinct from: stability
-- Aliases/cautions: none recorded yet
-- Definition status: TODO — verify against canonical sources
+- Field/origin: decision analysis / policy analysis
+- Introduced in: Chapter 12; reserved there by proposed `decisions/0012` clause 5.4 since Chapter 5
+- Distinct from: stability (Chapter 13); reliability (Chapter 3); optimality; insensitivity to a single input; robust statistics, which is a different concept sharing the word; transportability (Chapter 9)
+- Aliases/cautions: **"a strategy should be considered robust if it performs reasonably well compared to the alternatives across a wide range of plausible futures"** (`lempert2003shaping` p. 52); the criterion **replaces** optimality when the model is in doubt, since traditional decision analysis "seeks the optimal strategy, that is, the one that performs best for a fixed set of assumptions about the future" (p. 52); **assessed across value systems as well as futures** (pp. 52–53), which is why robustness does not require the single currency that value-of-information machinery does (`colyvan2016voi` p. 305) — Chapter 10's plural objectives survive here instead of being flattened as they were in Chapter 11; **a robust strategy is typically optimal in no future**, which is the point and not a defect; robustness is **not free** — it costs performance in whichever future actually arrives; the closing requirement is to be "explicitly aware of the futures and values that, by virtue of selecting the candidate strategy, have been implicitly classed as unimportant" (p. 57)
+- Definition status: **provisional** — closed by proposed `decisions/0019` clause 5.2; source-verified against `lempert2003shaping` pp. 52–53, 57
 
 ## feedback
 
@@ -1088,3 +1090,100 @@ Clause 2 takes a **third bounded notation extension**: a decision table, and one
 - Distinct from: outcome quality; a named commercial methodology; decision-making capability as an organisational assessment
 - Aliases/cautions: **a good decision and a good outcome are different things**, since an uncertain world can punish a well-made choice — `nasem2026decisionmaking` supports the distinction between decision process and outcome, as recorded in its source note; the practical form this book teaches is that a decision is defensible when its acts, states, consequences, probabilities, and the rule used to choose are all written down and arguable, which is the same discipline Chapters 6 to 10 applied to probabilities, causal claims, estimates, sources, and objectives; **no named framework is taught**, and the commercial decision-quality literature was not obtained; do not use the term to grade decisions after their outcomes are known, which is the error it exists to prevent
 - Definition status: **provisional** — proposed `decisions/0018` clause 8.1; the process/outcome distinction reuses `nasem2026decisionmaking` as verified for Chapter 1
+
+## Chapter 12 block — PROVISIONAL
+
+Ten entries introduced by proposed [Decision 0019](../decisions/0019-chapter12-optimization-terminology-and-boundary.md), which is **not author-adjudicated**.
+The same decision closes `robustness` — TODO since Chapter 1 and reserved by Decision 0012 clause 5.4 — and specialises `constraint`.
+Clause 1 records that, unlike Chapter 11, **nothing in this chapter is taught unsourced**: three sources were obtained in full and every governed competence item maps to one. **The count of demonstrate-because-unsourced instances stays at four.**
+Clause 2 adds **no notation**; the governed word "intuition" is read as controlling.
+
+## feasible region
+
+- Preferred term: feasible region
+- Field/origin: optimization
+- Introduced in: Chapter 12 at concept depth only
+- Distinct from: the option set (Chapter 10); the alternative set; the budget
+- Aliases/cautions: the combinations of actions that satisfy every constraint — **at programme scale the object of choice is a combination, not an alternative**, which is what distinguishes Chapter 12's problem from Chapter 11's; **Chapter 10's discipline applies first**: a feasible region drawn around constraints nobody questioned is smaller than the real one, and two of the anchor's four stated constraints dissolved on inspection; the book draws no diagram and states no formulation
+- Definition status: **provisional** — proposed `decisions/0019` clause 7.1; concept depth, taught on the anchor
+
+## marginal benefit
+
+- Preferred term: marginal benefit
+- Field/origin: economics
+- Introduced in: Chapter 12
+- Distinct from: total benefit; average benefit; the value of a whole scheme
+- Aliases/cautions: "the benefit received from an incremental increase in the consumption of a good or service. It is calculated as the increase in total benefit divided by the increase in consumption" (`epa2010economic` p. xiii); paired with `marginal cost` it supplies the classical stopping rule — spend until the two are equal — and **Chapter 12 shows that rule failing on indivisible investments**, where there is no next unit to evaluate
+- Definition status: **provisional** — proposed `decisions/0019` clause 3.1; source-verified against `epa2010economic` p. xiii
+
+## marginal cost
+
+- Preferred term: marginal cost
+- Field/origin: economics
+- Introduced in: Chapter 12
+- Distinct from: total cost; average cost; the price of a scheme; opportunity cost
+- Aliases/cautions: "the change in total cost that results from a unit increase in output. It is calculated as the increase in total cost divided by the increase in output" (`epa2010economic` p. xiii); **the related idea the chapter leans on is opportunity cost** — "the value of the next best alternative to a particular activity or resource", which "need not be assessed in monetary terms" and "can be assessed in terms of anything that is of value to the person or persons doing the assessing" (p. xiv), a property that distinguishes marginal reasoning from the value-of-information machinery of Chapter 11, which does require a single currency
+- Definition status: **provisional** — proposed `decisions/0019` clause 3.1; source-verified against `epa2010economic` pp. xiii–xiv
+
+## shadow price
+
+- Preferred term: shadow price — **always qualify; two unrelated senses exist**
+- Field/origin: optimization
+- Introduced in: Chapter 12
+- Distinct from: market price; marginal cost; **the shadow price of capital, a discounting concept in cost-benefit analysis which this book does not use**
+- Aliases/cautions: what it would be worth to move a binding constraint by a small amount — the optimization sense arises as "a set of prices for which there is no advantage to the firm in being allowed to pay for constraint violations" (`boyd2004convex` p. 241); **it answers a question Chapter 10 could not**: not whether a constraint is real, but what moving it is worth; **it is local**, defined for small changes, and **asymmetric** — "the results are not symmetric with respect to loosening or tightening a constraint" (p. 251); an inactive constraint has a shadow price of zero; **with indivisible investments it is a step function that need not decrease** — the anchor shows an extra £50k worth nothing at one envelope and 0.84 units per £k at a larger one, which cannot happen under convexity; the second sense appears in `epa2010economic` §6.2.4, **which was not read and is not characterised**
+- Definition status: **provisional** — proposed `decisions/0019` clauses 4.1 and 4.5; source-verified against `boyd2004convex` pp. 241, 251–252
+
+## convexity
+
+- Preferred term: convexity
+- Field/origin: mathematics / optimization
+- Introduced in: Chapter 12 through its **consequence** only
+- Distinct from: linearity; smoothness; simplicity; concavity as a separate technical matter
+- Aliases/cautions: **the book teaches what its presence or absence does, not how to recognise it** — the source says recognising a convex function "can be difficult" (`boyd2004convex` p. 8); under convexity, local improvement reaches the global best and reliable solvers exist, so that "if you formulate a practical problem as a convex optimization problem, then you have solved the original problem" (p. 8); without it, "there are no effective methods for solving the general nonlinear programming problem" (p. 9); **the practical marker for a general reader is lumpiness** — indivisible investments break the marginal stopping rule, which the anchor demonstrates numerically; no formulation, algorithm, or diagram is given
+- Definition status: **provisional** — proposed `decisions/0019` clause 4.3; source-verified against `boyd2004convex` pp. 8–9
+
+## local optimum
+
+- Preferred term: local optimum
+- Field/origin: optimization
+- Introduced in: Chapter 12
+- Distinct from: global optimum; a satisfactory answer; a converged solution
+- Aliases/cautions: a point that "minimizes the objective function among feasible points that are near it, but is not guaranteed to have a lower objective value than all other feasible points" (`boyd2004convex` p. 9); **two consequences a reader can act on without any mathematics** — the answer depends on where the search started, since the "initial guess or starting point is critical, and can greatly affect the objective value of the local solution obtained" (p. 9); and **"Little information is provided about how far from (globally) optimal the local solution is"** (p. 9); so a nonconvex result carries no bound on its own error, which is a different situation from an estimate with an interval (Chapter 8)
+- Definition status: **provisional** — proposed `decisions/0019` clause 4.3; source-verified against `boyd2004convex` p. 9
+
+## scenario
+
+- Preferred term: scenario
+- Field/origin: policy analysis / futures studies
+- Introduced in: Chapter 12
+- Distinct from: forecast; prediction; a probability-weighted state (Chapter 11); a rival model (Chapter 5, a related but distinct use); a sensitivity case
+- Aliases/cautions: **a plausible future used as a challenge set, not a prediction** — ensembles "offer compelling alternative futures that can force stakeholders to question their assumptions" (`lempert2003shaping` p. 52); **diversity, not count, is the requirement**: "the diversity requirement that guides the construction of scenario ensembles is crucial to building credibility among parties to a decision" (p. 52), so twenty scenarios differing in one parameter are one scenario; plausibility is enforced as constraints — paths are excluded when they "violate known principles of economics" (p. 52) — so an ensemble is not everything imaginable; Chapter 5's `rival model` is a differently-simplified representation used for criticism, which is a compatible but distinct use
+- Definition status: **provisional** — proposed `decisions/0019` clause 5.4; source-verified against `lempert2003shaping` p. 52
+
+## regret
+
+- Preferred term: regret
+- Field/origin: decision theory
+- Introduced in: Chapter 12
+- Distinct from: loss; cost; the outcome of a bad decision (Chapter 11's decision quality); disappointment
+- Aliases/cautions: the shortfall between what a strategy achieves in a future and the best that could have been achieved in that future; **minimax regret is Savage's rule**, described as "a practical rule of thumb for cases where individuals or groups are 'vague' about the probabilities they attach to certain events" (`lempert2003shaping` p. 53, reporting Savage 1950, **which was not obtained**); **this book does not present it as the right rule**, because the source reports four pathologies from Savage himself: it "often yields neither a best strategy nor a simple ordering among strategies"; in a group context it "can be undemocratic"; participants "can easily manipulate outcomes by lying about the weights"; and it "can be too sensitive to low-probability, high-consequence events" (p. 53, n. 13); the anchor exhibits the first immediately, with the minimax portfolio and its runner-up separated by less than the inputs can support
+- Definition status: **provisional** — proposed `decisions/0019` clauses 5.5–5.6; source-verified against `lempert2003shaping` p. 53 and n. 13
+
+## adaptive plan
+
+- Preferred term: adaptive plan
+- Field/origin: policy analysis
+- Introduced in: Chapter 12
+- Distinct from: a vague plan; a contingency list; a phased programme without triggers; sequential control (Chapter 14); feedback (Chapter 13)
+- Aliases/cautions: a plan that specifies **in advance** how it will change — "adaptive decision strategies are the means most commonly used to achieve robustness because they are designed to evolve in response to new data", and a decisionmaker "may settle on near-term actions but plan to adjust them **in specific ways**" (`lempert2003shaping` p. 57); the reported structure has three parts (`shaping actions`, `hedging actions`, `signposts`) attributed there to Dewar (1993, 2001), **which was not obtained**; **the flexibility is not free** — this book requires a staging premium to be stated, because an adaptive plan whose optionality costs nothing is a way of avoiding a decision; adapting because you **learned** is Chapter 12, adapting because the system **responded to you** is Chapter 13
+- Definition status: **provisional** — proposed `decisions/0019` §6; source-verified against `lempert2003shaping` pp. 57–58
+
+## signpost
+
+- Preferred term: signpost
+- Field/origin: policy analysis; the term is used in this sense at `lempert2003shaping` p. 58, reporting Dewar
+- Introduced in: Chapter 12
+- Distinct from: a metric (Chapter 10); a monitoring indicator; a key performance indicator; a review date
+- Aliases/cautions: an observation, **with a threshold agreed in advance**, that "warn[s] of the need to change the mix of actions" (`lempert2003shaping` p. 58, reporting Dewar); **the part organisations omit** — a plan with shaping and hedging actions but no signposts is a portfolio, not an adaptive plan, because nothing states what would cause it to change; a signpost without a named threshold is a metric being watched; **Chapter 12 designs signposts and Chapter 17 operates them**, which is where the question of whether anyone is actually looking belongs
+- Definition status: **provisional** — proposed `decisions/0019` §6; source-verified against `lempert2003shaping` p. 58
