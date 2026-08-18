@@ -20,7 +20,7 @@ Entry format:
 
 ## Index
 
-155 entries, in registry order. Navigation only — the entries below are the record.
+163 entries, in registry order. Navigation only — the entries below are the record.
 
 **Adjudicated (29).** Note that `construct`, `measure`, and `proxy` appear in this sequence but were filled in from proposed Decision 0010 and are provisional; see the Chapter 3 block. Six further entries in this sequence — `statistical identifiability`, `causal identification`, `target`, `estimand`, `intervention`, and `counterfactual` — were closed or specialised from proposed Decision 0014 and are provisional; see the Chapter 7 block. `estimator` and `estimate` were closed from proposed Decision 0015; see the Chapter 8 block. `target population` was closed from proposed Decision 0016; see the Chapter 9 block. `objective` and `metric` were closed from proposed Decision 0017; see the Chapter 10 block. [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
 
@@ -53,6 +53,8 @@ Entry format:
 **Provisional — Chapter 15 block (11), pending adjudication of [Decision 0022](../decisions/0022-chapter15-strategic-terminology-and-boundary.md).** [strategic game](#strategic-game) · [strategic dependence](#strategic-dependence) · [incentive](#incentive) · [commitment](#commitment) · [information asymmetry](#information-asymmetry) · [principal-agent](#principal-agent) · [delegation](#delegation) · [endogenous response](#endogenous-response) · [performativity](#performativity) · [Goodhart effect](#goodhart-effect) · [metric gaming](#metric-gaming) — plus [equilibrium](#equilibrium), whose **strategic sense is closed** by the same decision in its existing position above, where it had been reserved for Chapter 15 since Chapter 1. **Four flags.** Clause 5 proposes the book's **fourth notation extension**, a two-player payoff table. Clause 7 records **three "as reported at" uses in one chapter**, for concepts named in governed text whose originals could not be obtained. Clause 8 proposes a **bounded exception to the pagination rule**, citing one source by section. Clause 9 records `principal-agent` and `information asymmetry` as a **candidate fifth instance** of the demonstrate-because-unsourced disposition, with the reopening of research documented and failed, and refers them to the author.
 
 **Provisional — Chapter 16 block (6), pending adjudication of [Decision 0023](../decisions/0023-chapter16-integration-terminology-and-boundary.md).** [triage](#triage) · [materiality](#materiality) · [backward revision](#backward-revision) · [surface feature](#surface-feature) · [deep structure](#deep-structure) · [routing record](#routing-record). **Four of the six are the book's own controlled terms**, which is appropriate for the first chapter since Chapter 1 that adds no machinery, and **no collision requires announcement** — the first chapter since Chapter 5 with none. **Two flags.** `surface feature` and `deep structure` rest on a finding whose primary paper could not be obtained, so the entries are closed from the first author's own one-page retrospective and carry her hedges (clause 7); the replication that qualifies the population claim is registered alongside, and **neither source may be used without the other**. Clause 6 applies the bounded pagination exception proposed at [Decision 0022](../decisions/0022-chapter15-strategic-terminology-and-boundary.md) clause 8 **for a second time**, and records that if that clause is declined this application falls with it.
+
+**Provisional — Chapter 17 block (8), pending adjudication of [Decision 0024](../decisions/0024-chapter17-deployment-terminology-and-boundary.md).** [monitoring](#monitoring) · [ordinary variation](#ordinary-variation) · [signal](#signal) · [drift](#drift) · [tampering](#tampering) · [revision trigger](#revision-trigger) · [permissible use](#permissible-use) · [retirement](#retirement). **This is the last chapter's block and the registry closes with it.** Six of the eight are the book's own or extend its own, and **no collision requires announcement** — the second chapter in a row with none. **Two flags.** `ordinary variation` rests on a distinction whose primary source could not be obtained. **`tampering` is named in the governed core competence and has no source at all**; clause 6 registers it as the book's own term on Chapter 13's sourced mechanism and states that it is **not** a new demonstrate-because-unsourced instance, because what is missing is a name rather than a claim. **And `utility` does not close** — it remains the registry's one `TODO`, assigned to the drafted Chapter 11, with no later chapter to close it in.
 
 ## intended use
 
@@ -1633,5 +1635,107 @@ Six entries below are proposed by `../decisions/0023` and are provisional pendin
 - Distinct from: a project plan; a checklist; a scope document; an audit trail
 - Aliases/cautions: the written output of triage — one row per stage, a material-or-not judgment, and **a reason on every row including the negative ones**; **the negative rows are the interesting part**, because they are what an omission cannot produce; a routing record is **revisable**, and Chapter 16's worked case revises it twice; it is not a commitment to an order, and the order a problem is worked in is the problem's rather than the book's
 - Definition status: the book's own controlled use
+
+---
+
+---
+
+## Chapter 17 block — PROVISIONAL
+
+Eight entries below are proposed by `../decisions/0024` and are provisional pending author adjudication. **This is the last chapter's block, and the registry closes with it.**
+
+**Six of the eight are the book's own controlled terms or extend its own**, which is appropriate for a chapter whose subject is operating what the previous sixteen built. **No collision requires announcement** — the second chapter in a row with none.
+
+**Two flags.** `ordinary variation` rests on a distinction whose primary source could not be obtained and is used as reported at a review. **`tampering` is named in `README.md`'s governed core competence and has no source at all**; clause 6 registers it as the book's own term built on Chapter 13's sourced overshoot mechanism, and states plainly that it is **not** a new instance of the demonstrate-because-unsourced disposition, because what is missing is a name rather than a claim.
+
+**And one item does not close.** `utility` remains the registry's one `TODO`, assigned to the drafted Chapter 11, and **there is no later chapter to close it in.**
+
+---
+
+## monitoring
+
+- Preferred term: monitoring
+- Field/origin: the book's own controlled use
+- Introduced in: Chapter 17
+- Distinct from: model checking (Chapter 5), which the registry already records as the same activity before deployment; the observation process (Chapter 4); measurement (Chapter 3); watching a dashboard
+- Aliases/cautions: **monitoring observes outputs**, so it detects failures that change outputs and is **constitutionally incapable of detecting failures in what the thing was built to represent** — those produce outputs that look right by construction; the early stages of this book are invisible to monitoring and the late ones visible, which is the reverse of where attention usually goes; **monitoring is an assignment before it is a technique**, and an indicator nobody is named against is not monitored
+- Definition status: the book's own controlled use; the boundary against `model checking` is already recorded there
+
+---
+
+## ordinary variation
+
+- Preferred term: ordinary variation
+- Field/origin: statistical process control
+- Introduced in: Chapter 17
+- Distinct from: signal; measurement error (Chapter 3); sampling variability (Chapter 8); noise in the loose sense
+- Aliases/cautions: what a process produces when nothing in particular is happening — **a fact about the process, measurable before anything goes wrong**; the field's terms are `common cause` and `special cause` variation, from statistical process control, which "was given by the physicist Walter Shewhart" (`sumanprajapati2018control` p. 1) and "is based on theory of variation i.e., common and special causes of variations" (same page); **Shewhart (1931) could not be obtained** and the distinction is used **as reported at** that review; **no control charts, control limits, run rules, or chart types are taught** — `README.md` permits them "where appropriate" and `../decisions/0024` clause 2 declines them
+- Definition status: verified — `sumanprajapati2018control` p. 1; **as reported at**, the primary source being unobtainable
+
+---
+
+## signal
+
+- Preferred term: signal
+- Field/origin: the book's own controlled use, built on statistical process control
+- Introduced in: Chapter 17
+- Distinct from: a value past a threshold; a large number; a trend; an alarm
+- Aliases/cautions: **a value that ordinary variation does not readily produce** — which means a signal cannot be recognised without a baseline; **a threshold is only a trigger if it sits outside the range of ordinary variation, and a threshold set inside that range is a timer**, firing at a rate that is a fact about the process rather than about the world; this consequence is **the book's own**, derived in Chapter 17 and stated as derived; the material for it has been available since Chapter 8
+- Definition status: the book's own controlled use
+
+---
+
+## drift
+
+- Preferred term: drift
+- Field/origin: statistics; machine learning
+- Introduced in: Chapter 17
+- Distinct from: ordinary variation; tampering; a one-off shift; performativity (Chapter 15), which is one of its causes rather than a synonym
+- Aliases/cautions: a change over time in the relationship a deployed piece of reasoning depends on; **detecting drift is not diagnosing it** — a monitoring arrangement that responds to drift by refitting has observed that the world and the model disagree and has moved the model; `perdomo2020performative` records that ignored performativity "surfaces as undesirable distribution shift, routinely addressed with retraining" (Abstract) and that retraining can be read as "a natural equilibrating dynamic rather than a nuisance" (§1), which means the same signal is consistent with maintenance and with convergence toward somewhere nobody wants; **not every distribution shift is performative**, as Chapter 1's caution on that source already records
+- Definition status: verified — `perdomo2020performative` Abstract, §1, cited by section
+
+---
+
+## tampering
+
+- Preferred term: tampering
+- Field/origin: **the book's own controlled use**, built on Chapter 13
+- Introduced in: Chapter 17
+- Distinct from: drift; interference; fraud or manipulation of evidence (Chapter 15); ordinary correction
+- Aliases/cautions: **adjusting a stable process in response to ordinary variation**, so that the adjustment adds variation the process did not have; **the mechanism is Chapter 13's, and is sourced there** — decision-makers "continue to intervene to correct apparent discrepancies between the desired and actual state of the system even after sufficient corrective actions have been taken to restore equilibrium", with the result "overshoot and oscillation" (`sterman2006evidence` p. 508); **Chapter 17 adds the precondition**: if the discrepancy being corrected is ordinary variation then every correction is an overshoot, because there was nothing to correct; **no source was obtained for the term itself**, which is named in `README.md`'s governed core competence — see `../decisions/0024` clause 6, which records that what is unsourced is a name rather than a claim
+- Definition status: **the book's own term**; the mechanism verified at `sterman2006evidence` p. 508 via Chapter 13
+
+---
+
+## revision trigger
+
+- Preferred term: revision trigger
+- Field/origin: the book's own controlled use; extends `signpost` (Chapter 12)
+- Introduced in: Chapter 17
+- Distinct from: a signpost (Chapter 12), which watches the world only; a review date; a backward revision (Chapter 16), which is a response rather than a rule
+- Aliases/cautions: a stated condition under which a deployed piece of reasoning is reopened — **and it is broader than a signpost in one specific way**: `nasa2024models` p. 18 requires a record to be "re-established as a result of any changes to either the RWS or the M&S", which is **the world changing or the model changing**, where Chapter 12's signposts watch only the first; a trigger needs the four things Chapter 12 required of a signpost — an observable quantity, a threshold, an owner, and a frequency — **and one more, which is that the threshold be set against a baseline** (see `signal`)
+- Definition status: the book's own; the two-direction requirement verified at `nasa2024models` p. 18
+
+---
+
+## permissible use
+
+- Preferred term: permissible use
+- Field/origin: modelling and simulation standards
+- Introduced in: Chapter 17
+- Distinct from: intended use (Chapter 1), which is what it was built for; validity (Chapter 3); a licence condition; what the model can technically do
+- Aliases/cautions: the domain within which a model has been shown to work, recorded at release — testing "identifies the M&S' limits of operation" and those limits "determine the permissible uses of the M&S" (`nasa2024models` p. 87); **it is a property of a pairing** of a model with a proposed application, not of the model — **the fourth appearance in this book of the relation-not-property shape**, after `validity`, `transportability`, and `observability`; **and the check is repeated, not once**: "each application of the M&S restarts the M&S use/operation with an assessment of permissible uses against the needs of that specific proposed use" (same page); a use outside the domain may be "rejected or possibly allowed with the appropriate restrictions, caveats, or placarding required" (same page), and **`placarding` is worth having as the third option between refusing and permitting silently**
+- Definition status: verified — `nasa2024models` p. 87
+
+---
+
+## retirement
+
+- Preferred term: retirement
+- Field/origin: modelling and simulation standards
+- Introduced in: Chapter 17
+- Distinct from: replacement; decommissioning a system; falsification (Chapter 5); a model simply falling out of use
+- Aliases/cautions: the planned end of a model's working life, required as a documented item — "a plan for the acquisition, development, operation, maintenance, and **retirement** of the M&S (including identifying the responsible organizations) shall be maintained" (`nasa2024models` p. 39, requirement [M&S 41]); **the standard requires it at the same level as acquisition**, and **this book did not mention it in sixteen chapters**, which the manuscript says; a model nobody has retired is not thereby still fit for use — it is a model nobody has looked at
+- Definition status: verified — `nasa2024models` p. 39
 
 ---
