@@ -20,7 +20,7 @@ Entry format:
 
 ## Index
 
-131 entries, in registry order. Navigation only — the entries below are the record.
+138 entries, in registry order. Navigation only — the entries below are the record.
 
 **Adjudicated (29).** Note that `construct`, `measure`, and `proxy` appear in this sequence but were filled in from proposed Decision 0010 and are provisional; see the Chapter 3 block. Six further entries in this sequence — `statistical identifiability`, `causal identification`, `target`, `estimand`, `intervention`, and `counterfactual` — were closed or specialised from proposed Decision 0014 and are provisional; see the Chapter 7 block. `estimator` and `estimate` were closed from proposed Decision 0015; see the Chapter 8 block. `target population` was closed from proposed Decision 0016; see the Chapter 9 block. `objective` and `metric` were closed from proposed Decision 0017; see the Chapter 10 block. [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
 
@@ -46,7 +46,9 @@ Entry format:
 
 **Provisional — Chapter 12 block (10), pending adjudication of [Decision 0019](../decisions/0019-chapter12-optimization-terminology-and-boundary.md).** [feasible region](#feasible-region) · [marginal benefit](#marginal-benefit) · [marginal cost](#marginal-cost) · [shadow price](#shadow-price) · [convexity](#convexity) · [local optimum](#local-optimum) · [scenario](#scenario) · [regret](#regret) · [adaptive plan](#adaptive-plan) · [signpost](#signpost) — plus [robustness](#robustness), **closed from `TODO`** by the same decision in its existing position above, where Decision 0012 clause 5.4 reserved it. Clause 1 records that **nothing in this chapter is taught unsourced** and that the demonstrate-because-unsourced count **stays at four**.
 
-**Provisional — Chapter 13 block (12), pending adjudication of [Decision 0020](../decisions/0020-chapter13-dynamics-terminology-and-boundary.md).** [stock](#stock) · [flow](#flow) · [accumulation](#accumulation) · [delay](#delay) · [open loop](#open-loop) · [closed loop](#closed-loop) · [reinforcing feedback](#reinforcing-feedback) · [balancing feedback](#balancing-feedback) · [oscillation](#oscillation) · [overshoot](#overshoot) · [policy resistance](#policy-resistance) · [state space](#state-space) — plus [equilibrium](#equilibrium) and [stability](#stability), **both closed from `TODO`** by the same decision in their existing positions above, where they had stood open since Chapter 1, and [feedback](#feedback), developed there from Chapter 1's screening depth to its formal home. Chapter 13's scope was set in advance by **Accepted** [Decision 0007](../decisions/0007-chapter1-dynamics-and-response-boundary.md); clauses 1.3, 3, 5, and 8 are the ones that go beyond it. **After this chapter three `TODO` entries remain** — `observability` and `structural identifiability`, both Chapter 14's, and **`utility`, which the registry assigns to the already-drafted Chapter 11 and which Chapter 11 did not close**. See Decision 0020 clause 12.4.
+**Provisional — Chapter 13 block (12), pending adjudication of [Decision 0020](../decisions/0020-chapter13-dynamics-terminology-and-boundary.md).** [stock](#stock) · [flow](#flow) · [accumulation](#accumulation) · [delay](#delay) · [open loop](#open-loop) · [closed loop](#closed-loop) · [reinforcing feedback](#reinforcing-feedback) · [balancing feedback](#balancing-feedback) · [oscillation](#oscillation) · [overshoot](#overshoot) · [policy resistance](#policy-resistance) · [state space](#state-space) — plus [equilibrium](#equilibrium) and [stability](#stability), **both closed from `TODO`** by the same decision in their existing positions above, where they had stood open since Chapter 1, and [feedback](#feedback), developed there from Chapter 1's screening depth to its formal home. Chapter 13's scope was set in advance by **Accepted** [Decision 0007](../decisions/0007-chapter1-dynamics-and-response-boundary.md); clauses 1.3, 3, 5, and 8 are the ones that go beyond it. **After Chapter 13 three `TODO` entries remained**; Chapter 14 closes two of them. The survivor is **`utility`, which the registry assigns to the already-drafted Chapter 11 and which Chapter 11 did not close** — see Decision 0020 clause 12.4.
+
+**Provisional — Chapter 14 block (7), pending adjudication of [Decision 0021](../decisions/0021-chapter14-sequential-control-terminology-and-boundary.md).** [policy](#policy) · [feedback decision](#feedback-decision) · [practical identifiability](#practical-identifiability) · [information acquisition](#information-acquisition) · [exploration](#exploration) · [exploitation](#exploitation) · [control](#control) — plus [observability](#observability) and [structural identifiability](#structural-identifiability), **both closed from `TODO`** by the same decision in their existing positions above, where they had stood open since Chapter 1. **`practical identifiability` is not named in `README.md`'s Chapter 14 core competence** and is registered under clause 6, flagged for author review; **`structural identifiability` is closed from a review rather than the paper that named it**, which is a first for this registry — see clause 8. **The four-way `identifiable` collision is announced in Chapter 14**, and clause 7.3 proposes that no chapter add a fifth sense. **After this chapter one `TODO` remains** — `utility`, assigned to the drafted Chapter 11 and still not closed.
 
 ## intended use
 
@@ -152,9 +154,9 @@ Entry format:
 - Preferred term: structural identifiability
 - Field/origin: systems and control theory
 - Introduced in: Chapter 14 (deferred from Chapter 7 per README)
-- Distinct from: statistical identifiability; causal identification; observability
-- Aliases/cautions: none recorded yet
-- Definition status: TODO — verify against canonical sources
+- Distinct from: statistical identifiability (Chapter 7); causal identification (Chapter 7); practical identifiability (Chapter 14); observability, to which it is closely related but not identical; a data problem
+- Aliases/cautions: **"a model is structurally identifiable if a unique parameterization exists for any given model output"** (`wieland2021identifiability` p. 61); the diagnostic is that a parameter is non-identifiable when changing it need not alter the model's trajectory "because the changes can be fully compensated by altering other parameters" (same page); **this is knowable before any data exists** — it follows from the model's form and the measurement setup, and no quantity of perfect measurements repairs it; the repair is to **measure more or model less** (`wieland2021identifiability` p. 64); the term originates with Bellman and Åström (1970), **which could not be obtained**, so this entry is closed from a review rather than the primary source — see `../decisions/0021` clause 8
+- Definition status: verified — `wieland2021identifiability` pp. 61, 64 (closed from `TODO` by proposed `../decisions/0021` clause 5; **secondary source**)
 
 ## construct
 
@@ -332,9 +334,9 @@ Entry format:
 - Preferred term: observability
 - Field/origin: control theory
 - Introduced in: Chapter 14
-- Distinct from: structural identifiability; the observation process (Chapter 4)
-- Aliases/cautions: never use as a loose synonym for "measurable"
-- Definition status: TODO — verify against canonical sources
+- Distinct from: structural identifiability; practical identifiability; the observation process (Chapter 4); whether anyone happened to measure something; measurability
+- Aliases/cautions: **the declared paraphrase** — a system is observable if the state at any chosen time can be determined from the record of its inputs and its measured outputs over an interval; the source's Definition 7.1 (`astrom2008feedback` p. 202) carries a quantifier, an inequality and an interval and is **paraphrased rather than quoted** under the standing rule from Chapter 8; if a system is observable "then there are no 'hidden' dynamics inside it" and the practical form is that observability "will determine if a set of sensors is sufficient for controlling a system" (same page); **unobservable does not mean unmeasured** — two different states producing identical records are unobservable however carefully the existing instruments are read; observability is a property of a **system paired with a set of instruments**, not of either alone; never use as a loose synonym for "measurable"; **no observer, state estimation, separation principle, Kalman filter, or rank test**
+- Definition status: verified — `astrom2008feedback` pp. 201–202 (closed from `TODO` by proposed `../decisions/0021` clause 4)
 
 ---
 
@@ -1329,5 +1331,94 @@ Chapter 13's scope was set in advance by `../decisions/0007`, which is **Accepte
 - Distinct from: the state; a sample space; a set of scenarios; the feasible region (Chapter 12)
 - Aliases/cautions: the set of all possible states of a system (`astrom2008feedback` p. 28); **named once to discharge the promise recorded in the `state` entry that "`state space` is not named until Chapter 13", and not developed**; no state-space form, no order of a system, no linearity, no reachability, no observability — those are Chapter 14 and the depth curriculum
 - Definition status: verified — `astrom2008feedback` p. 28
+
+---
+
+---
+
+## Chapter 14 block — PROVISIONAL
+
+Seven entries below are proposed by `../decisions/0021` and are provisional pending author adjudication. Two further entries — `observability` and `structural identifiability` — are **closed from `TODO`** by the same decision in their existing positions above, where they had stood open since Chapter 1.
+
+**One entry needs author attention.** `practical identifiability` is **not named in `README.md`'s Chapter 14 core competence**; `../decisions/0021` clause 6 registers it anyway and gives the grounds. **One entry is closed from a secondary source**, which is a first: see clause 8.
+
+**The four-way `identifiable` collision is announced here.** `statistical identifiability` and `causal identification` (Chapter 7), `structural identifiability` and `practical identifiability` (Chapter 14). Clause 7.3 proposes a standing instruction that **no chapter may add a fifth sense**.
+
+---
+
+## policy
+
+- Preferred term: policy
+- Field/origin: reinforcement learning; control; decision theory
+- Introduced in: Chapter 14
+- Distinct from: a plan; a decision; an action; a procedure document; an organisational policy in the ordinary administrative sense
+- Aliases/cautions: **"formally, a policy is a mapping from states to probabilities of selecting each possible action"** (`sutton2018reinforcement` p. 58); **a plan says what to do on given days, a policy says what to do given what you see**, so one policy produces different actions on different histories; **a policy cannot be evaluated on one history** — the chapter's case contains a year in which four different policies produce identical results; the domain is states, so a policy can only use what the instruments reveal, which makes `observability` the immediate next question about any policy; **no value functions, no Bellman equation, no dynamic programming, no policy notation** — `README.md` excludes them
+- Definition status: verified — `sutton2018reinforcement` p. 58
+
+---
+
+## feedback decision
+
+- Preferred term: feedback decision
+- Field/origin: the book's own term, built from control theory
+- Introduced in: Chapter 14
+- Distinct from: a decision that is revisited; a monitored decision; feedback in the systems sense (Chapter 13); evaluative comment
+- Aliases/cautions: a decision rule whose input is what the system currently shows, so that acting changes what the next decision will see — the decision-maker's counterpart of Chapter 13's `closed loop`; **the contrast is a decision made from a model rather than from an observation**, which `astrom2008feedback` p. 22 calls feedforward and which is what Parts I to III were doing; **registered as the book's own compound**, since neither source uses this exact phrase — a pedagogical synthesis in the sense of `pedagogy.md`
+- Definition status: the book's own term, built on `astrom2008feedback` pp. 2, 22
+
+---
+
+## practical identifiability
+
+- Preferred term: practical identifiability
+- Field/origin: systems biology; statistics
+- Introduced in: Chapter 14
+- Distinct from: structural identifiability; statistical identifiability (Chapter 7); causal identification (Chapter 7); precision; sample size
+- Aliases/cautions: **a property of a combination of model and data**, not of a model — "we consider a combination of model and data as practically identifiable if the confidence intervals of all estimated parameters are of finite size" (`wieland2021identifiability` p. 63); **the operative difference from the structural sense is what more data can fix**: practical non-identifiability yields to better or more measurements, structural non-identifiability does not; Chapter 8's interval estimate was a practical-identifiability finding without the name; **the source records that this sense is less settled than the structural one** — practical nonidentifiability "has not been investigated at the same conceptually clear level" (`wieland2021identifiability` p. 60); **not named in `README.md`'s Chapter 14 core competence** — registered by `../decisions/0021` clause 6 and flagged for author review
+- Definition status: verified — `wieland2021identifiability` pp. 60, 61, 63
+
+---
+
+## information acquisition
+
+- Preferred term: information acquisition
+- Field/origin: decision analysis
+- Introduced in: Chapter 14
+- Distinct from: value of information (Chapter 11), which is what it is worth; data collection; monitoring (Chapter 17); exploration
+- Aliases/cautions: deciding to buy an instrument, a study, or a measurement **as part of a rule that will run for years**, rather than as a one-off before a single decision; **Chapter 11's ceiling is used and Chapter 11's arithmetic is not**, because the computation needs a prior and Chapter 12 established that this book's settings frequently supply none; a ceiling argument says an instrument **cannot be screened out on cost** — it does not say it is worth buying, and the distinction must be preserved
+- Definition status: extends `colyvan2016voi` as verified in Chapter 11; the sequential framing is the book's own
+
+---
+
+## exploration
+
+- Preferred term: exploration
+- Field/origin: reinforcement learning
+- Introduced in: Chapter 14
+- Distinct from: exploitation; research; sensitivity analysis (Chapter 8, Chapter 11); trying things at random
+- Aliases/cautions: selecting an option that is not currently believed best, "because this enables you to improve your estimate" of that option's value (`sutton2018reinforcement` p. 26); **it is the only way information about an untried rule arrives**, and it is not free — "reward is lower in the short run, during exploration" (same page); **it is also not automatically informative**: in the chapter's case one summer in five leaves every rule looking identical; **the dilemma is unresolved** — it "has been intensively studied by mathematicians for many decades, yet remains unresolved" (`sutton2018reinforcement` p. 3); `k-armed bandit` is named once and **no method is taught**
+- Definition status: verified — `sutton2018reinforcement` pp. 3, 26
+
+---
+
+## exploitation
+
+- Preferred term: exploitation
+- Field/origin: reinforcement learning
+- Introduced in: Chapter 14
+- Distinct from: exploration; optimisation (Chapter 12); the ordinary pejorative sense of the word
+- Aliases/cautions: selecting the option currently believed best — "exploiting your current knowledge of the values of the actions" (`sutton2018reinforcement` p. 26); **"exploitation is the right thing to do to maximize the expected reward on the one step, but exploration may produce the greater total reward in the long run"** (same page); the word carries no moral content here and the manuscript says so once, because it will read oddly to some readers
+- Definition status: verified — `sutton2018reinforcement` p. 26
+
+---
+
+## control
+
+- Preferred term: control
+- Field/origin: control theory
+- Introduced in: Chapter 14
+- Distinct from: being in control; management; influence; a control group (Chapter 7); a control variable; regulation in the legal sense
+- Aliases/cautions: **"the use of algorithms and feedback in engineered systems"** (`astrom2008feedback` p. 3), whose central concept is the loop of **sensing, computation and actuation** (p. 4); **a system can be controlled and still do badly** — control names an activity, not an achievement; taught at definitional depth only, and `README.md` excludes LQR, MPC, filtering, and controller design from the core book; Chapter 13 refused the controller on the page that supplied its oscillation mechanism, and Chapter 14 does not pick it up
+- Definition status: verified — `astrom2008feedback` pp. 3–4
 
 ---
