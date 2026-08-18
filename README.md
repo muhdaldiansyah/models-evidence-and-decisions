@@ -19,7 +19,7 @@ It is an integrated pedagogical architecture built from established concepts —
 
 ## Start Here
 
-**To read the book.** **Parts I and II are complete, and Part III has begun** — ten chapters, written to be read in order:
+**To read the book.** **Parts I and II are complete, and Part III is under way** — eleven chapters, written to be read in order:
 
 > **[Chapter 1 — Decisions, Questions, and a First Complete Pass](chapters/01-decisions-questions/chapter.md)** — six sections, about four learning hours including exercises.
 >
@@ -40,8 +40,10 @@ It is an integrated pedagogical architecture built from established concepts —
 > **[Chapter 9 — Combining and Transporting Evidence](chapters/09-evidence-synthesis/chapter.md)** — seven sections, about five learning hours. The close of Part II.
 >
 > **[Chapter 10 — Values, Objectives, and Alternatives](chapters/10-values-alternatives/chapter.md)** — seven sections, about five learning hours. The start of Part III, and a change of subject.
+>
+> **[Chapter 11 — Decisions Under Uncertainty and Value of Information](chapters/11-decisions-voi/chapter.md)** — seven sections, about seven learning hours.
 
-All ten work one case: a small municipal water utility during a seven-day heatwave.
+All eleven work one case: a small municipal water utility during a seven-day heatwave.
 
 Chapter 1 frames the decision and discovers that the storage reading it depends on may be wrong. Chapter 2 asks what belongs inside a representation of that utility, and finds that the picture which answered Chapter 1's question cannot express who loses service first. Chapter 3 opens a phrase Chapter 2 deliberately left standing — *adequate or not* — and shows the utility's records calling a zone adequately served because of where an instrument happened to be installed. Chapter 4 turns on a figure the reader has been using since Chapter 2 and shows that it was never measured at all: it is a subtraction residual, arithmetically correct, containing about a third of things that are neither Hillcrest nor demand.
 
@@ -57,25 +59,27 @@ Chapter 9 closes Part II by putting five reports on one desk — the utility's o
 
 Chapter 10 opens Part III on a one-page committee paper of the kind every organisation produces: two options, a stated objective, a recommendation. Neither of the two things wrong with it will be questioned in the room — there are only two options, and the stated objective cannot be used to choose between them. By the end the paper has become three testable objectives, seven alternatives that needed no new data, two of four constraints dissolved, and five affected parties nobody asked. One of the seven alternatives turns out to be an act this book already proposed twice, for entirely different reasons.
 
+Chapter 11 closes the longest thread in the book. The pump test was named in Chapter 2, confirmed obtainable in Chapter 5, and computed in Chapter 6 as moving belief from roughly two-to-one to either ten-to-one or one-to-three. Chapter 11 asks what it is worth to the decision the utility actually faces, and the answer is **£2,300 against a cost of £8,000** — with a further line of arithmetic showing that no study of the question, however good, could be worth more than £12,400. Every one of the earlier chapters was right; the test is exactly as informative as Chapter 6 said. Informative and valuable turn out to be different things.
+
 Read each manuscript in order rather than skimming. Each opens by asking you to produce something unaided — a first-pass analysis, a representation, a definition, a number — before any of the chapter's vocabulary arrives, and later exercises compare against what you wrote. Skipping that opening costs you the comparison.
 
 Each drafted chapter carries the same four exercise files beside its manuscript — `transfer-form-a.md` and `transfer-form-b.md` (parallel unfamiliar-domain cases), `transfer-rubric.md` (scoring; open it only after you have written your own analysis), and `diagnosis-feedback.md` (the discussion for the diagnosis exercise). The chapter links each one at the moment it is needed. The transfer exercises and their delayed retests only work on material you have not seen, so let the manuscript decide when you open them. Everything else in a chapter directory is authoring and validation scaffolding; some of it discusses the exercises' answers, so if you intend to do the exercises, stay out of it until you have finished the delayed retest.
 
 **To work on the project.** Authority runs `README.md → decisions/ → canon/ → chapter spec.md → working files`; the operating contract is [CLAUDE.md](CLAUDE.md).
 
-- [`decisions/`](decisions/) — settled decisions and their reopening conditions, indexed by scope: three book-level, five governing Chapter 1, and nine proposed for Chapters 2–10.
+- [`decisions/`](decisions/) — settled decisions and their reopening conditions, indexed by scope: three book-level, five governing Chapter 1, and ten proposed for Chapters 2–11.
 - [`canon/`](canon/) — controlled terminology and registered pedagogical syntheses.
 - [`chapters/`](chapters/) — one directory per chapter; `spec.md` is each chapter's contract.
 - [`references.bib`](references.bib) and [`sources/`](sources/) — one global bibliography; one note per source, named by citation key.
 
-Chapter 1's directory, still the most developed, shows the kinds of file a chapter accumulates. Chapters 2–10 carry the same kinds, minus the validation instruments and with their research split across separate dossiers rather than a single notes file.
+Chapter 1's directory, still the most developed, shows the kinds of file a chapter accumulates. Chapters 2–11 carry the same kinds, minus the validation instruments and with their research split across separate dossiers rather than a single notes file.
 
 - **Manuscript** — `chapter.md`. The chapter itself; the only file a reader opens directly.
 - **Exercise materials** — `transfer-form-a.md`, `transfer-form-b.md`, `transfer-rubric.md`, `diagnosis-feedback.md`. Linked from the manuscript at the moment they are needed.
 - **Chapter contract** — `spec.md`. Governed scope, section architecture, and design targets.
 - **Authoring controls** — `anchor.md`, `case-data.md`, `decision-framing.md`, `dynamics-response.md`, `learning-sequence.md`, `transfer.md`. Frozen case facts and boundary rules implementing Decisions 0004–0008.
 - **Validation instruments** — `freeze-gates.md`, `sme-review-water-anchor.md`, `pilot-protocol.md`, `pilot-data-capture.md`, `validation-handoff.md`. The evidence trail from drafted toward frozen.
-- **Research and drafting** — `drafting-blueprint.md`, plus `notes.md` in Chapter 1 and `readiness-audit.md`, `research-plan.md`, and numbered `research-0N-*.md` dossiers in Chapters 2–10.
+- **Research and drafting** — `drafting-blueprint.md`, plus `notes.md` in Chapter 1 and `readiness-audit.md`, `research-plan.md`, and numbered `research-0N-*.md` dossiers in Chapters 2–11.
 
 ## Current State
 
@@ -83,11 +87,12 @@ Last reviewed 2026-08-18.
 
 - The 5-part, 17-chapter architecture is frozen for drafting ([Decision 0001](decisions/0001-book-architecture-freeze.md)).
 - **Chapter 1 is fully drafted** and awaiting external validation: before it can be frozen, its water-utility anchor case needs a human subject-matter-expert review and its exercise design needs reader-pilot data ([freeze gates](chapters/01-decisions-questions/freeze-gates.md); gates 1–3 open).
-- **Parts I and II are fully drafted, and Part III has begun.** Chapters 2–10 rest on specifications and terminology blocks that remain **provisional**: Decisions [0009](decisions/0009-chapter2-representation-terminology-and-boundary.md), [0010](decisions/0010-chapter3-measurement-terminology-and-boundary.md), [0011](decisions/0011-chapter4-observation-process-terminology-and-boundary.md), [0012](decisions/0012-chapter5-criticism-terminology-and-boundary.md), [0013](decisions/0013-chapter6-probability-terminology-and-notation.md), [0014](decisions/0014-chapter7-identification-terminology-and-notation.md), [0015](decisions/0015-chapter8-estimation-terminology-and-notation.md), [0016](decisions/0016-chapter9-synthesis-terminology-and-boundary.md), and [0017](decisions/0017-chapter10-values-terminology-and-boundary.md) propose those chapters' controlled vocabulary, scope boundaries, and example architecture, and none has been author-adjudicated.
+- **Parts I and II are fully drafted, and Part III is two chapters in.** Chapters 2–11 rest on specifications and terminology blocks that remain **provisional**: Decisions [0009](decisions/0009-chapter2-representation-terminology-and-boundary.md), [0010](decisions/0010-chapter3-measurement-terminology-and-boundary.md), [0011](decisions/0011-chapter4-observation-process-terminology-and-boundary.md), [0012](decisions/0012-chapter5-criticism-terminology-and-boundary.md), [0013](decisions/0013-chapter6-probability-terminology-and-notation.md), [0014](decisions/0014-chapter7-identification-terminology-and-notation.md), [0015](decisions/0015-chapter8-estimation-terminology-and-notation.md), [0016](decisions/0016-chapter9-synthesis-terminology-and-boundary.md), [0017](decisions/0017-chapter10-values-terminology-and-boundary.md), and [0018](decisions/0018-chapter11-decision-terminology-and-boundary.md) propose those chapters' controlled vocabulary, scope boundaries, and example architecture, and none has been author-adjudicated.
+- **The book's longest thread now closes on a negative result.** [Decision 0018](decisions/0018-chapter11-decision-terminology-and-boundary.md) clause 1.3 records that the pump test's value was computed and checked rather than arranged, and clause 4.4 records the closest the book has come to a fifth instance of the demonstrate-because-unsourced disposition — no source was obtained for risk attitude, and the chapter declines to teach the practice rather than teaching it unsourced.
 - **Two governing documents disagree about where trade-offs live.** [Decision 0006](decisions/0006-chapter1-decision-framing-boundary.md) assigns trade-off structure to Chapter 10; this file's Chapter 11 block assigns trade-offs and value of information there. [Decision 0017](decisions/0017-chapter10-values-terminology-and-boundary.md) clause 5 resolves it in favour of this file, which the authority order makes controlling, and records that 0006 would need amending to match. **That amendment has not been made.**
 - **A book-level question is now four instances deep.** Decisions 0009, 0011, and 0012 each taught a practice by demonstration because no source was obtained for it, and `decisions/README.md` recorded the standing instruction that a fourth instance should reopen research rather than invoke precedent. [Decision 0016](decisions/0016-chapter9-synthesis-terminology-and-boundary.md) clause 6 is the fourth, and refers it to the author rather than resolving it.
 - **The notation question is open in three places.** [Decision 0013](decisions/0013-chapter6-probability-terminology-and-notation.md) clause 2 permits the conditioning bar and odds; [Decision 0014](decisions/0014-chapter7-identification-terminology-and-notation.md) clause 2 extends it with `do(·)` and inline arrows; [Decision 0015](decisions/0015-chapter8-estimation-terminology-and-notation.md) clause 2 **declines** to extend further, which departs from a promise Chapter 6 made to the reader in its own text. All three are announced in the manuscripts, **none has been adjudicated**, and they have to be settled in order.
-- Chapters 11–17 exist as skeleton specs: governed title, central question, core competence, and page and hour targets, with content architecture still open.
+- Chapters 12–17 exist as skeleton specs: governed title, central question, core competence, and page and hour targets, with content architecture still open.
 
 | Part | Ch. | Chapter and central question | Status |
 |---|---:|---|---|
@@ -101,7 +106,7 @@ Last reviewed 2026-08-18.
 | II | 8 | **[Estimation, Uncertainty, and Model Checking](chapters/08-estimation-uncertainty/chapter.md)**<br>What does finite evidence say, with what reliability? | **Drafted** — [decision pending](decisions/0015-chapter8-estimation-terminology-and-notation.md) |
 | II | 9 | **[Combining and Transporting Evidence](chapters/09-evidence-synthesis/chapter.md)**<br>What do many imperfect sources jointly support — here? | **Drafted** — [decision pending](decisions/0016-chapter9-synthesis-terminology-and-boundary.md) |
 | III | 10 | **[Values, Objectives, and Alternatives](chapters/10-values-alternatives/chapter.md)**<br>What matters, to whom, and what options exist beyond those offered? | **Drafted** — [decision pending](decisions/0017-chapter10-values-terminology-and-boundary.md) |
-| III | 11 | **[Decisions Under Uncertainty and Value of Information](chapters/11-decisions-voi/spec.md)**<br>Which act is defensible, and would more evidence change it? | Spec skeleton |
+| III | 11 | **[Decisions Under Uncertainty and Value of Information](chapters/11-decisions-voi/chapter.md)**<br>Which act is defensible, and would more evidence change it? | **Drafted** — [decision pending](decisions/0018-chapter11-decision-terminology-and-boundary.md) |
 | III | 12 | **[Optimization, Robustness, and Adaptive Plans](chapters/12-optimization-robustness/spec.md)**<br>How do we choose well at scale when the model itself is uncertain? | Spec skeleton |
 | IV | 13 | **[Dynamics, Feedback, and Stability](chapters/13-dynamics-feedback/spec.md)**<br>How does the system evolve once acted upon? | Spec skeleton |
 | IV | 14 | **[Sequential Decisions, Information, and Control](chapters/14-sequential-control/spec.md)**<br>How should choices be made through time as information arrives? | Spec skeleton |
