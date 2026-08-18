@@ -20,9 +20,9 @@ Entry format:
 
 ## Index
 
-73 entries, in registry order. Navigation only — the entries below are the record.
+80 entries, in registry order. Navigation only — the entries below are the record.
 
-**Adjudicated (29).** Note that `construct`, `measure`, and `proxy` appear in this sequence but were filled in from proposed Decision 0010 and are provisional; see the Chapter 3 block. [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
+**Adjudicated (29).** Note that `construct`, `measure`, and `proxy` appear in this sequence but were filled in from proposed Decision 0010 and are provisional; see the Chapter 3 block. Six further entries in this sequence — `statistical identifiability`, `causal identification`, `target`, `estimand`, `intervention`, and `counterfactual` — were closed or specialised from proposed Decision 0014 and are provisional; see the Chapter 7 block. [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
 
 **Provisional — Chapter 2 block (9), pending adjudication of [Decision 0009](../decisions/0009-chapter2-representation-terminology-and-boundary.md).** [representation](#representation) · [target system](#target-system) · [boundary](#boundary) · [mechanism](#mechanism) · [abstraction](#abstraction) · [idealization](#idealization) · [generality](#generality) · [aggregation](#aggregation) · [state](#state)
 
@@ -33,6 +33,8 @@ Entry format:
 **Provisional — Chapter 5 block (5), pending adjudication of [Decision 0012](../decisions/0012-chapter5-criticism-terminology-and-boundary.md).** [verification](#verification) · [assumption record](#assumption-record) · [rival model](#rival-model) · [structural uncertainty](#structural-uncertainty) · [failure mode](#failure-mode) — plus [adequacy](#adequacy) and [validation](#validation), updated from the same decision in their existing positions above.
 
 **Provisional — Chapter 6 block (8), pending adjudication of [Decision 0013](../decisions/0013-chapter6-probability-terminology-and-notation.md).** [probability](#probability) · [conditional probability](#conditional-probability) · [prior](#prior) · [posterior](#posterior) · [base rate](#base-rate) · [expectation](#expectation) · [sharpness](#sharpness) · [scoring rule](#scoring-rule) — plus [calibration](#calibration), updated from the same decision in its existing position above. Decision 0013 clause 2 also takes a **bounded exception to the book's no-notation policy**, permitting `P(A | B)` and odds notation and nothing else.
+
+**Provisional — Chapter 7 block (7), pending adjudication of [Decision 0014](../decisions/0014-chapter7-identification-terminology-and-notation.md).** [target quantity](#target-quantity) · [identifying assumption](#identifying-assumption) · [exchangeability](#exchangeability) · [positivity](#positivity) · [consistency](#consistency) · [target trial](#target-trial) · [confounding](#confounding) — plus [statistical identifiability](#statistical-identifiability) and [causal identification](#causal-identification), **closed from `TODO`** by the same decision, and [estimand](#estimand), [intervention](#intervention), and [counterfactual](#counterfactual), specialised from their Chapter 1 previews, all in their existing positions above. Decision 0014 clause 2 takes a **second bounded notation exception**, extending Decision 0013's with `do(·)` inside the conditioning bar and inline arrows for causal structure.
 
 ## intended use
 
@@ -120,18 +122,18 @@ Entry format:
 - Preferred term: statistical identifiability
 - Field/origin: statistics
 - Introduced in: Chapter 7
-- Distinct from: causal identification; structural identifiability
-- Aliases/cautions: often just "identifiability" in statistics texts; always qualify in this book
-- Definition status: TODO — verify against canonical sources
+- Distinct from: causal identification; structural identifiability; estimation
+- Aliases/cautions: whether the parameters of a model are pinned down by the distribution that model implies — two parameter settings implying the same distribution are indistinguishable by **any** amount of data; often just "identifiability" in statistics texts, and **always qualified in this book**; `pearl2009causal` p. 109 introduces a separate definition for causal quantities precisely because the classical notion of "has a unique solution" "does not directly apply" to them, which is the cleanest available evidence that the two senses are distinct; **this is settled before data collection**, not diagnosed from a dataset
+- Definition status: **provisional** — closed by proposed `decisions/0014` clause 4.1; source-verified against `pearl2009causal` p. 109
 
 ## causal identification
 
 - Preferred term: causal identification
 - Field/origin: causal inference / econometrics
 - Introduced in: Chapter 7
-- Distinct from: statistical identifiability; structural identifiability
-- Aliases/cautions: unqualified "identification" in econometrics usually means this; always qualify
-- Definition status: TODO — verify against canonical sources
+- Distinct from: statistical identifiability; structural identifiability; estimation; confounding
+- Aliases/cautions: whether a causal quantity is pinned down by the observable distribution **together with causal assumptions that are not in the distribution**; two published definitions from different traditions agree — a quantity is identified when the assumptions constrain models so that "equality of P's would entail equality of Q's" (`pearl2009causal` p. 109) and an effect is identifiable when the assumptions "imply that the distribution of the observed data is compatible with a single value of the effect measure" (`hernan2019whatif` p. 27); **never usable unqualified** — unqualified "identification" in econometrics usually means this sense and in statistics usually means the other; **always relative to stated assumptions**, since "we need an assumption external to the data, an identifying assumption" (`hernan2019whatif` p. 27); **not identified is a result, not a failure** — `pearl2009causal` p. 122 step 4 includes approximating a non-identified quantity
+- Definition status: **provisional** — closed by proposed `decisions/0014` clause 4; source-verified against `pearl2009causal` p. 109 and `hernan2019whatif` p. 27
 
 ## structural identifiability
 
@@ -193,8 +195,8 @@ Entry format:
 - Field/origin: statistics / causal inference / clinical-trial methodology
 - Introduced in: Chapter 1 as a concept preview only; formal home Chapter 7
 - Distinct from: target; endpoint; estimator; estimate
-- Aliases/cautions: Chapter 1 does not require the term; ICH E9(R1) provides an authoritative treatment-effect definition for its clinical-trial context, but that definition must not be presented as the book's universal cross-disciplinary definition; broader formal adjudication remains Chapter 7 work
-- Definition status: clinical-trial usage verified; broader book-wide formal definition provisional pending Chapter 7 research
+- Aliases/cautions: the **specified** target of estimation — a target quantity with its attributes filled in; Chapter 1 does not require the term; `fda2021estimands` pp. 9–10 lists five attributes for a clinical-trial estimand (treatment, population, variable, handling of intercurrent events, and a population-level summary), and that list **must not be presented as the book's universal cross-disciplinary definition** — Chapter 7 generalises its *shape* and labels the generalisation as pedagogical synthesis; the same source warns that a definition must identify "an effect because of treatment and not because of potential confounders such as differences in duration of observation or patient characteristics" (p. 10); sits between `target quantity` (general) and `estimator`/`estimate` (Chapter 8) and must never be blurred into either
+- Definition status: **provisional** — specialised by proposed `decisions/0014` clauses 8.4–8.5; clinical-trial attribute list source-verified against `fda2021estimands` pp. 9–10
 
 ## estimator
 
@@ -238,8 +240,8 @@ Entry format:
 - Field/origin: causal inference / experimental science / policy evaluation
 - Introduced in: Chapter 1 as an intuitive preview; formal home Chapter 7
 - Distinct from: observed exposure; association; prediction; decision or recommendation
-- Aliases/cautions: at Chapter 1 depth asks what would happen under an action or externally changed condition; state the action and comparison condition when material; association alone is insufficient for an intervention-effect claim, although observational evidence may contribute under additional causal assumptions and identification conditions
-- Definition status: verified at introductory depth; formal causal targets, notation, identification, and design remain Chapter 7
+- Aliases/cautions: at Chapter 1 depth asks what would happen under an action or externally changed condition; state the action and comparison condition when material; association alone is insufficient for an intervention-effect claim, although observational evidence may contribute under additional causal assumptions and identification conditions; **Chapter 7 requires the intervention to be well defined** — where several different actions would all count as "the intervention" and could have different effects, the causal effect "will be ill-defined" (`hernan2019whatif` p. 33), which is condition 1 of the three identifiability conditions; **observing that an action was taken is not the same as imposing it**, and Chapter 7 marks the difference with `do(·)` inside the conditioning bar per proposed `decisions/0014` clause 2; the Chapter 15 sense — an action that provokes strategic response — is compatible but has a different emphasis
+- Definition status: **provisional** — specialised by proposed `decisions/0014`; source-verified against `pearl2009causal` pp. 99–101 and `hernan2019whatif` pp. 26, 33
 
 ## counterfactual
 
@@ -247,8 +249,8 @@ Entry format:
 - Field/origin: causal inference / philosophy / economics
 - Introduced in: Chapter 1 as an intuitive preview; formal home Chapter 7
 - Distinct from: generic hypothetical scenario; ordinary association; forecast
-- Aliases/cautions: at Chapter 1 depth asks about an alternative outcome under a different action or condition while retaining relevant factual or background information about the case; do not use `counterfactual` as a loose synonym for any hypothetical scenario; do not present intervention and counterfactual as mutually exclusive formal categories because causal frameworks relate them closely
-- Definition status: verified at introductory depth; framework-specific formal semantics, potential outcomes, and counterfactual notation remain Chapter 7
+- Aliases/cautions: at Chapter 1 depth asks about an alternative outcome under a different action or condition while retaining relevant factual or background information about the case; do not use `counterfactual` as a loose synonym for any hypothetical scenario; do not present intervention and counterfactual as mutually exclusive formal categories because causal frameworks relate them closely; **Chapter 7 adds that the counterfactual question is harder than the intervention question**, because it concerns a case whose actual outcome is already known, and `pearl2009causal` p. 121 records that "attributional queries are generally not identifiable in nonparametric models" — the practical consequence being that the *did this cause that* question managers most often ask is frequently the one no available evidence can settle; potential-outcome notation is **not** used in this book, per proposed `decisions/0014` clause 2.3
+- Definition status: **provisional** — specialised by proposed `decisions/0014`; source-verified against `pearl2009causal` p. 121
 
 ## utility
 
@@ -722,3 +724,72 @@ The eight entries below were introduced by **proposed** `decisions/0013-chapter6
 - Distinct from: accuracy metric; loss function in the estimation sense (Chapter 8); a performance target
 - Aliases/cautions: a rule assigning a numerical score to a probabilistic forecast given what materialized; the concept that matters is **propriety** — a rule is proper when "the forecaster has no incentive to predict any P ≠ Q and is encouraged to quote his or her true belief" (`gneiting2007scoring` p. 359), so honesty is the score-maximising strategy by construction; invented scoring schemes are frequently "intuitively appealing but improper" (pp. 359–360) and reward distortion; **do not teach which rules are proper**, and do not write the notation; **a single forecast cannot be scored** — one outcome is consistent with any probability strictly between 0 and 1, and an unscored forecast is unfalsifiable in exactly Chapter 5's sense; the idea dates at least to Brier (1950) **as reported at `gneiting2007scoring` p. 360**, a source that was not obtained and may not be cited directly
 - Definition status: **provisional** — proposed `decisions/0013` §5; source-verified against `gneiting2007scoring` pp. 359–360
+
+## Chapter 7 block — PROVISIONAL
+
+Seven entries introduced by proposed [Decision 0014](../decisions/0014-chapter7-identification-terminology-and-notation.md), which is **not author-adjudicated**.
+The same decision closes `statistical identifiability` and `causal identification` — TODO since Chapter 1 — and specialises `estimand`, `intervention`, and `counterfactual` in their existing positions above.
+Clause 2 takes a **second bounded notation exception**, extending Decision 0013's: `do(·)` inside the conditioning bar, and inline arrows for causal structure. Nothing else.
+
+## target quantity
+
+- Preferred term: target quantity
+- Field/origin: causal inference; the term is used in this sense at `pearl2009causal` p. 122
+- Introduced in: Chapter 7
+- Distinct from: target (Chapter 1, informal); estimand (the specified form); estimator; estimate; metric; objective
+- Aliases/cautions: the thing a causal inquiry is about, defined **before** any design or data is considered — `pearl2009causal` p. 122 makes "Define" step 1 of four and insists on defining it "before specifying the process of treatment selection, and without making functional form or distributional assumptions"; framework-neutral, so it presupposes neither a population nor a treatment nor a statistical model; sits between `target` and `estimand` in the hierarchy adopted by proposed `decisions/0014` clause 8.4
+- Definition status: **provisional** — proposed `decisions/0014` clause 8.1; source-verified against `pearl2009causal` p. 122
+
+## identifying assumption
+
+- Preferred term: identifying assumption
+- Field/origin: causal inference / econometrics
+- Introduced in: Chapter 7
+- Distinct from: modelling assumption; distributional assumption; approximation; the assumption record (Chapter 5)
+- Aliases/cautions: an assumption **external to the data** that, added to the observable distribution, pins a causal quantity to a single value — the term is used verbatim at `hernan2019whatif` p. 27: "we need an assumption external to the data, an identifying assumption"; **it cannot be tested against the data it is used to interpret**, which is the whole reason it must be stated: "behind every causal conclusion there must lie some causal assumption that is not testable in observational studies" (`pearl2009causal` p. 99); a Chapter 5 assumption record that lists modelling assumptions but not identifying ones has not recorded the load-bearing ones
+- Definition status: **provisional** — proposed `decisions/0014` clause 4.3; source-verified against `hernan2019whatif` p. 27 and `pearl2009causal` p. 99
+
+## exchangeability
+
+- Preferred term: exchangeability
+- Field/origin: causal inference / epidemiology
+- Introduced in: Chapter 7
+- Distinct from: positivity; consistency; representativeness; the exchangeability of Bayesian statistics, which is a different concept sharing the word
+- Aliases/cautions: the first of three identifiability conditions — informally, that "the treated and the untreated are exchangeable because the treated, had they remained untreated, would have experienced the same average outcome as the untreated did, and vice versa" (`hernan2019whatif` p. 27); **it fails whenever whatever determined who got treated also bears on the outcome**, which includes the extremely common case of treating the worst cases first; randomization makes it hold by design (`hernan2019whatif` p. 26), which is what randomization is for; **not a property you can check in the data** — checking covariate balance tests something weaker and cannot speak to unmeasured causes
+- Definition status: **provisional** — proposed `decisions/0014` clause 5.1; source-verified against `hernan2019whatif` pp. 26–27
+
+## positivity
+
+- Preferred term: positivity
+- Field/origin: causal inference / epidemiology
+- Introduced in: Chapter 7
+- Distinct from: exchangeability; consistency; sample size; coverage (Chapter 4)
+- Aliases/cautions: the second identifiability condition — that "there is a probability greater than zero–a positive probability–of being assigned to each of the treatment levels" (`hernan2019whatif` p. 30), conditional on the covariates being adjusted for; **a structural failure, not a small-sample one** — when a kind of unit never receives one of the treatment levels, the data "contain no information" for the comparison (`hernan2019whatif` p. 31, paraphrased) and collecting more of the same data cannot help; **invisible in any summary statistic**, which links it to Chapter 4's lesson that absence produces no rows to notice; the source records that it "is sometimes referred to as the experimental treatment assumption"
+- Definition status: **provisional** — proposed `decisions/0014` clause 5.1; source-verified against `hernan2019whatif` pp. 26, 30–31
+
+## consistency
+
+- Preferred term: consistency (causal sense) — **always qualify**
+- Field/origin: causal inference / epidemiology
+- Introduced in: Chapter 7
+- Distinct from: **consistency of an estimator (Chapter 8), which is an unrelated concept sharing the word**; reliability (Chapter 3); coherence
+- Aliases/cautions: the third identifiability condition — that the observed outcome under the treatment actually received equals the outcome that would have obtained under that treatment, which requires the treatment values compared to "correspond to well-defined interventions" (`hernan2019whatif` p. 26); **"The apparent simplicity of the consistency condition is deceptive"** (p. 31), because the real work is specifying the intervention precisely enough that it has one effect rather than several — where multiple versions of a treatment exist and could differ in effect, the causal effect "will be ill-defined" (p. 33); **a naming collision the book announces rather than avoids**, handled as `calibration` was in Chapter 6 and `validation` in Chapter 5, since Chapter 8 needs the statistical sense
+- Definition status: **provisional** — proposed `decisions/0014` clauses 5.1 and 5.3; source-verified against `hernan2019whatif` pp. 26, 31, 33
+
+## target trial
+
+- Preferred term: target trial
+- Field/origin: causal inference / epidemiology
+- Introduced in: Chapter 7
+- Distinct from: an actual experiment; a thought experiment in the general sense; a simulation (Chapter 6); a rival model (Chapter 5)
+- Aliases/cautions: the hypothetical randomized experiment that would answer the causal question, whose protocol is written out in order to discipline an observational analysis — components given as "eligibility criteria, interventions (or treatment strategies), outcome, follow-up, causal contrast, and statistical analysis" (`hernan2019whatif` p. 37); the operative question is "what randomized experiment are you trying to emulate?" (p. 37); **its value does not depend on the trial being feasible** — writing an infeasible protocol still reveals which assumption the observational analysis is carrying, which is the book's own formulation; the source notes that explicit emulation "prevents investigators from conducting an oversimplified analysis" (p. 37)
+- Definition status: **provisional** — proposed `decisions/0014` clause 8.1; source-verified against `hernan2019whatif` pp. 37–38
+
+## confounding
+
+- Preferred term: confounding
+- Field/origin: causal inference / epidemiology / statistics
+- Introduced in: Chapter 7
+- Distinct from: correlation; selection (Chapter 4); measurement error (Chapter 3); a list of covariates
+- Aliases/cautions: **a causal concept, not an associational one** — `pearl2009causal` p. 100 lists it among concepts that "cannot be defined in term of distribution functions", and argues that any associational definition must fail because it would allow a causal conclusion with no causal assumption; the consequence is blunt: "confounding bias cannot be detected or corrected by statistical methods alone" (p. 100); **controlling for more covariates is not safer** — "the prevailing practice of conditioning on as many pre-treatment measurements as possible should be approached with great caution; some covariates … may actually increase bias if included in the analysis" (p. 117); the graphical back-door criterion (p. 114) settles which sets suffice, and this book states its intuition — back-door paths "carry spurious associations" (p. 114) — **without stating the criterion**, which would require blocking and collision concepts the book does not teach
+- Definition status: **provisional** — proposed `decisions/0014` clause 8.1; source-verified against `pearl2009causal` pp. 100, 114, 117
