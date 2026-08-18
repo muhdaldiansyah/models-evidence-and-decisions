@@ -333,7 +333,11 @@ An interpretation that could never have been contradicted has not been supported
 
 **Coverage.** Does the measure reach the whole of what the working definition claims to cover?
 
+This is the oldest of the four and it has a name in the literature — *content validation* — with a basic question stated almost exactly this way: does a given measure "adequately capture the full content" of the working definition, assessed by asking whether key elements are omitted from it and whether inappropriate elements are included in it [@adcock2001validity, p. 538].
+
 The utility's definition speaks of pressure in Hillcrest. Its measure reaches one point at 62 metres, in a zone spanning to 84 metres. A quick elevation survey — which the utility already has, since it built the network — shows immediately that most of the zone's elevation range is unrepresented. That is evidence, it took an afternoon, and it bears directly on the interpretation.
+
+One limit is worth knowing before you rely on this. Coverage evidence is "a necessary condition" and not "a sufficient condition for establishing validity", because a measure "with valid content may still produce scores with low overall measurement validity" once further problems enter in how cases are actually scored [@adcock2001validity, p. 539]. Passing this check is a floor, not a verdict.
 
 **Behaviour.** Do the scores move the way the construct should move?
 
@@ -349,7 +353,7 @@ Run the same measure in Lowfield and Hillcrest. If it returns comfortable number
 
 None of these requires apparatus the utility does not own. What they require is treating the interpretation as something that might be wrong.
 
-There is a substantial literature giving these kinds of evidence names and organizing them into recognized procedures. This book does not teach it, and you do not need it to do the four things above.
+There is a substantial literature giving these kinds of evidence names and organizing them into recognized procedures — content validation, convergent and discriminant validation, and nomological validation being one widely used grouping [@adcock2001validity, p. 538]. This book does not teach that literature, and you do not need it to do the four things above. A later section says what to make of the names when you meet them.
 
 Notice what all four have in common. Each compares the scores against something outside the procedure that produced them. That is the only way evidence about an interpretation can be gathered, and it is why sitting with the existing log and studying it harder will never do.
 
@@ -379,7 +383,13 @@ Their resolution is the one this book adopts: these procedures supply "different
 
 There is one thing you are asking about — whether these scores support this interpretation — and many different ways to bring evidence to bear on it.
 
-If you meet a claim that something has "face validity" or "criterion validity", read it as naming a kind of evidence, not a kind of validity. The distinctions behind the adjectives are real and useful; the proliferation is what makes them confusing.
+The field itself arrived there. There is, on one account they quote, "a close to universal consensus among validity theorists that 'content- and criterion-related evidence of validity are simply two of many types of evidence that support construct validity'" [@adcock2001validity, p. 537, quoting Moss 1995]. The three that were once treated as "something of a holy trinity representing three different roads to psychometric salvation" came to be seen as three aspects of one thing [@adcock2001validity, p. 537, quoting Guion 1980].
+
+Even the authors' own three-way grouping of *procedures* carries the same warning: "no rigid boundaries exist among alternative procedures, given that one occasionally shades off into another. Our typology is a heuristic device" [@adcock2001validity, p. 538].
+
+So if you meet a claim that something has "criterion validity", read it as naming a kind of evidence, not a kind of validity. The distinctions behind the adjectives are real and useful; the proliferation is what makes them confusing.
+
+And if you meet "face validity", treat it with particular care. The authors of this framework decline to use the label at all, having "found so many different definitions of face validity" that they prefer to avoid it [@adcock2001validity, p. 538, n. 9]. When a term has that many meanings, hearing it tells you almost nothing about what was actually checked.
 
 ### One word, two practices
 

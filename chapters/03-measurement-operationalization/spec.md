@@ -287,6 +287,11 @@ Chapter 3 must not claim durable far transfer.
 | Scores are never examined in isolation | `adcock2001validity` p. 531 |
 | Interpretations are falsifiable claims; validity assessment is the search for evidence | `adcock2001validity` p. 532, crediting Messick 1989 |
 | Contextual specificity; 37 adjectives; evidence-types not validity-types | `adcock2001validity` p. 530 |
+| Content validation's basic question — key elements omitted, inappropriate elements included | `adcock2001validity` p. 538 |
+| Content evidence is necessary but not sufficient | `adcock2001validity` p. 539 |
+| The three-way grouping is "a heuristic device", with no rigid boundaries | `adcock2001validity` p. 538 |
+| Near-universal consensus that content and criterion evidence are types of evidence for construct validity | `adcock2001validity` p. 537, quoting Moss 1995 |
+| "Face validity" avoided because its definitions proliferate | `adcock2001validity` p. 538 n. 9 |
 | Measurement validity distinct from causal-inference validity | `adcock2001validity` p. 529 |
 | Systematic error is bias; random error is a reliability problem; the relation to validity is contested | `adcock2001validity` pp. 531–532 |
 | Kaplan's paradox | `adcock2001validity` p. 532 |
@@ -300,7 +305,8 @@ Chapter 3 must not claim durable far transfer.
 ### Known gaps constraining the manuscript
 
 1. **Messick (1989) not read.** The falsifiable-claims formulation must be attributed as reported by `adcock2001validity`.
-2. **`adcock2001validity` inspected only to p. 532.** The manuscript may not cite beyond it.
+2. **`adcock2001validity` inspected only to p. 532.** ~~The manuscript may not cite beyond it.~~
+   *Closed 2026-08-18.* Printed pages **537–539** were subsequently read, covering the article's treatment of validation types. §3's account of what evidence looks like is now grounded rather than written in the book's own voice. Pages **533–536 and 540–546 remain uninspected and may not be cited.**
 3. **Operationism not researched.** May be mentioned as having existed; may not be characterized.
 4. **No source for units or scale types.** Units are taught as ordinary careful practice, not from a cited framework.
 
@@ -340,7 +346,7 @@ From `readiness-audit.md` §5. Each must be actively defeated, not merely avoide
 ### Before declaring Chapter 3 verified or frozen
 
 6. Has Messick (1989) been read, or is the attribution left explicitly second-hand?
-7. Has `adcock2001validity` been read past p. 532?
+7. ~~Has `adcock2001validity` been read past p. 532?~~ *(Resolved 2026-08-18: pp. 537–539 read. Pages 533–536 and 540–546 remain uninspected.)*
 8. Has the pressure extension passed water-domain SME review?
 9. Have the school and hospital transfer forms been checked for unsafe implication?
 10. Does the 26-page / 5-hour budget survive a timed reader pilot?
