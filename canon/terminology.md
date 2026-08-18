@@ -20,7 +20,7 @@ Entry format:
 
 ## Index
 
-138 entries, in registry order. Navigation only — the entries below are the record.
+149 entries, in registry order. Navigation only — the entries below are the record.
 
 **Adjudicated (29).** Note that `construct`, `measure`, and `proxy` appear in this sequence but were filled in from proposed Decision 0010 and are provisional; see the Chapter 3 block. Six further entries in this sequence — `statistical identifiability`, `causal identification`, `target`, `estimand`, `intervention`, and `counterfactual` — were closed or specialised from proposed Decision 0014 and are provisional; see the Chapter 7 block. `estimator` and `estimate` were closed from proposed Decision 0015; see the Chapter 8 block. `target population` was closed from proposed Decision 0016; see the Chapter 9 block. `objective` and `metric` were closed from proposed Decision 0017; see the Chapter 10 block. [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
 
@@ -49,6 +49,8 @@ Entry format:
 **Provisional — Chapter 13 block (12), pending adjudication of [Decision 0020](../decisions/0020-chapter13-dynamics-terminology-and-boundary.md).** [stock](#stock) · [flow](#flow) · [accumulation](#accumulation) · [delay](#delay) · [open loop](#open-loop) · [closed loop](#closed-loop) · [reinforcing feedback](#reinforcing-feedback) · [balancing feedback](#balancing-feedback) · [oscillation](#oscillation) · [overshoot](#overshoot) · [policy resistance](#policy-resistance) · [state space](#state-space) — plus [equilibrium](#equilibrium) and [stability](#stability), **both closed from `TODO`** by the same decision in their existing positions above, where they had stood open since Chapter 1, and [feedback](#feedback), developed there from Chapter 1's screening depth to its formal home. Chapter 13's scope was set in advance by **Accepted** [Decision 0007](../decisions/0007-chapter1-dynamics-and-response-boundary.md); clauses 1.3, 3, 5, and 8 are the ones that go beyond it. **After Chapter 13 three `TODO` entries remained**; Chapter 14 closes two of them. The survivor is **`utility`, which the registry assigns to the already-drafted Chapter 11 and which Chapter 11 did not close** — see Decision 0020 clause 12.4.
 
 **Provisional — Chapter 14 block (7), pending adjudication of [Decision 0021](../decisions/0021-chapter14-sequential-control-terminology-and-boundary.md).** [policy](#policy) · [feedback decision](#feedback-decision) · [practical identifiability](#practical-identifiability) · [information acquisition](#information-acquisition) · [exploration](#exploration) · [exploitation](#exploitation) · [control](#control) — plus [observability](#observability) and [structural identifiability](#structural-identifiability), **both closed from `TODO`** by the same decision in their existing positions above, where they had stood open since Chapter 1. **`practical identifiability` is not named in `README.md`'s Chapter 14 core competence** and is registered under clause 6, flagged for author review; **`structural identifiability` is closed from a review rather than the paper that named it**, which is a first for this registry — see clause 8. **The four-way `identifiable` collision is announced in Chapter 14**, and clause 7.3 proposes that no chapter add a fifth sense. **After this chapter one `TODO` remains** — `utility`, assigned to the drafted Chapter 11 and still not closed.
+
+**Provisional — Chapter 15 block (11), pending adjudication of [Decision 0022](../decisions/0022-chapter15-strategic-terminology-and-boundary.md).** [strategic game](#strategic-game) · [strategic dependence](#strategic-dependence) · [incentive](#incentive) · [commitment](#commitment) · [information asymmetry](#information-asymmetry) · [principal-agent](#principal-agent) · [delegation](#delegation) · [endogenous response](#endogenous-response) · [performativity](#performativity) · [Goodhart effect](#goodhart-effect) · [metric gaming](#metric-gaming) — plus [equilibrium](#equilibrium), whose **strategic sense is closed** by the same decision in its existing position above, where it had been reserved for Chapter 15 since Chapter 1. **Four flags.** Clause 5 proposes the book's **fourth notation extension**, a two-player payoff table. Clause 7 records **three "as reported at" uses in one chapter**, for concepts named in governed text whose originals could not be obtained. Clause 8 proposes a **bounded exception to the pagination rule**, citing one source by section. Clause 9 records `principal-agent` and `information asymmetry` as a **candidate fifth instance** of the demonstrate-because-unsourced disposition, with the reopening of research documented and failed, and refers them to the author.
 
 ## intended use
 
@@ -326,8 +328,8 @@ Entry format:
 - Field/origin: dynamical systems; game theory
 - Introduced in: Chapter 13 (dynamic sense); Chapter 15 (strategic sense, "equilibrium as consistency")
 - Distinct from: stability; a good state; a state the system will reach; a state the system will return to
-- Aliases/cautions: **"an equilibrium point of a dynamical system represents a stationary condition for the dynamics"** (`astrom2008feedback` p. 100), and "a dynamical system can have zero, one or more equilibrium points" (same page); **equilibrium is a property of a point and stability is a property of the solutions near it** — the two must never be collapsed, and the inverted pendulum's upright position is the standing counterexample; the dynamic and strategic senses must not be conflated
-- Definition status: verified — `astrom2008feedback` p. 100 (closed from `TODO` by proposed `../decisions/0020` clause 7)
+- Aliases/cautions: **the two senses are different kinds of object and must never be collapsed.** **Dynamic sense (Chapter 13):** "an equilibrium point of a dynamical system represents a stationary condition for the dynamics" (`astrom2008feedback` p. 100), and "a dynamical system can have zero, one or more equilibrium points" (same page); equilibrium is a property of a point and stability is a property of the solutions near it, and the inverted pendulum's upright position is the standing counterexample. **Strategic sense (Chapter 15), "equilibrium as consistency":** an outcome in which no player could do better by changing their own action alone, given what everybody else is doing — the source's definition is **paraphrased rather than quoted**, because it carries an asterisked profile and player subscripts (`osborne2004game` p. 20); it rests on two components, that "each player chooses her action according to the model of rational choice, given her belief about the other players' actions" and that "every player's belief about the other players' actions is correct" (same page), and **the second component is what the phrase *as consistency* names**; it "embodies a stable 'social norm'" and the condition is sometimes stated as the players' "expectations are coordinated" (same page). **Neither sense says anything about whether the outcome is good** — Chapter 15's case reaches an equilibrium worse for both parties than the arrangement it replaced. **A pendulum has an equilibrium and has no beliefs**, which is the shortest statement of the difference. Whether the strategic notion applies "in any given situation is a matter of judgment" (`osborne2004game` p. 20).
+- Definition status: verified — dynamic sense `astrom2008feedback` p. 100 (closed from `TODO` by proposed `../decisions/0020` clause 7); strategic sense `osborne2004game` p. 20 (closed by proposed `../decisions/0022` clause 3)
 
 ## observability
 
@@ -1420,5 +1422,136 @@ Seven entries below are proposed by `../decisions/0021` and are provisional pend
 - Distinct from: being in control; management; influence; a control group (Chapter 7); a control variable; regulation in the legal sense
 - Aliases/cautions: **"the use of algorithms and feedback in engineered systems"** (`astrom2008feedback` p. 3), whose central concept is the loop of **sensing, computation and actuation** (p. 4); **a system can be controlled and still do badly** — control names an activity, not an achievement; taught at definitional depth only, and `README.md` excludes LQR, MPC, filtering, and controller design from the core book; Chapter 13 refused the controller on the page that supplied its oscillation mechanism, and Chapter 14 does not pick it up
 - Definition status: verified — `astrom2008feedback` pp. 3–4
+
+---
+
+---
+
+## Chapter 15 block — PROVISIONAL
+
+Eleven entries below are proposed by `../decisions/0022` and are provisional pending author adjudication. One further entry — `equilibrium` — has its **strategic sense closed** by the same decision in its existing position above, where it had been reserved for Chapter 15 since Chapter 1.
+
+**Three entries carry unusual flags.** `Goodhart effect` and `metric gaming` rest on laws whose originals could not be obtained and which are used **as reported at** a single reporting source (clause 7). `principal-agent` and `information asymmetry` have **no source at all**, after a documented reopening of research that failed; clause 9 records them as a **candidate fifth instance** of the demonstrate-because-unsourced disposition and refers them to the author. `performativity` is cited **by section rather than by page**, under a bounded exception to the pagination rule (clause 8).
+
+---
+
+## strategic game
+
+- Preferred term: strategic game
+- Field/origin: game theory
+- Introduced in: Chapter 15
+- Distinct from: a decision problem (Chapter 11); a scenario set (Chapter 12); a metaphor; anything requiring the parties to be adversaries
+- Aliases/cautions: "a model of interacting decision-makers" whose players have actions and **"preferences over the set of action profiles"** (`osborne2004game` p. 11) — the third ingredient is the one that matters, because preferences over profiles rather than over one's own action alone is what makes it a game; **no mixed strategies, no extensive form, no repeated games, no solution concept beyond the paraphrased definition of equilibrium**
+- Definition status: verified — `osborne2004game` p. 11
+
+---
+
+## strategic dependence
+
+- Preferred term: strategic dependence
+- Field/origin: game theory
+- Introduced in: Chapter 15
+- Distinct from: feedback (Chapter 13); policy resistance (Chapter 13); correlation; any interaction not running through somebody's choice
+- Aliases/cautions: the condition in which "each player [is] affected by the actions of all players, not only her own action" (`osborne2004game` p. 11); **every chapter before Part IV assumed it away** — the reservoir is affected by what the utility does and by nothing that has an opinion; **the presence of people does not by itself create strategic dependence**, which `../decisions/0007` already required of Chapter 1
+- Definition status: verified — `osborne2004game` p. 11
+
+---
+
+## incentive
+
+- Preferred term: incentive
+- Field/origin: economics
+- Introduced in: Chapter 15
+- Distinct from: a motive; a reward; an objective (Chapter 10); a metric; a signpost (Chapter 12)
+- Aliases/cautions: a consequence deliberately attached to a measured quantity in order to change behaviour; **the book's usage is narrow** — an incentive is attached to a *measure*, which is what makes it a Chapter 15 object rather than a Chapter 10 one; **an incentive changes no physical fact**, and in the chapter's case £1.8m changed nobody's water pressure; the date an incentive attaches is the date the discriminator looks for
+- Definition status: the book's own controlled use, built on the case
+
+---
+
+## commitment
+
+- Preferred term: commitment
+- Field/origin: game theory
+- Introduced in: Chapter 15
+- Distinct from: a decision (Chapter 11); a plan; a promise; an adaptive plan's deferred commitment (Chapter 12)
+- Aliases/cautions: binding yourself in advance so that the other party's expectation of your future action changes — in the chapter's case, a regulator fixing measurement points for five years; **commitment removes a response and removes a capability at the same time**, and the manuscript states both halves; **no formal treatment**, and nothing about credibility, reputation, or repeated play
+- Definition status: the book's own; built on `osborne2004game` p. 20's steady-state reading
+
+---
+
+## information asymmetry
+
+- Preferred term: information asymmetry
+- Field/origin: economics
+- Introduced in: Chapter 15
+- Distinct from: uncertainty; missing data (Chapter 4); unobservability (Chapter 14); one party simply not having looked
+- Aliases/cautions: one party to an interaction knows something the other cannot cheaply find out, **and both know this**; in the chapter's case the utility knows which measurement points are favourable and the regulator does not; **no source was obtained for this term** — see `../decisions/0022` clause 9, which records a documented reopening of research that failed and refers the term to the author; **treated in about one page, with nothing procedural taught**
+- Definition status: **unsourced** — candidate fifth instance of the demonstrate-because-unsourced disposition; referred to the author
+
+---
+
+## principal-agent
+
+- Preferred term: principal-agent
+- Field/origin: economics
+- Introduced in: Chapter 15
+- Distinct from: employer and employee; regulator and regulated as a legal relation; delegation, which is one mechanism within it
+- Aliases/cautions: a relationship in which one party acts on another's behalf, their objectives differ, and the first cannot fully observe what the second does; **the regulator and the utility are the chapter's instance**; **no source was obtained** — see `../decisions/0022` clause 9; **no contracts, no incentive-compatibility constraints, no participation constraints, no mechanism design**
+- Definition status: **unsourced** — candidate fifth instance; referred to the author
+
+---
+
+## delegation
+
+- Preferred term: delegation
+- Field/origin: the book's own controlled use
+- Introduced in: Chapter 15
+- Distinct from: instruction; outsourcing; a policy (Chapter 14)
+- Aliases/cautions: assigning a choice to the party whose behaviour the choice will be used to assess; **it is what converts an information asymmetry into an actionable one** — the regulator's guidance delegates measurement-point selection to the licensee, and that is why knowing which points are favourable is worth anything
+- Definition status: the book's own controlled use, built on the case
+
+---
+
+## endogenous response
+
+- Preferred term: endogenous response
+- Field/origin: economics; system dynamics
+- Introduced in: Chapter 1 as a screening prompt; formal home Chapter 15
+- Distinct from: adaptive response (Chapter 1); policy resistance (Chapter 13); feedback (Chapter 13); distribution shift
+- Aliases/cautions: a change in behaviour that occurs **because** a rule, metric, prediction, or model exists and is known to have consequences; **the distinguishing feature is that the response runs through somebody's knowledge of the rule** — which is exactly what policy resistance does not require, since a reservoir resists by physics; `../decisions/0007` already required Chapter 1 not to collapse adaptive and strategic response
+- Definition status: verified — `perdomo2020performative` §1
+
+---
+
+## performativity
+
+- Preferred term: performativity
+- Field/origin: social science; machine learning
+- Introduced in: Chapter 15
+- Distinct from: self-fulfilling prophecy in the loose sense; distribution shift; **the ordinary English sense of "performative", meaning done for show**
+- Aliases/cautions: **"the prediction causes a change in the distribution of the target"** (`perdomo2020performative` §1); the associated equilibrium notion is **performative stability**, in which predictions are "calibrated not against past outcomes, but against the future outcomes that manifest from acting on the prediction" (same source, Abstract) — which is Chapter 6's calibration with the target moved; **it is not a machine-learning problem**: the source records it as "a well-studied phenomenon in policy-making that has so far been neglected in supervised learning" (Abstract); **not every distribution shift is performative**; cited **by section rather than page** under `../decisions/0022` clause 8, because the source carries no printed pagination
+- Definition status: verified — `perdomo2020performative` Abstract, §1
+
+---
+
+## Goodhart effect
+
+- Preferred term: Goodhart effect
+- Field/origin: economics; the taxonomy from AI-alignment literature
+- Introduced in: Chapter 15
+- Distinct from: metric gaming, which is one of its four mechanisms; a bad metric; measurement error (Chapter 3); a proxy being imperfect, which is a precondition rather than the effect
+- Aliases/cautions: **"when optimization causes a collapse of the statistical relationship between a goal which the optimizer intends and the proxy used for that goal"** (`manheim2019goodhart` p. 1); **four mechanisms and only one needs an agent** — Regressional, Extremal, Causal, Adversarial (p. 2), and "these varied forms often occur together"; **Regressional Goodhart cannot be avoided** (p. 2); the diagnostic question is not *is there a metric* but *how much power is directed at optimizing it* (p. 1); Goodhart's law itself — "any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes" — is used **as reported at** `manheim2019goodhart` p. 1 n.1, the original being unobtainable; the source's own caveat that "the categories proposed do not match what was originally discussed" is carried into the manuscript
+- Definition status: verified — `manheim2019goodhart` pp. 1–2; the law itself **as reported at**
+
+---
+
+## metric gaming
+
+- Preferred term: metric gaming
+- Field/origin: public administration; economics
+- Introduced in: Chapter 15
+- Distinct from: fraud; the other three Goodhart mechanisms; error; institutional purpose shaping a record (Chapter 4)
+- Aliases/cautions: the **Adversarial** mechanism specifically — "the agent applies selection pressure knowing the regulator will apply different selection pressure on the basis of the metric" (`manheim2019goodhart` p. 8); **it need not involve any rule being broken**, and the chapter's case is legal, documented, and compliant throughout; Campbell's law — "the more any quantitative social indicator is used for social decision-making, the more subject it will be to corruption pressures" — is used **as reported at** `manheim2019goodhart` p. 8 n.5, the original being unobtainable; **do not use `gaming` for all four mechanisms**, which sends an organisation looking for bad actors when the first two need none
+- Definition status: verified — `manheim2019goodhart` p. 8; Campbell's law **as reported at**
 
 ---
