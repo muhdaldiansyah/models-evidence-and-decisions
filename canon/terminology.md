@@ -20,7 +20,7 @@ Entry format:
 
 ## Index
 
-149 entries, in registry order. Navigation only — the entries below are the record.
+155 entries, in registry order. Navigation only — the entries below are the record.
 
 **Adjudicated (29).** Note that `construct`, `measure`, and `proxy` appear in this sequence but were filled in from proposed Decision 0010 and are provisional; see the Chapter 3 block. Six further entries in this sequence — `statistical identifiability`, `causal identification`, `target`, `estimand`, `intervention`, and `counterfactual` — were closed or specialised from proposed Decision 0014 and are provisional; see the Chapter 7 block. `estimator` and `estimate` were closed from proposed Decision 0015; see the Chapter 8 block. `target population` was closed from proposed Decision 0016; see the Chapter 9 block. `objective` and `metric` were closed from proposed Decision 0017; see the Chapter 10 block. [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
 
@@ -51,6 +51,8 @@ Entry format:
 **Provisional — Chapter 14 block (7), pending adjudication of [Decision 0021](../decisions/0021-chapter14-sequential-control-terminology-and-boundary.md).** [policy](#policy) · [feedback decision](#feedback-decision) · [practical identifiability](#practical-identifiability) · [information acquisition](#information-acquisition) · [exploration](#exploration) · [exploitation](#exploitation) · [control](#control) — plus [observability](#observability) and [structural identifiability](#structural-identifiability), **both closed from `TODO`** by the same decision in their existing positions above, where they had stood open since Chapter 1. **`practical identifiability` is not named in `README.md`'s Chapter 14 core competence** and is registered under clause 6, flagged for author review; **`structural identifiability` is closed from a review rather than the paper that named it**, which is a first for this registry — see clause 8. **The four-way `identifiable` collision is announced in Chapter 14**, and clause 7.3 proposes that no chapter add a fifth sense. **After this chapter one `TODO` remains** — `utility`, assigned to the drafted Chapter 11 and still not closed.
 
 **Provisional — Chapter 15 block (11), pending adjudication of [Decision 0022](../decisions/0022-chapter15-strategic-terminology-and-boundary.md).** [strategic game](#strategic-game) · [strategic dependence](#strategic-dependence) · [incentive](#incentive) · [commitment](#commitment) · [information asymmetry](#information-asymmetry) · [principal-agent](#principal-agent) · [delegation](#delegation) · [endogenous response](#endogenous-response) · [performativity](#performativity) · [Goodhart effect](#goodhart-effect) · [metric gaming](#metric-gaming) — plus [equilibrium](#equilibrium), whose **strategic sense is closed** by the same decision in its existing position above, where it had been reserved for Chapter 15 since Chapter 1. **Four flags.** Clause 5 proposes the book's **fourth notation extension**, a two-player payoff table. Clause 7 records **three "as reported at" uses in one chapter**, for concepts named in governed text whose originals could not be obtained. Clause 8 proposes a **bounded exception to the pagination rule**, citing one source by section. Clause 9 records `principal-agent` and `information asymmetry` as a **candidate fifth instance** of the demonstrate-because-unsourced disposition, with the reopening of research documented and failed, and refers them to the author.
+
+**Provisional — Chapter 16 block (6), pending adjudication of [Decision 0023](../decisions/0023-chapter16-integration-terminology-and-boundary.md).** [triage](#triage) · [materiality](#materiality) · [backward revision](#backward-revision) · [surface feature](#surface-feature) · [deep structure](#deep-structure) · [routing record](#routing-record). **Four of the six are the book's own controlled terms**, which is appropriate for the first chapter since Chapter 1 that adds no machinery, and **no collision requires announcement** — the first chapter since Chapter 5 with none. **Two flags.** `surface feature` and `deep structure` rest on a finding whose primary paper could not be obtained, so the entries are closed from the first author's own one-page retrospective and carry her hedges (clause 7); the replication that qualifies the population claim is registered alongside, and **neither source may be used without the other**. Clause 6 applies the bounded pagination exception proposed at [Decision 0022](../decisions/0022-chapter15-strategic-terminology-and-boundary.md) clause 8 **for a second time**, and records that if that clause is declined this application falls with it.
 
 ## intended use
 
@@ -1553,5 +1555,83 @@ Eleven entries below are proposed by `../decisions/0022` and are provisional pen
 - Distinct from: fraud; the other three Goodhart mechanisms; error; institutional purpose shaping a record (Chapter 4)
 - Aliases/cautions: the **Adversarial** mechanism specifically — "the agent applies selection pressure knowing the regulator will apply different selection pressure on the basis of the metric" (`manheim2019goodhart` p. 8); **it need not involve any rule being broken**, and the chapter's case is legal, documented, and compliant throughout; Campbell's law — "the more any quantitative social indicator is used for social decision-making, the more subject it will be to corruption pressures" — is used **as reported at** `manheim2019goodhart` p. 8 n.5, the original being unobtainable; **do not use `gaming` for all four mechanisms**, which sends an organisation looking for bad actors when the first two need none
 - Definition status: verified — `manheim2019goodhart` p. 8; Campbell's law **as reported at**
+
+---
+
+---
+
+## Chapter 16 block — PROVISIONAL
+
+Six entries below are proposed by `../decisions/0023` and are provisional pending author adjudication.
+
+**Four of the six are the book's own controlled terms**, which is appropriate for the first chapter since Chapter 1 that adds no machinery. **No collision requiring announcement** — the first chapter since Chapter 5 with none.
+
+**Two flags.** `surface feature` and `deep structure` rest on a finding whose primary paper could not be obtained; the entries carry the author's own hedges and the replication that complicates the population claim. Clause 7 of the decision records the substitution.
+
+---
+
+## triage
+
+- Preferred term: triage
+- Field/origin: the book's own controlled use
+- Introduced in: Chapter 16
+- Distinct from: doing a bit of everything; a checklist; scoping; a project plan; the medical sense, which sorts by urgency rather than by kind
+- Aliases/cautions: **deciding, with reasons recorded, which of the book's fifteen bodies of machinery a problem needs** — and which it does not; the output is **not a list of chapter numbers** but a list of questions with reasons, of which the chapter numbers are shorthand; **triage cannot be completed from the problem statement alone**, and both of Chapter 16's worked backward revisions are triggered by things found during the work; a triage that routes every chapter to every problem has produced a document that looks thorough and demonstrates nothing
+- Definition status: the book's own controlled use
+
+---
+
+## materiality
+
+- Preferred term: materiality
+- Field/origin: the book's own controlled use; the word is borrowed from audit and law
+- Introduced in: Chapter 16
+- Distinct from: relevance in the loose sense; importance; the accounting and legal senses, which concern thresholds for disclosure
+- Aliases/cautions: a stage is **material** to a problem if working it would change what you conclude or do; **a "not material here" finding is a finding and must carry its reason**, because a negative without a reason is indistinguishable from an omission; `../decisions/0007` and `../chapters/01-decisions-questions/spec.md` name "mechanically applying every stage to every problem" as one of the book's major category errors, and this term is the remedy; **materiality is relative to the decision, not to the subject matter** — dynamics can be present in a system and not material to the question being asked
+- Definition status: the book's own controlled use
+
+---
+
+## backward revision
+
+- Preferred term: backward revision
+- Field/origin: the book's own controlled use
+- Introduced in: Chapter 1 as a worked demonstration; formal home Chapter 16
+- Distinct from: model criticism (Chapter 5); iteration; correcting an error; sensitivity analysis (Chapters 8, 11)
+- Aliases/cautions: revising a completed stage because a later stage produced evidence that changes it; **it is evidence-triggered, not scheduled**, and a revision performed because the method says to revise is not one; **it does not mean the earlier work was wrong** — it usually means the earlier work was right about a question that turned out not to be the question; **it is not criticism in Chapter 5's sense**, which examined what four chapters had built, and the distinction must be held or Chapter 16 reads as a second Chapter 5; two kinds are worked in Chapter 16 and named as different — a revision about **what the target was**, and a revision about **an answer having gone stale**
+- Definition status: the book's own controlled use
+
+---
+
+## surface feature
+
+- Preferred term: surface feature
+- Field/origin: cognitive science
+- Introduced in: Chapter 16
+- Distinct from: deep structure; a detail; an irrelevance — surface features are often exactly what the problem is about
+- Aliases/cautions: what a problem is *about* — its objects, its setting, its vocabulary; the classic finding is that novices "approached problem solving on the basis of the problem's literal surface features" and "sorted according to the concrete objects mentioned in the problems (e.g., pulleys)" (`chi1993classic`); **this is not a claim that surface features are unimportant**, and sorting by them is a categorisation rather than a failure to categorise; **the population claim does not survive replication unchanged** — `masonsingh2016categorization` found "a much wider distribution of expertise among introductory students" and states that "it is not appropriate to call all introductory students novices as in the Chi study"
+- Definition status: verified — `chi1993classic`; qualified by `masonsingh2016categorization`
+
+---
+
+## deep structure
+
+- Preferred term: deep structure
+- Field/origin: cognitive science
+- Introduced in: Chapter 16
+- Distinct from: surface feature; the linguistic sense; complexity; difficulty
+- Aliases/cautions: what a problem *needs* — the principle or machinery that applies to it; experts "initiated problem solving by abstracting physics principles, suggesting that their problem schema were organized around the principles" (`chi1993classic`); **the author's own hedges travel with the term**, from the same source: "however one characterizes 'deep'", and "we continue to elaborate on the characterization"; **the primary paper could not be obtained** and this entry rests on the first author's one-page retrospective, which reproduces the 1981 abstract — see `../decisions/0023` clause 7; **in this book the deep structures are the fifteen chapters**, which is the book's own application and not the source's
+- Definition status: verified — `chi1993classic`; **secondary source**, the primary being unobtainable
+
+---
+
+## routing record
+
+- Preferred term: routing record
+- Field/origin: the book's own controlled use
+- Introduced in: Chapter 16
+- Distinct from: a project plan; a checklist; a scope document; an audit trail
+- Aliases/cautions: the written output of triage — one row per stage, a material-or-not judgment, and **a reason on every row including the negative ones**; **the negative rows are the interesting part**, because they are what an omission cannot produce; a routing record is **revisable**, and Chapter 16's worked case revises it twice; it is not a commitment to an order, and the order a problem is worked in is the problem's rather than the book's
+- Definition status: the book's own controlled use
 
 ---
