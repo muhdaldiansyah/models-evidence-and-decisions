@@ -20,7 +20,7 @@ Entry format:
 
 ## Index
 
-60 entries, in registry order. Navigation only — the entries below are the record.
+65 entries, in registry order. Navigation only — the entries below are the record.
 
 **Adjudicated (29).** Note that `construct`, `measure`, and `proxy` appear in this sequence but were filled in from proposed Decision 0010 and are provisional; see the Chapter 3 block. [intended use](#intended-use) · [context of use](#context-of-use) · [adequacy](#adequacy) · [positive](#positive) · [normative](#normative) · [decision](#decision) · [decision-maker](#decision-maker) · [alternative](#alternative) · [consequence](#consequence) · [statistical identifiability](#statistical-identifiability) · [causal identification](#causal-identification) · [structural identifiability](#structural-identifiability) · [construct](#construct) · [measure](#measure) · [proxy](#proxy) · [target](#target) · [target population](#target-population) · [estimand](#estimand) · [estimator](#estimator) · [estimate](#estimate) · [association](#association) · [prediction](#prediction) · [intervention](#intervention) · [counterfactual](#counterfactual) · [utility](#utility) · [objective](#objective) · [metric](#metric) · [robustness](#robustness) · [feedback](#feedback) · [stability](#stability) · [equilibrium](#equilibrium) · [observability](#observability)
 
@@ -29,6 +29,8 @@ Entry format:
 **Provisional — Chapter 3 block (12), pending adjudication of [Decision 0010](../decisions/0010-chapter3-measurement-terminology-and-boundary.md).** [working definition](#working-definition) · [operationalization](#operationalization) · [score](#score) · [validity](#validity) · [validation](#validation) · [reliability](#reliability) · [measurement error](#measurement-error) · [precision](#precision) · [trueness](#trueness) · [accuracy](#accuracy) · [measurand](#measurand) · [calibration](#calibration) — plus [construct](#construct), [measure](#measure), and [proxy](#proxy), filled in from the same decision in their existing positions above.
 
 **Provisional — Chapter 4 block (7), pending adjudication of [Decision 0011](../decisions/0011-chapter4-observation-process-terminology-and-boundary.md).** [observation process](#observation-process) · [record](#record) · [selection](#selection) · [coverage](#coverage) · [nonresponse](#nonresponse) · [missingness](#missingness) · [censoring](#censoring)
+
+**Provisional — Chapter 5 block (5), pending adjudication of [Decision 0012](../decisions/0012-chapter5-criticism-terminology-and-boundary.md).** [verification](#verification) · [assumption record](#assumption-record) · [rival model](#rival-model) · [structural uncertainty](#structural-uncertainty) · [failure mode](#failure-mode) — plus [adequacy](#adequacy) and [validation](#validation), updated from the same decision in their existing positions above.
 
 ## intended use
 
@@ -54,8 +56,8 @@ Entry format:
 - Field/origin: modeling and simulation / VVUQ / engineering evaluation; usage varies
 - Introduced in: Chapter 1 in disciplined ordinary language; developed in Chapter 5
 - Distinct from: accuracy; validity; validation; applicability; credibility; numerical correctness; fitness for purpose
-- Aliases/cautions: Chapter 1 should normally say `adequate for the stated use` or `adequate for the stated intended use`; the book does not claim that this phrase denotes one universal standardized adequacy framework; individual traditions operationalize adequacy differently
-- Definition status: verified for the Chapter 1 use-dependent principle; framework-specific formalization deferred to Chapter 5
+- Aliases/cautions: Chapter 1 should normally say `adequate for the stated use` or `adequate for the stated intended use`; the book does not claim that this phrase denotes one universal standardized adequacy framework; individual traditions operationalize adequacy differently; **developed in Chapter 5**, where the full form is that a model is adequate *for a stated use, at a stated accuracy, for a stated quantity* — and **adequacy is not accuracy** (`fda2023credibility` §VI.D p. 33 separates quantifiable model accuracy from the judgment that total credibility evidence is sufficient for the context of use given model risk; `nrc2012reliability` Summary p. 3 treats validation as meaningful for specified quantities of interest and in relation to the accuracy required for an intended use); how much evidence is enough is governed by what happens if the model is wrong
+- Definition status: verified for the Chapter 1 use-dependent principle; **Chapter 5 development provisional** under proposed `decisions/0012` §1, source-verified against `fda2023credibility` and `nrc2012reliability`
 
 ## positive
 
@@ -449,12 +451,12 @@ The twelve entries below were introduced by **proposed** `decisions/0010-chapter
 
 ## validation
 
-- Preferred term: *avoided in Chapter 3*
+- Preferred term: *avoided in Chapter 3*; **used in Chapter 5** in the computational-model sense
 - Field/origin: two distinct traditions share the word
-- Introduced in: named once in Chapter 3 as a collision to be avoided; the computational-model sense belongs to Chapter 5
+- Introduced in: named once in Chapter 3 as a collision to be avoided; **taken up in Chapter 5**, where the computational-model sense properly belongs
 - Distinct from: validity; verification; calibration
-- Aliases/cautions: **do not use as reader-facing Chapter 3 vocabulary**; in measurement it names the procedures for assessing evidence that scores support an interpretation (`adcock2001validity` p. 530 separates *validity* from *validation*), while in computational modelling it names assessment of whether a model is adequate for a context of use (`asme2025credibility`, `fda2023credibility`); Chapter 3 says *assessing the evidence for an interpretation* and names the collision explicitly once, so that readers arriving at Chapter 5 do not merge the two
-- Definition status: **provisional** — proposed `decisions/0010` clause 2.5
+- Aliases/cautions: **do not use as reader-facing Chapter 3 vocabulary**; in measurement it names the procedures for assessing evidence that scores support an interpretation (`adcock2001validity` p. 530 separates *validity* from *validation*), while in computational modelling it names assessment of whether a model is adequate for a context of use (`asme2025credibility`, `fda2023credibility`); Chapter 3 says *assessing the evidence for an interpretation* and names the collision explicitly once, so that readers arriving at Chapter 5 do not merge the two; **Chapter 5 uses the computational-model sense and must reopen the collision explicitly** rather than adopting the word silently — a reader who took Chapter 3's instruction seriously is owed an explanation of why the rule changed; the Chapter 5 pair is *verification asks whether you did the thing right; validation asks whether you did the right thing*
+- Definition status: **provisional** — proposed `decisions/0010` clause 2.5 and `decisions/0012` clause 2.2; Chapter 5 sense source-verified against `asme2025credibility` slides 5–7
 
 ## reliability
 
@@ -587,3 +589,54 @@ The seven entries below were introduced by **proposed** `decisions/0011-chapter4
 - Distinct from: missingness; truncation; rounding; saturation treated as a valid reading
 - Aliases/cautions: a **censored** observation carries partial information — you know the value lies beyond a bound, because the recording process stopped there — whereas a **missing** one carries none; a logger that saturates at its maximum has not lost the reading, it has told you the value was at least the maximum; treating a censored value as missing discards real information and treating it as the bound understates the value, and **both errors run in known directions**; censoring is often disguised as an ordinary value and is detectable only if the bound is documented or a pile-up at a limit is noticed; **no inspected source defines this distinction**, so Chapter 4 teaches it by worked arithmetic demonstration and cites nothing for it
 - Definition status: **provisional and unsourced** — proposed `decisions/0011` clause 4.4; taught by demonstration
+
+---
+
+## Chapter 5 block — PROVISIONAL
+
+The five entries below were introduced by **proposed** `decisions/0012-chapter5-criticism-terminology-and-boundary.md`, which has **not** been author-adjudicated. The existing `adequacy` and `validation` entries were also updated from the same decision and carry the same provisional status.
+
+## verification
+
+- Preferred term: verification
+- Field/origin: computational modelling and simulation VVUQ
+- Introduced in: Chapter 5
+- Distinct from: validation; validity (Chapter 3); calibration; credibility; adequacy
+- Aliases/cautions: the reader-facing pair is **verification asks whether you did the thing right; validation asks whether you did the right thing**; `asme2025credibility` slides 5–7 distinguishes numerical verification, model validation, uncertainty quantification, and broader credibility assessment, and the four must not be merged; a perfectly verified computation of the wrong model is wrong, which is why the pair is taught together; Chapter 1 was permitted to refer only to `aspects of numerical verification` and deferred the rest here
+- Definition status: **provisional** — proposed `decisions/0012` clause 2.1; source-verified against `asme2025credibility` slides 5–7
+
+## assumption record
+
+- Preferred term: assumption record
+- Field/origin: modelling practice; named in this chapter's governed core competence
+- Introduced in: Chapter 5
+- Distinct from: a list of caveats; a limitations section; sensitivity analysis
+- Aliases/cautions: **naming an assumption does not handle it** — an assumption record is a starting point, not a discharge; the useful form pairs each assumption with what would show it false, following the template recorded at `platt1964strong` p. 348 from Jacob and Monod (*our conclusion might be invalid if (i), (ii), or (iii); here is what would eliminate each*); a record whose entries carry no discriminating observation is a list of worries
+- Definition status: **provisional** — proposed `decisions/0012` clause 3.4; the template is source-verified, the practice is the book's own framing
+
+## rival model
+
+- Preferred term: rival model
+- Field/origin: modelling practice; philosophy of science
+- Introduced in: Chapter 5 as an instrument of criticism; which rival is true is Chapter 7
+- Distinct from: alternative representation (Chapter 2, for construction and perspective); competing causal hypotheses to be identified between (Chapter 7); alternatives in the decision sense (Chapter 10)
+- Aliases/cautions: rival models are **instruments of criticism, not options to choose between**; **leaving both alive is a legitimate outcome** — Chapter 2's Mechanism A and Mechanism B remain unresolved after three chapters and Chapter 5 says so; a conclusion surviving across differently simplified representations is more trustworthy (`levins1966strategy` p. 423, robust theorems), but formal robustness, regret, and adaptive planning are Chapter 12, where `robustness` is registered
+- Definition status: **provisional** — proposed `decisions/0012` §5
+
+## structural uncertainty
+
+- Preferred term: structural uncertainty
+- Field/origin: modelling and simulation; uncertainty quantification
+- Introduced in: Chapter 5 at recognition depth; quantification is Chapter 8
+- Distinct from: parameter uncertainty; measurement uncertainty (Chapter 8); **structural identifiability** (Chapter 14 — different concept, shared word); sampling variability
+- Aliases/cautions: **being unsure of a number is not being unsure of the form**; structural uncertainty is uncertainty about whether the formulation itself is right, and it is the kind that sensitivity analysis cannot see, because sensitivity analysis varies inputs *inside* a formulation; the collision with `structural identifiability` must be flagged wherever both could be read; do not teach quantification, propagation, or model-averaging
+- Definition status: **provisional** — proposed `decisions/0012` §5
+
+## failure mode
+
+- Preferred term: failure mode
+- Field/origin: engineering and reliability practice; named in this chapter's governed core competence
+- Introduced in: Chapter 5
+- Distinct from: a risk; an error that has occurred; a limitation; a caveat
+- Aliases/cautions: a **specific predicted way this formulation would fail its purpose**, paired with the observation that would show it; **a predicted failure mode is not a prevented one** — prediction is the cheap half; how many failure modes it is worth working through is governed by what happens if the model is wrong, not by a fixed standard; detecting failures after deployment is Chapter 17
+- Definition status: **provisional** — proposed `decisions/0012` clauses 1.3, 3.1
