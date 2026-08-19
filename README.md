@@ -19,7 +19,15 @@ It is an integrated pedagogical architecture built from established concepts —
 
 ## Start Here
 
-**To read the book.** **All five parts are drafted** — seventeen chapters, written to be read in order:
+**To read the book.** Start with the two short front-matter files, not with Chapter 1:
+
+> **[Preface](front-matter/preface.md)** — what the book is, who it is for, and **what has not been established**. Roughly five minutes, and it is where the book states its own condition rather than leaving it to the last page.
+>
+> **[How to Use This Book](front-matter/how-to-use-this-book.md)** — the shape every chapter shares, what it costs, and **one rule that matters more than the rest**: each chapter conceals a rubric, a feedback file, and the transfer form you were not assigned, and opening any of them early destroys the only instrument the chapter has.
+>
+> **[Term Index](front-matter/term-index.md)** — 163 controlled terms, where each is introduced, and all six announced collisions on one screen, including the four senses of *identifiability*.
+
+Then **all five parts are drafted** — seventeen chapters, written to be read in order:
 
 > **[Chapter 1 — Decisions, Questions, and a First Complete Pass](chapters/01-decisions-questions/chapter.md)** — six sections, about four learning hours including exercises.
 >
@@ -87,27 +95,30 @@ Chapter 17 asks the one question nothing else in the book asks: is a thing that 
 
 Read each manuscript in order rather than skimming. Each opens by asking you to produce something unaided — a first-pass analysis, a representation, a definition, a number — before any of the chapter's vocabulary arrives, and later exercises compare against what you wrote. Skipping that opening costs you the comparison.
 
-Each drafted chapter carries the same four exercise files beside its manuscript — `transfer-form-a.md` and `transfer-form-b.md` (parallel unfamiliar-domain cases), `transfer-rubric.md` (scoring; open it only after you have written your own analysis), and `diagnosis-feedback.md` (the discussion for the diagnosis exercise). The chapter links each one at the moment it is needed. The transfer exercises and their delayed retests only work on material you have not seen, so let the manuscript decide when you open them. Everything else in a chapter directory is authoring and validation scaffolding; some of it discusses the exercises' answers, so if you intend to do the exercises, stay out of it until you have finished the delayed retest.
+Each drafted chapter carries the same four exercise files beside its manuscript — `transfer-form-a.md` and `transfer-form-b.md` (parallel unfamiliar-domain cases), `transfer-rubric.md`, and `diagnosis-feedback.md`. The chapter links each one at the moment it is needed, and [How to Use This Book](front-matter/how-to-use-this-book.md) explains why the timing is not a formality. Everything else in a chapter directory is authoring and validation scaffolding; some of it discusses the exercises' answers, so if you intend to do the exercises, stay out of it until you have finished the delayed retest.
 
 **To work on the project.** Authority runs `README.md → decisions/ → canon/ → chapter spec.md → working files`; the operating contract is [CLAUDE.md](CLAUDE.md).
 
-- [`decisions/`](decisions/) — settled decisions and their reopening conditions, indexed by scope: three book-level, five governing Chapter 1, and sixteen proposed for Chapters 2–17.
+- [`decisions/`](decisions/) — settled decisions and their reopening conditions, indexed by scope: **twenty-six records** — three book-level, five governing Chapter 1, sixteen proposed for Chapters 2–17, and **two book-level written after drafting closed** ([0025](decisions/0025-validation-architecture.md) validation, [0026](decisions/0026-front-matter-and-build.md) front matter and build). **Eight are Accepted; eighteen are PROPOSED and unadjudicated.**
 - [`canon/`](canon/) — controlled terminology and registered pedagogical syntheses.
 - [`chapters/`](chapters/) — one directory per chapter; `spec.md` is each chapter's contract.
+- [`front-matter/`](front-matter/) — reader-facing material that is not a chapter: preface, reader's guide, and the generated term index.
+- [`validation/`](validation/) — the validation apparatus. **[`gate-status.md`](validation/gate-status.md) is the single place a gate's status is true**; a chapter's `freeze-gates.md` describes its gates without asserting whether one is closed.
 - [`references.bib`](references.bib) and [`sources/`](sources/) — one global bibliography; one note per source, named by citation key.
+- [`Makefile`](Makefile) and `tools/` — `make check` runs the repository verification suite; `make html`, `epub`, `docx` build the book. **Every format depends on `check`.**
 
-Chapter 1's directory, still the most developed, shows the kinds of file a chapter accumulates. Chapters 2–17 carry the same kinds, minus the validation instruments and with their research split across separate dossiers rather than a single notes file.
+Chapter 1's directory, still the most developed, shows the kinds of file a chapter accumulates. Chapters 2–17 carry the same kinds, with their research split across separate dossiers rather than a single notes file, and with the book-level validation instruments held once in [`validation/`](validation/) rather than repeated per chapter.
 
 - **Manuscript** — `chapter.md`. The chapter itself; the only file a reader opens directly.
 - **Exercise materials** — `transfer-form-a.md`, `transfer-form-b.md`, `transfer-rubric.md`, `diagnosis-feedback.md`. Linked from the manuscript at the moment they are needed.
 - **Chapter contract** — `spec.md`. Governed scope, section architecture, and design targets.
 - **Authoring controls** — `anchor.md`, `case-data.md`, `decision-framing.md`, `dynamics-response.md`, `learning-sequence.md`, `transfer.md`. Frozen case facts and boundary rules implementing Decisions 0004–0008.
-- **Validation instruments** — `freeze-gates.md`, `sme-review-water-anchor.md`, `pilot-protocol.md`, `pilot-data-capture.md`, `validation-handoff.md`. The evidence trail from drafted toward frozen.
+- **Validation instruments** — `freeze-gates.md`, in **every** chapter, describing that chapter's seven gates and what is specific about them. Chapter 1 additionally holds the originals the book-level instruments generalise from: `sme-review-water-anchor.md`, `pilot-protocol.md`, `pilot-data-capture.md`, `validation-handoff.md`.
 - **Research and drafting** — `drafting-blueprint.md`, plus `notes.md` in Chapter 1 and `readiness-audit.md`, `research-plan.md`, and numbered `research-0N-*.md` dossiers in Chapters 2–17.
 
 ## Current State
 
-Last reviewed 2026-08-18.
+Last reviewed 2026-08-19.
 
 - The 5-part, 17-chapter architecture is frozen for drafting ([Decision 0001](decisions/0001-book-architecture-freeze.md)).
 - **Chapter 1 is fully drafted** and awaiting external validation: before it can be frozen, its water-utility anchor case needs a human subject-matter-expert review and its exercise design needs reader-pilot data ([freeze gates](chapters/01-decisions-questions/freeze-gates.md); gates 1–3 open).
@@ -119,7 +130,7 @@ Last reviewed 2026-08-18.
 - **The last two scheduled terminology debts are paid, and one unscheduled one is now alone.** [Decision 0021](decisions/0021-chapter14-sequential-control-terminology-and-boundary.md) closes `observability` and `structural identifiability`, both `TODO` in `canon/terminology.md` since Chapter 1. **Two of its clauses need author attention**: clause 6 registers `practical identifiability`, which `README.md`'s Chapter 14 core competence does not name, and clause 8 records that `structural identifiability` is closed from a review because the 1970 paper that named it could not be obtained — the first time a registry entry has been closed from a secondary source. The chapter also announces the book's **sixth** terminology collision and its first with four senses: four things are now called identifiability or identification.
 - **A registry entry assigned to a drafted chapter was never closed.** `canon/terminology.md` records `utility` as introduced in Chapter 11, and Chapter 11 did not define it — consistent with [Decision 0018](decisions/0018-chapter11-decision-terminology-and-boundary.md) clause 4.4, which declined to teach risk attitude for want of a source, but the registry still carries a closure that did not happen. Surfaced by Decision 0020 clause 12.4 and **not repaired**. After Chapter 14 it is the only `TODO` left in the registry.
 - **Chapter 12 declined to add a fifth instance, and says so.** [Decision 0019](decisions/0019-chapter12-optimization-terminology-and-boundary.md) clause 1 records that three sources were obtained in full before drafting specifically so that nothing in the chapter would be taught by demonstration for want of a source, and that the count of instances therefore stays at four. It adds no notation, leaving the sequence where 0018 left it.
-- **The book is drafted and nothing is validated.** Seventeen manuscripts exist; **no pilot data exists for any exercise in any of them**, Gate 1 has been open since Chapter 1 and is now sixteen chapters deep, and sixteen decision records remain unadjudicated. Chapter 17 §8 states all of this to the reader on the book's last page rather than closing on a summary.
+- **The book is drafted and nothing is validated.** Seventeen manuscripts exist; **no pilot data exists for any exercise in any of them**, Gate 1 has been open since Chapter 1 and is now sixteen chapters deep, and **sixteen chapter decision records remain unadjudicated** — the count Chapter 17 §8 states to the reader on the book's last page. Two further records, [0025](decisions/0025-validation-architecture.md) and [0026](decisions/0026-front-matter-and-build.md), were written after the manuscript closed and are also unadjudicated, so **the repository total is eighteen**; the manuscript's own figure is correct as it stands and is not restated here as a book claim.
 - **Chapter 17 declines machinery its own governed block permits.** [Decision 0024](decisions/0024-chapter17-deployment-terminology-and-boundary.md) clause 2 records that the Chapter 17 entry is the only chapter block in the book with permissive phrasing — control-chart reasoning "where appropriate" — and that the chapter takes the distinction and refuses the technique. **Clause 6 registers `tampering`, named in the governed core competence, with no source for the name**; the mechanism it names is sourced at Chapter 13, so the record states plainly that this is not a new demonstrate-because-unsourced instance.
 - **One registry entry closes with the book still open.** `utility` was surfaced as unclosed in Chapter 13's research and carried forward four times; **Chapter 17 is the last chapter, so there is no later chapter to close it in.**
 - **Chapter 16 is the first chapter since Chapter 1 that adds no machinery, and the first whose case is not the water anchor.** [Decision 0023](decisions/0023-chapter16-integration-terminology-and-boundary.md) records three things that need attention: the chapter's **research base is the smallest since Chapter 1**, deliberately, and the manuscript says so to the reader (clause 4); the **bounded pagination exception proposed at [Decision 0022](decisions/0022-chapter15-strategic-terminology-and-boundary.md) clause 8 is applied a second time**, and falls with it if declined (clause 6); and the chapter's **central empirical warrant is an author's one-page retrospective rather than the study it describes**, the primary paper being unobtainable (clause 7). It also discharges four structural promises Chapter 1 made about itself, including the comparison against the reader's preserved first attempt.
